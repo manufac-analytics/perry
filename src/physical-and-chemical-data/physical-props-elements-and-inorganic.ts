@@ -2,7 +2,7 @@ const SolubilityIntensity = {
   Very: 'very',
   Slightly: 'slightly',
   Slowly: 'slowly',
-  VerySlightly: 'very-slightly'
+  VerySlightly: 'very-slightly',
 } as const;
 type SolubilityIntensity = typeof SolubilityIntensity[keyof typeof SolubilityIntensity];
 

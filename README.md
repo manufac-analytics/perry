@@ -1,4 +1,6 @@
-# TSDX User Guide
+# Perry User Guide
+
+![Manufac Analytics](https://manufac-analytics-images.s3.ap-south-1.amazonaws.com/logos/creatives/computer-1920.png)
 
 ## Commands
 

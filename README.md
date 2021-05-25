@@ -4,6 +4,8 @@
 
 ![Manufac Analytics](https://manufac-analytics-images.s3.ap-south-1.amazonaws.com/logos/creatives/computer-1920.png)
 
+**Perry is scaffolded using [tsdx](https://github.com/formium/tsdx#readme).**
+
 ## Commands
 
 TSDX scaffolds your new library inside `/src`.

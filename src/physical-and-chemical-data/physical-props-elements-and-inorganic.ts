@@ -1,14 +1,64 @@
-const SolubilityFlavors = {
+const SolubilityIntensity = {
+  Very: 'very',
+  Slightly: 'slightly',
+  Slowly: 'slowly',
+  VerySlightly: 'very-slightly'
+} as const;
+type SolubilityIntensity = typeof SolubilityIntensity[keyof typeof SolubilityIntensity];
+
+const SolubilityNature = {
   Insoluble: 'insoluble',
   Soluble: 'soluble',
   Decomposes: 'decomposes',
 } as const;
-type SolubilityFlavors = typeof SolubilityFlavors[keyof typeof SolubilityFlavors];
+type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
 
-interface Solubility {
-  coldWater: SolubilityFlavors;
-  hotWater: SolubilityFlavors;
-  [key: string]: SolubilityFlavors;
+/**
+ * Qualitative solubility information like:
+ * - Insoluble
+ * - Slightly soluble
+ * - Very soluble
+ * - Decomposes
+ * - Decomposes slowly
+ * - Very slighly soluble
+ * - etc.
+ */
+interface QualitativeSolubility {
+  nature: SolubilityNature;
+  intensity: SolubilityIntensity;
+}
+
+/**
+ * Given in parts by weight per 100 parts by weight of the solvent.
+ * - Example: 10 g of the solute is soluble in 100 g of the solvent at 20 deg. C.
+ * ```ts
+ * {
+ *    value: 10;
+ *    temperatureCelsius: 20;
+ *    gas: false;
+ * }
+ * ```
+ * - Example: 5 cc the solute is soluble in 100 g of the solvent at 40 deg. C.
+ * ```ts
+ * {
+ *    value: 5;
+ *    temperatureCelsius: 40;
+ *    gas: true;
+ * }
+ * ```
+ */
+interface QuantitativeSolubility {
+  value: number;
+  temperatureCelsius: number;
+  gas: boolean;
+}
+
+type Solubility = QualitativeSolubility | QuantitativeSolubility;
+
+interface SolubilitySheet {
+  coldWater: Solubility;
+  hotWater: Solubility;
+  [key: string]: Solubility;
 }
 
 interface PhysicalProperties {
@@ -21,5 +71,5 @@ interface PhysicalProperties {
   specificGravity: number;
   meltingPointCelcius: number;
   boilingPointCelcius: number;
-  solubility: Solubility;
+  solubilitySheet: SolubilitySheet;
 }

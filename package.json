@@ -8,8 +8,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=14",
-    "yarn": "~1.22.10"
+    "node": ">=14"
   },
   "scripts": {
     "start": "tsdx watch",

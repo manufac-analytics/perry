@@ -1,8 +1,9 @@
 # Perry User Guide
 
+[![CI](https://github.com/manufac-analytics/perry/actions/workflows/main.yml/badge.svg)](https://github.com/manufac-analytics/perry/actions/workflows/main.yml)
+
 ![Manufac Analytics](https://manufac-analytics-images.s3.ap-south-1.amazonaws.com/logos/creatives/computer-1920.png)
 
-[![CI](https://github.com/manufac-analytics/perry/actions/workflows/main.yml/badge.svg)](https://github.com/manufac-analytics/perry/actions/workflows/main.yml)
 ## Commands
 
 TSDX scaffolds your new library inside `/src`.

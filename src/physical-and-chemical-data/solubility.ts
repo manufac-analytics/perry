@@ -1,11 +1,11 @@
 import { Qualitative } from './utils';
 
-const SolubilityNature = {
+export const SolubilityNature = {
   Insoluble: 'insoluble',
   Soluble: 'soluble',
   Decomposes: 'decomposes',
 } as const;
-type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
+export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
 
 /**
  * Given in parts by weight per 100 parts by weight of the solvent.

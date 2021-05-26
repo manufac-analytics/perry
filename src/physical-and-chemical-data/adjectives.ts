@@ -9,5 +9,6 @@ const Adjectives = {
   Stable: 'stable',
   Unstable: 'unstable',
   FairlyStable: 'fairly-stable',
+  Empty: '',
 } as const;
 type Adjectives = typeof Adjectives[keyof typeof Adjectives];

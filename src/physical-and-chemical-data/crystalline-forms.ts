@@ -1,0 +1,23 @@
+export const CrystallineForms = {
+  Amorphous: 'amorphous',
+  Anhydrous: 'anhydrous',
+  Cubic: 'cubic',
+  Crystalline: 'crystalline',
+  Deliquescent: 'deliquescent',
+  Hexagonal: 'hexagonal',
+  Hygroscopic: 'hygroscopic',
+  Monoclinic: 'monoclinic',
+  Needles: 'needles',
+  Octahedral: 'octahedral',
+  Powder: 'powder',
+  Plates: 'plates',
+  Prismatic: 'prismatic',
+  Rhombic: 'rhombic',
+  Tetragonal: 'tetragonal',
+  Triclinic: 'triclinic',
+  Trigonal: 'trigonal',
+  Liquid: 'liquid',
+  Gas: 'gas',
+  Porous: 'porous',
+} as const;
+export type CrystallineForms = typeof CrystallineForms[keyof typeof CrystallineForms];

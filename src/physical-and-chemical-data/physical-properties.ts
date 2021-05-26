@@ -1,7 +1,7 @@
 import { Colors } from './colors';
 import { CrystallineForms } from './crystalline-forms';
 import { SolubilitySheet, SolubilityNature } from './solubility';
-import { SpecificGravity } from './specific-gravity';
+import { SpecificGravity, SpecificGravityReference } from './specific-gravity';
 import { Qualitative } from './utils';
 
 interface PhysicalProperties {
@@ -33,7 +33,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     specificGravity: {
       value: 2.7,
       substanceTemperatureCelsius: 20,
-      waterTemperatureCelsius: NaN,
+      reference: SpecificGravityReference.Water,
+      referenceTemperatureCelsius: NaN,
     },
     meltingPointCelcius: 660,
     boilingPointCelcius: 2056,

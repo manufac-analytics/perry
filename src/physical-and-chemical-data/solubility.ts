@@ -1,4 +1,4 @@
-import { Qualitative } from './utils';
+import { Measure, Qualitative } from './utils';
 
 export const SolubilityNature = {
   Insoluble: 'insoluble',
@@ -13,7 +13,7 @@ export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNa
  * ```ts
  * {
  *    value: 10;
- *    temperatureCelsius: 20;
+ *    temperature: {value: 20, units: "C"};
  *    gas: false;
  * }
  * ```
@@ -21,14 +21,14 @@ export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNa
  * ```ts
  * {
  *    value: 5;
- *    temperatureCelsius: 40;
+ *    temperature: {value: 20, units: "C"};
  *    gas: true;
  * }
  * ```
  */
 interface QuantitativeSolubility {
   value: number;
-  temperatureCelsius: number;
+  temperature: Measure;
   gas: boolean;
 }
 

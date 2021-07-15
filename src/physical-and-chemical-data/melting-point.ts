@@ -5,7 +5,7 @@ export const MeltingPointNature = {
   Sublimes: 'sublimes',
   Explodes: 'explodes',
   Melts: 'melts',
-  LoosesWater: 'looses-water'
+  LoosesWater: 'looses-water',
 } as const;
 export type MeltingPointNature = typeof MeltingPointNature[keyof typeof MeltingPointNature];
 

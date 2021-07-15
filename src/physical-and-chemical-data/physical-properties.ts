@@ -112,8 +112,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumBromide: {
-    name: 'Aluminum bromide',
+  AluminumBromide1: {
+    name: 'Aluminum bromide1',
     synonyms: [],
     formula: 'AlB3',
     formulaWeight: 266.69,
@@ -144,6 +144,37 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         adjective: Adjectives.Empty,
       },
       Acetone: {
+        nature: [SolubilityNature.Soluble],
+        adjective: Adjectives.Empty,
+      },
+      CS2: {
+        nature: [SolubilityNature.Soluble],
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+  AluminumBromide2: {
+    name: 'Aluminum bromide2',
+    synonyms: [],
+    formula: 'AlB36H20',
+    formulaWeight: 374.78,
+    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: [CrystallineForms.Deliquescent, CrystallineForms.Crystalline],
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    meltingPointCelcius: NaN,
+    solubilitySheet: {
+      coldWater: {
+        nature: [SolubilityNature.Soluble],
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: [SolubilityNature.Soluble],
+        adjective: Adjectives.Empty,
+      },
+      EthylAlcohol: {
         nature: [SolubilityNature.Soluble],
         adjective: Adjectives.Empty,
       },

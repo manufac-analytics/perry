@@ -12,6 +12,6 @@ export interface PhysicalProperties {
   refractiveIndex: number;
   specificGravity: SpecificGravity;
   meltingOutcomes: MeltingOutcome[];
-  boilingPoint: number;
+  boilingOutcomes: MeltingOutcome[];
   solubilitySheet: SolubilitySheet;
 }

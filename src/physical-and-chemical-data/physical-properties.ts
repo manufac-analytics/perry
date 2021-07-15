@@ -1,4 +1,4 @@
-import { MeltingPoint } from './melting-point';
+import { MeltingOutcome } from './melting-point';
 import { SolubilitySheet } from './solubility';
 import { SpecificGravity } from './specific-gravity';
 import { Qualitative, Colors, CrystallineForms } from './utils';
@@ -11,7 +11,7 @@ export interface PhysicalProperties {
   crystallineForm: Qualitative<CrystallineForms>;
   refractiveIndex: number;
   specificGravity: SpecificGravity;
-  meltingPoint: MeltingPoint;
+  meltingOutcomes: MeltingOutcome[];
   boilingPoint: number;
   solubilitySheet: SolubilitySheet;
 }

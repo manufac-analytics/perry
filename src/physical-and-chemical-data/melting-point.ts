@@ -5,7 +5,7 @@ export interface TemperaturePressureCombo {
   pressure: Measure | MeasureRange;
 }
 
-export const MeltingOutcomes = {
+export const MeltingNature = {
   Decomposes: 'decomposes',
   Sublimes: 'sublimes',
   Explodes: 'explodes',
@@ -14,10 +14,10 @@ export const MeltingOutcomes = {
   Transitions: 'transitions',
   Deliquesces: 'deliquesces',
 } as const;
-export type MeltingOutcomes = typeof MeltingOutcomes[keyof typeof MeltingOutcomes];
+export type MeltingNature = typeof MeltingNature[keyof typeof MeltingNature];
 
-export interface MeltingPoint extends TemperaturePressureCombo {
-  nature: MeltingOutcomes;
+export interface MeltingOutcome extends TemperaturePressureCombo {
+  nature: MeltingNature;
   loosesWaterMoles?: number;
   transitionsTo?: string;
   sublimesIn?: string;

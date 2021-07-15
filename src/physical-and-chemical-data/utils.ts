@@ -72,9 +72,13 @@ export interface Qualitative<T> {
 export interface Measure {
   value: number;
   units: string;
+  error: number;
+  greaterOrLess: 'greater' | 'less' | 'exact' | 'approximate';
 }
 
 export interface MeasureRange {
   min: Measure;
   max: Measure;
+  includeMin: boolean;
+  includeMax: boolean;
 }

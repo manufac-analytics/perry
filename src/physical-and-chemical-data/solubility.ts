@@ -33,7 +33,5 @@ interface QuantitativeSolubility {
 }
 
 export interface SolubilitySheet {
-  [key: string]:
-    | Qualitative<[SolubilityNature, ...SolubilityNature[]]>
-    | QuantitativeSolubility;
+  [key: string]: Qualitative<SolubilityNature[]> | QuantitativeSolubility;
 }

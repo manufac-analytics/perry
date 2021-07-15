@@ -10,7 +10,7 @@ export const MeltingNature = {
   Sublimes: 'sublimes',
   Explodes: 'explodes',
   Melts: 'melts',
-  LoosesWater: 'looses-water',
+  Looses: 'looses',
   Transitions: 'transitions',
   Deliquesces: 'deliquesces',
 } as const;
@@ -18,7 +18,8 @@ export type MeltingNature = typeof MeltingNature[keyof typeof MeltingNature];
 
 export interface MeltingOutcome extends TemperaturePressureCombo {
   nature: MeltingNature;
-  loosesWaterMoles?: number;
+  loosesMoles?: number;
+  loosesEntity?: string;
   transitionsTo?: string;
   sublimesIn?: string;
 }

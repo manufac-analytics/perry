@@ -71,8 +71,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       substanceTemperature: {
         value: 20,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
+        error: 5,
+        greaterOrLess: 'less',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
@@ -111,8 +111,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       substanceTemperature: {
         value: 20,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
+        error: 5,
+        greaterOrLess: 'less',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
@@ -181,7 +181,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Decomposes, // Needs to be changed
         adjective: Adjectives.Empty,
       },
-      ethylAlcohol: {
+      ethylAlcohol95per: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -209,10 +209,10 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     specificGravity: {
       value: NaN,
       substanceTemperature: {
-        value: 0,
+        value: 20,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
+        error: 5,
+        greaterOrLess: 'less',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
@@ -233,7 +233,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
-      ethylAlcohol: {
+      ethylAlcohol95per: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -365,14 +365,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     specificGravity: {
       value: NaN,
       substanceTemperature: {
-        value: 0,
+        value: 20,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
+        error: 5,
+        greaterOrLess: 'less',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
-        value: 4,
+        value: 0,
         units: 'C',
         error: 0,
         greaterOrLess: 'exact',
@@ -402,6 +402,182 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         adjective: Adjectives.Empty,
       },
       ether: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumFluoride1: {
+    name: 'Aluminum fluoride(fluellite)',
+    formula: 'AlF3.H20',
+    formulaWeight: 101.99,
+    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: [CrystallineForms.Rhombic, CrystallineForms.Hexagonal],
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: 1.49,
+    specificGravity: {
+      value: 2.17,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble, // table says slightly soluble
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Empty, // Emptly in table
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumFluoride2: {
+    name: 'Aluminum fluoride',
+    formula: 'Al2F6.7H2O',
+    formulaWeight: 294.06,
+    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: [CrystallineForms.Crystalline, CrystallineForms.Powder],
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    specificGravity: {
+      value: NaN,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble, // table says slightly soluble
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumHydroxide: {
+    name: 'Aluminum hydroxide',
+    formula: 'Al(OH)3',
+    formulaWeight: 78.0,
+    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: CrystallineForms.Monoclinic,
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    specificGravity: {
+      value: 2.42,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble, // table says 0.00010418°.
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      acid: {
+        nature: SolubilityNature.Soluble, // acid is given in both soluble and insoluble
+        adjective: Adjectives.Empty,
+      },
+      alkali: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumNitrate: {
+    name: 'Aluminum nitrate',
+    formula: 'Al(NO3)3.9H2O',
+    formulaWeight: 375.13,
+    color: { nature: Colors.None, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: [CrystallineForms.Rhombic, CrystallineForms.Deliquescent],
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    specificGravity: {
+      value: NaN,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble, // table says very soluble
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble, // table says very soluble decomposes
+        adjective: Adjectives.Empty,
+      },
+      ethylAlcohol95per: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      CS2: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },

@@ -1,3 +1,5 @@
+import { Measure } from './utils';
+
 export const SpecificGravityReference = {
   Water: 'water',
   Air: 'air',
@@ -37,7 +39,7 @@ export type SpecificGravityReference = typeof SpecificGravityReference[keyof typ
  */
 export interface SpecificGravity {
   value: number;
-  substanceTemperatureCelsius: number;
+  substanceTemperature: Measure;
   reference: SpecificGravityReference;
-  referenceTemperatureCelsius: number;
+  referenceTemperature: Measure;
 }

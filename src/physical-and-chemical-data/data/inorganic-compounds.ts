@@ -329,7 +329,11 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Soluble, // Is soluble and decomposes should we store both?
         adjective: Adjectives.Empty,
       },
-      ethylEther: {
+      ethyl: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      ether: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -343,6 +347,62 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       benzene: {
         nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumChloride2: {
+    name: 'Aluminum chloride',
+    formula: 'AlCl3.6H2O',
+    formulaWeight: 241.43,
+    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: [CrystallineForms.Deliquescent, CrystallineForms.Trigonal],
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: 1.56,
+    specificGravity: {
+      value: NaN,
+      substanceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 4,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble, // At 400 should it be stored too?
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble, // The table says it is very soluble
+        adjective: Adjectives.Empty,
+      },
+      ethylAlcohol50per: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      chloroform: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      ethyl: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      ether: {
+        nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
     },

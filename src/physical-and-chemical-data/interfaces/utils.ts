@@ -37,7 +37,7 @@ export const Colors = {
   RedYellow: 'red-yellow',
   GreenBlack: 'green-black',
   BlueBlack: 'blue-black',
-  None: '',
+  Empty: '',
 } as const;
 export type Colors = typeof Colors[keyof typeof Colors];
 

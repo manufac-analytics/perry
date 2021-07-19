@@ -130,7 +130,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         adjective: Adjectives.Empty,
       },
       hotWater: {
-        nature: SolubilityNature.Decomposes, // Needs to be changed
+        nature: SolubilityNature.Empty,
         adjective: Adjectives.Empty,
       },
       acid: {
@@ -148,7 +148,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum bromide',
     formula: 'AlB3',
     formulaWeight: 266.69,
-    color: { nature: Colors.None, adjective: Adjectives.Empty }, // If color is not given should it be made none?
+    color: { nature: Colors.Empty, adjective: Adjectives.Empty },
     crystallineForm: {
       nature: CrystallineForms.Trigonal,
       adjective: Adjectives.Empty,
@@ -178,10 +178,10 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         adjective: Adjectives.Empty,
       },
       hotWater: {
-        nature: SolubilityNature.Decomposes, // Needs to be changed
+        nature: SolubilityNature.Empty,
         adjective: Adjectives.Empty,
       },
-      ethylAlcohol95per: {
+      ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -233,7 +233,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
-      ethylAlcohol95per: {
+      ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -274,11 +274,18 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Decomposes, // Decomposes to CH4 should it beeeored too?
+        nature: SolubilityNature.Decomposes,
         adjective: Adjectives.Empty,
+        value: 'CH4',
+        temperature: {
+          value: NaN,
+          units: 'C',
+          error: 0,
+          greaterOrLess: 'less',
+        },
       },
       hotWater: {
-        nature: SolubilityNature.Soluble, // Not given needs to be changed
+        nature: SolubilityNature.Empty,
         adjective: Adjectives.Empty,
       },
       acid: {
@@ -322,11 +329,19 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Soluble, // At 69.87 at 15deg C should that be stored too?
+        nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
+        value: 69.87,
+        temperature: {
+          value: 15,
+          units: 'C',
+          error: 0,
+          greaterOrLess: 'exact',
+        },
+        gas: false,
       },
       hotWater: {
-        nature: SolubilityNature.Soluble, // Is soluble and decomposes should we store both?
+        nature: SolubilityNature.SolubleDecomposes,
         adjective: Adjectives.Empty,
       },
       ethyl: {
@@ -382,14 +397,22 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Soluble, // At 400 should it be stored too?
+        nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
+        value: 400,
+        temperature: {
+          value: NaN,
+          units: 'C',
+          error: 0,
+          greaterOrLess: 'exact',
+        },
+        gas: false,
       },
       hotWater: {
-        nature: SolubilityNature.Soluble, // The table says it is very soluble
-        adjective: Adjectives.Empty,
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Very,
       },
-      ethylAlcohol50per: {
+      ethylAlcohol50percent: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },
@@ -438,11 +461,11 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Soluble, // table says slightly soluble
-        adjective: Adjectives.Empty,
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Slightly,
       },
       hotWater: {
-        nature: SolubilityNature.Empty, // Emptly in table
+        nature: SolubilityNature.Empty,
         adjective: Adjectives.Empty,
       },
     },
@@ -482,8 +505,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         adjective: Adjectives.Empty,
       },
       hotWater: {
-        nature: SolubilityNature.Soluble, // table says slightly soluble
-        adjective: Adjectives.Empty,
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Slightly,
       },
     },
   },
@@ -518,8 +541,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Soluble, // table says 0.00010418°.
+        nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
+        value: 0.000104,
+        temperature: {
+          value: 18,
+          units: 'C',
+          error: 0,
+          greaterOrLess: 'exact',
+        },
+        gas: false,
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
@@ -540,7 +571,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum nitrate',
     formula: 'Al(NO3)3.9H2O',
     formulaWeight: 375.13,
-    color: { nature: Colors.None, adjective: Adjectives.Empty },
+    color: { nature: Colors.Empty, adjective: Adjectives.Empty },
     crystallineForm: {
       nature: [CrystallineForms.Rhombic, CrystallineForms.Deliquescent],
       adjective: Adjectives.Empty,
@@ -566,14 +597,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
-        nature: SolubilityNature.Soluble, // table says very soluble
-        adjective: Adjectives.Empty,
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Very,
       },
       hotWater: {
-        nature: SolubilityNature.Soluble, // table says very soluble decomposes
-        adjective: Adjectives.Empty,
+        nature: SolubilityNature.SolubleDecomposes,
+        adjective: Adjectives.Very,
       },
-      ethylAlcohol95per: {
+      ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
       },

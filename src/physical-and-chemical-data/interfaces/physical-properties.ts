@@ -1,7 +1,13 @@
 import { MeltingOutcome } from './melting-point';
 import { SolubilitySheet } from './solubility';
 import { SpecificGravity } from './specific-gravity';
-import { Qualitative, Colors, CrystallineForms } from './utils';
+import {
+  Qualitative,
+  Colors,
+  CrystallineForms,
+  Measure,
+  MeasureRange,
+} from './utils';
 
 export interface PhysicalProperties {
   name: string;
@@ -11,7 +17,7 @@ export interface PhysicalProperties {
   crystallineForms:
     | Qualitative<CrystallineForms>[]
     | Qualitative<CrystallineForms>;
-  refractiveIndex: number;
+  refractiveIndex?: Measure | MeasureRange;
   specificGravity?: SpecificGravity;
   meltingOutcomes: MeltingOutcome[];
   boilingOutcomes: MeltingOutcome[];

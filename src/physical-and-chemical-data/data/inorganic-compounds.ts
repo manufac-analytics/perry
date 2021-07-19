@@ -12,14 +12,11 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Cubic,
     },
-    refractiveIndex: NaN,
     specificGravity: {
       value: 2.7,
       substanceTemperature: {
         value: 20,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
       reference: SpecificGravityReference.Water,
     },
@@ -52,7 +49,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Powder,
     },
-    refractiveIndex: NaN,
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
@@ -73,7 +69,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Amorphous,
     },
-    refractiveIndex: NaN,
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
@@ -96,21 +91,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Trigonal,
     },
-    refractiveIndex: NaN,
     specificGravity: {
       value: 3.01,
       substanceTemperature: {
         value: 25,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
         value: 4,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -144,7 +134,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Deliquescent,
       },
     ],
-    refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
       substanceTemperature: {
@@ -157,8 +146,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -187,7 +174,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
     },
-    refractiveIndex: 2.7,
+    refractiveIndex: { value: 2.7 },
     specificGravity: {
       value: 2.95,
       substanceTemperature: {
@@ -200,8 +187,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -214,7 +199,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         temperature: {
           value: NaN,
           units: 'C',
-          error: 0,
+
           greaterOrLess: 'less',
         },
       },
@@ -240,21 +225,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Hexagonal,
       },
     ],
-    refractiveIndex: NaN,
     specificGravity: {
       value: 2.44,
       substanceTemperature: {
         value: 25,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
         value: 4,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -262,13 +242,10 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-
         value: 69.87,
         temperature: {
           value: 15,
           units: 'C',
-          error: 0,
-          greaterOrLess: 'exact',
         },
         gas: false,
       },
@@ -306,7 +283,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Trigonal,
       },
     ],
-    refractiveIndex: 1.56,
+    refractiveIndex: { value: 1.56 },
     specificGravity: {
       value: NaN,
       substanceTemperature: {
@@ -319,8 +296,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -328,13 +303,10 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-
         value: 400,
         temperature: {
           value: NaN,
           units: 'C',
-          error: 0,
-          greaterOrLess: 'exact',
         },
         gas: false,
       },
@@ -370,7 +342,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Hexagonal,
       },
     ],
-    refractiveIndex: 1.49,
+    refractiveIndex: { value: 1.49 },
     specificGravity: {
       value: 2.17,
       substanceTemperature: {
@@ -383,8 +355,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -410,7 +380,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Powder,
       },
     ],
-    refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
       substanceTemperature: {
@@ -423,8 +392,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -448,7 +415,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Monoclinic,
     },
-    refractiveIndex: NaN,
     specificGravity: {
       value: 2.42,
       substanceTemperature: {
@@ -461,8 +427,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -470,13 +434,10 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-
         value: 0.000104,
         temperature: {
           value: 18,
           units: 'C',
-          error: 0,
-          greaterOrLess: 'exact',
         },
         gas: false,
       },
@@ -504,7 +465,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Deliquescent,
       },
     ],
-    refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
       substanceTemperature: {
@@ -517,8 +477,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       referenceTemperature: {
         value: 0,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -549,21 +507,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
     },
-    refractiveIndex: NaN,
     specificGravity: {
       value: 3.05,
       substanceTemperature: {
         value: 25,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
       reference: SpecificGravityReference.Water,
       referenceTemperature: {
         value: 4,
         units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
       },
     },
     meltingOutcomes: [],
@@ -587,7 +540,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
     },
-    refractiveIndex: 1.67 - 8,
+    refractiveIndex: { min: { value: 1.67 }, max: { value: 8 } },
     specificGravity: {
       value: 3.99,
       reference: SpecificGravityReference.Water,
@@ -620,7 +573,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Trigonal,
     },
-    refractiveIndex: 1.768,
+    refractiveIndex: { value: 1.768 },
     specificGravity: {
       value: 4.0,
       reference: SpecificGravityReference.Water,
@@ -653,7 +606,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
     },
-    refractiveIndex: NaN,
     specificGravity: {
       value: 2.59,
       reference: SpecificGravityReference.Water,

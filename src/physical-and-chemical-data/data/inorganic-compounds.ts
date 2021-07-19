@@ -639,7 +639,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumOxide1: {
+  AluminumOxide: {
     name: 'Aluminum oxide',
     formula: 'Al2O3',
     formulaWeight: 101.96,
@@ -687,7 +687,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumOxide2: {
+  CorundumAluminumOxide: {
     name: 'Aluminum oxide (corundum)',
     formula: 'Al2O3',
     formulaWeight: 101.96,

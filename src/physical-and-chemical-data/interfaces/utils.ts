@@ -9,7 +9,6 @@ export const Adjectives = {
   Stable: 'stable',
   Unstable: 'unstable',
   FairlyStable: 'fairly-stable',
-  Empty: '',
 } as const;
 export type Adjectives = typeof Adjectives[keyof typeof Adjectives];
 
@@ -67,7 +66,7 @@ export type CrystallineForms = typeof CrystallineForms[keyof typeof CrystallineF
 
 export interface Qualitative<T> {
   nature: T;
-  adjective: Adjectives;
+  adjective?: Adjectives;
 }
 
 export interface Measure {

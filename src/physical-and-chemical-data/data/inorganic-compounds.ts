@@ -8,10 +8,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum',
     formula: 'Al',
     formulaWeight: 26.98,
-    color: { nature: Colors.Silver, adjective: Adjectives.Empty },
+    color: { nature: Colors.Silver },
     crystallineForms: {
       nature: CrystallineForms.Cubic,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     specificGravity: {
@@ -29,23 +28,18 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       HCl: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       H2SO4: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       alkali: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -54,10 +48,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum acetate (normal)',
     formula: 'Al(C2H3O2)3',
     formulaWeight: 204.11,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: {
       nature: CrystallineForms.Powder,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     meltingOutcomes: [],
@@ -65,11 +58,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Decomposes,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -78,10 +69,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum acetate (basic)',
     formula: 'Al(OH)(C2H3O2)2',
     formulaWeight: 162.08,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: {
       nature: CrystallineForms.Amorphous,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     meltingOutcomes: [],
@@ -89,15 +79,12 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       NH4Salts: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -106,10 +93,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum bromide',
     formula: 'AlB3',
     formulaWeight: 266.69,
-    color: { nature: Colors.Empty, adjective: Adjectives.Empty },
+    color: { nature: Colors.Empty },
     crystallineForms: {
       nature: CrystallineForms.Trigonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     specificGravity: {
@@ -133,19 +119,15 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       acetone: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       CS2: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -154,15 +136,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum bromide',
     formula: 'AlBr3.6H2O',
     formulaWeight: 374.78,
-    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    color: { nature: Colors.Colorless },
     crystallineForms: [
       {
         nature: CrystallineForms.Crystalline,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Deliquescent,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: NaN,
@@ -187,19 +167,15 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       CS2: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -208,10 +184,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum carbidde',
     formula: 'Al4C3',
     formulaWeight: 143.96,
-    color: { nature: Colors.Yellow, adjective: Adjectives.Empty },
+    color: { nature: Colors.Yellow },
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: 2.7,
     specificGravity: {
@@ -235,7 +210,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Decomposes,
-        adjective: Adjectives.Empty,
+
         value: 'CH4',
         temperature: {
           value: NaN,
@@ -246,11 +221,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       acid: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       acetone: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -259,15 +232,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum chloride',
     formula: 'AlCl3',
     formulaWeight: 133.34,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: [
       {
         nature: CrystallineForms.Deliquescent,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Hexagonal,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: NaN,
@@ -292,7 +263,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
+
         value: 69.87,
         temperature: {
           value: 15,
@@ -304,27 +275,21 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       hotWater: {
         nature: SolubilityNature.SolubleDecomposes,
-        adjective: Adjectives.Empty,
       },
       ethyl: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       ether: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       chloroform: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       CCl4: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       benzene: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -333,15 +298,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum chloride',
     formula: 'AlCl3.6H2O',
     formulaWeight: 241.43,
-    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    color: { nature: Colors.Colorless },
     crystallineForms: [
       {
         nature: CrystallineForms.Deliquescent,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Trigonal,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: 1.56,
@@ -366,7 +329,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
+
         value: 400,
         temperature: {
           value: NaN,
@@ -382,19 +345,15 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       ethylAlcohol50percent: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       chloroform: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       ethyl: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       ether: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -403,15 +362,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum fluoride (fluellite)',
     formula: 'AlF3.H20',
     formulaWeight: 101.99,
-    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    color: { nature: Colors.Colorless },
     crystallineForms: [
       {
         nature: CrystallineForms.Rhombic,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Hexagonal,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: 1.49,
@@ -445,15 +402,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum fluoride',
     formula: 'Al2F6.7H2O',
     formulaWeight: 294.06,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: [
       {
         nature: CrystallineForms.Crystalline,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Powder,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: NaN,
@@ -478,7 +433,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Soluble,
@@ -491,10 +445,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum hydroxide',
     formula: 'Al(OH)3',
     formulaWeight: 78.0,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: {
       nature: CrystallineForms.Monoclinic,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     specificGravity: {
@@ -518,7 +471,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
+
         value: 0.000104,
         temperature: {
           value: 18,
@@ -530,15 +483,12 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble, // acid is given in both soluble and insoluble
-        adjective: Adjectives.Empty,
       },
       alkali: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -547,15 +497,13 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum nitrate',
     formula: 'Al(NO3)3.9H2O',
     formulaWeight: 375.13,
-    color: { nature: Colors.Empty, adjective: Adjectives.Empty },
+    color: { nature: Colors.Empty },
     crystallineForms: [
       {
         nature: CrystallineForms.Rhombic,
-        adjective: Adjectives.Empty,
       },
       {
         nature: CrystallineForms.Deliquescent,
-        adjective: Adjectives.Empty,
       },
     ],
     refractiveIndex: NaN,
@@ -588,11 +536,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       CS2: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -601,10 +547,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum nitride',
     formula: 'Al2N2',
     formulaWeight: 81.98,
-    color: { nature: Colors.Yellow, adjective: Adjectives.Empty },
+    color: { nature: Colors.Yellow },
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     specificGravity: {
@@ -632,7 +577,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       alkali: {
         nature: SolubilityNature.SolubleDecomposes,
-        adjective: Adjectives.Empty,
       },
     },
   },
@@ -641,10 +585,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum oxide',
     formula: 'Al2O3',
     formulaWeight: 101.96,
-    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    color: { nature: Colors.Colorless },
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: 1.67 - 8,
     specificGravity: {
@@ -668,11 +611,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble,
@@ -689,10 +630,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum oxide (corundum)',
     formula: 'Al2O3',
     formulaWeight: 101.96,
-    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    color: { nature: Colors.White },
     crystallineForms: {
       nature: CrystallineForms.Trigonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: 1.768,
     specificGravity: {
@@ -716,11 +656,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble,
@@ -737,10 +675,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum phosphate',
     formula: 'AlPO4',
     formulaWeight: 121.95,
-    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    color: { nature: Colors.Colorless },
     crystallineForms: {
       nature: CrystallineForms.Hexagonal,
-      adjective: Adjectives.Empty,
     },
     refractiveIndex: NaN,
     specificGravity: {
@@ -764,23 +701,18 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       hotWater: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       alkali: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
       },
       aceticAcid: {
         nature: SolubilityNature.Insoluble,
-        adjective: Adjectives.Empty,
       },
     },
   },

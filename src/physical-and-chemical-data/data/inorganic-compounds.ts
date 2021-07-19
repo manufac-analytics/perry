@@ -93,7 +93,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum bromide',
     formula: 'AlB3',
     formulaWeight: 266.69,
-    color: { nature: Colors.Empty },
     crystallineForms: {
       nature: CrystallineForms.Trigonal,
     },
@@ -497,7 +496,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     name: 'Aluminum nitrate',
     formula: 'Al(NO3)3.9H2O',
     formulaWeight: 375.13,
-    color: { nature: Colors.Empty },
     crystallineForms: [
       {
         nature: CrystallineForms.Rhombic,

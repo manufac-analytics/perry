@@ -1,4 +1,4 @@
-const Adjectives = {
+export const Adjectives = {
   Light: 'light',
   Dark: 'dark',
   Very: 'very',
@@ -11,7 +11,7 @@ const Adjectives = {
   FairlyStable: 'fairly-stable',
   Empty: '',
 } as const;
-type Adjectives = typeof Adjectives[keyof typeof Adjectives];
+export type Adjectives = typeof Adjectives[keyof typeof Adjectives];
 
 export const Colors = {
   Silver: 'silver',

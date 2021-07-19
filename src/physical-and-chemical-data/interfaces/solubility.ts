@@ -4,8 +4,8 @@ export const SolubilityNature = {
   Insoluble: 'insoluble',
   Soluble: 'soluble',
   Decomposes: 'decomposes',
-  SolubleDecomposes: 'soluble decomposes',
-  Empty: 'empty',
+  SolubleDecomposes: 'soluble-decomposes',
+  Empty: '',
 } as const;
 export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
 

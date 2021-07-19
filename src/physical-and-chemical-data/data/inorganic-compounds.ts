@@ -140,7 +140,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumBromide1: {
+  AluminumBromide: {
     name: 'Aluminum bromide',
     formula: 'AlB3',
     formulaWeight: 266.69,
@@ -188,7 +188,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumBromide2: {
+  HydratedAluminumBromide: {
     name: 'Aluminum bromide',
     formula: 'AlBr3.6H2O',
     formulaWeight: 374.78,
@@ -287,7 +287,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumChloride1: {
+  AluminumChloride: {
     name: 'Aluminum chloride',
     formula: 'AlCl3',
     formulaWeight: 133.34,
@@ -355,7 +355,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumChloride2: {
+  HydratedAluminumChloride: {
     name: 'Aluminum chloride',
     formula: 'AlCl3.6H2O',
     formulaWeight: 241.43,

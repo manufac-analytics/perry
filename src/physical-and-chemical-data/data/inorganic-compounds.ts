@@ -680,19 +680,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     refractiveIndex: NaN,
     specificGravity: {
       value: 2.59,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
       reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-        error: 0,
-        greaterOrLess: 'exact',
-      },
     },
     meltingOutcomes: [],
     boilingOutcomes: [],

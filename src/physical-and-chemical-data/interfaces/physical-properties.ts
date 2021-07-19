@@ -8,7 +8,9 @@ export interface PhysicalProperties {
   formula: string;
   formulaWeight: number;
   color: Qualitative<Colors>;
-  crystallineForm: Qualitative<CrystallineForms[] | CrystallineForms>;
+  crystallineForms:
+    | Qualitative<CrystallineForms>[]
+    | Qualitative<CrystallineForms>;
   refractiveIndex: number;
   specificGravity?: SpecificGravity;
   meltingOutcomes: MeltingOutcome[];

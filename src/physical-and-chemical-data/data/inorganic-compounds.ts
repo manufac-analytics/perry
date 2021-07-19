@@ -9,7 +9,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al',
     formulaWeight: 26.98,
     color: { nature: Colors.Silver, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Cubic,
       adjective: Adjectives.Empty,
     },
@@ -55,7 +55,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al(C2H3O2)3',
     formulaWeight: 204.11,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Powder,
       adjective: Adjectives.Empty,
     },
@@ -79,7 +79,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al(OH)(C2H3O2)2',
     formulaWeight: 162.08,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Amorphous,
       adjective: Adjectives.Empty,
     },
@@ -107,7 +107,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlB3',
     formulaWeight: 266.69,
     color: { nature: Colors.Empty, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Trigonal,
       adjective: Adjectives.Empty,
     },
@@ -155,10 +155,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlBr3.6H2O',
     formulaWeight: 374.78,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Crystalline, CrystallineForms.Deliquescent],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Crystalline,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Deliquescent,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
@@ -203,7 +209,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al4C3',
     formulaWeight: 143.96,
     color: { nature: Colors.Yellow, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Hexagonal,
       adjective: Adjectives.Empty,
     },
@@ -254,10 +260,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlCl3',
     formulaWeight: 133.34,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Deliquescent, CrystallineForms.Hexagonal],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Deliquescent,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Hexagonal,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: NaN,
     specificGravity: {
       value: 2.44,
@@ -322,10 +334,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlCl3.6H2O',
     formulaWeight: 241.43,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Deliquescent, CrystallineForms.Trigonal],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Deliquescent,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Trigonal,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: 1.56,
     specificGravity: {
       value: NaN,
@@ -386,10 +404,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlF3.H20',
     formulaWeight: 101.99,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Rhombic, CrystallineForms.Hexagonal],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Rhombic,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Hexagonal,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: 1.49,
     specificGravity: {
       value: 2.17,
@@ -422,10 +446,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al2F6.7H2O',
     formulaWeight: 294.06,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Crystalline, CrystallineForms.Powder],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Crystalline,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Powder,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
@@ -462,7 +492,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al(OH)3',
     formulaWeight: 78.0,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Monoclinic,
       adjective: Adjectives.Empty,
     },
@@ -518,10 +548,16 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al(NO3)3.9H2O',
     formulaWeight: 375.13,
     color: { nature: Colors.Empty, adjective: Adjectives.Empty },
-    crystallineForm: {
-      nature: [CrystallineForms.Rhombic, CrystallineForms.Deliquescent],
-      adjective: Adjectives.Empty,
-    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Rhombic,
+        adjective: Adjectives.Empty,
+      },
+      {
+        nature: CrystallineForms.Deliquescent,
+        adjective: Adjectives.Empty,
+      },
+    ],
     refractiveIndex: NaN,
     specificGravity: {
       value: NaN,
@@ -566,7 +602,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al2N2',
     formulaWeight: 81.98,
     color: { nature: Colors.Yellow, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Hexagonal,
       adjective: Adjectives.Empty,
     },
@@ -606,7 +642,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al2O3',
     formulaWeight: 101.96,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Hexagonal,
       adjective: Adjectives.Empty,
     },
@@ -654,7 +690,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al2O3',
     formulaWeight: 101.96,
     color: { nature: Colors.White, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Trigonal,
       adjective: Adjectives.Empty,
     },
@@ -702,7 +738,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlPO4',
     formulaWeight: 121.95,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
-    crystallineForm: {
+    crystallineForms: {
       nature: CrystallineForms.Hexagonal,
       adjective: Adjectives.Empty,
     },

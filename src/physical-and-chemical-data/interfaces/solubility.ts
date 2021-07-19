@@ -35,7 +35,10 @@ export interface QuantitativeSolubility {
 }
 
 export interface SolubilitySheet {
-  coldWater: Qualitative<SolubilityNature> | QuantitativeSolubility;
-  hotWater: Qualitative<SolubilityNature> | QuantitativeSolubility;
-  [key: string]: Qualitative<SolubilityNature> | QuantitativeSolubility;
+  coldWater?: Qualitative<SolubilityNature> | QuantitativeSolubility;
+  hotWater?: Qualitative<SolubilityNature> | QuantitativeSolubility;
+  [key: string]:
+    | Qualitative<SolubilityNature>
+    | QuantitativeSolubility
+    | undefined;
 }

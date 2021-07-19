@@ -129,10 +129,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Insoluble,
         adjective: Adjectives.Empty,
       },
-      hotWater: {
-        nature: SolubilityNature.Empty,
-        adjective: Adjectives.Empty,
-      },
       acid: {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Empty,
@@ -175,10 +171,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        adjective: Adjectives.Empty,
-      },
-      hotWater: {
-        nature: SolubilityNature.Empty,
         adjective: Adjectives.Empty,
       },
       ethylAlcohol95percent: {
@@ -283,10 +275,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
           error: 0,
           greaterOrLess: 'less',
         },
-      },
-      hotWater: {
-        nature: SolubilityNature.Empty,
-        adjective: Adjectives.Empty,
       },
       acid: {
         nature: SolubilityNature.Soluble,
@@ -464,10 +452,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: SolubilityNature.Soluble,
         adjective: Adjectives.Slightly,
       },
-      hotWater: {
-        nature: SolubilityNature.Empty,
-        adjective: Adjectives.Empty,
-      },
     },
   },
 
@@ -610,6 +594,193 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       CS2: {
         nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumNitride: {
+    name: 'Aluminum nitride',
+    formula: 'Al2N2',
+    formulaWeight: 81.98,
+    color: { nature: Colors.Yellow, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: CrystallineForms.Hexagonal,
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    specificGravity: {
+      value: 3.05,
+      substanceTemperature: {
+        value: 25,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 4,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Decomposes,
+        adjective: Adjectives.Slowly,
+      },
+      alkali: {
+        nature: SolubilityNature.SolubleDecomposes,
+        adjective: Adjectives.Empty,
+      },
+    },
+  },
+
+  AluminumOxide1: {
+    name: 'Aluminum oxide',
+    formula: 'Al2O3',
+    formulaWeight: 101.96,
+    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: CrystallineForms.Hexagonal,
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: 1.67 - 8,
+    specificGravity: {
+      value: 3.99,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      acid: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.VerySlightly,
+      },
+      alkali: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.VerySlightly,
+      },
+    },
+  },
+
+  AluminumOxide2: {
+    name: 'Aluminum oxide (corundum)',
+    formula: 'Al2O3',
+    formulaWeight: 101.96,
+    color: { nature: Colors.White, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: CrystallineForms.Trigonal,
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: 1.768,
+    specificGravity: {
+      value: 4.0,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      acid: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.VerySlightly,
+      },
+      alkali: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.VerySlightly,
+      },
+    },
+  },
+  AluminumPhosphate: {
+    name: 'Aluminum phosphate',
+    formula: 'AlPO4',
+    formulaWeight: 121.95,
+    color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
+    crystallineForm: {
+      nature: CrystallineForms.Hexagonal,
+      adjective: Adjectives.Empty,
+    },
+    refractiveIndex: NaN,
+    specificGravity: {
+      value: 2.59,
+      substanceTemperature: {
+        value: 20,
+        units: 'C',
+        error: 5,
+        greaterOrLess: 'less',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+        error: 0,
+        greaterOrLess: 'exact',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        adjective: Adjectives.Empty,
+      },
+      acid: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      alkali: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Empty,
+      },
+      aceticAcid: {
+        nature: SolubilityNature.Insoluble,
         adjective: Adjectives.Empty,
       },
     },

@@ -10,7 +10,7 @@ export interface PhysicalProperties {
   color: Qualitative<Colors>;
   crystallineForm: Qualitative<CrystallineForms[] | CrystallineForms>;
   refractiveIndex: number;
-  specificGravity: SpecificGravity;
+  specificGravity?: SpecificGravity;
   meltingOutcomes: MeltingOutcome[];
   boilingOutcomes: MeltingOutcome[];
   solubilitySheet: SolubilitySheet;

@@ -734,6 +734,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
     },
   },
+
   AluminumPhosphate: {
     name: 'Aluminum phosphate',
     formula: 'AlPO4',

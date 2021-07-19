@@ -419,8 +419,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumFluoride1: {
-    name: 'Aluminum fluoride(fluellite)',
+  FluelliteAluminumFluoride: {
+    name: 'Aluminum fluoride (fluellite)',
     formula: 'AlF3.H20',
     formulaWeight: 101.99,
     color: { nature: Colors.Colorless, adjective: Adjectives.Empty },
@@ -455,7 +455,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AluminumFluoride2: {
+  AluminumFluoride: {
     name: 'Aluminum fluoride',
     formula: 'Al2F6.7H2O',
     formulaWeight: 294.06,

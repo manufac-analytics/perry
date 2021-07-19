@@ -6,6 +6,7 @@ export const SolubilityNature = {
   Decomposes: 'decomposes',
   SolubleDecomposes: 'soluble-decomposes',
   Empty: '',
+  Forms: 'forms',
 } as const;
 export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
 
@@ -34,11 +35,13 @@ export interface QuantitativeSolubility {
   gas: boolean;
 }
 
+export interface QualitativeSolubility extends Qualitative<SolubilityNature> {
+  decomposesTo?: string;
+  formsEntity?: string;
+}
+
 export interface SolubilitySheet {
-  coldWater?: Qualitative<SolubilityNature> | QuantitativeSolubility;
-  hotWater?: Qualitative<SolubilityNature> | QuantitativeSolubility;
-  [key: string]:
-    | Qualitative<SolubilityNature>
-    | QuantitativeSolubility
-    | undefined;
+  coldWater?: QualitativeSolubility | QuantitativeSolubility;
+  hotWater?: QualitativeSolubility | QuantitativeSolubility;
+  [key: string]: QualitativeSolubility | QuantitativeSolubility | undefined;
 }

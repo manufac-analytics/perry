@@ -118,22 +118,22 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: '',
     molecularWeight: 906.66,
   },
-  AmmoniumChrome: {
+  AmmoniumChromeAlum: {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 956.69,
   },
-  AmmoniumIron: {
+  AmmoniumIronAlum: {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 964.38,
   },
-  PotassiumAlumKalinite: {
+  PotassiumAlumKaliniteAlum: {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 948.78,
   },
-  PotassiumChrome: {
+  PotassiumChromeAlum: {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 998.81,
@@ -142,5 +142,10 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 916.56,
+  },
+  Ammonia: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 17.03,
   },
 };

@@ -1,12 +1,12 @@
-import { MeltingOutcome } from './melting-point';
-import { SolubilitySheet } from './solubility';
-import { SpecificGravity } from './specific-gravity';
 import {
   Qualitative,
   Colors,
   CrystallineForms,
   Measure,
   MeasureRange,
+  MeltingOutcome,
+  SolubilitySheet,
+  SpecificGravity,
 } from './utils';
 
 export interface PhysicalProperties {

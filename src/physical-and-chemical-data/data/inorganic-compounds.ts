@@ -294,14 +294,9 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'Al2F6.7H2O',
     formulaWeight: 294.06,
     color: { nature: Colors.White },
-    crystallineForms: [
-      {
-        nature: CrystallineForms.Crystalline,
-      },
-      {
-        nature: CrystallineForms.Powder,
-      },
-    ],
+    crystallineForms: {
+      nature: CrystallineForms.CrystallinePowder,
+    },
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {

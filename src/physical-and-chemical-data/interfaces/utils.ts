@@ -46,6 +46,7 @@ export const CrystallineForms = {
   Crystalline: 'crystalline',
   Deliquescent: 'deliquescent',
   DeliquescentCrystal: 'deliquescent-crystal',
+  CrystallinePowder: 'crystalline-powder',
   Hexagonal: 'hexagonal',
   Hygroscopic: 'hygroscopic',
   Monoclinic: 'monoclinic',

@@ -271,8 +271,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlF3.H20',
     formulaWeight: 101.99,
     color: { nature: Colors.Colorless },
-    crystallineForms:
-    {
+    crystallineForms: {
       nature: CrystallineForms.Rhombic,
     },
     refractiveIndex: { value: 1.49 },

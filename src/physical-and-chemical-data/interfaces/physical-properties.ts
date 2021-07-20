@@ -1,13 +1,12 @@
 import {
   Qualitative,
-  Colors,
-  CrystallineForms,
   Measure,
   MeasureRange,
   MeltingOutcome,
   SolubilitySheet,
   SpecificGravity,
 } from './utils';
+import { Colors, CrystallineForms } from './enums';
 
 export interface PhysicalProperties {
   name: string;

@@ -1,7 +1,5 @@
 import { PhysicalProperties } from '../interfaces/physical-properties';
-import { SolubilityNature } from '../interfaces/solubility';
-import { SpecificGravityReference } from '../interfaces/specific-gravity';
-import { Adjectives, Colors, CrystallineForms } from '../interfaces/utils';
+import { Adjectives, Colors, CrystallineForms, SolubilityNature, SpecificGravityReference } from '../interfaces/enums';
 
 export const InorganicCompounds: Record<string, PhysicalProperties> = {
   Aluminum: {

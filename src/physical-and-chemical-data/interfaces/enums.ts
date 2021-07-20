@@ -89,3 +89,12 @@ export const MeasureKind = {
   Approximate: 'approximate',
 } as const;
 export type MeasureKind = typeof MeasureKind[keyof typeof MeasureKind];
+
+export const SolubilityNature = {
+  Insoluble: 'insoluble',
+  Soluble: 'soluble',
+  Decomposes: 'decomposes',
+  SolubleDecomposes: 'soluble-decomposes',
+  Forms: 'forms',
+} as const;
+export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];

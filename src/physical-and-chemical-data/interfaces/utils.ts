@@ -3,6 +3,7 @@ import {
   SpecificGravityReference,
   MeltingNature,
   MeasureKind,
+  SolubilityNature,
 } from './enums';
 
 export interface Qualitative<T> {
@@ -72,15 +73,6 @@ export interface SpecificGravity {
   reference: SpecificGravityReference;
   referenceTemperature?: Measure;
 }
-
-export const SolubilityNature = {
-  Insoluble: 'insoluble',
-  Soluble: 'soluble',
-  Decomposes: 'decomposes',
-  SolubleDecomposes: 'soluble-decomposes',
-  Forms: 'forms',
-} as const;
-export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
 
 /**
  * Given in parts by weight per 100 parts by weight of the solvent.

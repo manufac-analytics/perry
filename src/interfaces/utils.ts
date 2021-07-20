@@ -115,6 +115,7 @@ export interface DIPPRDensityProps {
   name: string;
   formula: string;
   CAS: string;
+  molecularWeight: number;
   C1: number;
   C2: number;
   C3: number;

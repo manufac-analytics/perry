@@ -4,6 +4,7 @@ export const SolubilityNature = {
   Insoluble: 'insoluble',
   Soluble: 'soluble',
   Decomposes: 'decomposes',
+  SolubleDecomposes: 'soluble-decomposes',
   Forms: 'forms',
 } as const;
 export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];
@@ -28,8 +29,8 @@ export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNa
  * ```
  */
 export interface QuantitativeSolubility {
-  value: number;
-  temperature: Measure;
+  value: number | string;
+  temperature?: Measure;
   gas: boolean;
 }
 

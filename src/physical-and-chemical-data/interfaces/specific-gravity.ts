@@ -39,7 +39,7 @@ export type SpecificGravityReference = typeof SpecificGravityReference[keyof typ
  */
 export interface SpecificGravity {
   value: number;
-  substanceTemperature: Measure;
+  substanceTemperature?: Measure;
   reference: SpecificGravityReference;
-  referenceTemperature: Measure;
+  referenceTemperature?: Measure;
 }

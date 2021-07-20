@@ -9,7 +9,6 @@ export const Adjectives = {
   Stable: 'stable',
   Unstable: 'unstable',
   FairlyStable: 'fairly-stable',
-  Empty: '',
 } as const;
 export type Adjectives = typeof Adjectives[keyof typeof Adjectives];
 
@@ -46,6 +45,8 @@ export const CrystallineForms = {
   Cubic: 'cubic',
   Crystalline: 'crystalline',
   Deliquescent: 'deliquescent',
+  DeliquescentCrystal: 'deliquescent-crystal',
+  CrystallinePowder: 'crystalline-powder',
   Hexagonal: 'hexagonal',
   Hygroscopic: 'hygroscopic',
   Monoclinic: 'monoclinic',
@@ -66,19 +67,19 @@ export type CrystallineForms = typeof CrystallineForms[keyof typeof CrystallineF
 
 export interface Qualitative<T> {
   nature: T;
-  adjective: Adjectives;
+  adjective?: Adjectives;
 }
 
 export interface Measure {
   value: number;
-  units: string;
-  error: number;
-  greaterOrLess: 'greater' | 'less' | 'exact' | 'approximate';
+  units?: string;
+  error?: number;
+  greaterOrLess?: 'greater' | 'less' | 'approximate';
 }
 
 export interface MeasureRange {
   min: Measure;
   max: Measure;
-  includeMin: boolean;
-  includeMax: boolean;
+  includeMin?: boolean;
+  includeMax?: boolean;
 }

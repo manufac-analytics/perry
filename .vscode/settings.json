@@ -1,6 +1,6 @@
 {
-    "conventionalCommits.gitmoji": false,
-    "conventionalCommits.promptFooter": false,
-    "conventionalCommits.promptScopes": false,
-    "editor.formatOnSave": true
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.promptFooter": false,
+  "conventionalCommits.promptScopes": false,
+  "editor.formatOnSave": true
 }

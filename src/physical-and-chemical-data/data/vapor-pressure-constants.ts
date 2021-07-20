@@ -1,4 +1,4 @@
-import { DIPPRVaporPressureProps } from '../interfaces/vapor-pressure';
+import { DIPPRVaporPressureProps } from '../interfaces/utils';
 
 export const DIPPRVaporPressureDictionary: Record<
   string,
@@ -34,9 +34,9 @@ export function calculateDIPPRVaporPressure(
   ) {
     vaporPressure = Math.exp(
       vaporPressureProps.C1 +
-        vaporPressureProps.C2 / temperature +
-        vaporPressureProps.C3 * Math.log(temperature) +
-        vaporPressureProps.C4 * Math.pow(temperature, vaporPressureProps.C5)
+      vaporPressureProps.C2 / temperature +
+      vaporPressureProps.C3 * Math.log(temperature) +
+      vaporPressureProps.C4 * Math.pow(temperature, vaporPressureProps.C5)
     );
   }
   return vaporPressure;

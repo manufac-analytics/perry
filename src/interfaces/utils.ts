@@ -88,8 +88,7 @@ export interface MeltingOutcome extends TemperaturePressureCombo {
 }
 
 /**
- * Vapor pressure Ps is calculated by Ps = exp(C1 + C2/T + C3 ln(T) + C4T C5),
- * where Ps is in Pa and T is in K.
+ * Vapor pressure `Ps` is calculated by `Ps = exp(C1 + C2/T + C3 ln(T) + C4*T^C5)`, where `Ps` is in `Pa` and `T` is in `K`.
  */
 export interface DIPPRVaporPressureProps {
   name: string;
@@ -107,7 +106,7 @@ export interface DIPPRVaporPressureProps {
 }
 
 /**
- * - Except for o-terphenyl and water, liquid density is calculated by `rho = C1/(C2^[1 + (1 – T/C3)^C4])` where `rho` is in `mol/dm3` and `T` is in `K`. 
+ * - Except for o-terphenyl and water, liquid density is calculated by `rho = C1/(C2^[1 + (1 – T/C3)^C4])` where `rho` is in `mol/dm3` and `T` is in `K`.
  * - The pressure is equal to the vapor pressure for pressures greater than 1 atm and equal to 1 atm when the vapor pressure is less than 1 atm.
  * - Equation used for the limited temperature ranges as noted for o-terphenyl and water, is `rho = C1 + C2*T + C3*T^2 + C4*T^3`.
  * - Equation used for water, is `rho = C1 + C2*(tau^1/3) + C3*(tau^2/3) + C4*(tau^5/3) + C5*(tau^16/3) + C6*(tau^43/3) + C7*(tau^110/3)` where `tau = 1 − T/TC`, and `TC = critical temperature (647.096 K)`.

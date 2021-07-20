@@ -142,5 +142,5 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 916.56,
-  }
+  },
 };

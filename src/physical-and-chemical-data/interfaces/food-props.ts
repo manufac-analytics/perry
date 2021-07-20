@@ -7,6 +7,7 @@ export interface FoodProps {
   name: string;
   CASNumber: string;
   id: string;
+  formula: string;
   SMILES: string;
   molarWeight: number;
   criticalTemperature: number;
@@ -104,7 +105,7 @@ export interface FoodProps {
   blackOilGOR: number;
   blackOilBSW: number;
   blackOilSGG: number;
-  blackOilSG0: number;
+  blackOilSGO: number;
   blackOilViscosity1: number;
   blackOilViscosity2: number;
   blackOilViscosityTemperature1: number;

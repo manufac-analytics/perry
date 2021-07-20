@@ -633,7 +633,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     crystallineForms: {
       nature: CrystallineForms.Crystalline,
     },
-    refractiveIndex: { value: 1.529 },
     specificGravity: {
       value: 2.71,
       reference: SpecificGravityReference.Water,
@@ -662,7 +661,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
 
   Alum: {
     name: 'Alum, ammonium (tschermigite)',
-    formula: 'Al2(SO4)3.(NH4)2SO4.',
+    formula: 'Al2(SO4)3.(NH4)2SO4.24H20',
     formulaWeight: 906.66,
     color: { nature: Colors.Colorless },
     crystallineForms: {
@@ -700,19 +699,19 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
           units: 'C',
         },
       },
-      acid: {
-        nature: SolubilityNature.Decomposes,
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Insoluble,
       },
     },
   },
 
   AmmoniumChrome: {
-    name: 'ammonium chrome',
+    name: 'Ammonium chrome',
     formula: 'Cr2(SO4)3.(NH4)2SO4.24H2O',
     formulaWeight: 956.69,
     color: [
       {
-        nature: Colors.Green, // Color is given Green or Violet Please see if you like this structure or suggest something else
+        nature: Colors.Green,
       },
       {
         nature: Colors.Violet,
@@ -745,7 +744,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AmmoniumIron: {
-    name: 'ammonium iron',
+    name: 'Ammonium iron',
     formula: 'Fe2(SO4)3.(NH4)2SO4⋅24H2O',
     formulaWeight: 964.38,
     color: {
@@ -778,7 +777,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AmmoniumPotassium: {
-    name: 'ammonium potassium (kalnite)',
+    name: 'Ammonium potassium (kalinite)',
     formula: 'Al2(SO4)3.K2SO4.24H2O',
     formulaWeight: 948.78,
     color: {
@@ -824,8 +823,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AmmoniumPotassiumChrome: {
-    name: 'ammonium potassium chrome',
+  PotassiumChrome: {
+    name: 'Potassium chrome',
     formula: 'Cr2(SO4)3.K2SO4.24H2O',
     formulaWeight: 998.81,
     color: [
@@ -864,7 +863,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AmmoniumSodium: {
-    name: 'ammonium sodium',
+    name: 'Ammonium sodium',
     formula: 'Al2(SO4)3.Na2SO4.24H2O',
     formulaWeight: 916.56,
     color: {

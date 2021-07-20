@@ -148,7 +148,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AluminumCarbide: {
-    name: 'Aluminum carbidde',
+    name: 'Aluminum carbide',
     formula: 'Al4C3',
     formulaWeight: 143.96,
     color: { nature: Colors.Yellow },
@@ -158,31 +158,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     refractiveIndex: { value: 2.7 },
     specificGravity: {
       value: 2.95,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
       reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-      },
     },
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Decomposes,
-
-        value: 'CH4',
-        temperature: {
-          value: NaN,
-          units: 'C',
-
-          greaterOrLess: 'less',
-        },
+        decomposesTo: 'CH4'
       },
       acid: {
         nature: SolubilityNature.Soluble,

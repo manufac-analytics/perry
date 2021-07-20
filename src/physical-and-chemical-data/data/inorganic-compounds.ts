@@ -558,7 +558,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlK(C4H4O6)2',
     formulaWeight: 362.22,
     color: { nature: Colors.Colorless },
-    refractiveIndex: { value: 1.59 },
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {

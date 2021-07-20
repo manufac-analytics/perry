@@ -113,4 +113,34 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: '',
     molecularWeight: 342.15,
   },
+  AmmoniumAlumTschermigite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 906.66,
+  },
+  AmmoniumChrome: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 956.69,
+  },
+  AmmoniumIron: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 964.38,
+  },
+  PotassiumAlumKalinite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 948.78,
+  },
+  PotassiumChrome: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 998.81,
+  },
+  SodiumAlum: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 916.56,
+  }
 };

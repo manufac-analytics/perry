@@ -17,7 +17,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   },
   oTerphenyl: {
     name: 'o-Terphenyl',
-    formula: 'H2O',
+    formula: 'C18H14',
     CAS: '84-15-1',
     molecularWeight: 230.30376,
     C1: 5.7136,
@@ -31,7 +31,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   },
   oTerphenylExtended: {
     name: 'o-Terphenyl',
-    formula: 'H2O',
+    formula: 'C18H14',
     CAS: '84-15-1',
     molecularWeight: 230.30376,
     C1: 0.3448,
@@ -76,6 +76,61 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   },
 };
 
+function calculateDIPPRDensityForOTerphenyl(temperature: number): number {
+  const densityProps = DIPPRDensityDictionary['oTerphenyl'];
+  const densityPropsExtended = DIPPRDensityDictionary['oTerphenylExtended'];
+  let density = NaN;
+  if (
+    temperature >= densityProps.minimumTemperature &&
+    temperature <= densityProps.maximumTemperature
+  ) {
+    density =
+      densityProps.C1 +
+      densityProps.C2 * temperature +
+      densityProps.C3 * Math.pow(temperature, 2) +
+      densityProps.C4 * Math.pow(temperature, 3);
+  } else if (
+    temperature >= densityPropsExtended.minimumTemperature &&
+    temperature <= densityPropsExtended.maximumTemperature
+  ) {
+    const exponent =
+      1 + Math.pow(1 - temperature / densityProps.C3, densityProps.C4);
+    density = densityProps.C1 / Math.pow(densityProps.C2, exponent);
+  }
+  return density;
+}
+
+function calculateDIPPRDensityForWater(temperature: number): number {
+  const densityProps = DIPPRDensityDictionary['Water'];
+  const densityPropsExtended = DIPPRDensityDictionary['WaterExtended'];
+  let density = NaN;
+  if (
+    temperature >= densityProps.minimumTemperature &&
+    temperature <= densityProps.maximumTemperature
+  ) {
+    density =
+      densityProps.C1 +
+      densityProps.C2 * temperature +
+      densityProps.C3 * Math.pow(temperature, 2) +
+      densityProps.C4 * Math.pow(temperature, 3);
+  } else if (
+    temperature >= densityPropsExtended.minimumTemperature &&
+    temperature <= densityPropsExtended.maximumTemperature
+  ) {
+    const criticalTemperature = 647.096;
+    const tau = 1 - temperature / criticalTemperature;
+    density =
+      densityProps.C1 +
+      densityProps.C2 * Math.pow(tau, 1 / 3) +
+      densityProps.C3 * Math.pow(tau, 2 / 3) +
+      densityProps.C4 * Math.pow(tau, 5 / 3) +
+      (densityProps.C5 as number) * Math.pow(tau, 16 / 3) +
+      (densityProps.C6 as number) * Math.pow(tau, 43 / 3) +
+      (densityProps.C7 as number) * Math.pow(tau, 110 / 3);
+  }
+  return density;
+}
+
 export function calculateDIPPRDensity(
   compound: string,
   temperature: number
@@ -83,7 +138,11 @@ export function calculateDIPPRDensity(
   const densityProps: DIPPRDensityProps | undefined =
     DIPPRDensityDictionary[compound];
   let density = NaN;
-  if (
+  if (compound === 'Water') {
+    density = calculateDIPPRDensityForWater(temperature);
+  } else if (compound === 'oTerphenyl') {
+    density = calculateDIPPRDensityForOTerphenyl(temperature);
+  } else if (
     densityProps !== undefined &&
     temperature >= densityProps.minimumTemperature &&
     temperature <= densityProps.maximumTemperature

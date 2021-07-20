@@ -171,7 +171,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AmmoniumCarbonate: {
     inchiString: '',
     inchiKey: '',
-    molecularWeight: 114.10,
+    molecularWeight: 114.1,
   },
   AmmoniumCarbonateCarbamate: {
     inchiString: '',
@@ -201,7 +201,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AmmoniumChlorostannate: {
     inchiString: '',
     inchiKey: '',
-    molecularWeight: 367.50,
+    molecularWeight: 367.5,
   },
   AmmoniumChromate: {
     inchiString: '',
@@ -296,7 +296,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AmmoniumPersulfate: {
     inchiString: '',
     inchiKey: '',
-    molecularWeight: 228.20,
+    molecularWeight: 228.2,
   },
   AmmoniumMonobasicphosphate: {
     inchiString: '',

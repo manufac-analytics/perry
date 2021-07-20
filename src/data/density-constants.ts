@@ -84,18 +84,19 @@ function calculateDIPPRDensityForOTerphenyl(temperature: number): number {
     temperature >= densityProps.minimumTemperature &&
     temperature <= densityProps.maximumTemperature
   ) {
-    density =
-      densityProps.C1 +
-      densityProps.C2 * temperature +
-      densityProps.C3 * Math.pow(temperature, 2) +
-      densityProps.C4 * Math.pow(temperature, 3);
+    density = densityProps.C1 + densityProps.C2 * temperature;
   } else if (
     temperature >= densityPropsExtended.minimumTemperature &&
     temperature <= densityPropsExtended.maximumTemperature
   ) {
     const exponent =
-      1 + Math.pow(1 - temperature / densityProps.C3, densityProps.C4);
-    density = densityProps.C1 / Math.pow(densityProps.C2, exponent);
+      1 +
+      Math.pow(
+        1 - temperature / densityPropsExtended.C3,
+        densityPropsExtended.C4
+      );
+    density =
+      densityPropsExtended.C1 / Math.pow(densityPropsExtended.C2, exponent);
   }
   return density;
 }
@@ -115,7 +116,7 @@ function calculateDIPPRDensityForWater(temperature: number): number {
       densityProps.C4 * Math.pow(temperature, 3);
   } else if (
     temperature >= densityPropsExtended.minimumTemperature &&
-    temperature <= densityPropsExtended.maximumTemperature
+    temperature < densityPropsExtended.maximumTemperature
   ) {
     const criticalTemperature = 647.096;
     const tau = 1 - temperature / criticalTemperature;
@@ -127,6 +128,10 @@ function calculateDIPPRDensityForWater(temperature: number): number {
       (densityProps.C5 as number) * Math.pow(tau, 16 / 3) +
       (densityProps.C6 as number) * Math.pow(tau, 43 / 3) +
       (densityProps.C7 as number) * Math.pow(tau, 110 / 3);
+  } else if (
+    Math.abs(temperature - densityPropsExtended.maximumTemperature) < 1e-4
+  ) {
+    density = densityPropsExtended.densityAtMaximumTemperature;
   }
   return density;
 }

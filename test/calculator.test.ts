@@ -61,4 +61,75 @@ describe('calculateDIPPRDensity', () => {
       calculateDIPPRDensity('Acetaldehyde', densityProps.maximumTemperature)
     ).toBeCloseTo(densityProps.densityAtMaximumTemperature, 3);
   });
+
+  it('should return NaN outside the specified range of temperature for water', () => {
+    const densityProps = DIPPRDensityDictionary['Water'];
+    const densityPropsExtended = DIPPRDensityDictionary['WaterExtended'];
+    expect(
+      calculateDIPPRDensity(
+        'Water',
+        Math.min(
+          densityProps.minimumTemperature,
+          densityPropsExtended.minimumTemperature
+        ) - 1
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRDensity(
+        'Water',
+        Math.max(
+          densityProps.maximumTemperature,
+          densityPropsExtended.maximumTemperature
+        ) + 1
+      )
+    ).toBe(NaN);
+  });
+
+  it('should return correct density at Tmin and Tmax for water', () => {
+    const densityProps = DIPPRDensityDictionary['Water'];
+    const densityPropsExtended = DIPPRDensityDictionary['WaterExtended'];
+    expect(
+      calculateDIPPRDensity('Water', densityProps.minimumTemperature)
+    ).toBeCloseTo(densityProps.densityAtMinimumTemperature, 3);
+    expect(
+      calculateDIPPRDensity('Water', densityPropsExtended.maximumTemperature)
+    ).toBeCloseTo(densityPropsExtended.densityAtMaximumTemperature, 3);
+  });
+
+  it('should return NaN outside the specified range of temperature for o-terphenyl', () => {
+    const densityProps = DIPPRDensityDictionary['oTerphenyl'];
+    const densityPropsExtended = DIPPRDensityDictionary['oTerphenylExtended'];
+    expect(
+      calculateDIPPRDensity(
+        'oTerphenyl',
+        Math.min(
+          densityProps.minimumTemperature,
+          densityPropsExtended.minimumTemperature
+        ) - 1
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRDensity(
+        'oTerphenyl',
+        Math.max(
+          densityProps.maximumTemperature,
+          densityPropsExtended.maximumTemperature
+        ) + 1
+      )
+    ).toBe(NaN);
+  });
+
+  it('should return correct density at Tmin and Tmax for o-terphenyl', () => {
+    const densityProps = DIPPRDensityDictionary['oTerphenyl'];
+    const densityPropsExtended = DIPPRDensityDictionary['oTerphenylExtended'];
+    expect(
+      calculateDIPPRDensity('oTerphenyl', densityProps.minimumTemperature)
+    ).toBeCloseTo(densityProps.densityAtMinimumTemperature, 3);
+    expect(
+      calculateDIPPRDensity(
+        'oTerphenyl',
+        densityPropsExtended.maximumTemperature
+      )
+    ).toBeCloseTo(densityPropsExtended.densityAtMaximumTemperature, 3);
+  });
 });

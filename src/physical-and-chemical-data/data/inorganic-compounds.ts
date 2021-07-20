@@ -531,7 +531,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  OrthoClaseAluminumPottasiumSilicate: {
+  OrthoclaseAluminumPottasiumSilicate: {
     name: 'Aluminum potassium silicate (orthoclase)',
     formula: 'Al2O3.K2O.6SiO2',
     formulaWeight: 556.66,

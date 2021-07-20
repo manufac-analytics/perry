@@ -313,4 +313,64 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: '',
     molecularWeight: 388.04,
   },
+  AmmoniumPhosphomolybdate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 1930.39,
+  },
+  AmmoniumSilicofluoride: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 178.15,
+  },
+  AmmoniumSulfamate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 114.12,
+  },
+  AmmoniumSulfateMascagnite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 132.14,
+  },
+  AmmoniumSulfateAcid: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 115.11,
+  },
+  AmmoniumSulfide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 68.14,
+  },
+  AmmoniumPentasulfide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 196.40,
+  },
+  AmmoniumSulfite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 134.16,
+  },
+  AmmoniumSulfiteAcid: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 99.11,
+  },
+  AmmoniumTartrate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 184.15,
+  },
+  AmmoniumThiocyanate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 76.12,
+  },
+  AmmoniumMetavanadate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 116.98,
+  },
 };

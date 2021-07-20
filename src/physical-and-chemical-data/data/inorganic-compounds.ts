@@ -271,28 +271,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlF3.H20',
     formulaWeight: 101.99,
     color: { nature: Colors.Colorless },
-    crystallineForms: [
-      {
-        nature: CrystallineForms.Rhombic,
-      },
-      {
-        nature: CrystallineForms.Hexagonal,
-      },
-    ],
+    crystallineForms:
+    {
+      nature: CrystallineForms.Rhombic,
+    },
     refractiveIndex: { value: 1.49 },
     specificGravity: {
       value: 2.17,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
       reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-      },
     },
     meltingOutcomes: [],
     boilingOutcomes: [],

@@ -126,27 +126,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     formula: 'AlBr3.6H2O',
     formulaWeight: 374.78,
     color: { nature: Colors.Colorless },
-    crystallineForms: [
-      {
-        nature: CrystallineForms.Crystalline,
-      },
-      {
-        nature: CrystallineForms.Deliquescent,
-      },
-    ],
-    specificGravity: {
-      value: NaN,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
-      reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-      },
+    crystallineForms: {
+      nature: CrystallineForms.DeliquescentCrystal,
     },
     meltingOutcomes: [],
     boilingOutcomes: [],
@@ -380,20 +361,6 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         nature: CrystallineForms.Powder,
       },
     ],
-    specificGravity: {
-      value: NaN,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
-      reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-      },
-    },
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {

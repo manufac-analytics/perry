@@ -87,4 +87,5 @@ export interface MeasureRange {
 export interface INCHIProps {
   inchiString: string;
   inchiKey: string;
+  molecularWeight: number;
 }

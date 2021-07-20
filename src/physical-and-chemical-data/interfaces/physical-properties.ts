@@ -13,8 +13,8 @@ export interface PhysicalProperties {
   name: string;
   formula: string;
   formulaWeight: number;
-  color?: Qualitative<Colors>;
-  crystallineForms:
+  color?: Qualitative<Colors>[] | Qualitative<Colors>;
+  crystallineForms?:
     | Qualitative<CrystallineForms>[]
     | Qualitative<CrystallineForms>;
   refractiveIndex?: Measure | MeasureRange;

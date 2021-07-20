@@ -245,30 +245,12 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
     ],
     refractiveIndex: { value: 1.56 },
-    specificGravity: {
-      value: NaN,
-      substanceTemperature: {
-        value: 20,
-        units: 'C',
-        error: 5,
-        greaterOrLess: 'less',
-      },
-      reference: SpecificGravityReference.Water,
-      referenceTemperature: {
-        value: 0,
-        units: 'C',
-      },
-    },
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
         value: 400,
-        temperature: {
-          value: NaN,
-          units: 'C',
-        },
         gas: false,
       },
       hotWater: {
@@ -278,13 +260,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       ethylAlcohol50percent: {
         nature: SolubilityNature.Soluble,
       },
-      chloroform: {
-        nature: SolubilityNature.Soluble,
-      },
-      ethyl: {
-        nature: SolubilityNature.Soluble,
-      },
-      ether: {
+      ethylEther: {
         nature: SolubilityNature.Soluble,
       },
     },

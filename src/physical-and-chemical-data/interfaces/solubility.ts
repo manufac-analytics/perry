@@ -30,7 +30,7 @@ export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNa
  */
 export interface QuantitativeSolubility {
   value: number | string;
-  temperature: Measure;
+  temperature?: Measure;
   gas: boolean;
 }
 

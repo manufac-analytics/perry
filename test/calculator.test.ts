@@ -55,16 +55,10 @@ describe('calculateDIPPRDensity', () => {
   it('should return correct density at Tmin and Tmax', () => {
     const densityProps = DIPPRDensityDictionary['Acetaldehyde'];
     expect(
-      calculateDIPPRDensity(
-        'Acetaldehyde',
-        densityProps.minimumTemperature
-      )
+      calculateDIPPRDensity('Acetaldehyde', densityProps.minimumTemperature)
     ).toBeCloseTo(densityProps.densityAtMinimumTemperature, 3);
     expect(
-      calculateDIPPRDensity(
-        'Acetaldehyde',
-        densityProps.maximumTemperature
-      )
+      calculateDIPPRDensity('Acetaldehyde', densityProps.maximumTemperature)
     ).toBeCloseTo(densityProps.densityAtMaximumTemperature, 3);
   });
 });

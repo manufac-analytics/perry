@@ -5,7 +5,6 @@ export const SolubilityNature = {
   Soluble: 'soluble',
   Decomposes: 'decomposes',
   SolubleDecomposes: 'soluble-decomposes',
-  Empty: '',
   Forms: 'forms',
 } as const;
 export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];

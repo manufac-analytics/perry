@@ -216,10 +216,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       hotWater: {
         nature: SolubilityNature.SolubleDecomposes,
       },
-      ethyl: {
-        nature: SolubilityNature.Soluble,
-      },
-      ether: {
+      ethylEther: {
         nature: SolubilityNature.Soluble,
       },
       chloroform: {

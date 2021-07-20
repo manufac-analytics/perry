@@ -83,3 +83,8 @@ export interface MeasureRange {
   includeMin?: boolean;
   includeMax?: boolean;
 }
+
+export interface INCHIProps {
+  inchiString: string;
+  inchiKey: string;
+}

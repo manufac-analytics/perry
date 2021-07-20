@@ -552,6 +552,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
     },
   },
+
   AluminumPottasiumTartrate: {
     name: 'Aluminum potassium tartrate',
     formula: 'AlK(C4H4O6)2',
@@ -598,7 +599,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AluminumSodiumSilicate: {
-    name: 'Aluminum sodium silicate ',
+    name: 'Aluminum sodium silicate',
     formula: 'Al2O3.Na2O.6SiO2',
     formulaWeight: 524.44,
     color: { nature: Colors.Colorless },
@@ -626,7 +627,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
   },
 
   AluminumSulfate: {
-    name: 'Aluminum sulfate ',
+    name: 'Aluminum sulfate',
     formula: 'Al2(SO4)3',
     formulaWeight: 342.15,
     color: { nature: Colors.White },

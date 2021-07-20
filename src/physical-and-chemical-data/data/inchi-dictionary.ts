@@ -148,4 +148,169 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: '',
     molecularWeight: 17.03,
   },
+  AmmoniumAcetate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 77.08,
+  },
+  AmmoniumAuricyanide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 337.09,
+  },
+  AmmoniumBicarbonate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 79.06,
+  },
+  AmmoniumBromide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 97.94,
+  },
+  AmmoniumCarbonate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 114.10,
+  },
+  AmmoniumCarbonateCarbamate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 157.13,
+  },
+  AmmoniumCarbonateSesqui: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 272.21,
+  },
+  AmmoniumChlorideSalammoniac: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 53.49,
+  },
+  AmmoniumChloroplatinate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 443.87,
+  },
+  AmmoniumChloroplatinite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 372.97,
+  },
+  AmmoniumChlorostannate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 367.50,
+  },
+  AmmoniumChromate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 152.07,
+  },
+  AmmoniumCyanide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 44.06,
+  },
+  AmmoniumDichromate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 252.06,
+  },
+  AmmoniumFerrocyanide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 392.19,
+  },
+  AmmoniumFluoride: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 37.04,
+  },
+  AmmoniumFluorideAcid: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 57.04,
+  },
+  AmmoniumFormate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 63.06,
+  },
+  AmmoniumHydrosulfide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 51.11,
+  },
+  AmmoniumHydroxide: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 35.05,
+  },
+  AmmoniumMolybdate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 196.01,
+  },
+  AmmoniumHeptamolybdate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 1235.86,
+  },
+  AmmoniumNitrateAlpha: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 80.04,
+  },
+  AmmoniumNitrateBeta: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 80.04,
+  },
+  AmmoniumNitrite: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 64.04,
+  },
+  AmmoniumOsmochloride: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 439.02,
+  },
+  AmmoniumOxalate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 142.11,
+  },
+  AmmoniumOxalateAcid: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 125.08,
+  },
+  AmmoniumPerchlorate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 117.49,
+  },
+  AmmoniumPersulfate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 228.20,
+  },
+  AmmoniumMonobasicphosphate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 115.03,
+  },
+  AmmoniumDibasicphosphate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 132.06,
+  },
+  AmmoniumMetaphosphate: {
+    inchiString: '',
+    inchiKey: '',
+    molecularWeight: 388.04,
+  },
 };

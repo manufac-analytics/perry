@@ -1,7 +1,7 @@
 import {
   calculateDIPPRVaporPressure,
   DIPPRVaporPressureDictionary,
-} from '../src/physical-and-chemical-data/data/vapor-pressure-constants';
+} from '../src/data/vapor-pressure-constants';
 
 describe('calculateDIPPRVaporPressure', () => {
   it('should return NaN outside the specified range of temperature', () => {

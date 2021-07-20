@@ -165,7 +165,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Decomposes,
-        decomposesTo: 'CH4'
+        decomposesTo: 'CH4',
       },
       acid: {
         nature: SolubilityNature.Soluble,

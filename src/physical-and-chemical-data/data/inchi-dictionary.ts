@@ -346,7 +346,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AmmoniumPentasulfide: {
     inchiString: '',
     inchiKey: '',
-    molecularWeight: 196.40,
+    molecularWeight: 196.4,
   },
   AmmoniumSulfite: {
     inchiString: '',

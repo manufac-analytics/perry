@@ -55,7 +55,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AluminumHydroxide: {
     inchiString: 'InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3',
     inchiKey: 'WNROFYMDJYEPJX-UHFFFAOYSA-K',
-    molecularWeight: 78.00,
+    molecularWeight: 78.0,
   },
   AluminumNitrateNonahydrate: {
     inchiKey: 'SWCIQHXIXUMHKA-UHFFFAOYSA-N',
@@ -112,5 +112,5 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiString: '',
     inchiKey: '',
     molecularWeight: 342.15,
-  }
+  },
 };

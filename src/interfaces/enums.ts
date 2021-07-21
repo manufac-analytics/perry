@@ -65,21 +65,36 @@ export const CrystallineForms = {
 } as const;
 export type CrystallineForms = typeof CrystallineForms[keyof typeof CrystallineForms];
 
-export interface Qualitative<T> {
-  nature: T;
-  adjective?: Adjectives;
-}
+export const SpecificGravityReference = {
+  Water: 'water',
+  Air: 'air',
+  Hydrogen: 'hydrogen',
+} as const;
+export type SpecificGravityReference = typeof SpecificGravityReference[keyof typeof SpecificGravityReference];
 
-export interface Measure {
-  value: number | number[];
-  units?: string;
-  error?: number;
-  greaterOrLess?: 'greater' | 'less' | 'approximate';
-}
+export const MeltingNature = {
+  Decomposes: 'decomposes',
+  Sublimes: 'sublimes',
+  Explodes: 'explodes',
+  Melts: 'melts',
+  Looses: 'looses',
+  Transitions: 'transitions',
+  Deliquesces: 'deliquesces',
+} as const;
+export type MeltingNature = typeof MeltingNature[keyof typeof MeltingNature];
 
-export interface MeasureRange {
-  min: Measure;
-  max: Measure;
-  includeMin?: boolean;
-  includeMax?: boolean;
-}
+export const MeasureKind = {
+  Greater: 'greater',
+  Less: 'less',
+  Approximate: 'approximate',
+} as const;
+export type MeasureKind = typeof MeasureKind[keyof typeof MeasureKind];
+
+export const SolubilityNature = {
+  Insoluble: 'insoluble',
+  Soluble: 'soluble',
+  Decomposes: 'decomposes',
+  SolubleDecomposes: 'soluble-decomposes',
+  Forms: 'forms',
+} as const;
+export type SolubilityNature = typeof SolubilityNature[keyof typeof SolubilityNature];

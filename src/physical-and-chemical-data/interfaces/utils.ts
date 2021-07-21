@@ -71,7 +71,7 @@ export interface Qualitative<T> {
 }
 
 export interface Measure {
-  value: number;
+  value: number | number[];
   units?: string;
   error?: number;
   greaterOrLess?: 'greater' | 'less' | 'approximate';

@@ -12,7 +12,7 @@ export interface Qualitative<T> {
 }
 
 export interface Measure {
-  value: number | number[];
+  value: number;
   units?: string;
   error?: number;
   greaterOrLess?: MeasureKind;

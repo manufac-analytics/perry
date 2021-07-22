@@ -1237,7 +1237,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       nature: CrystallineForms.Cubic,
     },
 
-    refractiveIndex: { value: [1.639, 1.6426] },
+    refractiveIndex: [{ value: 1.639 }, { value: 1.6426 }],
     specificGravity: {
       value: 1.53,
       substanceTemperature: {

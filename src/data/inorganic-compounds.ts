@@ -1012,8 +1012,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AmmoniumAcetateAuricyanide: {
-    name: 'Ammonium acetate',
+  AmmoniumAuricyanide: {
+    name: 'Ammonium auricyanide',
     formula: 'NH4CN⋅Au(CN)3⋅H2O',
     formulaWeight: 337.09,
     crystallineForms: {
@@ -1035,8 +1035,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AmmoniumAcetateBicarbonate: {
-    name: 'Ammonium acetate bicarbonate',
+  AmmoniumBicarbonate: {
+    name: 'Ammonium bicarbonate',
     formula: 'NH4HCO3',
     formulaWeight: 79.06,
     crystallineForms: [
@@ -1079,8 +1079,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AmmoniumAcetateBromide: {
-    name: 'Ammonium acetate bromide',
+  AmmoniumBromide: {
+    name: 'Ammonium bromide',
     formula: 'NH4Br',
     formulaWeight: 97.94,
     color: { nature: Colors.Colorless },
@@ -1134,15 +1134,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  AmmoniumAcetateCarbonate: {
-    name: 'Ammonium acetate carbonate',
+  AmmoniumCarbonate: {
+    name: 'Ammonium carbonate',
     formula: '(NH4)2CO3.H2O',
     formulaWeight: 114.1,
     color: { nature: Colors.Colorless },
     crystallineForms: {
       nature: CrystallineForms.Plates,
     },
-
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
@@ -1167,8 +1166,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  CarbamateAmmoniumAcetateCarbonate: {
-    name: 'Ammonium acetate carbonate, carbamate',
+  AmmoniumCarbamate: {
+    name: 'Ammonium  carbonate, carbamate',
     formula: 'NH4HCO3⋅NH2CO2NH4',
     formulaWeight: 157.13,
     color: { nature: Colors.White },
@@ -1199,7 +1198,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     },
   },
 
-  SesquiAmmoniumAcetateCarbonate: {
+  SesquiAmmoniumCarbonate: {
     name: 'Ammonium acetate carbonate, sesqui-',
     formula: '(NH4)2CO3.2NH4HCO3.H2O',
     formulaWeight: 272.21,

@@ -48,6 +48,51 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMinimumTemperature: 591.95,
     pressureAtMaximumTemperature: 5.739e6,
   },
+
+  AceticAnhydride: {
+    name: 'Acetic anhydride',
+    formula: 'C2H4O2',
+    CAS: '108-24-7',
+    C1: 67.181,
+    C2: -746.47,
+    C3: -6.24,
+    C4: 6.86e-18,
+    C5: 6,
+    minimumTemperature: 200.15,
+    maximumTemperature: 4.1e2,
+    pressureAtMinimumTemperature: 606,
+    pressureAtMaximumTemperature: 4.0e6,
+  },
+
+  Acetone: {
+    name: 'Acetone',
+    formula: 'C3H6O',
+    CAS: '67-64-1',
+    C1: 69.006,
+    C2: -5599.6,
+    C3: -7.098,
+    C4: 6.223e-6,
+    C5: 2,
+    minimumTemperature: 178.45,
+    maximumTemperature: 2.79,
+    pressureAtMinimumTemperature: 508.2,
+    pressureAtMaximumTemperature: 4.709e6,
+  },
+
+  Acetonitrile: {
+    name: 'Acetonitrile',
+    formula: 'C3H3N',
+    CAS: '75-05-8',
+    C1: 46.735,
+    C2: -5126.18,
+    C3: -3.54,
+    C4: 1.4e-17,
+    C5: 6,
+    minimumTemperature: 178.45,
+    maximumTemperature: 2.79,
+    pressureAtMinimumTemperature: 508.2,
+    pressureAtMaximumTemperature: 4.709e6,
+  },
 } as const;
 
 export function calculateDIPPRVaporPressure(

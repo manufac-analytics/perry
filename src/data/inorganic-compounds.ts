@@ -1325,7 +1325,8 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
       ethylAlcohol95percent: {
         nature: SolubilityNature.Soluble,
-        formsEntity: '0.005 ethylAlcohol95percent',
+        value: 0.005,
+        gas: false,
       },
     },
   },

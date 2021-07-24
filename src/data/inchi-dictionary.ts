@@ -259,7 +259,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiString:
       'InChI=1S/7Mo.6H3N.10H2O.18O/h;;;;;;;6*1H3;10*1H2;;;;;;;;;;;;;;;;;;/q;;;;3*+2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/p-6',
     inchiKey: 'FIXLYHHVMHXSCP-UHFFFAOYSA-H',
-    molecularWeight: 1235.86, // 1235.9 #https://pubchem.ncbi.nlm.nih.gov/compound/16211167
+    molecularWeight: 1235.86,
   },
   AmmoniumNitrateAlpha: {
     inchiString: 'InChI=1S/NO3.H3N/c2-1(3)4;/h;1H3/q-1;/p+1',
@@ -277,10 +277,9 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     molecularWeight: 64.04,
   },
   AmmoniumOsmochloride: {
-    inchiString:
-      'InChI=1S/C25H27N2OS.ClH/c1-3-27(4-2,18-20-12-6-5-7-13-20)19-25(28)26-21-14-8-10-16-23(21)29-24-17-11-9-15-22(24)26;/h5-17H,3-4,18-19H2,1-2H3;1H/q+1;/p-1',
-    inchiKey: 'NHYGCNQDTMCWFF-UHFFFAOYSA-M',
-    molecularWeight: 439.02, // 439 #https://pubchem.ncbi.nlm.nih.gov/compound/59759
+    inchiString: 'InChI=1S/6ClH.2H3N.Os/h6*1H;2*1H3;/q;;;;;;;;+4/p-4',
+    inchiKey: 'SRBXXQDKBKTWOC-UHFFFAOYSA-J',
+    molecularWeight: 439,
   },
   AmmoniumOxalate: {
     inchiString:
@@ -301,7 +300,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
   AmmoniumPersulfate: {
     inchiString:
-      'InChI=1S/2H3N.H2O8S2/c;;1-9(2,3)7-8-10(4,5)6/h2*1H3;(H,1,2,3)(H,4,5,6',
+      'InChI=1S/2H3N.H2O8S2/c;;1-9(2,3)7-8-10(4,5)6/h2*1H3;(H,1,2,3)(H,4,5,6)',
     inchiKey: 'ROOXNKNUYICQNP-UHFFFAOYSA-N',
     molecularWeight: 228.2,
   },

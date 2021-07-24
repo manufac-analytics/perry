@@ -916,4 +916,438 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       },
     },
   },
+
+  Ammonia: {
+    name: 'Ammonia',
+    formula: 'NH3',
+    formulaWeight: 17.03,
+    color: {
+      nature: Colors.Colorless,
+    },
+    crystallineForms: {
+      nature: CrystallineForms.Gas,
+    },
+    refractiveIndex: { value: 1.325, units: 'lq' },
+    specificGravity: [
+      {
+        value: 0.817,
+        substanceTemperature: {
+          value: -79,
+          units: 'C',
+        },
+        reference: SpecificGravityReference.Water,
+      },
+      {
+        value: 0.5971,
+        reference: SpecificGravityReference.Air,
+      },
+    ],
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 89.9,
+        temperature: {
+          value: 0,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble,
+        value: 7.4,
+        temperature: {
+          value: 96,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Soluble,
+        value: 14.8,
+        temperature: {
+          value: 20,
+          units: 'C',
+        },
+      },
+      ethylEther: {
+        nature: SolubilityNature.Soluble,
+      },
+    },
+  },
+
+  AmmoniumAcetate: {
+    name: 'Ammonium acetate',
+    formula: 'NH4C2H3O2',
+    formulaWeight: 77.08,
+    color: {
+      nature: Colors.White,
+    },
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Hygroscopic,
+      },
+      {
+        nature: CrystallineForms.Crystalline,
+      },
+    ],
+    specificGravity: {
+      value: 1.073,
+      reference: SpecificGravityReference.Water,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 148,
+        temperature: {
+          value: 4,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Soluble,
+      },
+      acetone: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Slightly,
+      },
+    },
+  },
+
+  AmmoniumAuricyanide: {
+    name: 'Ammonium auricyanide',
+    formula: 'NH4CN⋅Au(CN)3⋅H2O',
+    formulaWeight: 337.09,
+    crystallineForms: {
+      nature: CrystallineForms.Plates,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Very,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Insoluble,
+      },
+    },
+  },
+
+  AmmoniumBicarbonate: {
+    name: 'Ammonium bicarbonate',
+    formula: 'NH4HCO3',
+    formulaWeight: 79.06,
+    crystallineForms: [
+      {
+        nature: CrystallineForms.Monoclinic,
+      },
+      {
+        nature: CrystallineForms.Rhombic,
+      },
+    ],
+    refractiveIndex: { value: 1.5358 },
+    specificGravity: {
+      value: 1.573,
+      reference: SpecificGravityReference.Water,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 11.9,
+        temperature: {
+          value: 0,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 27,
+        temperature: {
+          value: 30,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Insoluble,
+      },
+    },
+  },
+
+  AmmoniumBromide: {
+    name: 'Ammonium bromide',
+    formula: 'NH4Br',
+    formulaWeight: 97.94,
+    color: { nature: Colors.Colorless },
+    crystallineForms: {
+      nature: CrystallineForms.Cubic,
+    },
+
+    refractiveIndex: { value: 1.7108 },
+    specificGravity: {
+      value: 2.327,
+      substanceTemperature: {
+        value: 15,
+        units: 'C',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 4,
+        units: 'C',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 68,
+        temperature: {
+          value: 10,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 145.6,
+        temperature: {
+          value: 100,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Soluble,
+      },
+      ethylEther: {
+        nature: SolubilityNature.Soluble,
+      },
+      acetone: {
+        nature: SolubilityNature.Soluble,
+      },
+    },
+  },
+
+  AmmoniumCarbonate: {
+    name: 'Ammonium carbonate',
+    formula: '(NH4)2CO3.H2O',
+    formulaWeight: 114.1,
+    color: { nature: Colors.Colorless },
+    crystallineForms: {
+      nature: CrystallineForms.Plates,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble,
+        value: 100,
+        temperature: {
+          value: 15,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Insoluble,
+      },
+      CS2: {
+        nature: SolubilityNature.Insoluble,
+      },
+      NH3: {
+        nature: SolubilityNature.Insoluble,
+      },
+    },
+  },
+
+  AmmoniumCarbamate: {
+    name: 'Ammonium  carbonate, carbamate',
+    formula: 'NH4HCO3⋅NH2CO2NH4',
+    formulaWeight: 157.13,
+    color: { nature: Colors.White },
+    crystallineForms: {
+      nature: CrystallineForms.Crystalline,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble,
+        value: 25,
+        temperature: {
+          value: 15,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble,
+        value: 67,
+        temperature: {
+          value: 65,
+          units: 'C',
+        },
+        gas: false,
+      },
+    },
+  },
+
+  SesquiAmmoniumCarbonate: {
+    name: 'Ammonium acetate carbonate, sesqui-',
+    formula: '(NH4)2CO3.2NH4HCO3.H2O',
+    formulaWeight: 272.21,
+    color: { nature: Colors.White },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble,
+        value: 20,
+        temperature: {
+          value: 15,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble,
+        value: 50,
+        temperature: {
+          value: 49,
+          units: 'C',
+        },
+        gas: false,
+      },
+    },
+  },
+
+  AmmoniumCholride: {
+    name: 'Ammonium chloride (salammoniac)',
+    formula: 'NH4Cl',
+    formulaWeight: 53.49,
+    color: { nature: Colors.White },
+    crystallineForms: {
+      nature: CrystallineForms.Cubic,
+    },
+
+    refractiveIndex: [{ value: 1.639 }, { value: 1.6426 }],
+    specificGravity: {
+      value: 1.53,
+      substanceTemperature: {
+        value: 17,
+        units: 'C',
+      },
+      reference: SpecificGravityReference.Water,
+      referenceTemperature: {
+        value: 0,
+        units: 'C',
+      },
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 29.4,
+        temperature: {
+          value: 0,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 77.3,
+        temperature: {
+          value: 100,
+          units: 'C',
+        },
+        gas: false,
+      },
+      NH3: {
+        nature: SolubilityNature.Soluble,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Slightly,
+      },
+      methylAlcohol: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Slightly,
+      },
+    },
+  },
+
+  AmmoniumHexaChloroplatinate: {
+    name: 'Ammonium chloroplatinate',
+    formula: '(NH4)2PtCl6',
+    formulaWeight: 443.87,
+    color: { nature: Colors.Yellow },
+    crystallineForms: {
+      nature: CrystallineForms.Cubic,
+    },
+    specificGravity: {
+      value: 3.065,
+      reference: SpecificGravityReference.Water,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 0.7,
+        temperature: {
+          value: 15,
+          units: 'C',
+        },
+        gas: false,
+      },
+      hotWater: {
+        nature: SolubilityNature.Insoluble,
+        value: 1.25,
+        temperature: {
+          value: 100,
+          units: 'C',
+        },
+        gas: false,
+      },
+      ethylAlcohol95percent: {
+        nature: SolubilityNature.Soluble,
+        value: 0.005,
+        gas: false,
+      },
+    },
+  },
+
+  AmmoniumChloroplatinite: {
+    name: 'Ammonium chloroplatinite',
+    formula: '(NH4)2PtCl4',
+    formulaWeight: 372.97,
+    crystallineForms: {
+      nature: CrystallineForms.Tetragonal,
+    },
+    meltingOutcomes: [],
+    boilingOutcomes: [],
+    solubilitySheet: {
+      coldWater: {
+        nature: SolubilityNature.Soluble,
+      },
+      hotWater: {
+        nature: SolubilityNature.Soluble,
+        adjective: Adjectives.Very,
+      },
+    },
+  },
 };

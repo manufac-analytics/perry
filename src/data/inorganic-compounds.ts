@@ -928,14 +928,20 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
       nature: CrystallineForms.Gas,
     },
     refractiveIndex: { value: 1.325, units: 'lq' },
-    specificGravity: {
-      value: 0.817,
-      substanceTemperature: {
-        value: -79,
-        units: 'C',
+    specificGravity: [
+      {
+        value: 0.817,
+        substanceTemperature: {
+          value: -79,
+          units: 'C',
+        },
+        reference: SpecificGravityReference.Water,
       },
-      reference: SpecificGravityReference.Water,
-    },
+      {
+        value: 0.5971,
+        reference: SpecificGravityReference.Air,
+      },
+    ],
     meltingOutcomes: [],
     boilingOutcomes: [],
     solubilitySheet: {
@@ -1208,7 +1214,7 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
     solubilitySheet: {
       coldWater: {
         nature: SolubilityNature.Soluble,
-        value: 25,
+        value: 20,
         temperature: {
           value: 15,
           units: 'C',
@@ -1318,13 +1324,14 @@ export const InorganicCompounds: Record<string, PhysicalProperties> = {
         gas: false,
       },
       ethylAlcohol95percent: {
-        nature: SolubilityNature.Soluble, // extra info is 0.005 al (ethylAlcohol95percent)
+        nature: SolubilityNature.Soluble,
+        formsEntity: '0.005 ethylAlcohol95percent',
       },
     },
   },
 
-  AmmoniumTetraChloroplatinate: {
-    name: 'Ammonium chloroplatinate',
+  AmmoniumChloroplatinite: {
+    name: 'Ammonium chloroplatinite',
     formula: '(NH4)2PtCl4',
     formulaWeight: 372.97,
     crystallineForms: {

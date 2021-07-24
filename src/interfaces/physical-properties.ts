@@ -17,7 +17,7 @@ export interface PhysicalProperties {
     | Qualitative<CrystallineForms>[]
     | Qualitative<CrystallineForms>;
   refractiveIndex?: Measure | MeasureRange | Measure[];
-  specificGravity?: SpecificGravity;
+  specificGravity?: SpecificGravity | SpecificGravity[];
   meltingOutcomes: MeltingOutcome[];
   boilingOutcomes: MeltingOutcome[];
   solubilitySheet: SolubilitySheet;

@@ -128,3 +128,24 @@ export interface DIPPRDensityProps {
   densityAtMinimumTemperature: number;
   densityAtMaximumTemperature: number;
 }
+
+/**
+ * The liquid thermal conductivity is calculated by `k = C1 + C2*T + C3*T^2 + C4*T^3 + C5*T^4`
+ * where `k` is the thermal conductivity in `W/(m∙K)` and `T` is the temperature in `K`.
+ * Thermal conductivities are at either `1 atm` or the vapor pressure, whichever is higher.
+ */
+export interface DIPPRThermalConductivityProps {
+  name: string;
+  formula: string;
+  CAS: string;
+  molecularWeight: number;
+  C1: number;
+  C2: number;
+  C3?: number;
+  C4?: number;
+  C5?: number;
+  minimumTemperature: number;
+  maximumTemperature: number;
+  thermalConductivityAtMinimumTemperature: number;
+  thermalConductivityAtMaximumTemperature: number;
+}

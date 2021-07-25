@@ -6,6 +6,10 @@ import {
   calculateDIPPRDensity,
   DIPPRDensityDictionary,
 } from '../src/data/density-constants';
+import {
+  calculateDIPPRThermalConductivity,
+  DIPPRThermalConductivityDictionary,
+} from '../src/data/thermal-conductivity-constants';
 
 describe('calculateDIPPRVaporPressure', () => {
   it('should return NaN outside the specified range of temperature', () => {
@@ -131,5 +135,39 @@ describe('calculateDIPPRDensity', () => {
         densityPropsExtended.maximumTemperature
       )
     ).toBeCloseTo(densityPropsExtended.densityAtMaximumTemperature, 3);
+  });
+});
+
+describe('calculateDIPPRThermalConductivity', () => {
+  it('should return NaN outside the specified range of temperature', () => {
+    const vaporProps = DIPPRThermalConductivityDictionary['Acetaldehyde'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'Acetaldehyde',
+        vaporProps.minimumTemperature - 1
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRThermalConductivity(
+        'Acetaldehyde',
+        vaporProps.maximumTemperature + 1
+      )
+    ).toBe(NaN);
+  });
+
+  it('should return correct thermal conductivity at Tmin and Tmax', () => {
+    const vaporProps = DIPPRThermalConductivityDictionary['Acetaldehyde'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'Acetaldehyde',
+        vaporProps.minimumTemperature
+      ).toPrecision(3)
+    ).toBe(vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(3));
+    expect(
+      calculateDIPPRThermalConductivity(
+        'Acetaldehyde',
+        vaporProps.maximumTemperature
+      ).toPrecision(3)
+    ).toBe(vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3));
   });
 });

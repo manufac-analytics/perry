@@ -1,6 +1,6 @@
 import { DIPPRCriticalConstantAndAcentricFactorProps } from '../interfaces/utils';
 
-export const DIPPRThermalConductivityDictionary: Record<
+export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
   string,
   DIPPRCriticalConstantAndAcentricFactorProps
 > = {

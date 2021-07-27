@@ -303,6 +303,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.286,
     acentricFactor: 0.128997,
   },
+
   Bromobenzene: {
     name: 'Bromobenzene',
     formula: 'C6H5Br',
@@ -314,6 +315,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.263,
     acentricFactor: 0.250575,
   },
+
   Bromoethane: {
     name: 'Bromoethane',
     formula: 'C2H5Br',
@@ -325,6 +327,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.271,
     acentricFactor: 0.205275,
   },
+
   Bromomethane: {
     name: 'Bromomethane',
     formula: 'CH3Br',
@@ -336,6 +339,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.273,
     acentricFactor: 0.153426,
   },
+
   Butadiene: {
     name: '1,2-Butadiene',
     formula: 'C4H6',
@@ -347,6 +351,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.255,
     acentricFactor: 0.165877,
   },
+
   Butadiene_1_3: {
     name: '1,3-Butadiene',
     formula: 'C4H6',
@@ -358,6 +363,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.195032,
   },
+
   Butane: {
     name: 'Butane',
     formula: 'C4H10',
@@ -369,6 +375,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.274,
     acentricFactor: 0.200164,
   },
+
   Butanediol_1_2: {
     name: ' 1,2-Butanediol',
     formula: 'C4H10O2',
@@ -380,6 +387,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.279,
     acentricFactor: 0.630463,
   },
+
   Butanediol_1_3: {
     name: '1,3-Butanediol',
     formula: 'C4H10O2',
@@ -391,6 +399,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.218,
     acentricFactor: 0.704256,
   },
+
   Butanol_1: {
     name: '1-Butanol',
     formula: 'C4H10O',
@@ -402,6 +411,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.258,
     acentricFactor: 0.58828,
   },
+
   Butanol_2: {
     name: '2-Butanol',
     formula: 'C4H10O',
@@ -413,6 +423,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.580832,
   },
+
   Butene_1: {
     name: '1-Butene',
     formula: 'C4H8',
@@ -424,6 +435,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.278,
     acentricFactor: 0.184495,
   },
+
   cis_2_Butene: {
     name: 'cis-2-Butene',
     formula: 'C4H8',
@@ -435,6 +447,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.201877,
   },
+
   trans_2_Butene: {
     name: 'trans-2-Butene',
     formula: 'C4H8',
@@ -446,6 +459,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.274,
     acentricFactor: 0.217592,
   },
+
   ButylAcetate: {
     name: 'Butyl acetate',
     formula: 'C6H12O2',
@@ -457,6 +471,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.251,
     acentricFactor: 0.439393,
   },
+
   Butylbenzene: {
     name: 'Butylbenzene',
     formula: 'C10H14',
@@ -468,6 +483,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.262,
     acentricFactor: 0.394149,
   },
+
   ButylMercaptan: {
     name: 'Butyl mercaptan',
     formula: 'C4H10S',
@@ -479,10 +495,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.257,
     acentricFactor: 0.271361,
   },
+
   secButylMercaptan: {
     name: 'sec-Butyl mercaptan',
     formula: 'C4H10S',
-    CAS: ' 513-53-1',
+    CAS: '513-53-1',
     molecularWeight: 90.1872,
     criticalTemperature: 554,
     criticalPressure: 4.06,
@@ -490,6 +507,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.271,
     acentricFactor: 0.25059,
   },
+
   Butyne_1: {
     name: '1-Butyne',
     formula: 'C4H6',
@@ -501,6 +519,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.262,
     acentricFactor: 0.246976,
   },
+
   Butyraldehyde: {
     name: 'Butyraldehyde',
     formula: 'C4H8O',
@@ -512,6 +531,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.255,
     acentricFactor: 0.282553,
   },
+
   ButyricAcid: {
     name: 'Butyric acid',
     formula: 'C4H8O2',
@@ -523,6 +543,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.232,
     acentricFactor: 0.675003,
   },
+
   Butyronitrile: {
     name: 'Butyronitrile',
     formula: 'C4H7N',
@@ -534,6 +555,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.232,
     acentricFactor: 0.3601,
   },
+
   CarbonDioxide: {
     name: 'Carbon dioxide',
     formula: 'CO2',
@@ -545,6 +567,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.274,
     acentricFactor: 0.223621,
   },
+
   CarbonDisulfide: {
     name: 'Carbon disulfide',
     formula: 'CS2',
@@ -556,6 +579,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.275,
     acentricFactor: 0.110697,
   },
+
   CarbonMonoxide: {
     name: 'Carbon monoxide',
     formula: 'CO',
@@ -567,6 +591,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.299,
     acentricFactor: 0.0481621,
   },
+
   CarbonTetrachloride: {
     name: 'Carbon tetrachloride',
     formula: 'CCl4',
@@ -578,6 +603,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.192552,
   },
+
   CarbonTetrafluoride: {
     name: 'Carbon tetrafluoride',
     formula: 'CF4',
@@ -589,6 +615,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.283,
     acentricFactor: 0.178981,
   },
+
   Chlorine: {
     name: 'Chlorine',
     formula: 'Cl2',

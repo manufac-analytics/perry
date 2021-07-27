@@ -44,11 +44,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   },
 
   AceticAnhydride: {
-<<<<<<< HEAD
-    name: 'Acetic acid',
-=======
     name: 'Acetic anhydride',
->>>>>>> origin/17
     formula: 'C4H6O3',
     CAS: '108-24-7',
     molecularWeight: 102.08864,

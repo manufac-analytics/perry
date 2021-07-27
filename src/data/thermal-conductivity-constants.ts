@@ -413,7 +413,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMinimumTemperature: 0.1868,
     thermalConductivityAtMaximumTemperature: 0.0709,
   },
-
 };
 export function calculateDIPPRThermalConductivity(
   compound: string,

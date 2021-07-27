@@ -306,8 +306,8 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMaximumTemperature: 0.1092,
   },
 
-  Bipheny: {
-    name: 'Bipheny',
+  Biphenyl: {
+    name: 'Biphenyl',
     formula: 'C12H10',
     CAS: '92-52-4',
     molecularWeight: 154.2078,
@@ -413,6 +413,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMinimumTemperature: 0.1868,
     thermalConductivityAtMaximumTemperature: 0.0709,
   },
+
 };
 export function calculateDIPPRThermalConductivity(
   compound: string,

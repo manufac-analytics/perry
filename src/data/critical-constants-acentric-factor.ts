@@ -15,6 +15,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.221,
     acentricFactor: 0.262493,
   },
+
   Acetamide: {
     name: 'Acetamide',
     formula: 'C2H5NO',
@@ -26,6 +27,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.224,
     acentricFactor: 0.421044,
   },
+
   AceticAcid: {
     name: 'Acetic acid',
     formula: 'C2H4O2',
@@ -37,6 +39,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.208,
     acentricFactor: 0.466521,
   },
+
   AceticAnhydride: {
     name: 'Acetic anhydride',
     formula: 'C4H6O3',
@@ -48,10 +51,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.241,
     acentricFactor: 0.455328,
   },
+
   Acetone: {
     name: 'Acetone',
     formula: 'C3H6O',
-    CAS: ' 67-64-1',
+    CAS: '67-64-1',
     molecularWeight: 58.07914,
     criticalTemperature: 508.2,
     criticalPressure: 4.701,
@@ -59,10 +63,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.233,
     acentricFactor: 0.306527,
   },
+
   Acetonitrile: {
     name: 'Acetonitrile',
     formula: 'C2H3N',
-    CAS: ' 75-05-8',
+    CAS: '75-05-8',
     molecularWeight: 41.0519,
     criticalTemperature: 545.5,
     criticalPressure: 4.85,
@@ -70,6 +75,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.206,
     acentricFactor: 0.341926,
   },
+
   Acetylene: {
     name: 'Acetylene',
     formula: 'C2H2',
@@ -81,10 +87,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.268,
     acentricFactor: 0.191185,
   },
+
   Acrolein: {
     name: 'Acrolein',
     formula: 'C3H4O',
-    CAS: ' 107-02-8',
+    CAS: '107-02-8',
     molecularWeight: 56.06326,
     criticalTemperature: 506,
     criticalPressure: 5,
@@ -92,10 +99,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.234,
     acentricFactor: 0.319832,
   },
+
   AcrylicAcid: {
     name: 'Acrylic acid ',
     formula: 'C3H4O2',
-    CAS: ' 79-10-7',
+    CAS: '79-10-7',
     molecularWeight: 72.06266,
     criticalTemperature: 615,
     criticalPressure: 5.66,
@@ -103,6 +111,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.23,
     acentricFactor: 0.538324,
   },
+
   Acrylonitrile: {
     name: 'Acrylonitrile',
     formula: 'C3H3N',
@@ -114,6 +123,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.224,
     acentricFactor: 0.310664,
   },
+
   Air: {
     name: 'Air',
     formula: 'Mixture',
@@ -125,6 +135,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.313,
     acentricFactor: 0,
   },
+
   Ammonia: {
     name: 'Ammonia',
     formula: 'H3N',
@@ -136,6 +147,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.242,
     acentricFactor: 0.252608,
   },
+
   Anisole: {
     name: 'Anisole',
     formula: 'C7H8O',
@@ -147,6 +159,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.350169,
   },
+
   Argon: {
     name: 'Argon',
     formula: 'Ar',
@@ -158,6 +171,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.291,
     acentricFactor: 0,
   },
+
   Benzamide: {
     name: 'Benzamide',
     formula: 'C7H7NO',
@@ -169,6 +183,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.255,
     acentricFactor: 0.5585,
   },
+
   Benzene: {
     name: 'Benzene',
     formula: 'C6H6',
@@ -180,10 +195,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.268,
     acentricFactor: 0.2103,
   },
+
   Benzenethiol: {
     name: 'Benzenethiol',
     formula: 'C6H6S',
-    CAS: ' 108-98-5',
+    CAS: '108-98-5',
     molecularWeight: 110.17684,
     criticalTemperature: 689,
     criticalPressure: 4.74,
@@ -191,6 +207,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.261,
     acentricFactor: 0.262789,
   },
+
   BenzoicAcid: {
     name: 'Benzoic acid',
     formula: 'C7H6O2',
@@ -202,6 +219,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.246,
     acentricFactor: 0.602794,
   },
+
   Benzonitrile: {
     name: 'Benzonitrile',
     formula: 'C7H5N',
@@ -213,6 +231,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.226,
     acentricFactor: 0.343214,
   },
+
   Benzophenone: {
     name: 'Benzophenone',
     formula: 'C13H10O',
@@ -224,10 +243,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.276,
     acentricFactor: 0.501941,
   },
+
   BenzylAlcohol: {
     name: 'Benzyl alcohol',
     formula: 'C7H8O',
-    CAS: ' 100-51-6',
+    CAS: '100-51-6',
     molecularWeight: 108.13782,
     criticalTemperature: 720.15,
     criticalPressure: 4.374,
@@ -235,10 +255,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.279,
     acentricFactor: 0.363116,
   },
+
   BenzylEthylEther: {
     name: 'Benzyl ethyl ether',
     formula: 'C9H12O',
-    CAS: ' 539-30-0',
+    CAS: '539-30-0',
     molecularWeight: 136.19098,
     criticalTemperature: 662,
     criticalPressure: 3.11,
@@ -246,10 +267,11 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.25,
     acentricFactor: 0.433236,
   },
+
   BenzylMercaptan: {
     name: 'Benzyl mercaptan',
     formula: 'C7H8S',
-    CAS: ' 100-53-8',
+    CAS: '100-53-8',
     molecularWeight: 124.20342,
     criticalTemperature: 718,
     criticalPressure: 4.06,
@@ -257,6 +279,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.25,
     acentricFactor: 0.312604,
   },
+
   Biphenyl: {
     name: 'Biphenyl',
     formula: 'C12H10',
@@ -268,6 +291,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.261,
     acentricFactor: 0.402873,
   },
+
   Bromine: {
     name: 'Bromine',
     formula: 'Br2',

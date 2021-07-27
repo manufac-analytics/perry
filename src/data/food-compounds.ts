@@ -3108,7 +3108,7 @@ export const FoodCompounds: Record<string, FoodProps> = {
     idealGasHeatCapacityEqnNumber: 4,
     idealGasHeatCapacityConstantA: 28161,
     idealGasHeatCapacityConstantB: 435.7,
-    idealGasHeatCapacityConstantC: -0.25,
+    idealGasHeatCapacityConstantC: -0.2508,
     idealGasHeatCapacityConstantD: 4.722e-5,
     idealGasHeatCapacityConstantE: 0,
     liquidHeatCapacityEqnNumber: 0,

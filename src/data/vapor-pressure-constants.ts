@@ -60,7 +60,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 2,
     minimumTemperature: 243.95,
     maximumTemperature: 718,
-    pressureAtMinimumTemperature: 2.98e1,
+    pressureAtMinimumTemperature: 2.98e-1,
     pressureAtMaximumTemperature: 4.0074e6,
   },
 
@@ -180,7 +180,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 2,
     minimumTemperature: 134.86,
     maximumTemperature: 425.12,
-    pressureAtMinimumTemperature: 6.74e1,
+    pressureAtMinimumTemperature: 6.74e-1,
     pressureAtMaximumTemperature: 3.77e6,
   },
 
@@ -195,7 +195,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 220,
     maximumTemperature: 680,
-    pressureAtMinimumTemperature: 2.93e4,
+    pressureAtMinimumTemperature: 2.93e-4,
     pressureAtMaximumTemperature: 5.202e6,
   },
 
@@ -210,7 +210,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 2,
     minimumTemperature: 196.15,
     maximumTemperature: 676,
-    pressureAtMinimumTemperature: 3.74e7,
+    pressureAtMinimumTemperature: 3.74e-7,
     pressureAtMaximumTemperature: 4.033e6,
   },
 
@@ -225,7 +225,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 183.85,
     maximumTemperature: 563.1,
-    pressureAtMinimumTemperature: 2.91e4,
+    pressureAtMinimumTemperature: 2.91e-4,
     pressureAtMaximumTemperature: 4.414e6,
   },
 
@@ -240,7 +240,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 158.45,
     maximumTemperature: 535.9,
-    pressureAtMinimumTemperature: 1.24e6,
+    pressureAtMinimumTemperature: 1.24e-6,
     pressureAtMaximumTemperature: 4.19e6,
   },
 
@@ -290,7 +290,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   Butylacetate: {
-    name: 'trans-2-Butene',
+    name: 'Butyl acetate',
     formula: 'C6H12O2',
     CAS: '123-86-4',
     C1: 122.82,
@@ -300,12 +300,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 2,
     minimumTemperature: 199.65,
     maximumTemperature: 575.4,
-    pressureAtMinimumTemperature: 8.17e2,
+    pressureAtMinimumTemperature: 8.17e-2,
     pressureAtMaximumTemperature: 3.087e6,
   },
 
   Butylbenzene: {
-    name: 'trans-2-Butene',
+    name: 'Butylbenzene',
     formula: 'C10H14',
     CAS: '104-51-8',
     C1: 101.22,

@@ -52,7 +52,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   IButyne: {
-    name: 'sec-Butyl mercaptan',
+    name: 'I-Butyne',
     formula: 'C4H6',
     CAS: '107-00-6',
     C1: 77.004,
@@ -261,7 +261,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6.759e6,
   },
 
-  Chloropropane1: {
+  '1Chloropropane': {
     name: '1-Chloropropane',
     formula: 'C3H7Cl',
     CAS: '540-54-5',
@@ -276,7 +276,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.425e6,
   },
 
-  Chloropropane2: {
+  '2Chloropropane': {
     name: '2-Chloropropane',
     formula: 'C3H7Cl',
     CAS: '75-29-6',

@@ -690,7 +690,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 161.3,
     maximumTemperature: 585.4,
-    pressureAtMinimumTemperature: 9.41e4,
+    pressureAtMinimumTemperature: 9.41e-4,
     pressureAtMaximumTemperature: 3.88e6,
   },
 
@@ -739,7 +739,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.494e6,
   },
 
-  CarbonTetraChloride: {
+  CarbonTetrachloride: {
     name: 'Carbon tetrachloride',
     formula: 'CCl4',
     CAS: '56-23-5',
@@ -754,7 +754,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.544e6,
   },
 
-  CarbonTetraFlouoride: {
+  CarbonTetrafluoride: {
     name: 'Carbon tetraflouride',
     formula: 'CF4',
     CAS: '75-73-0',

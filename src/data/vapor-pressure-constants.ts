@@ -424,7 +424,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6.929e6,
   },
 
-  Butadiene12: {
+  '1,2Butadiene': {
     name: '1,2-Butadiene',
     formula: 'C4H6',
     CAS: '590-19-2',
@@ -439,7 +439,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.361e6,
   },
 
-  Butadiene13: {
+  '1,3Butadiene': {
     name: '1,3-Butadiene',
     formula: 'C4H6',
     CAS: '106-99-0',
@@ -469,7 +469,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.77e6,
   },
 
-  Butanediol12: {
+  '1,2Butanediol': {
     name: '1,2-Butanediol',
     formula: 'C4H10O2',
     CAS: '584-03-2',
@@ -484,7 +484,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 5.202e6,
   },
 
-  Butanediol13: {
+  '1,3Butanediol': {
     name: '1,3-Butanediol',
     formula: 'C4H10O2',
     CAS: '107-88-0',
@@ -499,7 +499,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.033e6,
   },
 
-  Butanol1: {
+  '1Butanol': {
     name: '1-Butanol',
     formula: 'C4H10O',
     CAS: '71-36-3',
@@ -514,7 +514,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.414e6,
   },
 
-  Butanol2: {
+  '2Butanol': {
     name: '2-Butanol',
     formula: 'C4H10O',
     CAS: '78-92-2',
@@ -529,8 +529,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.19e6,
   },
 
-  Butene1: {
-    name: '2-Butanol',
+  '1Butene': {
+    name: '1-Butene',
     formula: 'C4H8',
     CAS: '106-98-9',
     C1: 51.836,

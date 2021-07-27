@@ -69,7 +69,7 @@ export const DIPPRVaporPressureDictionary: Record<
   Butyraldehyde: {
     name: 'Butyraldehyde',
     formula: 'C4H8O',
-    CAS: '123-78-8',
+    CAS: '123-72-8',
     C1: 51.648,
     C2: -5301.36,
     C3: -4.2559,
@@ -77,7 +77,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 176.8,
     maximumTemperature: 537.2,
-    pressureAtMinimumTemperature: 6.97e1,
+    pressureAtMinimumTemperature: 6.97e-1,
     pressureAtMaximumTemperature: 4.41e6,
   },
 
@@ -156,8 +156,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.494e6,
   },
 
-  CarbonTertraChloride: {
-    name: 'Carbon tetraChloride',
+  CarbonTetraChloride: {
+    name: 'Carbon tetrachloride',
     formula: 'CCl4',
     CAS: '56-23-5',
     C1: 78.441,
@@ -171,8 +171,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.544e6,
   },
 
-  CarbonTertraFlouoride: {
-    name: 'Carbon tetraChloride',
+  CarbonTetraFlouoride: {
+    name: 'Carbon tetraflouride',
     formula: 'CF4',
     CAS: '75-73-0',
     C1: 61.89,

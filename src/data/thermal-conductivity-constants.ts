@@ -306,7 +306,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMaximumTemperature: 0.1092,
   },
 
-  Bipheny: {
+  Biphenyl: {
     name: 'Bipheny',
     formula: 'C12H10',
     CAS: '92-52-4',

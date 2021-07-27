@@ -278,7 +278,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMaximumTemperature: 0.147,
   },
 
-  BenzylEthylether: {
+  BenzylEthylEther: {
     name: 'Benzyl ethyl ether',
     formula: 'C9H12O',
     CAS: '539-30-0',

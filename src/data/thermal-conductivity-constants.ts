@@ -374,7 +374,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMaximumTemperature: 0.0735,
   },
 
-  Butadiene12: {
+  '1,2Butadiene': {
     name: '1,2-Butadiene',
     formula: 'C4H6',
     CAS: '590-19-2',
@@ -387,7 +387,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMaximumTemperature: 0.1221,
   },
 
-  Butadiene13: {
+  '1,3Butadiene': {
     name: '1,3-Butadiene',
     formula: 'C4H6',
     CAS: '106-99-0',

@@ -187,7 +187,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   CyclohexylMercaptan: {
-    name: 'CyclohexylMercaptan',
+    name: 'Cyclohexyl mercaptan',
     formula: 'C6H12S',
     CAS: '1569-69-3',
     C1: 85.146,
@@ -232,7 +232,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   DecanoicAcid: {
-    name: 'DecanoicAcid',
+    name: 'Decanoic acid',
     formula: 'C10H20O2',
     CAS: '334-48-5',
     C1: 126.405,
@@ -277,7 +277,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   DecylMercaptan: {
-    name: 'DecylMercaptan',
+    name: 'Decyl mercaptan',
     formula: 'C10H22S',
     CAS: '143-10-2',
     C1: 91.91,

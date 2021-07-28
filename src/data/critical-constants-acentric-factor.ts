@@ -340,7 +340,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.153426,
   },
 
-  Butadiene: {
+  '1,2Butadiene': {
     name: '1,2-Butadiene',
     formula: 'C4H6',
     CAS: '590-19-2',
@@ -352,7 +352,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.165877,
   },
 
-  Butadiene_1_3: {
+  '1,3Butadiene': {
     name: '1,3-Butadiene',
     formula: 'C4H6',
     CAS: '106-99-0',
@@ -376,8 +376,8 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.200164,
   },
 
-  Butanediol_1_2: {
-    name: ' 1,2-Butanediol',
+  '1,2Butanediol': {
+    name: '1,2-Butanediol',
     formula: 'C4H10O2',
     CAS: '584-03-2',
     molecularWeight: 90.121,
@@ -388,7 +388,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.630463,
   },
 
-  Butanediol_1_3: {
+  '1,3Butanediol': {
     name: '1,3-Butanediol',
     formula: 'C4H10O2',
     CAS: '107-88-0',
@@ -400,7 +400,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.704256,
   },
 
-  Butanol_1: {
+  '1Butanol': {
     name: '1-Butanol',
     formula: 'C4H10O',
     CAS: '71-36-3',
@@ -412,7 +412,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.58828,
   },
 
-  Butanol_2: {
+  '2Butanol': {
     name: '2-Butanol',
     formula: 'C4H10O',
     CAS: '78-92-2',
@@ -424,7 +424,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.580832,
   },
 
-  Butene_1: {
+  '1Butene': {
     name: '1-Butene',
     formula: 'C4H8',
     CAS: '106-98-9',
@@ -436,7 +436,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.184495,
   },
 
-  cis_2_Butene: {
+  cis2Butene: {
     name: 'cis-2-Butene',
     formula: 'C4H8',
     CAS: '590-18-1',
@@ -448,7 +448,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.201877,
   },
 
-  trans_2_Butene: {
+  trans2Butene: {
     name: 'trans-2-Butene',
     formula: 'C4H8',
     CAS: '624-64-6',
@@ -508,7 +508,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.25059,
   },
 
-  Butyne_1: {
+  '1Butyne': {
     name: '1-Butyne',
     formula: 'C4H6',
     CAS: '107-00-6',

@@ -1354,7 +1354,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6.093e6,
   },
 
-  '1,1-Dichloropropane': {
+  '1,1Dichloropropane': {
     name: '1,1-Dichloropropane',
     formula: 'C3H6Cl2',
     CAS: '78-99-9',

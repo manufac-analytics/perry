@@ -527,4 +527,18 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: 'GDTBXPJZTBHREO-UHFFFAOYSA-N',
     molecularWeight: 159.81,
   },
+
+  Bromobenzene: {
+    CAS: '108-86-1',
+    inchiString: 'InChI=1S/C6H5Br/c7-6-4-2-1-3-5-6/h1-5H',
+    inchiKey: 'QARVLSVVCXYDNA-UHFFFAOYSA-N',
+    molecularWeight: 157.01,
+  },
+
+  Bromoethane: {
+    CAS: '74-96-4',
+    inchiString: 'InChI=1S/C2H5Br/c1-2-3/h2H2,1H3',
+    inchiKey: 'RDHPKYGYEGBMSE-UHFFFAOYSA-N',
+    molecularWeight: 108.97,
+  },
 };

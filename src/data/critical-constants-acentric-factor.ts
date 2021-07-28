@@ -639,6 +639,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.249857,
   },
+
   Chloroethane: {
     name: 'Chloroethane',
     formula: 'C2H5Cl',
@@ -650,6 +651,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.264,
     acentricFactor: 0.188591,
   },
+
   Chloroform: {
     name: 'Chloroform',
     formula: 'CHCl3',
@@ -661,6 +663,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.293,
     acentricFactor: 0.221902,
   },
+
   Chloromethane: {
     name: 'Chloromethane',
     formula: 'CH3Cl',
@@ -672,6 +675,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.151,
   },
+
   '1Chloropropane': {
     name: '1-Chloropropane',
     formula: 'C3H7Cl',
@@ -683,6 +687,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.257,
     acentricFactor: 0.215047,
   },
+
   '2Chloropropane': {
     name: '2-Chloropropane',
     formula: 'C3H7Cl',
@@ -694,6 +699,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.276,
     acentricFactor: 0.198553,
   },
+
   mCresol: {
     name: 'm-Cresol',
     formula: 'C7H8O',
@@ -705,6 +711,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.242,
     acentricFactor: 0.448034,
   },
+
   oCresol: {
     name: 'o-Cresol',
     formula: 'C7H8O',
@@ -716,6 +723,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.43385,
   },
+
   pCresol: {
     name: 'p-Cresol',
     formula: 'C7H8O',
@@ -727,6 +735,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.50721,
   },
+
   Cumene: {
     name: 'Cumene',
     formula: 'C9H12',
@@ -738,6 +747,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.327406,
   },
+
   Cyanogen: {
     name: 'Cyanogen',
     formula: 'C2N2',
@@ -749,6 +759,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.269,
     acentricFactor: 0.275605,
   },
+
   Cyclobutane: {
     name: 'Cyclobutane',
     formula: 'C4H8',
@@ -760,6 +771,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.273,
     acentricFactor: 0.18474,
   },
+
   Cyclohexane: {
     name: 'Cyclohexane',
     formula: 'C6H12',
@@ -771,6 +783,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.273,
     acentricFactor: 0.208054,
   },
+
   Cyclohexanol: {
     name: 'Cyclohexanol',
     formula: 'C6H12O',
@@ -782,6 +795,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.369047,
   },
+
   Cyclohexanone: {
     name: 'Cyclohexanone',
     formula: 'C6H10O',
@@ -793,6 +807,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.229,
     acentricFactor: 0.299006,
   },
+
   Cyclohexene: {
     name: 'Cyclohexene',
     formula: 'C6H10',
@@ -804,6 +819,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.212302,
   },
+
   Cyclopentane: {
     name: 'Cyclopentane',
     formula: 'C5H10',
@@ -815,6 +831,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.276,
     acentricFactor: 0.194874,
   },
+
   Cyclopentene: {
     name: 'Cyclopentene',
     formula: 'C5H8',
@@ -826,6 +843,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.279,
     acentricFactor: 0.19611,
   },
+
   Cyclopropane: {
     name: 'Cyclopropane',
     formula: 'C3H6',
@@ -837,6 +855,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.271,
     acentricFactor: 0.127829,
   },
+
   CyclohexylMercaptan: {
     name: 'Cyclohexyl mercaptan',
     formula: 'C6H12S',
@@ -848,6 +867,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.255,
     acentricFactor: 0.264134,
   },
+
   Decanal: {
     name: 'Decanal',
     formula: 'C10H20O',
@@ -859,6 +879,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.520066,
   },
+
   Decane: {
     name: 'Decane',
     formula: 'C10H22',
@@ -870,6 +891,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.492328,
   },
+
   DecanoicAcid: {
     name: 'Decanoic acid',
     formula: 'C10H20O2',
@@ -881,6 +903,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.243,
     acentricFactor: 0.813724,
   },
+
   '1Decanol': {
     name: '1-Decanol',
     formula: 'C10H22O',
@@ -892,6 +915,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.26,
     acentricFactor: 0.606986,
   },
+
   '1Decene': {
     name: '1-Decene',
     formula: 'C10H20',
@@ -903,6 +927,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.253,
     acentricFactor: 0.480456,
   },
+
   DecylMercaptan: {
     name: 'Decyl mercaptan',
     formula: 'C10H22S',
@@ -914,6 +939,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.23,
     acentricFactor: 0.587421,
   },
+
   '1Decyne': {
     name: '1-Decyne',
     formula: 'C10H18',
@@ -925,6 +951,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.51783,
   },
+
   Deuterium: {
     name: 'Deuterium',
     formula: 'D2',
@@ -936,6 +963,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.314,
     acentricFactor: -0.14486,
   },
+
   '1,1Dibromoethane': {
     name: '1,1-Dibromoethane',
     formula: 'C2H4Br2',
@@ -947,6 +975,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.319,
     acentricFactor: 0.125025,
   },
+
   '1,2Dibromoethane': {
     name: '1,2-Dibromoethane',
     formula: 'C2H4Br2',
@@ -958,6 +987,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.206724,
   },
+
   Dibromomethane: {
     name: 'Dibromomethane',
     formula: 'CH2Br2',
@@ -969,6 +999,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.315,
     acentricFactor: 0.20945,
   },
+
   DibutylEther: {
     name: 'Dibutyl ether',
     formula: 'C8H18O',
@@ -980,6 +1011,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.247,
     acentricFactor: 0.447646,
   },
+
   mDichlorobenzene: {
     name: 'm-Dichlorobenzene ',
     formula: 'C6H4Cl2',
@@ -991,6 +1023,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.251,
     acentricFactor: 0.27898,
   },
+
   oDichlorobenzene: {
     name: 'o-Dichlorobenzene ',
     formula: 'C6H4Cl2',
@@ -1002,6 +1035,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.219189,
   },
+
   pDichlorobenzene: {
     name: 'p-Dichlorobenzene ',
     formula: 'C6H4Cl2',
@@ -1013,6 +1047,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.251,
     acentricFactor: 0.284638,
   },
+
   '1,1Dichloroethane': {
     name: '1,1-Dichloroethane',
     formula: 'C2H4Cl2',
@@ -1024,6 +1059,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.28,
     acentricFactor: 0.233943,
   },
+
   '1,2Dichloroethane': {
     name: '1,2-Dichloroethane',
     formula: 'C2H4Cl2',
@@ -1035,6 +1071,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.253,
     acentricFactor: 0.286595,
   },
+
   Dichloromethane: {
     name: 'Dichloromethane',
     formula: 'CH2Cl2',
@@ -1046,6 +1083,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.198622,
   },
+
   '1,1Dichloropropane': {
     name: '1,1-Dichloropropane',
     formula: 'C3H6Cl2',
@@ -1057,6 +1095,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.252928,
   },
+
   '1,2Dichloropropane': {
     name: '1,2-Dichloropropane',
     formula: 'C3H6Cl2',
@@ -1068,6 +1107,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.259,
     acentricFactor: 0.256391,
   },
+
   DiethanolAmine: {
     name: 'Diethanol amine',
     formula: 'C4H11NO2',
@@ -1079,6 +1119,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.243,
     acentricFactor: 0.952882,
   },
+
   DiethylAmine: {
     name: 'Diethyl amine',
     formula: 'C4H11N',
@@ -1090,6 +1131,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.303856,
   },
+
   DiethylEther: {
     name: 'Diethyl ether',
     formula: 'C4H10O',
@@ -1101,6 +1143,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.263,
     acentricFactor: 0.281065,
   },
+
   DiethylSulfide: {
     name: 'Diethyl sulfide',
     formula: 'C4H10S',
@@ -1112,6 +1155,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.29002,
   },
+
   '1,1Difluoroethane': {
     name: '1,1-Difluoroethane',
     formula: 'C2H4F2',
@@ -1123,6 +1167,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.252,
     acentricFactor: 0.275052,
   },
+
   '1,2Difluoroethane': {
     name: '1,2-Difluoroethane',
     formula: 'C2H4F2',
@@ -1134,6 +1179,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.229,
     acentricFactor: 0.222428,
   },
+
   Difluoromethane: {
     name: 'Difluoromethane',
     formula: 'CH2F2',
@@ -1145,6 +1191,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.277138,
   },
+
   DiIsopropylAmine: {
     name: 'Di–isopropyl amine',
     formula: 'C6H15N',
@@ -1156,6 +1203,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.308,
     acentricFactor: 0.388315,
   },
+
   DiIsopropylEther: {
     name: 'Di–isopropyl ether',
     formula: 'C6H14O',
@@ -1167,6 +1215,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.338683,
   },
+
   DiIsopropylKetone: {
     name: 'Di–isopropyl ketone',
     formula: 'C7H14O',
@@ -1178,6 +1227,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.262,
     acentricFactor: 0.404427,
   },
+
   '1,1Dimethoxyethane': {
     name: '1,1-Dimethoxyethane',
     formula: 'C4H10O2',
@@ -1189,6 +1239,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.32768,
   },
+
   '1,2Dimethoxypropane': {
     name: '1,2-Dimethoxypropane',
     formula: 'C5H12O2',
@@ -1200,8 +1251,9 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.352222,
   },
+
   DimethylAcetylene: {
-    name: ' Dimethyl acetylene',
+    name: 'Dimethyl acetylene',
     formula: 'C4H6',
     CAS: '503-17-3',
     molecularWeight: 54.09044,

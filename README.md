@@ -95,3 +95,17 @@ Per Palmer Group guidelines, [always use named exports.](https://github.com/palm
 ## Publishing to NPM
 
 We recommend using [np](https://github.com/sindresorhus/np).
+
+### Branching Workflows
+
+#### Branch naming conventions
+
+1. Use the following structure for naming any **feature branch**: `${username}/#${issue-number}-${some-title}`.
+2. You can read more about the reasoning [here](https://deepsource.io/blog/git-branch-naming-conventions/).
+3. The first portion of the branch name `${username}/...` is a "grouping token". It helps in clubing all the branches owned by a particular user.
+
+#### Pushing a new feature
+
+We follow the [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) for pushing new features into the `master` branch.
+
+---

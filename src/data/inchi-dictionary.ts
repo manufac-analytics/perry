@@ -380,4 +380,52 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: 'UNTBPXHCXVWYOI-UHFFFAOYSA-O',
     molecularWeight: 116.98,
   },
+
+  Acetaldehyde: {
+    inchiString: 'InChI=1S/C2H4O/c1-2-3/h2H,1H3',
+    inchiKey: 'IKHGUXGNUITLKF-UHFFFAOYSA-N',
+    molecularWeight: 44.05,
+  },
+
+  Acetamide: {
+    inchiString: 'InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4)',
+    inchiKey: 'DLFVBJFMPXGRIB-UHFFFAOYSA-N',
+    molecularWeight: 59.07,
+  },
+
+  AceticAcid: {
+    inchiString: 'InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)',
+    inchiKey: 'QTBSBXVTEAMEQO-UHFFFAOYSA-N',
+    molecularWeight: 60.05,
+  },
+
+  AceticAnhydride: {
+    inchiString: 'InChI=1S/C4H6O3/c1-3(5)7-4(2)6/h1-2H3',
+    inchiKey: 'WFDIJRYMOXRFFG-UHFFFAOYSA-N',
+    molecularWeight: 102.09,
+  },
+
+  Acetone: {
+    inchiString: 'InChI=1S/C3H6O/c1-3(2)4/h1-2H3',
+    inchiKey: 'CSCPPACGZOOCGX-UHFFFAOYSA-N',
+    molecularWeight: 58.08,
+  },
+
+  Acetonitrile: {
+    inchiString: 'InChI=1S/C2H3N/c1-2-3/h1H3',
+    inchiKey: 'WEVYAHXRMPXWCK-UHFFFAOYSA-N',
+    molecularWeight: 41.05,
+  },
+
+  Acetylene: {
+    inchiString: 'InChI=1S/C2H2/c1-2/h1-2H',
+    inchiKey: 'HSFWRNGVRCDJHI-UHFFFAOYSA-N',
+    molecularWeight: 26.04,
+  },
+
+  Acrolein: {
+    inchiString: 'InChI=1S/C3H4O/c1-2-3-4/h2-3H,1H2',
+    inchiKey: 'HGINCPLSRVDWNT-UHFFFAOYSA-N',
+    molecularWeight: 56.06,
+  },
 };

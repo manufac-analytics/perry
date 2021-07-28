@@ -428,4 +428,103 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: 'HGINCPLSRVDWNT-UHFFFAOYSA-N',
     molecularWeight: 56.06,
   },
+
+  AcrylicAcid: {
+    CAS: '79-10-7',
+    inchiString: 'InChI=1S/C3H4O2/c1-2-3(4)5/h2H,1H2,(H,4,5)',
+    inchiKey: 'NIXOWILDQLNWCW-UHFFFAOYSA-N',
+    molecularWeight: 72.06,
+  },
+
+  Acrylonitrile: {
+    CAS: '79-10-7',
+    inchiString: 'InChI=1S/C3H3N/c1-2-3-4/h2H,1H2',
+    inchiKey: 'NLHHRLWOUZZQLW-UHFFFAOYSA-N',
+    molecularWeight: 53.06,
+  },
+
+  Anisole: {
+    CAS: '100-66-3',
+    inchiString: 'InChI=1S/C7H8O/c1-8-7-5-3-2-4-6-7/h2-6H,1H3',
+    inchiKey: 'RDOXTESZEPMUJZ-UHFFFAOYSA-N',
+    molecularWeight: 108.14,
+  },
+
+  Argon: {
+    CAS: '7440-37-1',
+    inchiString: 'InChI=1S/Ar',
+    inchiKey: 'XKRFYHLGVUSROY-UHFFFAOYSA-N',
+    molecularWeight: 39.9,
+  },
+
+  Benzamide: {
+    CAS: '55-21-0',
+    inchiString: 'InChI=1S/C7H7NO/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H2,8,9)',
+    inchiKey: 'KXDAEFPNCMNJSK-UHFFFAOYSA-N',
+    molecularWeight: 121.14,
+  },
+
+  Benzene: {
+    CAS: '71-43-2',
+    inchiString: 'InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H',
+    inchiKey: 'UHOVQNZJYSORNB-UHFFFAOYSA-N',
+    molecularWeight: 78.11,
+  },
+
+  Benzenethiol: {
+    CAS: '108-95-5',
+    inchiString: 'InChI=1S/C6H6S/c7-6-4-2-1-3-5-6/h1-5,7H',
+    inchiKey: 'RMVRSNDYEFQCLF-UHFFFAOYSA-N',
+    molecularWeight: 110.18,
+  },
+
+  BenzoicAcid: {
+    CAS: '65-85-0',
+    inchiString: 'InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)',
+    inchiKey: 'WPYMKLBDIGXBTP-UHFFFAOYSA-N',
+    molecularWeight: 122.12,
+  },
+
+  Benzophenone: {
+    CAS: '119-61-9',
+    inchiString:
+      'InChI=1S/C13H10O/c14-13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H',
+    inchiKey: 'RWCCWEUUXYIKHB-UHFFFAOYSA-N',
+    molecularWeight: 182.22,
+  },
+
+  BenzylAlcohol: {
+    CAS: '100-51-6',
+    inchiString: 'InChI=1S/C7H8O/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2',
+    inchiKey: 'WVDDGKGOMKODPV-UHFFFAOYSA-N',
+    molecularWeight: 108.14,
+  },
+
+  BenzylEthylEther: {
+    CAS: '539-30-0',
+    inchiString: 'InChI=1S/C9H12O/c1-2-10-8-9-6-4-3-5-7-9/h3-7H,2,8H2,1H3',
+    inchiKey: 'AXPZDYVDTMMLNB-UHFFFAOYSA-N',
+    molecularWeight: 136.19,
+  },
+
+  BenzylMercaptan: {
+    CAS: '100-53-8',
+    inchiString: 'InChI=1S/C7H8S/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2',
+    inchiKey: 'UENWRTRMUIOCKN-UHFFFAOYSA-N',
+    molecularWeight: 124.21,
+  },
+
+  Biphenyl: {
+    CAS: '92-52-4',
+    inchiString: 'InChI=1S/C12H10/c1-3-7-11(8-4-1)12-9-5-2-6-10-12/h1-10H',
+    inchiKey: 'ZUOUZKKEUPVFJK-UHFFFAOYSA-N',
+    molecularWeight: 524.21,
+  },
+
+  Bromine: {
+    CAS: '7726-95-6',
+    inchiString: 'InChI=1S/Br2/c1-2',
+    inchiKey: 'GDTBXPJZTBHREO-UHFFFAOYSA-N',
+    molecularWeight: 159.81,
+  },
 };

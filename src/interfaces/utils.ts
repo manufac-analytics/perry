@@ -29,6 +29,7 @@ export interface INCHIProps {
   inchiString: string;
   inchiKey: string;
   molecularWeight: number;
+  CAS?: string;
 }
 
 export interface SpecificGravity {

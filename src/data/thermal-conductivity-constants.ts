@@ -1145,7 +1145,9 @@ export function calculateDIPPRThermalConductivity(
   ) {
     thermalConductivity =
       thermalConductivityProps.C1 +
-      thermalConductivityProps.C2 * temperature +
+      (Number.isFinite(thermalConductivityProps.C2)
+        ? (thermalConductivityProps.C2 as number) * temperature
+        : 0) +
       (Number.isFinite(thermalConductivityProps.C3)
         ? Math.pow(temperature, 2) * (thermalConductivityProps.C3 as number)
         : 0) +

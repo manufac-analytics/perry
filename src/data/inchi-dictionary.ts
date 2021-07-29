@@ -472,7 +472,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   Benzenethiol: {
-    CAS: '108-95-5',
+    CAS: '108-98-5',
     inchiString: 'InChI=1S/C6H6S/c7-6-4-2-1-3-5-6/h1-5,7H',
     inchiKey: 'RMVRSNDYEFQCLF-UHFFFAOYSA-N',
     molecularWeight: 110.18,
@@ -518,7 +518,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     CAS: '92-52-4',
     inchiString: 'InChI=1S/C12H10/c1-3-7-11(8-4-1)12-9-5-2-6-10-12/h1-10H',
     inchiKey: 'ZUOUZKKEUPVFJK-UHFFFAOYSA-N',
-    molecularWeight: 524.21,
+    molecularWeight: 154.21,
   },
 
   Bromine: {

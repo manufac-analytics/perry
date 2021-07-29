@@ -672,6 +672,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     maximumTemperature: 145.1,
     thermalConductivityAtMinimumTemperature: 0.1371,
     thermalConductivityAtMaximumTemperature: 0.0933,
+  },
 
   Chlorine: {
     name: 'Chlorine',

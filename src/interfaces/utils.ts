@@ -26,10 +26,10 @@ export interface MeasureRange {
 }
 
 export interface INCHIProps {
+  CAS: string;
   inchiString: string;
   inchiKey: string;
   molecularWeight: number;
-  CAS?: string;
 }
 
 export interface SpecificGravity {

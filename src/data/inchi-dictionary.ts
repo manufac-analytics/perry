@@ -472,7 +472,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   Benzenethiol: {
-    CAS: '108-95-5',
+    CAS: '108-98-5',
     inchiString: 'InChI=1S/C6H6S/c7-6-4-2-1-3-5-6/h1-5,7H',
     inchiKey: 'RMVRSNDYEFQCLF-UHFFFAOYSA-N',
     molecularWeight: 110.18,

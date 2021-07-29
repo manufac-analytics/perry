@@ -966,7 +966,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     molecularWeight: 73.13684,
     C1: 0.2587,
     C2: -0.00054343,
-    C3: 4.2097e7,
+    C3: 4.2097e-7,
     minimumTemperature: 223.35,
     maximumTemperature: 453.15,
     thermalConductivityAtMinimumTemperature: 0.1583,

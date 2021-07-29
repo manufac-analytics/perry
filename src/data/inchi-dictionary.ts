@@ -773,4 +773,54 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     inchiKey: 'DKPFZGUDAPQIHT-UHFFFAOYSA-N',
     molecularWeight: 116.16,
   },
+
+  Butylbenzene: {
+    CAS: '104-51-8',
+    inchiString:
+      'InChI=1S/C10H14/c1-2-3-7-10-8-5-4-6-9-10/h4-6,8-9H,2-3,7H2,1H3',
+    inchiKey: 'OCKPCBLVNKHBMX-UHFFFAOYSA-N',
+    molecularWeight: 134.22,
+  },
+
+  ButylMercaptan: {
+    CAS: '109-79-5',
+    inchiString: 'InChI=1S/C4H10S/c1-2-3-4-5/h5H,2-4H2,1H3',
+    inchiKey: 'WQAQPCDUOCURKW-UHFFFAOYSA-N',
+    molecularWeight: 90.19,
+  },
+
+  secButylMercaptan: {
+    CAS: '513-53-1',
+    inchiString: 'InChI=1S/C4H10S/c1-3-4(2)5/h4-5H,3H2,1-2H3',
+    inchiKey: 'LOCHFZBWPCLPAN-UHFFFAOYSA-N',
+    molecularWeight: 90.19,
+  },
+
+  Butyraldehyde: {
+    CAS: '123-72-8',
+    inchiString: 'InChI=1S/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3',
+    inchiKey: 'ZTQSAGDEMFDKMZ-UHFFFAOYSA-N',
+    molecularWeight: 72.11,
+  },
+
+  ButyricAcid: {
+    CAS: '107-92-6',
+    inchiString: 'InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)',
+    inchiKey: 'FERIUCNNQQJTOY-UHFFFAOYSA-N',
+    molecularWeight: 88.11,
+  },
+
+  Butyronitrile: {
+    CAS: '109-74-0',
+    inchiString: 'InChI=1S/C4H7N/c1-2-3-4-5/h2-3H2,1H3',
+    inchiKey: 'KVNRLNFWIYMESJ-UHFFFAOYSA-N',
+    molecularWeight: 69.11,
+  },
+
+  CarbonDioxide: {
+    CAS: '124-38-9',
+    inchiString: 'InChI=1S/CO2/c2-1-3',
+    inchiKey: 'CURLTUGMZLYLDI-UHFFFAOYSA-N',
+    molecularWeight: 44.009,
+  },
 };

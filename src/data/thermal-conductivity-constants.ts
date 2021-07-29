@@ -783,7 +783,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     CAS: '7782-39-0',
     molecularWeight: 4.0316,
     C1: 1.264,
-    C2: NaN,
     minimumTemperature: 20.4,
     maximumTemperature: 20.4,
     thermalConductivityAtMinimumTemperature: 1.264,

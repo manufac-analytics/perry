@@ -496,8 +496,6 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     densityAtMaximumTemperature: 3.2786,
   },
 
-  //Batch1 --->
-
   oTerphenyl: {
     name: 'o-Terphenyl',
     formula: 'C18H14',

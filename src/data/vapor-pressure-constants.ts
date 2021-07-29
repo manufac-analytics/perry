@@ -1235,7 +1235,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   Dibromomethane: {
-    name: 'Dibromo methane',
+    name: 'Dibromomethane',
     formula: 'CH2Br2',
     CAS: '74-95-3',
     C1: 86.295,
@@ -1421,7 +1421,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 46.705,
     C2: -5177.4,
     C3: -3.5985,
-    C4: 107147e-6,
+    C4: 1.7147e-6,
     C5: 2,
     minimumTemperature: 169.2,
     maximumTemperature: 557.15,

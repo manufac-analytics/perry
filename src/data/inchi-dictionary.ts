@@ -2,7 +2,7 @@ import { INCHIProps } from '../interfaces/utils';
 
 export const INCHIDictionary: Record<string, INCHIProps> = {
   Aluminum: {
-    CAS: '7429-92-5',
+    CAS: '7429-90-5',
     inchiString: 'InChI=1S/Al',
     inchiKey: 'XAGFODPZIPBFFR-UHFFFAOYSA-N',
     molecularWeight: 26.98,
@@ -16,7 +16,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   BasicAluminumAcetate: {
-    CAS: '142-03-0',
+    CAS: '',
     inchiString:
       'InChI=1S/2C2H4O2.Al.H2O/c2*1-2(3)4;;/h2*1H3,(H,3,4);;1H2/q;;+3;/p-3',
     inchiKey: 'HQQUTGFAWJNQIP-UHFFFAOYSA-K',
@@ -24,7 +24,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AluminumBromide: {
-    CAS: '',
+    CAS: '7727-15-3',
     inchiString: 'InChI=1S/Al.3BrH/h;3*1H/q+3;;;/p-3',
     inchiKey: 'PQLAYKMGZDUDLQ-UHFFFAOYSA-K',
     molecularWeight: 266.69,
@@ -52,14 +52,14 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AluminumChlorideHexahydrate: {
-    CAS: '',
+    CAS: '7784-13-6',
     inchiString: 'InChI=1S/Al.3ClH.6H2O/h;3*1H;6*1H2/q+3;;;;;;;;;/p-3',
     inchiKey: 'JGDITNMASUZKPW-UHFFFAOYSA-K',
     molecularWeight: 241.43,
   },
 
   AluminumFluorideHydrate: {
-    CAS: '15098-87-0',
+    CAS: '32287-65-3',
     inchiString: 'InChI=1S/Al.3FH.H2O/h;3*1H;1H2/q+3;;;;/p-3',
     inchiKey: 'XTXFDUABTPNTFB-UHFFFAOYSA-K',
     molecularWeight: 101.99,
@@ -73,7 +73,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AluminumHydroxide: {
-    CAS: 'InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3',
+    CAS: '',
     inchiString: 'InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3',
     inchiKey: 'WNROFYMDJYEPJX-UHFFFAOYSA-K',
     molecularWeight: 78.0,
@@ -102,7 +102,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AluminumOxideCorundum: {
-    CAS: '',
+    CAS: '1302-74-5',
     inchiString: 'InChI=1S/2Al.3O',
     inchiKey: 'TWNQGVIAIRXVLR-UHFFFAOYSA-N',
     molecularWeight: 101.96,
@@ -222,7 +222,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumBicarbonate: {
-    CAS: '10361-29-2',
+    CAS: '1066-33-7',
     inchiString: 'InChI=1S/CH2O3.H3N/c2-1(3)4;/h(H2,2,3,4);1H3',
     inchiKey: 'ATRRKUHOCOJYRX-UHFFFAOYSA-N',
     molecularWeight: 79.06,
@@ -243,7 +243,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumCarbonateCarbamate: {
-    CAS: '',
+    CAS: '8000-73-5',
     inchiString:
       'InChI=1S/CH3NO2.CH2O3.2H3N/c2*2-1(3)4;;/h2H2,(H,3,4);(H2,2,3,4);2*1H3',
     inchiKey: 'YNSUIDWLZCFLML-UHFFFAOYSA-N',
@@ -265,14 +265,14 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumChloroplatinate: {
-    CAS: '',
+    CAS: '16919-58-7',
     inchiString: 'InChI=1S/6ClH.2H3N.Pt/h6*1H;2*1H3;/q;;;;;;;;+4/p-4',
     inchiKey: 'PCCGQTHFYHJATL-UHFFFAOYSA-J',
     molecularWeight: 443.87,
   },
 
   AmmoniumChloroplatinite: {
-    CAS: '',
+    CAS: '13820-41-2',
     inchiString: 'InChI=1S/4ClH.2H3N.Pt/h4*1H;2*1H3;/q;;;;;;+2/p-2',
     inchiKey: 'QJIMNDWDOXTTBR-UHFFFAOYSA-L',
     molecularWeight: 372.97,
@@ -286,7 +286,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumChromate: {
-    CAS: '7788-98-9',
+    CAS: '',
     inchiString: 'InChI=1S/Cr.2H3N.4O/h;2*1H3;;;;/q;;;;;2*-1/p+2',
     inchiKey: 'MFFLHUNPSHBKRG-UHFFFAOYSA-P',
     molecularWeight: 152.07,
@@ -321,7 +321,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumFluorideAcid: {
-    CAS: '',
+    CAS: '1341-49-7',
     inchiString: 'InChI=1S/2FH.H3N/h2*1H;1H3',
     inchiKey: 'KVBCYCWRDBDGBG-UHFFFAOYSA-N',
     molecularWeight: 57.04,

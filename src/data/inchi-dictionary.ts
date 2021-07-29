@@ -518,7 +518,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     CAS: '92-52-4',
     inchiString: 'InChI=1S/C12H10/c1-3-7-11(8-4-1)12-9-5-2-6-10-12/h1-10H',
     inchiKey: 'ZUOUZKKEUPVFJK-UHFFFAOYSA-N',
-    molecularWeight: 524.21,
+    molecularWeight: 154.21,
   },
 
   Bromine: {

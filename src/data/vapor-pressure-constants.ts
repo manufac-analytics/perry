@@ -1369,6 +1369,21 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.239e6,
   },
 
+  '1,2Dichloropropane': {
+    name: '1,2-Dichloropropane',
+    formula: 'C3H6Cl2',
+    CAS: '78-87-5',
+    C1: 65.955,
+    C2: -6015.6,
+    C3: -6.5509,
+    C4: 4.3172e-6,
+    C5: 2,
+    minimumTemperature: 172.71,
+    maximumTemperature: 572,
+    pressureAtMinimumTemperature: 8.25e-2,
+    pressureAtMaximumTemperature: 4.232e6,
+  },
+
   DiethanolAmine: {
     name: 'Diethanol amine',
     formula: 'C4H11NO2',

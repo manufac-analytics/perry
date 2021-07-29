@@ -437,7 +437,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   Acrylonitrile: {
-    CAS: '79-10-7',
+    CAS: '107-13-1',
     inchiString: 'InChI=1S/C3H3N/c1-2-3-4/h2H,1H2',
     inchiKey: 'NLHHRLWOUZZQLW-UHFFFAOYSA-N',
     molecularWeight: 53.06,

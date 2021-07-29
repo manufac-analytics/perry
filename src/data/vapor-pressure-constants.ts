@@ -1460,7 +1460,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   Difluoromethane: {
-    name: 'Difluoro amine',
+    name: 'Difluoromethane',
     formula: 'CH2F2',
     CAS: '75-10-5',
     C1: 69.132,
@@ -1475,7 +1475,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   DisopropylAmine: {
-    name: 'Disopropyl amine',
+    name: 'Di-sopropyl amine',
     formula: 'C6H15N',
     CAS: '108-18-9',
     C1: 462.84,

@@ -494,6 +494,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     maximumTemperature: 676,
     densityAtMinimumTemperature: 11.872,
     densityAtMaximumTemperature: 3.2786,
+  }
 
   '1Butanol': {
     name: '1-Butanol',

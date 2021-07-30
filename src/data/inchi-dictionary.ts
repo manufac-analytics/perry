@@ -400,7 +400,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumOxalateAcid: {
-    CAS: '6009-70-7',
+    CAS: '6009-70-7', // Multiple CAS #https://pubchem.ncbi.nlm.nih.gov/compound/62597
     inchiString:
       'InChI=1S/C2H2O4.H3N.H2O/c3-1(4)2(5)6;;/h(H,3,4)(H,5,6);1H3;1H2',
     inchiKey: 'JRWKBXBBNURFHV-UHFFFAOYSA-N',
@@ -458,7 +458,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumSulfamate: {
-    CAS: '13765-36-1',
+    CAS: '7773-06-0',
     inchiString: 'InChI=1S/H3NO3S.H3N/c1-5(2,3)4;/h(H3,1,2,3,4);1H3',
     inchiKey: 'GEHMBYLTCISYNY-UHFFFAOYSA-N',
     molecularWeight: 114.12,
@@ -472,14 +472,14 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumSulfateAcid: {
-    CAS: '10043-02-4',
+    CAS: '7803-63-6',
     inchiString: 'InChI=1S/H3N.H2O4S/c;1-5(2,3)4/h1H3;(H2,1,2,3,4)',
     inchiKey: 'BIGPRXCJEDHCLP-UHFFFAOYSA-N',
     molecularWeight: 115.11,
   },
 
   AmmoniumSulfide: {
-    CAS: '',
+    CAS: '12135-76-1',
     inchiString: 'InChI=1S/2H3N.H2S/h2*1H3;1H2',
     inchiKey: 'UXXGWUQNRMPNKH-UHFFFAOYSA-N',
     molecularWeight: 68.14,

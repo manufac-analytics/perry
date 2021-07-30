@@ -1521,8 +1521,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.097e6,
   },
 
-  DiphenylAmine: {
-    name: 'Diphenyl amine',
+  DipropylAmine: {
+    name: 'Dipropyl amine',
     formula: 'C6H15N',
     CAS: '142-84-7',
     C1: 54,

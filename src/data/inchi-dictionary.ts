@@ -500,14 +500,14 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumSulfiteAcid: {
-    CAS: '10192-30-0',
+    CAS: '10196-04-0',
     inchiString: 'InChI=1S/H3N.H2O3S/c;1-4(2)3/h1H3;(H2,1,2,3)',
     inchiKey: 'ZETCGWYACBNPIH-UHFFFAOYSA-N',
     molecularWeight: 99.11,
   },
 
   AmmoniumTartrate: {
-    CAS: '',
+    CAS: '3164-29-2',
     inchiString:
       'InChI=1S/C4H6O6.2H3N/c5-1(3(7)8)2(6)4(9)10;;/h1-2,5-6H,(H,7,8)(H,9,10);2*1H3',
     inchiKey: 'NGPGDYLVALNKEG-UHFFFAOYSA-N',

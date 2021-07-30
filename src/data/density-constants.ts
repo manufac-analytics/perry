@@ -15,7 +15,6 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     densityAtMinimumTemperature: 21.423,
     densityAtMaximumTemperature: 6.4935,
   },
-  
   Acetamide: {
     name: 'Acetamide',
     formula: 'C2H5NO',

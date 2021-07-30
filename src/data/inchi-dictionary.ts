@@ -16,7 +16,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   BasicAluminumAcetate: {
-    CAS: '',
+    CAS: '142-03-0',
     inchiString:
       'InChI=1S/2C2H4O2.Al.H2O/c2*1-2(3)4;;/h2*1H3,(H,3,4);;1H2/q;;+3;/p-3',
     inchiKey: 'HQQUTGFAWJNQIP-UHFFFAOYSA-K',

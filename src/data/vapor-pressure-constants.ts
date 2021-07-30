@@ -1549,8 +1549,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.773e6,
   },
 
-  '1,2Dimethoxyethane': {
-    name: '1,2-Dimethoxyethane',
+  '1,2Dimethoxypropane': {
+    name: '1,2-Dimethoxypropane',
     formula: 'C5H12O2',
     CAS: '7778-85-0',
     C1: 62.097,
@@ -1624,7 +1624,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.939e6,
   },
 
-  'cis1,1Dimethylcyclohexane': {
+  'cis1,2Dimethylcyclohexane': {
     name: 'cis-1,2-Dimethylcyclohexane',
     formula: 'C8H16',
     CAS: '2207-01-4',
@@ -1639,7 +1639,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.939e6,
   },
 
-  'trans1,1Dimethylcyclohexane': {
+  'trans1,2Dimethylcyclohexane': {
     name: 'trans-1,2-Dimethylcyclohexane',
     formula: 'C8H16',
     CAS: '6876-23-9',
@@ -1729,8 +1729,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.779e6,
   },
 
-  DimethylSilane: {
-    name: 'Dimethyl silane',
+  Dimethylsilane: {
+    name: 'Dimethylsilane',
     formula: 'C2H8Si',
     CAS: '1111-74-6',
     C1: 63.08,

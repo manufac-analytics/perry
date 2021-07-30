@@ -1744,8 +1744,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.561e6,
   },
 
-  DimethylSulphide: {
-    name: 'Dimethyl sulphide',
+  DimethylSulfide: {
+    name: 'Dimethyl sulfide',
     formula: 'C2H6S',
     CAS: '75-18-3',
     C1: 84.39,

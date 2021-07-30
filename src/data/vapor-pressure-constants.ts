@@ -1474,7 +1474,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.372e6,
   },
 
-  Difluoromethane: {
+  DifluoroMethane: {
     name: 'Difluoromethane',
     formula: 'CH2F2',
     CAS: '75-10-5',
@@ -1570,7 +1570,7 @@ export const DIPPRVaporPressureDictionary: Record<
     CAS: '503-17-3',
     C1: 66.592,
     C2: -4999.8,
-    C3: 6.8387,
+    C3: -6.8387,
     C4: 6.6793e-6,
     C5: 2,
     minimumTemperature: 240.91,
@@ -1583,7 +1583,7 @@ export const DIPPRVaporPressureDictionary: Record<
     name: 'Dimethyl amine',
     formula: 'C2H7N',
     CAS: '124-40-3',
-    C1: 71.7388,
+    C1: 71.738,
     C2: -5302,
     C3: -7.3324,
     C4: 6.42e-17,
@@ -1714,7 +1714,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.882e6,
   },
 
-  Dimethylphthalate: {
+  DimethylPhthalate: {
     name: 'Dimethyl phthalate',
     formula: 'C10H10O4',
     CAS: '131-11-3',
@@ -1729,7 +1729,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.779e6,
   },
 
-  Dimethylsilane: {
+  DimethylSilane: {
     name: 'Dimethyl silane',
     formula: 'C2H8Si',
     CAS: '1111-74-6',
@@ -1744,7 +1744,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.561e6,
   },
 
-  Dimethylsulphide: {
+  DimethylSulphide: {
     name: 'Dimethyl sulphide',
     formula: 'C2H6S',
     CAS: '75-18-3',
@@ -1759,7 +1759,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 5.533e6,
   },
 
-  Dimethylsulfoxide: {
+  DimethylSulfoxide: {
     name: 'Dimethyl sulfoxide',
     formula: 'C2H6OS',
     CAS: '67-68-5',

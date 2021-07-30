@@ -1820,6 +1820,36 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMinimumTemperature: 2.3,
     pressureAtMaximumTemperature: 2.919e6,
   },
+
+  '2Heptanone': {
+    name: '2-Heptanone',
+    formula: 'C7H14O',
+    CAS: '110-43-0',
+    C1: 75.494,
+    C2: -7896.5,
+    C3: -7.5047,
+    C4: 8.91e-18,
+    C5: 6,
+    minimumTemperature: 238.15,
+    maximumTemperature: 611.4,
+    pressureAtMinimumTemperature: 3.54,
+    pressureAtMaximumTemperature: 2.946e6,
+  },
+
+  '1Heptene': {
+    name: '1-Heptene',
+    formula: 'C7H14',
+    CAS: '592-76-7',
+    C1: 65.922,
+    C2: -6189,
+    C3: -6.3629,
+    C4: 2.01e-17,
+    C5: 6,
+    minimumTemperature: 154.12,
+    maximumTemperature: 537.4,
+    pressureAtMinimumTemperature: 1.84e-3,
+    pressureAtMaximumTemperature: 2.921e6,
+  },
 } as const;
 
 export function calculateDIPPRVaporPressure(

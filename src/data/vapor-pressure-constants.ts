@@ -1507,7 +1507,7 @@ export const DIPPRVaporPressureDictionary: Record<
   //batch5
 
   DiphenylEther: {
-    name: 'DiphenylEther',
+    name: 'Diphenyl ether',
     formula: 'C12H10O',
     CAS: '101-84-8',
     C1: 59.969,
@@ -1522,7 +1522,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   DiphenylAmine: {
-    name: 'DiphenylAmine',
+    name: 'Diphenyl amine',
     formula: 'C6H15N',
     CAS: '142-84-7',
     C1: 54,
@@ -1626,8 +1626,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 5.594e6,
   },
 
-  EthylBenzene: {
-    name: 'Ethyl benzene',
+  Ethylbenzene: {
+    name: 'Ethylbenzene',
     formula: 'C8H10',
     CAS: '100-41-4',
     C1: 89.063,
@@ -1776,8 +1776,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6.85e6,
   },
 
-  Ethyleneoxide: {
-    name: 'Ethyleneoxide',
+  EthyleneOxide: {
+    name: 'Ethylene oxide',
     formula: 'C2H4O',
     CAS: '75-21-8',
     C1: 91.944,

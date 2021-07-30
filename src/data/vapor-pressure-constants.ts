@@ -1474,7 +1474,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4.372e6,
   },
 
-  DifluoroMethane: {
+  Difluoromethane: {
     name: 'Difluoromethane',
     formula: 'CH2F2',
     CAS: '75-10-5',

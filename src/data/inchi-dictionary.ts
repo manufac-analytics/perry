@@ -400,7 +400,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumOxalateAcid: {
-    CAS: '6009-70-7', // Multiple CAS #https://pubchem.ncbi.nlm.nih.gov/compound/62597
+    CAS: '6009-70-7',
     inchiString:
       'InChI=1S/C2H2O4.H3N.H2O/c3-1(4)2(5)6;;/h(H,3,4)(H,5,6);1H3;1H2',
     inchiKey: 'JRWKBXBBNURFHV-UHFFFAOYSA-N',

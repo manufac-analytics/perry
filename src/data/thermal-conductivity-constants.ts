@@ -411,7 +411,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMinimumTemperature: 0.1868,
     thermalConductivityAtMaximumTemperature: 0.0709,
   },
-  
+
   '1,2Butanediol': {
     name: '1,2-Butanediol',
     formula: 'C4H10O2',
@@ -1391,7 +1391,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     maximumTemperature: 403.15,
     thermalConductivityAtMinimumTemperature: 0.1842,
     thermalConductivityAtMaximumTemperature: 0.1091,
-
   },
 };
 export function calculateDIPPRThermalConductivity(

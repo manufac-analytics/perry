@@ -699,14 +699,14 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
 
   '1,2Butadiene': {
     CAS: '590-19-2',
-    inchiString: 'InChI=1S/C4H10/c1-3-4-2/h3-4H2,1-2H3',
+    inchiString: 'InChI=1S/C4H6/c1-3-4-2/h4H,1H2,2H3',
     inchiKey: 'QNRMTGGDHLBXQZ-UHFFFAOYSA-N',
-    molecularWeight: 56.06,
+    molecularWeight: 54.09,
   },
 
   '1,3Butadiene': {
     CAS: '106-99-0',
-    inchiString: 'IJDNQMDRQITEOD-UHFFFAOYSA-N',
+    inchiString: 'InChI=1S/C4H6/c1-3-4-2/h3-4H,1-2H2',
     inchiKey: 'KAKZBPTYRLMSJV-UHFFFAOYSA-N',
     molecularWeight: 54.09,
   },

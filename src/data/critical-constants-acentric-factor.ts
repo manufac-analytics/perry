@@ -1312,7 +1312,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.232443,
   },
 
-  'trans-1,2-Dimethylcyclohexane': {
+  'trans1,2Dimethylcyclohexane': {
     name: 'trans-1,2-Dimethylcyclohexane',
     formula: 'C8H16',
     CAS: '6876-23-9',

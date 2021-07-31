@@ -2464,7 +2464,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   HydrogenSulfide: {
     name: 'Hydrogen sulfide',
     formula: 'H2S',
-    CAS: '04-06-7783',
+    CAS: '7783-06-4',
     molecularWeight: 34.08088,
     C1: 0.4842,
     C2: -0.001184,

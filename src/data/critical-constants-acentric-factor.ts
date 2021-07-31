@@ -3219,6 +3219,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.269,
     acentricFactor: 0.58814,
   },
+
   '2Octanone': {
     name: '2-Octanone',
     formula: 'C8H16O',
@@ -3230,6 +3231,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.249,
     acentricFactor: 0.454874,
   },
+
   '3Octanone': {
     name: '3-Octanone',
     formula: 'C8H16O',
@@ -3241,6 +3243,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.257,
     acentricFactor: 0.440561,
   },
+
   '1Octene': {
     name: '1-Octene',
     formula: 'C8H16',
@@ -3252,6 +3255,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.262,
     acentricFactor: 0.392149,
   },
+
   OctylMercaptan: {
     name: 'Octyl mercaptan',
     formula: 'C8H18S',
@@ -3263,6 +3267,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.235,
     acentricFactor: 0.449744,
   },
+
   '1Octyne': {
     name: '1-Octyne',
     formula: 'C8H14',
@@ -3274,6 +3279,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.42329,
   },
+
   OxalicAcid: {
     name: 'Oxalic acid',
     formula: 'C2H2O4',
@@ -3285,6 +3291,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.286278,
   },
+
   Oxygen: {
     name: 'Oxygen',
     formula: 'O2',
@@ -3296,6 +3303,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.288,
     acentricFactor: 0.0221798,
   },
+
   Ozone: {
     name: 'Ozone',
     formula: 'O3',
@@ -3307,6 +3315,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.288,
     acentricFactor: 0.211896,
   },
+
   Pentadecane: {
     name: 'Pentadecane',
     formula: 'C15H32',
@@ -3318,6 +3327,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.68632,
   },
+
   Pentanal: {
     name: 'Pentanal',
     formula: 'C5H10O',
@@ -3329,6 +3339,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.256,
     acentricFactor: 0.313152,
   },
+
   Pentane: {
     name: 'Pentane',
     formula: 'C5H12',
@@ -3340,6 +3351,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.251506,
   },
+
   PentanoicAcid: {
     name: 'Pentanoic acid',
     formula: 'C5H10O2',
@@ -3351,6 +3363,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.239,
     acentricFactor: 0.706632,
   },
+
   '1Pentanol': {
     name: '1-Pentanol',
     formula: 'C5H12O',
@@ -3362,6 +3375,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.258,
     acentricFactor: 0.57483,
   },
+
   '2Pentanol': {
     name: '2-Pentanol',
     formula: 'C5H12O',
@@ -3373,6 +3387,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.259,
     acentricFactor: 0.554979,
   },
+
   '2Pentanone': {
     name: '2-Pentanone',
     formula: 'C5H10O',
@@ -3384,6 +3399,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.238,
     acentricFactor: 0.343288,
   },
+
   '3Pentanone': {
     name: '3-Pentanone',
     formula: 'C5H10O',
@@ -3395,6 +3411,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.269,
     acentricFactor: 0.344846,
   },
+
   '1Pentene': {
     name: '1-Pentene',
     formula: 'C5H10',
@@ -3406,6 +3423,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.237218,
   },
+
   '2PentylMercaptan': {
     name: '2-Pentyl mercaptan',
     formula: 'C5H12S',
@@ -3417,6 +3435,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.28,
     acentricFactor: 0.26853,
   },
+
   PentylMercaptan: {
     name: 'Pentyl mercaptan',
     formula: 'C5H12S',
@@ -3428,6 +3447,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.251,
     acentricFactor: 0.320705,
   },
+
   '1Pentyne': {
     name: '1-Pentyne',
     formula: 'C5H8',
@@ -3439,6 +3459,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.289,
     acentricFactor: 0.289925,
   },
+
   '2Pentyne': {
     name: '2-Pentyne',
     formula: 'C5H8',
@@ -3450,6 +3471,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.258,
     acentricFactor: 0.175199,
   },
+
   Phenanthrene: {
     name: 'Phenanthrene',
     formula: 'C14H10',
@@ -3461,6 +3483,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.222,
     acentricFactor: 0.470716,
   },
+
   Phenol: {
     name: 'Phenol',
     formula: 'C6H6O',
@@ -3472,6 +3495,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.243,
     acentricFactor: 0.44346,
   },
+
   PhenylIsocyanate: {
     name: 'Phenyl isocyanate',
     formula: 'C7H5NO',
@@ -3483,6 +3507,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.277,
     acentricFactor: 0.412323,
   },
+
   PhthalicAnhydride: {
     name: 'Phthalic anhydride',
     formula: 'C8H4O3',
@@ -3494,6 +3519,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.302,
     acentricFactor: 0.702495,
   },
+
   Propadiene: {
     name: 'Propadiene',
     formula: 'C3H4',
@@ -3505,6 +3531,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.264,
     acentricFactor: 0.104121,
   },
+
   Propane: {
     name: 'Propane',
     formula: 'C3H8',
@@ -3516,6 +3543,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.276,
     acentricFactor: 0.152291,
   },
+
   '1Propanol': {
     name: '1-Propanol',
     formula: 'C3H8O',
@@ -3527,6 +3555,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.6209,
   },
+
   Propenylcyclohexene: {
     name: 'Propenylcyclohexene',
     formula: 'C9H14',
@@ -3538,6 +3567,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.258,
     acentricFactor: 0.341975,
   },
+
   Propionaldehyde: {
     name: 'Propionaldehyde',
     formula: 'C3H6O',
@@ -3549,6 +3579,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.246,
     acentricFactor: 0.281254,
   },
+
   PropionicAcid: {
     name: 'Propionic acid',
     formula: 'C3H6O2',
@@ -3560,6 +3591,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.22,
     acentricFactor: 0.579579,
   },
+
   Propionitrile: {
     name: 'Propionitrile',
     formula: 'C3H5N',
@@ -3571,6 +3603,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.221,
     acentricFactor: 0.350057,
   },
+
   PropylAcetate: {
     name: 'Propyl acetate',
     formula: 'C5H10O2',
@@ -3582,6 +3615,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.254,
     acentricFactor: 0.388902,
   },
+
   PropylAmine: {
     name: 'Propyl amine',
     formula: 'C3H9N',
@@ -3593,6 +3627,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.298,
     acentricFactor: 0.279839,
   },
+
   Propylbenzene: {
     name: 'Propylbenzene',
     formula: 'C9H12',
@@ -3604,6 +3639,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.265,
     acentricFactor: 0.344391,
   },
+
   Propylene: {
     name: 'Propylene',
     formula: 'C3H6',
@@ -3615,6 +3651,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.281,
     acentricFactor: 0.137588,
   },
+
   PropylFormate: {
     name: 'Propyl formate',
     formula: 'C4H8O2',
@@ -3626,6 +3663,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.256,
     acentricFactor: 0.308779,
   },
+
   '2PropylMercaptan': {
     name: '2-Propyl mercaptan',
     formula: 'C3H8S',
@@ -3637,6 +3675,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.281,
     acentricFactor: 0.21381,
   },
+
   PropylMercaptan: {
     name: 'Propyl mercaptan',
     formula: 'C3H8S',

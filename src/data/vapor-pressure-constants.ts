@@ -2150,14 +2150,14 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   EthylisopropylKetone: {
-    name: 'EthylisopropylKetone',
+    name: 'Ethylisopropyl ketone',
     formula: 'C6H12O',
     CAS: '565-69-5',
     C1: 57.459,
     C2: -6356.8,
     C3: -4.9545,
     C4: 5.2e-18,
-    C5: 1,
+    C5: 6,
     minimumTemperature: 204.15,
     maximumTemperature: 567,
     pressureAtMinimumTemperature: 9.7e-1,
@@ -2350,7 +2350,7 @@ export const DIPPRVaporPressureDictionary: Record<
     CAS: '7440-59-7',
     C1: 11.533,
     C2: -8.99,
-    C3: -0.6724,
+    C3: 0.6724,
     C4: 0.2743,
     C5: 1,
     minimumTemperature: 1.76,
@@ -2509,8 +2509,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.772e6,
   },
 
-  '1-Heptyne': {
-    name: 'Heptyl mercaptan',
+  '1Heptyne': {
+    name: '1-Heptyne ',
     formula: 'C7H12',
     CAS: '628-71-7',
     C1: 59.083,
@@ -2550,7 +2550,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 214.93,
     maximumTemperature: 594,
-    pressureAtMinimumTemperature: 1.84,
+    pressureAtMinimumTemperature: 1.86,
     pressureAtMaximumTemperature: 3.46e6,
   },
 
@@ -2584,8 +2584,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.309e6,
   },
 
-  '1-Hexanol': {
-    name: 'Hexanoic acid',
+  '1Hexanol': {
+    name: '1-Hexanol',
     formula: 'C6H14O',
     CAS: '111-27-3',
     C1: 135.42149,
@@ -2599,8 +2599,8 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3.446e6,
   },
 
-  '2-Hexanol': {
-    name: 'Hexanoic acid',
+  '2Hexanol': {
+    name: '2-Hexanol',
     formula: 'C6H14O',
     CAS: '626-93-7',
     C1: 122.695,
@@ -2630,11 +2630,11 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   '3Hexanone': {
-    name: '2-Hexanone',
+    name: '3-Hexanone',
     formula: 'C6H12O',
     CAS: '589-38-8',
     C1: 73.155,
-    C2: -7542.9,
+    C2: -7242.9,
     C3: -7.2569,
     C4: 1.27e-17,
     C5: 6,
@@ -2690,7 +2690,7 @@ export const DIPPRVaporPressureDictionary: Record<
   },
 
   '1Hexyne': {
-    name: '2-Hexyne',
+    name: '1-Hexyne',
     formula: 'C6H10',
     CAS: '693-02-7',
     C1: 133.2,
@@ -2731,7 +2731,7 @@ export const DIPPRVaporPressureDictionary: Record<
     minimumTemperature: 274.69,
     maximumTemperature: 653.15,
     pressureAtMinimumTemperature: 4.08e2,
-    pressureAtMaximumTemperature: 1.473e6,
+    pressureAtMaximumTemperature: 1.473e7,
   },
 
   Hydrogen: {

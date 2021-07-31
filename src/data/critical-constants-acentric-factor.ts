@@ -2383,7 +2383,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
   MethylAmine: {
     name: 'Methyl amine',
     formula: 'CH5N',
-    CAS: ' 74-89-5',
+    CAS: '74-89-5',
     molecularWeight: 31.0571,
     criticalTemperature: 430.05,
     criticalPressure: 7.46,
@@ -2559,6 +2559,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.27,
     acentricFactor: 0.236055,
   },
+
   '1Methylcyclohexanol': {
     name: '1-Methylcyclohexanol',
     formula: 'C7H14O',
@@ -2570,6 +2571,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.262,
     acentricFactor: 0.221299,
   },
+
   cis2Methylcyclohexanol: {
     name: 'cis-2-Methylcyclohexanol',
     formula: 'C7H14O',
@@ -2581,6 +2583,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.278,
     acentricFactor: 0.68049,
   },
+
   trans2Methylcyclohexanol: {
     name: 'trans-2-Methylcyclohexanol',
     formula: 'C7H14O',
@@ -2592,6 +2595,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.276,
     acentricFactor: 0.67904,
   },
+
   Methylcyclopentane: {
     name: 'Methylcyclopentane',
     formula: 'C6H12',
@@ -2603,6 +2607,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.273,
     acentricFactor: 0.228759,
   },
+
   '1Methylcyclopentene': {
     name: '1-Methylcyclopentene',
     formula: 'C6H10',
@@ -2614,6 +2619,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.278,
     acentricFactor: 0.23179,
   },
+
   '3Methylcyclopentene': {
     name: '3-Methylcyclopentene',
     formula: 'C6H10',
@@ -2625,6 +2631,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.286,
     acentricFactor: 0.229606,
   },
+
   Methyldichlorosilane: {
     name: 'Methyldichlorosilane',
     formula: 'CH4Cl2Si',
@@ -2636,6 +2643,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.284,
     acentricFactor: 0.275755,
   },
+
   MethylethylEther: {
     name: 'Methylethyl ether',
     formula: 'C3H8O',
@@ -2647,6 +2655,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.267,
     acentricFactor: 0.231374,
   },
+
   MethylethylKetone: {
     name: 'Methylethyl ketone',
     formula: 'C4H8O',
@@ -2658,6 +2667,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.249,
     acentricFactor: 0.323369,
   },
+
   MethylethylSulfide: {
     name: 'Methylethyl sulfide',
     formula: 'C3H8S',
@@ -2669,6 +2679,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.244,
     acentricFactor: 0.209108,
   },
+
   MethylFormate: {
     name: 'Methyl formate',
     formula: 'C2H4O2',
@@ -2680,6 +2691,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.255,
     acentricFactor: 0.255551,
   },
+
   MethylisobutylEther: {
     name: 'Methylisobutyl ether',
     formula: 'C5H12O',
@@ -2691,6 +2703,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.272,
     acentricFactor: 0.307786,
   },
+
   MethylisobutylKetone: {
     name: 'Methylisobutyl ketone',
     formula: 'C6H12O',
@@ -2702,6 +2715,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.253,
     acentricFactor: 0.355671,
   },
+
   MethylIsocyanate: {
     name: 'Methyl Isocyanate',
     formula: 'C2H3NO',
@@ -2713,6 +2727,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.273,
     acentricFactor: 0.300694,
   },
+
   MethylisopropylEther: {
     name: 'Methylisopropyl ether',
     formula: 'C4H10O',
@@ -2724,6 +2739,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.269,
     acentricFactor: 0.26555,
   },
+
   MethylisopropylKetone: {
     name: 'Methylisopropyl ketone',
     formula: 'C5H10O',
@@ -2735,6 +2751,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.256,
     acentricFactor: 0.320845,
   },
+
   MethylisopropylSulfide: {
     name: 'Methylisopropyl sulfide',
     formula: 'C4H10S',
@@ -2745,5 +2762,461 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalVolume: 0.328,
     criticalCompressibilityFactor: 0.28718,
     acentricFactor: 0.24611,
+  },
+
+  MethylMercaptan: {
+    name: 'Methyl mercaptan',
+    formula: 'CH4S',
+    CAS: '74-93-1',
+    molecularWeight: 48.10746,
+    criticalTemperature: 469.95,
+    criticalPressure: 7.23,
+    criticalVolume: 0.145,
+    criticalCompressibilityFactor: 0.268,
+    acentricFactor: 0.158174,
+  },
+
+  MethylMethacrylate: {
+    name: 'Methyl methacrylate',
+    formula: 'C5H8O2',
+    CAS: '80-62-6',
+    molecularWeight: 100.11582,
+    criticalTemperature: 566,
+    criticalPressure: 3.68,
+    criticalVolume: 0.323,
+    criticalCompressibilityFactor: 0.253,
+    acentricFactor: 0.280233,
+  },
+
+  '2MethyloctanoicAcid': {
+    name: '2-Methyloctanoic acid',
+    formula: 'C9H18O2',
+    CAS: '3004-93-1',
+    molecularWeight: 158.23802,
+    criticalTemperature: 694,
+    criticalPressure: 2.54,
+    criticalVolume: 0.572,
+    criticalCompressibilityFactor: 0.252,
+    acentricFactor: 0.791271,
+  },
+
+  '2Methylpentane': {
+    name: '2-Methylpentane',
+    formula: 'C6H14',
+    CAS: '107-83-5',
+    molecularWeight: 86.17536,
+    criticalTemperature: 497.7,
+    criticalPressure: 3.04,
+    criticalVolume: 0.368,
+    criticalCompressibilityFactor: 0.27,
+    acentricFactor: 0.279149,
+  },
+
+  MethylPentylEther: {
+    name: 'Methyl pentyl ether',
+    formula: 'C6H14O',
+    CAS: '628-80-8',
+    molecularWeight: 102.17476,
+    criticalTemperature: 546.49,
+    criticalPressure: 3.042,
+    criticalVolume: 0.38,
+    criticalCompressibilityFactor: 0.254,
+    acentricFactor: 0.344201,
+  },
+
+  '2Methylpropane ': {
+    name: '2-Methylpropane',
+    formula: 'C4H10',
+    CAS: '75-28-5',
+    molecularWeight: 58.1222,
+    criticalTemperature: 407.8,
+    criticalPressure: 3.64,
+    criticalVolume: 0.259,
+    criticalCompressibilityFactor: 0.278,
+    acentricFactor: 0.183521,
+  },
+
+  '2Methyl2propanol': {
+    name: '2-Methyl-2-propanol',
+    formula: 'C4H10O',
+    CAS: '75-65-0',
+    molecularWeight: 74.1216,
+    criticalTemperature: 506.2,
+    criticalPressure: 3.972,
+    criticalVolume: 0.275,
+    criticalCompressibilityFactor: 0.26,
+    acentricFactor: 0.615203,
+  },
+
+  '2MethylPropene': {
+    name: '2-Methyl propene',
+    formula: 'C4H8',
+    CAS: '115-11-7',
+    molecularWeight: 56.10632,
+    criticalTemperature: 417.9,
+    criticalPressure: 4,
+    criticalVolume: 0.239,
+    criticalCompressibilityFactor: 0.275,
+    acentricFactor: 0.19484,
+  },
+
+  MethylPropionate: {
+    name: 'Methyl propionate',
+    formula: 'C4H8O2',
+    CAS: '554-12-1',
+    molecularWeight: 88.10512,
+    criticalTemperature: 530.6,
+    criticalPressure: 4.004,
+    criticalVolume: 0.282,
+    criticalCompressibilityFactor: 0.256,
+    acentricFactor: 0.346586,
+  },
+
+  MethylpropylEther: {
+    name: 'Methylpropyl ether',
+    formula: 'C4H10O',
+    CAS: '557-17-5',
+    molecularWeight: 74.1216,
+    criticalTemperature: 476.25,
+    criticalPressure: 3.801,
+    criticalVolume: 0.276,
+    criticalCompressibilityFactor: 0.265,
+    acentricFactor: 0.276999,
+  },
+
+  MethylpropylSulfide: {
+    name: 'Methylpropyl sulfide',
+    formula: 'C4H10S',
+    CAS: '3877-15-4',
+    molecularWeight: 90.1872,
+    criticalTemperature: 565,
+    criticalPressure: 3.97,
+    criticalVolume: 0.307,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.273669,
+  },
+
+  Methylsilane: {
+    name: 'Methylsilane',
+    formula: 'CH6Si',
+    CAS: '992-94-9',
+    molecularWeight: 46.14384,
+    criticalTemperature: 352.5,
+    criticalPressure: 4.7,
+    criticalVolume: 0.205,
+    criticalCompressibilityFactor: 0.329,
+    acentricFactor: 0.131449,
+  },
+
+  alphaMethylStyrene: {
+    name: 'alpha-Methyl styrene',
+    formula: 'C9H10',
+    CAS: '98-83-9',
+    molecularWeight: 118.1757,
+    criticalTemperature: 654,
+    criticalPressure: 3.36,
+    criticalVolume: 0.399,
+    criticalCompressibilityFactor: 0.247,
+    acentricFactor: 0.32297,
+  },
+
+  MethylTertButylEther: {
+    name: 'Methyl tert-butyl ether',
+    formula: 'C5H12O',
+    CAS: '1634-04-4',
+    molecularWeight: 88.1482,
+    criticalTemperature: 497.1,
+    criticalPressure: 3.286,
+    criticalVolume: 0.329,
+    criticalCompressibilityFactor: 0.262,
+    acentricFactor: 0.246542,
+  },
+
+  MethylVinylEther: {
+    name: 'Methyl vinyl ether',
+    formula: 'C3H6O',
+    CAS: '107-25-5',
+    molecularWeight: 58.07914,
+    criticalTemperature: 437,
+    criticalPressure: 4.67,
+    criticalVolume: 0.21,
+    criticalCompressibilityFactor: 0.27,
+    acentricFactor: 0.241564,
+  },
+
+  Naphthalene: {
+    name: 'Naphthalene',
+    formula: 'C10H8',
+    CAS: '91-20-3',
+    molecularWeight: 128.17052,
+    criticalTemperature: 748.4,
+    criticalPressure: 4.05,
+    criticalVolume: 0.407,
+    criticalCompressibilityFactor: 0.265,
+    acentricFactor: 0.302034,
+  },
+
+  Neon: {
+    name: 'Neon',
+    formula: 'Ne',
+    CAS: '7440-01-9',
+    molecularWeight: 20.1797,
+    criticalTemperature: 44.4,
+    criticalPressure: 2.653,
+    criticalVolume: 0.0417,
+    criticalCompressibilityFactor: 0.3,
+    acentricFactor: -0.0395988,
+  },
+
+  Nitroethane: {
+    name: 'Nitroethane',
+    formula: 'C2H5NO2',
+    CAS: '79-24-3',
+    molecularWeight: 75.0666,
+    criticalTemperature: 593,
+    criticalPressure: 5.16,
+    criticalVolume: 0.236,
+    criticalCompressibilityFactor: 0.247,
+    acentricFactor: 0.380324,
+  },
+
+  Nitrogen: {
+    name: 'Nitrogen',
+    formula: 'N2',
+    CAS: '7727-37-9',
+    molecularWeight: 28.0134,
+    criticalTemperature: 126.2,
+    criticalPressure: 3.4,
+    criticalVolume: 0.08921,
+    criticalCompressibilityFactor: 0.289,
+    acentricFactor: 0.0377215,
+  },
+
+  NitrogenTrifluoride: {
+    name: 'Nitrogen trifluoride',
+    formula: 'F3N',
+    CAS: '7783-54-2',
+    molecularWeight: 71.00191,
+    criticalTemperature: 234,
+    criticalPressure: 4.4607,
+    criticalVolume: 0.11875,
+    criticalCompressibilityFactor: 0.272,
+    acentricFactor: 0.119984,
+  },
+
+  Nitromethane: {
+    name: 'Nitromethane',
+    formula: 'CH3NO2',
+    CAS: '75-52-5',
+    molecularWeight: 61.04002,
+    criticalTemperature: 588.15,
+    criticalPressure: 6.31,
+    criticalVolume: 0.173,
+    criticalCompressibilityFactor: 0.223,
+    acentricFactor: 0.348026,
+  },
+
+  NitrousOxide: {
+    name: 'Nitrous oxide',
+    formula: 'N2O',
+    CAS: '10024-97-2',
+    molecularWeight: 44.0128,
+    criticalTemperature: 309.57,
+    criticalPressure: 7.245,
+    criticalVolume: 0.0974,
+    criticalCompressibilityFactor: 0.274,
+    acentricFactor: 0.140894,
+  },
+
+  NitricOxide: {
+    name: 'Nitric oxide',
+    formula: 'NO',
+    CAS: '10102-43-9',
+    molecularWeight: 30.0061,
+    criticalTemperature: 180.15,
+    criticalPressure: 6.48,
+    criticalVolume: 0.058,
+    criticalCompressibilityFactor: 0.251,
+    acentricFactor: 0.582944,
+  },
+
+  Nonadecane: {
+    name: 'Nonadecane',
+    formula: 'C19H40',
+    CAS: '629-92-5',
+    molecularWeight: 268.5209,
+    criticalTemperature: 758,
+    criticalPressure: 1.21,
+    criticalVolume: 1.26,
+    criticalCompressibilityFactor: 0.242,
+    acentricFactor: 0.852231,
+  },
+
+  Nonanal: {
+    name: 'Nonanal',
+    formula: 'C9H18O',
+    CAS: '124-19-6',
+    molecularWeight: 142.23862,
+    criticalTemperature: 658.5,
+    criticalPressure: 2.68,
+    criticalVolume: 0.543,
+    criticalCompressibilityFactor: 0.266,
+    acentricFactor: 0.473309,
+  },
+
+  Nonane: {
+    name: 'Nonane',
+    formula: 'C9H20',
+    CAS: '111-84-2',
+    molecularWeight: 128.2551,
+    criticalTemperature: 594.6,
+    criticalPressure: 2.29,
+    criticalVolume: 0.551,
+    criticalCompressibilityFactor: 0.255,
+    acentricFactor: 0.44346,
+  },
+
+  NonanoicAcid: {
+    name: 'Nonanoic acid',
+    formula: 'C9H18O2',
+    CAS: '112-05-0',
+    molecularWeight: 158.238,
+    criticalTemperature: 710.7,
+    criticalPressure: 2.514,
+    criticalVolume: 0.584,
+    criticalCompressibilityFactor: 0.248,
+    acentricFactor: 0.778706,
+  },
+
+  '1Nonanol': {
+    name: '1-Nonanol',
+    formula: 'C9H20O',
+    CAS: '143-08-8',
+    molecularWeight: 144.2545,
+    criticalTemperature: 670.9,
+    criticalPressure: 2.527,
+    criticalVolume: 0.576,
+    criticalCompressibilityFactor: 0.261,
+    acentricFactor: 0.584074,
+  },
+
+  '2Nonanol': {
+    name: '2-Nonanol',
+    formula: 'C9H20O',
+    CAS: '628-99-9',
+    molecularWeight: 144.255,
+    criticalTemperature: 649.5,
+    criticalPressure: 2.5408,
+    criticalVolume: 0.577,
+    criticalCompressibilityFactor: 0.271,
+    acentricFactor: 0.6092,
+  },
+
+  '1Nonene': {
+    name: '1-Nonene',
+    formula: 'C9H18',
+    CAS: '124-11-8',
+    molecularWeight: 126.23922,
+    criticalTemperature: 593.1,
+    criticalPressure: 2.428,
+    criticalVolume: 0.524,
+    criticalCompressibilityFactor: 0.258,
+    acentricFactor: 0.436736,
+  },
+
+  NonylMercaptan: {
+    name: 'Nonyl mercaptan',
+    formula: 'C9H20S',
+    CAS: '1455-21-6',
+    molecularWeight: 160.3201,
+    criticalTemperature: 681,
+    criticalPressure: 2.31,
+    criticalVolume: 0.571,
+    criticalCompressibilityFactor: 0.233,
+    acentricFactor: 0.52604,
+  },
+
+  '1Nonyne': {
+    name: '1-Nonyne',
+    formula: 'C9H16',
+    CAS: '3452-09-3',
+    molecularWeight: 124.22334,
+    criticalTemperature: 598.05,
+    criticalPressure: 2.61,
+    criticalVolume: 0.497,
+    criticalCompressibilityFactor: 0.261,
+    acentricFactor: 0.470974,
+  },
+
+  Octadecane: {
+    name: 'Octadecane',
+    formula: 'C18H38',
+    CAS: '593-45-3',
+    molecularWeight: 254.49432,
+    criticalTemperature: 747,
+    criticalPressure: 1.27,
+    criticalVolume: 1.19,
+    criticalCompressibilityFactor: 0.243,
+    acentricFactor: 0.811359,
+  },
+
+  Octanal: {
+    name: 'Octanal',
+    formula: 'C8H16O',
+    CAS: '124-13-0',
+    molecularWeight: 128.212,
+    criticalTemperature: 638.9,
+    criticalPressure: 2.96,
+    criticalVolume: 0.488,
+    criticalCompressibilityFactor: 0.272,
+    acentricFactor: 0.441993,
+  },
+
+  Octane: {
+    name: 'Octane',
+    formula: 'C8H18',
+    CAS: '111-65-9',
+    molecularWeight: 114.22852,
+    criticalTemperature: 568.7,
+    criticalPressure: 2.49,
+    criticalVolume: 0.486,
+    criticalCompressibilityFactor: 0.256,
+    acentricFactor: 0.399552,
+  },
+
+  OctanoicAcid: {
+    name: 'Octanoic acid',
+    formula: 'C8H16O2',
+    CAS: '124-07-2',
+    molecularWeight: 144.211,
+    criticalTemperature: 694.26,
+    criticalPressure: 2.779,
+    criticalVolume: 0.523,
+    criticalCompressibilityFactor: 0.252,
+    acentricFactor: 0.773427,
+  },
+
+  '1Octanol': {
+    name: '1-Octanol',
+    formula: 'C8H18O',
+    CAS: '111-87-5',
+    molecularWeight: 130.22792,
+    criticalTemperature: 652.3,
+    criticalPressure: 2.783,
+    criticalVolume: 0.509,
+    criticalCompressibilityFactor: 0.261,
+    acentricFactor: 0.569694,
+  },
+
+  '2Octanol': {
+    name: '2-Octanol',
+    formula: 'C8H18O',
+    CAS: '123-96-6',
+    molecularWeight: 130.228,
+    criticalTemperature: 629.8,
+    criticalPressure: 2.749,
+    criticalVolume: 0.512,
+    criticalCompressibilityFactor: 0.269,
+    acentricFactor: 0.58814,
   },
 };

@@ -843,7 +843,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   'cis1,2Dimethylcyclohexane': {
     name: 'cis-1,2-Dimethylcyclohexane',
     formula: 'C8H16',
-    CAS: '04-01-2207',
+    CAS: '2207-01-4',
     molecularWeight: 112.21264,
     C1: 0.52953,
     C2: 0.24358,

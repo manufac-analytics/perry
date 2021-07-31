@@ -2763,7 +2763,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   },
 
   MethylButyrate: {
-    name: 'MethylButyrate',
+    name: 'Methyl butyrate',
     formula: 'C5H10O2',
     CAS: '623-42-7',
     molecularWeight: 102.1317,

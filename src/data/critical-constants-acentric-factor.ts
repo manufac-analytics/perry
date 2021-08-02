@@ -2383,7 +2383,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
   MethylAmine: {
     name: 'Methyl amine',
     formula: 'CH5N',
-    CAS: ' 74-89-5',
+    CAS: '74-89-5',
     molecularWeight: 31.0571,
     criticalTemperature: 430.05,
     criticalPressure: 7.46,

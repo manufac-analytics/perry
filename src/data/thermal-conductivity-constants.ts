@@ -3237,7 +3237,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   Neon: {
     name: 'Neon',
     formula: 'Ne',
-    CAS: '09-01-7440',
+    CAS: '7440-01-9',
     molecularWeight: 20.1797,
     C1: 0.2971,
     C2: -0.017356,
@@ -3435,7 +3435,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   '1Nonyne': {
     name: '1-Nonyne',
     formula: 'C9H16',
-    CAS: '03-09-3452',
+    CAS: '3452-09-3',
     molecularWeight: 124.22334,
     C1: 0.20954,
     C2: -0.00024588,

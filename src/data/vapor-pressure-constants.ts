@@ -2362,7 +2362,7 @@ export const DIPPRVaporPressureDictionary: Record<
   Heptadecane: {
     name: 'Heptadecane',
     formula: 'C17H36',
-    CAS: '629-79-7',
+    CAS: '629-78-7',
     C1: 156.95,
     C2: -15557,
     C3: -18.966,

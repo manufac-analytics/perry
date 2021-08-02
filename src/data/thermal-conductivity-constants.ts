@@ -3471,7 +3471,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   SulfurTrioxide: {
     name: 'Sulfur trioxide',
     formula: 'O3S',
-    CAS: '09-11-7446',
+    CAS: '7446-11-9',
     molecularWeight: 80.0632,
     C1: 0.92882,
     C2: -0.0030803,

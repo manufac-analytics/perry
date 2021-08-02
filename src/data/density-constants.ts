@@ -1203,7 +1203,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   HydrogenSulfide: {
     name: 'Hydrogen sulfide',
     formula: 'H2S',
-    CAS: '04-06-7783',
+    CAS: '7783-06-4',
     molecularWeight: 34.08088,
     C1: 2.7672,
     C2: 0.27369,
@@ -1306,7 +1306,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
   },
 
   NMethylAcetamide: {
-    name: 'N-MethylAcetamide',
+    name: 'N-Methyl acetamide',
     formula: 'C3H7NO',
     CAS: '79-16-3',
     molecularWeight: 73.09378,

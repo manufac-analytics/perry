@@ -2490,7 +2490,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C5: 6,
     minimumTemperature: 154.12,
     maximumTemperature: 537.4,
-    pressureAtMinimumTemperature: 1.84e-3,
+    pressureAtMinimumTemperature: 1.86e-3,
     pressureAtMaximumTemperature: 2.921e6,
   },
 

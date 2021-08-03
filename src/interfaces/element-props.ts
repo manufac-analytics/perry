@@ -1,4 +1,4 @@
-export interface PeriodicProps {
+export interface ElementProps {
   name: string;
   appearance?: string;
   atomicMass: number;

@@ -18,9 +18,9 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   BasicAluminumAcetate: {
     CAS: '142-03-0',
     inchiString:
-      'InChI=1S/2C2H4O2.Al.H2O/c2*1-2(3)4;;/h2*1H3,(H,3,4);;1H2/q;;+3;/p-3',
-    inchiKey: 'HQQUTGFAWJNQIP-UHFFFAOYSA-K',
-    molecularWeight: 162.08,
+      'InChI=1S/2C2H4O2.Al.H2O/c2*1-2(3)4;;/h2*1H3,(H,3,4);;1H2/q;;+2;/p-2',
+    inchiKey: 'RHPIJWYTYJJCFU-UHFFFAOYSA-L',
+    molecularWeight: 163.08,
   },
 
   AluminumBromide: {
@@ -73,7 +73,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AluminumHydroxide: {
-    CAS: '',
+    CAS: '21645-51-2',
     inchiString: 'InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3',
     inchiKey: 'WNROFYMDJYEPJX-UHFFFAOYSA-K',
     molecularWeight: 78.0,
@@ -236,9 +236,9 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumCarbonate: {
-    CAS: '',
+    CAS: '506-87-6',
     inchiString: 'InChI=1S/CH2O3.2H3N.H2O/c2-1(3)4;;;/h(H2,2,3,4);2*1H3;1H2',
-    inchiKey: 'MMVILKIFGQPOLE-UHFFFAOYSA-N',
+    inchiKey: 'PRKQVKDSMLBJBJ-UHFFFAOYSA-N',
     molecularWeight: 114.1,
   },
 
@@ -342,7 +342,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumHydroxide: {
-    CAS: '12168-30-8',
+    CAS: '1336-21-6',
     inchiString: 'InChI=1S/H3N.H2O/h1H3;1H2',
     inchiKey: 'VHUUQVKOLVNVRT-UHFFFAOYSA-N',
     molecularWeight: 35.05,
@@ -356,7 +356,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumHeptamolybdate: {
-    CAS: '',
+    CAS: '12054-85-2',
     inchiString:
       'InChI=1S/7Mo.6H3N.10H2O.18O/h;;;;;;;6*1H3;10*1H2;;;;;;;;;;;;;;;;;;/q;;;;3*+2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/p-6',
     inchiKey: 'FIXLYHHVMHXSCP-UHFFFAOYSA-H',
@@ -392,7 +392,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumOxalate: {
-    CAS: '',
+    CAS: '6009-70-7',
     inchiString:
       'InChI=1S/C2H2O4.2H3N.H2O/c3-1(4)2(5)6;;;/h(H,3,4)(H,5,6);2*1H3;1H2',
     inchiKey: 'MSMNVXKYCPHLLN-UHFFFAOYSA-N',
@@ -465,7 +465,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumSulfateMascagnite: {
-    CAS: '',
+    CAS: '7783-20-2',
     inchiString: 'InChI=1S/2H3N.H2O4S/c;;1-5(2,3)4/h2*1H3;(H2,1,2,3,4)',
     inchiKey: 'BFNBIHQBYMNNAN-UHFFFAOYSA-N',
     molecularWeight: 132.14,
@@ -493,7 +493,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumSulfite: {
-    CAS: '',
+    CAS: '7783-11-1',
     inchiString: 'InChI=1S/2H3N.H2O3S.H2O/c;;1-4(2)3;/h2*1H3;(H2,1,2,3);1H2',
     inchiKey: 'ASPXBYAQZVXSNS-UHFFFAOYSA-N',
     molecularWeight: 134.16,

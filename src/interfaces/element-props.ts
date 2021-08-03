@@ -14,11 +14,11 @@ export interface ElementProps {
   period: number;
   phase: string;
   source: string;
-  spectralImg?: string;
+  spectralImage?: string;
   summary: string;
   symbol: string;
-  xpos: number;
-  ypos: number;
+  xPosition: number;
+  yPosition: number;
   shells: number[];
   electronConfiguration: string;
   electronConfigurationSemantic: string;

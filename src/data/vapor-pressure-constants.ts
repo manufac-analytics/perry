@@ -2794,7 +2794,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 5350000,
   },
 
-  HydogenFluoride: {
+  HydrogenFluoride: {
     name: 'Hydrogen fluoride',
     formula: 'FH',
     CAS: '7664-39-3',

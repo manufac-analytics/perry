@@ -2749,7 +2749,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 1.315e6,
   },
 
-  HydogenBomide: {
+  HydrogenBromide: {
     name: 'Hydrogen bromide',
     formula: 'BrH',
     CAS: '10035-10-6',
@@ -2779,7 +2779,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 8360000,
   },
 
-  HyrogenCyanide: {
+  HydrogenCyanide: {
     name: 'Hydrogen cyanide',
     formula: 'CHN',
     CAS: '74-90-8',
@@ -2809,7 +2809,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6490000,
   },
 
-  HydrogenSulphide: {
+  HydrogenSulfide: {
     name: 'Hydrogen sulfide',
     formula: 'H2S',
     CAS: '7783-06-04',
@@ -2824,7 +2824,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 9000000,
   },
 
-  IsobutyicAcid: {
+  IsobutyricAcid: {
     name: 'Isobutyric acid',
     formula: 'C4H8O2',
     CAS: '79-31-2',
@@ -2854,7 +2854,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 4540000,
   },
 
-  ManicAcid: {
+  MalonicAcid: {
     name: 'Malonic acid',
     formula: 'C3H4O4',
     CAS: '141-82-2',
@@ -2869,7 +2869,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 6100000,
   },
 
-  MethacylicAcid: {
+  MethacrylicAcid: {
     name: 'Methacrylic acid',
     formula: 'C4H6O2',
     CAS: '79-41-4',
@@ -2989,7 +2989,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 7410000,
   },
 
-  MethylBenzonate: {
+  MethylBenzoate: {
     name: 'Methyl benzoate',
     formula: 'C8H8O2',
     CAS: '93-58-3',
@@ -3124,7 +3124,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 3380000,
   },
 
-  MethylButylSulfide: {
+  MethylbutylSulfide: {
     name: 'Methylbutyl sulfide',
     formula: 'C5H12S',
     CAS: '628-29-5',

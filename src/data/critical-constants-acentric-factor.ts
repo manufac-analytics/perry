@@ -3807,6 +3807,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalCompressibilityFactor: 0.307,
     acentricFactor: 0.551265,
   },
+
   Tetradecane: {
     name: 'Tetradecane',
     formula: 'C14H30',

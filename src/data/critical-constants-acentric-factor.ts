@@ -2920,7 +2920,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.32297,
   },
 
-  MethylTertButylEther: {
+  MethylTertbutylEther: {
     name: 'Methyl tert-butyl ether',
     formula: 'C5H12O',
     CAS: '1634-04-4',

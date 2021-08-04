@@ -139,7 +139,7 @@ export interface DIPPRThermalConductivityProps {
   formula: string;
   CAS: string;
   molecularWeight: number;
-  C1: number;
+  C1?: number;
   C2?: number;
   C3?: number;
   C4?: number;

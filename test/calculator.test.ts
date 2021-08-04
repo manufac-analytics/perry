@@ -170,4 +170,21 @@ describe('calculateDIPPRThermalConductivity', () => {
       ).toPrecision(3)
     ).toBe(vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3));
   });
+
+  it('should return NaN for undefined values of Tmin and Tmax', () => {
+    const vaporProps =
+      DIPPRThermalConductivityDictionary['NitrogenTrifluoride'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'NitrogenTrifluoride',
+        vaporProps.minimumTemperature
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRThermalConductivity(
+        'Acetaldehyde',
+        vaporProps.maximumTemperature
+      )
+    ).toBe(NaN);
+  });
 });

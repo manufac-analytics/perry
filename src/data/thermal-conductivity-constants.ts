@@ -3280,12 +3280,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     formula: 'F3N',
     CAS: '7783-54-2',
     molecularWeight: 71.00191,
-    C1: NaN,
-    C2: NaN,
-    minimumTemperature: NaN,
-    maximumTemperature: NaN,
-    thermalConductivityAtMinimumTemperature: NaN,
-    thermalConductivityAtMaximumTemperature: NaN,
   },
 
   Nitromethane: {
@@ -3307,7 +3301,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     CAS: '10024-97-2',
     molecularWeight: 44.0128,
     C1: 0.10112,
-    C2: NaN,
     minimumTemperature: 277.59,
     maximumTemperature: 277.59,
     thermalConductivityAtMinimumTemperature: 0.1011,
@@ -3454,8 +3447,8 @@ export function calculateDIPPRThermalConductivity(
   let thermalConductivity = NaN;
   if (
     thermalConductivityProps !== undefined &&
-    temperature >= thermalConductivityProps.minimumTemperature &&
-    temperature <= thermalConductivityProps.maximumTemperature
+    temperature >= (thermalConductivityProps.minimumTemperature as number) &&
+    temperature <= (thermalConductivityProps.maximumTemperature as number)
   ) {
     thermalConductivity =
       (Number.isFinite(thermalConductivityProps.C1)

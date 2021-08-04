@@ -144,10 +144,10 @@ export interface DIPPRThermalConductivityProps {
   C3?: number;
   C4?: number;
   C5?: number;
-  minimumTemperature: number;
-  maximumTemperature: number;
-  thermalConductivityAtMinimumTemperature: number;
-  thermalConductivityAtMaximumTemperature: number;
+  minimumTemperature?: number;
+  maximumTemperature?: number;
+  thermalConductivityAtMinimumTemperature?: number;
+  thermalConductivityAtMaximumTemperature?: number;
 }
 
 export interface DIPPRCriticalConstantAndAcentricFactorProps {

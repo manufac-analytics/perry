@@ -144,13 +144,13 @@ describe('calculateDIPPRThermalConductivity', () => {
     expect(
       calculateDIPPRThermalConductivity(
         'Acetaldehyde',
-        vaporProps.minimumTemperature - 1
+        (vaporProps.minimumTemperature as number)- 1
       )
     ).toBe(NaN);
     expect(
       calculateDIPPRThermalConductivity(
         'Acetaldehyde',
-        vaporProps.maximumTemperature + 1
+        (vaporProps.maximumTemperature as number) + 1
       )
     ).toBe(NaN);
   });
@@ -160,15 +160,15 @@ describe('calculateDIPPRThermalConductivity', () => {
     expect(
       calculateDIPPRThermalConductivity(
         'Acetaldehyde',
-        vaporProps.minimumTemperature
+        (vaporProps.minimumTemperature as number)
       ).toPrecision(3)
-    ).toBe(vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(3));
+    ).toBe((vaporProps.thermalConductivityAtMinimumTemperature as number).toPrecision(3));
     expect(
       calculateDIPPRThermalConductivity(
         'Acetaldehyde',
-        vaporProps.maximumTemperature
+        (vaporProps.maximumTemperature as number)
       ).toPrecision(3)
-    ).toBe(vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3));
+    ).toBe((vaporProps.thermalConductivityAtMaximumTemperature as number).toPrecision(3));
   });
 
   it('should return NaN for undefined values of Tmin and Tmax', () => {
@@ -177,13 +177,13 @@ describe('calculateDIPPRThermalConductivity', () => {
     expect(
       calculateDIPPRThermalConductivity(
         'NitrogenTrifluoride',
-        vaporProps.minimumTemperature
+        (vaporProps.minimumTemperature as number)
       )
     ).toBe(NaN);
     expect(
       calculateDIPPRThermalConductivity(
         'NitrogenTrifluoride',
-        vaporProps.maximumTemperature
+        (vaporProps.maximumTemperature as number)
       )
     ).toBe(NaN);
   });

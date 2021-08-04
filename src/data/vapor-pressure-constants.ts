@@ -2771,7 +2771,7 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 104.27,
     C2: -3731.2,
     C3: -15.047,
-    C4: 0.0313,
+    C4: 0.03134,
     C5: 1,
     minimumTemperature: 158.97,
     maximumTemperature: 324.65,

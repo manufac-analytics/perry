@@ -5,9 +5,15 @@ export interface ElementProps {
   boil?: number;
   category: string;
   color?: string;
+  /**
+   * Given in `g/l` for gases and `g/cm³` for solids and liquids
+   */
   density?: number;
   discoveredBy?: string;
   melt?: number;
+  /**
+   * In (mol*K)
+   */
   molarHeat?: number;
   namedBy?: string;
   number: number;

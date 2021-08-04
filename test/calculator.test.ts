@@ -182,7 +182,7 @@ describe('calculateDIPPRThermalConductivity', () => {
     ).toBe(NaN);
     expect(
       calculateDIPPRThermalConductivity(
-        'Acetaldehyde',
+        'NitrogenTrifluoride',
         vaporProps.maximumTemperature
       )
     ).toBe(NaN);

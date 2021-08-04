@@ -2759,9 +2759,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 2.38e-18,
     C5: 6,
     minimumTemperature: 185.15,
-    pressureAtMinimumTemperature: 29500,
     maximumTemperature: 363.15,
-    pressureAtMaximumTemperature: 8460000,
+    pressureAtMinimumTemperature: 2.95e4,
+    pressureAtMaximumTemperature: 8.463e6,
   },
 
   HydrogenChloride: {
@@ -2774,9 +2774,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.0313,
     C5: 1,
     minimumTemperature: 158.97,
-    pressureAtMinimumTemperature: 13500,
     maximumTemperature: 324.65,
-    pressureAtMaximumTemperature: 8360000,
+    pressureAtMinimumTemperature: 1.35e4,
+    pressureAtMaximumTemperature: 8.356e6,
   },
 
   HydrogenCyanide: {
@@ -2789,9 +2789,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 3.89e-17,
     C5: 6,
     minimumTemperature: 259.83,
-    pressureAtMinimumTemperature: 18700,
     maximumTemperature: 456.65,
-    pressureAtMaximumTemperature: 5350000,
+    pressureAtMinimumTemperature: 1.87e4,
+    pressureAtMaximumTemperature: 5.353e6,
   },
 
   HydrogenFluoride: {
@@ -2801,12 +2801,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 59.544,
     C2: -4143.8,
     C3: -6.1764,
-    C4: 0.0000142,
+    C4: 0.000014161,
     C5: 2,
     minimumTemperature: 189.79,
-    pressureAtMinimumTemperature: 337,
     maximumTemperature: 461.15,
-    pressureAtMaximumTemperature: 6490000,
+    pressureAtMinimumTemperature: 3.37e2,
+    pressureAtMaximumTemperature: 6.487e6,
   },
 
   HydrogenSulfide: {
@@ -2816,12 +2816,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 85.584,
     C2: -3839.9,
     C3: -11.199,
-    C4: 0.0188,
+    C4: 0.018848,
     C5: 1,
     minimumTemperature: 187.68,
-    pressureAtMinimumTemperature: 22900,
     maximumTemperature: 373.53,
-    pressureAtMaximumTemperature: 9000000,
+    pressureAtMinimumTemperature: 2.29e4,
+    pressureAtMaximumTemperature: 88.999e6,
   },
 
   IsobutyricAcid: {
@@ -2834,9 +2834,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.43e-17,
     C5: 6,
     minimumTemperature: 227.15,
-    pressureAtMinimumTemperature: 0.0782,
     maximumTemperature: 605,
-    pressureAtMaximumTemperature: 3680000,
+    pressureAtMinimumTemperature: 7.82e-2,
+    pressureAtMaximumTemperature: 3.683e6,
   },
 
   IsopropylAmine: {
@@ -2849,9 +2849,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.022255,
     C5: 1,
     minimumTemperature: 177.95,
-    pressureAtMinimumTemperature: 7.73,
     maximumTemperature: 471.85,
-    pressureAtMaximumTemperature: 4540000,
+    pressureAtMinimumTemperature: 7.73,
+    pressureAtMaximumTemperature: 4.54e6,
   },
 
   MalonicAcid: {
@@ -2864,9 +2864,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.55e-18,
     C5: 6,
     minimumTemperature: 409.15,
-    pressureAtMinimumTemperature: 99.7,
     maximumTemperature: 834,
-    pressureAtMaximumTemperature: 6100000,
+    pressureAtMinimumTemperature: 9.97e1,
+    pressureAtMaximumTemperature: 6.097e6,
   },
 
   MethacrylicAcid: {
@@ -2876,12 +2876,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 109.53,
     C2: -10410,
     C3: -12.289,
-    C4: 0.0000032,
+    C4: 0.000003199,
     C5: 2,
     minimumTemperature: 288.15,
-    pressureAtMinimumTemperature: 58.6,
     maximumTemperature: 662,
-    pressureAtMaximumTemperature: 4810000,
+    pressureAtMinimumTemperature: 5.86e1,
+    pressureAtMaximumTemperature: 4.812e6,
   },
 
   Methane: {
@@ -2894,9 +2894,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.000031019,
     C5: 2,
     minimumTemperature: 90.69,
-    pressureAtMinimumTemperature: 11700,
     maximumTemperature: 190.56,
-    pressureAtMaximumTemperature: 4590000,
+    pressureAtMinimumTemperature: 1.17e4,
+    pressureAtMaximumTemperature: 4.59e6,
   },
 
   Methanol: {
@@ -2906,12 +2906,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 82.718,
     C2: -6904.5,
     C3: -8.8622,
-    C4: 0.00000747,
+    C4: 7.4664e-6,
     C5: 2,
     minimumTemperature: 175.47,
-    pressureAtMinimumTemperature: 0.111,
     maximumTemperature: 512.5,
-    pressureAtMaximumTemperature: 8150000,
+    pressureAtMinimumTemperature: 1.11e-1,
+    pressureAtMaximumTemperature: 8.145e6,
   },
 
   NMethylAcetamide: {
@@ -2924,9 +2924,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 3.16e-18,
     C5: 6,
     minimumTemperature: 301.15,
-    pressureAtMinimumTemperature: 28.6,
     maximumTemperature: 718,
-    pressureAtMaximumTemperature: 5000000,
+    pressureAtMinimumTemperature: 2.86e1,
+    pressureAtMaximumTemperature: 4.997e6,
   },
 
   MethylAcetate: {
@@ -2939,9 +2939,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 2.11e-17,
     C5: 6,
     minimumTemperature: 175.15,
-    pressureAtMinimumTemperature: 1.02,
     maximumTemperature: 506.55,
-    pressureAtMaximumTemperature: 4700000,
+    pressureAtMinimumTemperature: 1.02,
+    pressureAtMaximumTemperature: 4.695e6,
   },
 
   MethylAcetylene: {
@@ -2954,9 +2954,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 6.53e-17,
     C5: 6,
     minimumTemperature: 170.45,
-    pressureAtMinimumTemperature: 415,
     maximumTemperature: 402.4,
-    pressureAtMaximumTemperature: 5620000,
+    pressureAtMinimumTemperature: 4.15e2,
+    pressureAtMaximumTemperature: 5.619e6,
   },
 
   MethylAcrylate: {
@@ -2966,12 +2966,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 107.69,
     C2: -7027.2,
     C3: -13.916,
-    C4: 0.0152,
+    C4: 0.015185,
     C5: 1,
     minimumTemperature: 196.32,
-    pressureAtMinimumTemperature: 4.07,
     maximumTemperature: 536,
-    pressureAtMaximumTemperature: 4280000,
+    pressureAtMinimumTemperature: 4.07,
+    pressureAtMaximumTemperature: 4.277e6,
   },
 
   MethylAmine: {
@@ -2981,12 +2981,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 75.206,
     C2: -5082.8,
     C3: -8.0919,
-    C4: 0.00000811,
+    C4: 0.000008113,
     C5: 2,
     minimumTemperature: 179.69,
-    pressureAtMinimumTemperature: 177,
     maximumTemperature: 430.05,
-    pressureAtMaximumTemperature: 7410000,
+    pressureAtMinimumTemperature: 1.77e2,
+    pressureAtMaximumTemperature: 7.414e6,
   },
 
   MethylBenzoate: {
@@ -2999,9 +2999,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 6.17e-18,
     C5: 6,
     minimumTemperature: 260.75,
-    pressureAtMinimumTemperature: 1.81,
     maximumTemperature: 693,
-    pressureAtMaximumTemperature: 3590000,
+    pressureAtMinimumTemperature: 1.81,
+    pressureAtMaximumTemperature: 3.589e6,
   },
 
   '3Methyl1,2butadiene': {
@@ -3011,12 +3011,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 66.575,
     C2: -5213.4,
     C3: -6.7693,
-    C4: 0.00000481,
+    C4: 4.8106e-6,
     C5: 2,
     minimumTemperature: 159.53,
-    pressureAtMinimumTemperature: 0.728,
     maximumTemperature: 490,
-    pressureAtMaximumTemperature: 3830000,
+    pressureAtMinimumTemperature: 7.28e-1,
+    pressureAtMaximumTemperature: 3.831e6,
   },
 
   '2Methylbutane': {
@@ -3026,12 +3026,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 71.308,
     C2: -4976,
     C3: -7.7169,
-    C4: 0.00000873,
+    C4: 8.7271e-6,
     C5: 2,
     minimumTemperature: 113.25,
-    pressureAtMinimumTemperature: 0.000121,
     maximumTemperature: 460.4,
-    pressureAtMaximumTemperature: 3370000,
+    pressureAtMinimumTemperature: 1.21e-4,
+    pressureAtMaximumTemperature: 3.366e6,
   },
 
   '2MethylbutanoicAcid': {
@@ -3044,9 +3044,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 5.61e-18,
     C5: 6,
     minimumTemperature: 193,
-    pressureAtMinimumTemperature: 0.0000694,
     maximumTemperature: 643,
-    pressureAtMaximumTemperature: 3890000,
+    pressureAtMinimumTemperature: 6.94e-5,
+    pressureAtMaximumTemperature: 3.886e6,
   },
 
   '3Methyl1butanol': {
@@ -3059,9 +3059,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.17e-17,
     C5: 6,
     minimumTemperature: 155.95,
-    pressureAtMinimumTemperature: 1.14e-8,
     maximumTemperature: 577.2,
-    pressureAtMaximumTemperature: 3930000,
+    pressureAtMinimumTemperature: 1.14e-8,
+    pressureAtMaximumTemperature: 3.933e6,
   },
 
   '2Methyl1butene': {
@@ -3071,12 +3071,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 93.131,
     C2: -5525.4,
     C3: -11.852,
-    C4: 0.0142,
+    C4: 0.014205,
     C5: 1,
     minimumTemperature: 135.58,
-    pressureAtMinimumTemperature: 0.0205,
     maximumTemperature: 465,
-    pressureAtMaximumTemperature: 3470000,
+    pressureAtMinimumTemperature: 2.05e-2,
+    pressureAtMaximumTemperature: 3.465e6,
   },
 
   '2Methyl2butene': {
@@ -3086,12 +3086,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 83.927,
     C2: -5640.5,
     C3: -9.6453,
-    C4: 0.0000111,
+    C4: 0.000011121,
     C5: 2,
     minimumTemperature: 139.39,
-    pressureAtMinimumTemperature: 0.0194,
     maximumTemperature: 470,
-    pressureAtMaximumTemperature: 3390000,
+    pressureAtMinimumTemperature: 1.94e-2,
+    pressureAtMaximumTemperature: 3.394e6,
   },
 
   '2Methyl1butene3yne': {
@@ -3104,9 +3104,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.015643,
     C5: 1,
     minimumTemperature: 160.15,
-    pressureAtMinimumTemperature: 2.92,
     maximumTemperature: 492,
-    pressureAtMaximumTemperature: 4470000,
+    pressureAtMinimumTemperature: 2.92,
+    pressureAtMaximumTemperature: 4.469e6,
   },
 
   MethylbutylEther: {
@@ -3119,9 +3119,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.86e-17,
     C5: 6,
     minimumTemperature: 157.48,
-    pressureAtMinimumTemperature: 0.0299,
     maximumTemperature: 512.74,
-    pressureAtMaximumTemperature: 3380000,
+    pressureAtMinimumTemperature: 2.99e-2,
+    pressureAtMaximumTemperature: 3.377e6,
   },
 
   MethylbutylSulfide: {
@@ -3131,12 +3131,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 96.344,
     C2: -7856.3,
     C3: -11.058,
-    C4: 0.00000731,
+    C4: 0.000007308,
     C5: 2,
     minimumTemperature: 175.3,
-    pressureAtMinimumTemperature: 0.00461,
     maximumTemperature: 593,
-    pressureAtMaximumTemperature: 3460000,
+    pressureAtMinimumTemperature: 4.61e-3,
+    pressureAtMaximumTemperature: 3.464e6,
   },
 
   '3Methyl1butyne': {
@@ -3149,9 +3149,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 7.93e-17,
     C5: 6,
     minimumTemperature: 183.45,
-    pressureAtMinimumTemperature: 43.6,
     maximumTemperature: 463.2,
-    pressureAtMaximumTemperature: 4200000,
+    pressureAtMinimumTemperature: 4.36e1,
+    pressureAtMaximumTemperature: 4.199e6,
   },
 
   MethylButyrate: {
@@ -3164,9 +3164,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.49e-17,
     C5: 6,
     minimumTemperature: 187.35,
-    pressureAtMinimumTemperature: 0.134,
     maximumTemperature: 554.5,
-    pressureAtMaximumTemperature: 3480000,
+    pressureAtMinimumTemperature: 1.34e-1,
+    pressureAtMaximumTemperature: 3.48e6,
   },
 
   Methylchlorosilicane: {
@@ -3179,9 +3179,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.000018092,
     C5: 2,
     minimumTemperature: 139.05,
-    pressureAtMinimumTemperature: 0.412,
     maximumTemperature: 442,
-    pressureAtMaximumTemperature: 4170000,
+    pressureAtMinimumTemperature: 4.12e-1,
+    pressureAtMaximumTemperature: 4.17e6,
   },
 
   Methylcyclohexane: {
@@ -3191,12 +3191,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 92.684,
     C2: -7080.8,
     C3: -10.695,
-    C4: 0.00000814,
+    C4: 8.1366e-6,
     C5: 2,
     minimumTemperature: 146.58,
-    pressureAtMinimumTemperature: 0.000152,
     maximumTemperature: 572.1,
-    pressureAtMaximumTemperature: 3490000,
+    pressureAtMinimumTemperature: 1.52e-4,
+    pressureAtMaximumTemperature: 3.486e6,
   },
 
   '1Methylcyclohexanol': {
@@ -3206,12 +3206,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 134.63,
     C2: -10682,
     C3: -16.511,
-    C4: 0.00000844,
+    C4: 8.4427e-6,
     C5: 2,
     minimumTemperature: 299.15,
-    pressureAtMinimumTemperature: 257,
     maximumTemperature: 686,
-    pressureAtMaximumTemperature: 3990000,
+    pressureAtMinimumTemperature: 2.57e2,
+    pressureAtMaximumTemperature: 3.994e6,
   },
 
   cis2Methylcyclohexanol: {
@@ -3224,9 +3224,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.000010918,
     C5: 2,
     minimumTemperature: 280.15,
-    pressureAtMinimumTemperature: 45.6,
     maximumTemperature: 614,
-    pressureAtMaximumTemperature: 3810000,
+    pressureAtMinimumTemperature: 4.56e1,
+    pressureAtMaximumTemperature: 3.807e6,
   },
 
   trans2Methylcyclohexanol: {
@@ -3239,9 +3239,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 3.52e-18,
     C5: 6,
     minimumTemperature: 269.15,
-    pressureAtMinimumTemperature: 16.2,
     maximumTemperature: 617,
-    pressureAtMaximumTemperature: 3770000,
+    pressureAtMinimumTemperature: 1.62e1,
+    pressureAtMaximumTemperature: 3.767e6,
   },
 
   Methylcyclopentane: {
@@ -3251,12 +3251,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 55.368,
     C2: -5149.8,
     C3: -5.0136,
-    C4: 0.00000322,
+    C4: 0.000003222,
     C5: 2,
     minimumTemperature: 130.73,
-    pressureAtMinimumTemperature: 0.000225,
     maximumTemperature: 532.7,
-    pressureAtMaximumTemperature: 3760000,
+    pressureAtMinimumTemperature: 2.25e-4,
+    pressureAtMaximumTemperature: 3.759e6,
   },
 
   '1Methylcyclopentene': {
@@ -3269,9 +3269,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.09e-17,
     C5: 6,
     minimumTemperature: 146.62,
-    pressureAtMinimumTemperature: 0.00398,
     maximumTemperature: 542,
-    pressureAtMaximumTemperature: 4130000,
+    pressureAtMinimumTemperature: 3.98e-3,
+    pressureAtMaximumTemperature: 4.13e6,
   },
 
   '3Methylcyclopentene': {
@@ -3284,9 +3284,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.33e-17,
     C5: 6,
     minimumTemperature: 168.54,
-    pressureAtMinimumTemperature: 0.537,
     maximumTemperature: 526,
-    pressureAtMaximumTemperature: 4130000,
+    pressureAtMinimumTemperature: 5.37e-1,
+    pressureAtMaximumTemperature: 4.129e6,
   },
 
   Methyldichlorosilane: {
@@ -3299,9 +3299,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.000011489,
     C5: 2,
     minimumTemperature: 182.55,
-    pressureAtMinimumTemperature: 25.8,
     maximumTemperature: 483,
-    pressureAtMaximumTemperature: 3960000,
+    pressureAtMinimumTemperature: 2.58e1,
+    pressureAtMaximumTemperature: 3.964e6,
   },
 
   MethylethylEther: {
@@ -3311,12 +3311,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 78.586,
     C2: -5176.3,
     C3: -8.7501,
-    C4: 0.00000917,
+    C4: 9.1727e-6,
     C5: 2,
     minimumTemperature: 160,
-    pressureAtMinimumTemperature: 7.85,
     maximumTemperature: 437.8,
-    pressureAtMaximumTemperature: 4430000,
+    pressureAtMinimumTemperature: 7.85,
+    pressureAtMaximumTemperature: 4.433e6,
   },
 
   MethylethylKetone: {
@@ -3326,12 +3326,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 72.698,
     C2: -6143.6,
     C3: -7.5779,
-    C4: 0.00000565,
+    C4: 5.6476e-6,
     C5: 2,
     minimumTemperature: 186.48,
-    pressureAtMinimumTemperature: 1.39,
     maximumTemperature: 535.5,
-    pressureAtMaximumTemperature: 4120000,
+    pressureAtMinimumTemperature: 1.39,
+    pressureAtMaximumTemperature: 4.12e6,
   },
 
   MethylethylSulfide: {
@@ -3341,12 +3341,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 79.07,
     C2: -6114.1,
     C3: -8.631,
-    C4: 0.00000653,
+    C4: 6.5333e-6,
     C5: 2,
     minimumTemperature: 167.23,
-    pressureAtMinimumTemperature: 0.225,
     maximumTemperature: 533,
-    pressureAtMaximumTemperature: 4260000,
+    pressureAtMinimumTemperature: 2.25e-1,
+    pressureAtMaximumTemperature: 4.261e6,
   },
 
   MethylFormate: {
@@ -3356,12 +3356,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 77.184,
     C2: -5606.1,
     C3: -8.392,
-    C4: 0.00000785,
+    C4: 7.8468e-6,
     C5: 2,
     minimumTemperature: 174.15,
-    pressureAtMinimumTemperature: 6.88,
     maximumTemperature: 487.2,
-    pressureAtMaximumTemperature: 5980000,
+    pressureAtMinimumTemperature: 6.88,
+    pressureAtMaximumTemperature: 5.983e6,
   },
 
   MethylisobutylEther: {
@@ -3374,24 +3374,24 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 2.08e-17,
     C5: 6,
     minimumTemperature: 188,
-    pressureAtMinimumTemperature: 8.7,
     maximumTemperature: 497,
-    pressureAtMaximumTemperature: 3420000,
+    pressureAtMinimumTemperature: 8.7,
+    pressureAtMaximumTemperature: 3.416e6,
   },
 
   MethylisobutylKetone: {
     name: 'Methylisobutyl ketone',
     formula: 'C6H12O',
-    CAS: '0108-10-1',
+    CAS: '108-10-1',
     C1: 80.503,
     C2: -7421.8,
     C3: -8.379,
     C4: 1.81e-17,
     C5: 6,
     minimumTemperature: 189.15,
-    pressureAtMinimumTemperature: 0.0699,
     maximumTemperature: 574.6,
-    pressureAtMaximumTemperature: 3270000,
+    pressureAtMinimumTemperature: 6.99e-2,
+    pressureAtMaximumTemperature: 3.272e6,
   },
 
   MethylIsocyanate: {
@@ -3404,9 +3404,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 2.17e-17,
     C5: 6,
     minimumTemperature: 256.15,
-    pressureAtMinimumTemperature: 7280,
     maximumTemperature: 488,
-    pressureAtMaximumTemperature: 5480000,
+    pressureAtMinimumTemperature: 7.28e3,
+    pressureAtMaximumTemperature: 5.48e6,
   },
 
   MethylisopropylEther: {
@@ -3419,9 +3419,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 2.88e-17,
     C5: 6,
     minimumTemperature: 127.93,
-    pressureAtMinimumTemperature: 0.00332,
     maximumTemperature: 464.48,
-    pressureAtMaximumTemperature: 3760000,
+    pressureAtMinimumTemperature: 3.32e-3,
+    pressureAtMaximumTemperature: 3.764e6,
   },
 
   MethylisopropylKetone: {
@@ -3434,9 +3434,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 3.04e-18,
     C5: 6,
     minimumTemperature: 180.15,
-    pressureAtMinimumTemperature: 0.295,
     maximumTemperature: 553.4,
-    pressureAtMaximumTemperature: 3790000,
+    pressureAtMinimumTemperature: 2.95e-1,
+    pressureAtMaximumTemperature: 3.792e6,
   },
 
   MethylisopropylSulfide: {
@@ -3449,9 +3449,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 9.51e-18,
     C5: 6,
     minimumTemperature: 171.64,
-    pressureAtMinimumTemperature: 0.18,
     maximumTemperature: 553.1,
-    pressureAtMaximumTemperature: 4020000,
+    pressureAtMinimumTemperature: 1.8e-1,
+    pressureAtMaximumTemperature: 4.022e6,
   },
 
   MethylMercaptan: {
@@ -3464,9 +3464,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 4.5e-17,
     C5: 6,
     minimumTemperature: 150.18,
-    pressureAtMinimumTemperature: 3.15,
     maximumTemperature: 469.95,
-    pressureAtMaximumTemperature: 7230000,
+    pressureAtMinimumTemperature: 3.15,
+    pressureAtMaximumTemperature: 7.231e6,
   },
 
   MethylMethacrylate: {
@@ -3476,12 +3476,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 107.36,
     C2: -8085.3,
     C3: -12.72,
-    C4: 0.00000833,
+    C4: 8.3307e-6,
     C5: 2,
     minimumTemperature: 224.95,
-    pressureAtMinimumTemperature: 19.1,
     maximumTemperature: 566,
-    pressureAtMaximumTemperature: 3670000,
+    pressureAtMinimumTemperature: 1.91e1,
+    pressureAtMaximumTemperature: 3.674e6,
   },
 
   '2MethyloctanoicAcid': {
@@ -3494,9 +3494,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 4.46e-18,
     C5: 6,
     minimumTemperature: 240,
-    pressureAtMinimumTemperature: 0.000419,
     maximumTemperature: 694,
-    pressureAtMaximumTemperature: 2550000,
+    pressureAtMinimumTemperature: 4.19e-4,
+    pressureAtMaximumTemperature: 2.545e6,
   },
 
   '2Methylpentane': {
@@ -3509,9 +3509,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.94e-17,
     C5: 6,
     minimumTemperature: 119.55,
-    pressureAtMinimumTemperature: 0.0000207,
     maximumTemperature: 497.7,
-    pressureAtMaximumTemperature: 3040000,
+    pressureAtMinimumTemperature: 2.07e-5,
+    pressureAtMaximumTemperature: 3.044e6,
   },
 
   MethylPentylEther: {
@@ -3524,9 +3524,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 1.18e-17,
     C5: 6,
     minimumTemperature: 176,
-    pressureAtMinimumTemperature: 0.0633,
     maximumTemperature: 546.49,
-    pressureAtMaximumTemperature: 3040000,
+    pressureAtMinimumTemperature: 6.33e-2,
+    pressureAtMaximumTemperature: 3.041e6,
   },
 
   '2Methylpropane': {
@@ -3536,12 +3536,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 108.43,
     C2: -5039.9,
     C3: -15.012,
-    C4: 0.0227,
+    C4: 0.022725,
     C5: 1,
     minimumTemperature: 113.54,
-    pressureAtMinimumTemperature: 0.0121,
     maximumTemperature: 407.8,
-    pressureAtMaximumTemperature: 3630000,
+    pressureAtMinimumTemperature: 1.21e-2,
+    pressureAtMaximumTemperature: 3.63e6,
   },
 
   '2Methyl2propanol': {
@@ -3554,39 +3554,39 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 0.000013703,
     C5: 2,
     minimumTemperature: 298.97,
-    pressureAtMinimumTemperature: 5880,
     maximumTemperature: 506.2,
-    pressureAtMaximumTemperature: 3960000,
+    pressureAtMinimumTemperature: 5.88e3,
+    pressureAtMaximumTemperature: 3.957e6,
   },
 
   '2MethylPropene': {
     name: '2-Methyl propene',
     formula: 'C4H8',
-    CAS: '0115-11-7',
+    CAS: '115-11-7',
     C1: 78.01,
     C2: -4634.1,
     C3: -8.9575,
-    C4: 0.0000134,
+    C4: 0.000013413,
     C5: 2,
     minimumTemperature: 132.81,
-    pressureAtMinimumTemperature: 0.645,
     maximumTemperature: 417.9,
-    pressureAtMaximumTemperature: 4000000,
+    pressureAtMinimumTemperature: 6.45e-1,
+    pressureAtMaximumTemperature: 4.004e6,
   },
 
   MethylPropionate: {
     name: 'Methyl propionate',
     formula: 'C4H8O2',
-    CAS: '0554-12-1',
+    CAS: '554-12-1',
     C1: 70.717,
     C2: -6439.7,
     C3: -6.9845,
     C4: 2.01e-17,
     C5: 6,
     minimumTemperature: 185.65,
-    pressureAtMinimumTemperature: 0.634,
     maximumTemperature: 530.6,
-    pressureAtMaximumTemperature: 4030000,
+    pressureAtMinimumTemperature: 6.34e-1,
+    pressureAtMaximumTemperature: 4.028e6,
   },
 
   MethylpropylEther: {
@@ -3599,9 +3599,9 @@ export const DIPPRVaporPressureDictionary: Record<
     C4: 4.78e-17,
     C5: 6,
     minimumTemperature: 133.97,
-    pressureAtMinimumTemperature: 0.0029,
     maximumTemperature: 476.25,
-    pressureAtMaximumTemperature: 3800000,
+    pressureAtMinimumTemperature: 2.9e-3,
+    pressureAtMaximumTemperature: 3.802e6,
   },
 
   MethylpropylSulfide: {
@@ -3611,12 +3611,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 83.711,
     C2: -6786.9,
     C3: -9.2526,
-    C4: 0.00000667,
+    C4: 6.6666e-6,
     C5: 2,
     minimumTemperature: 160.17,
-    pressureAtMinimumTemperature: 0.00426,
     maximumTemperature: 565,
-    pressureAtMaximumTemperature: 3970000,
+    pressureAtMinimumTemperature: 4.26e-3,
+    pressureAtMaximumTemperature: 3.972e6,
   },
 
   Methylsilane: {
@@ -3626,12 +3626,12 @@ export const DIPPRVaporPressureDictionary: Record<
     C1: 37.205,
     C2: -2590.3,
     C3: -2.5993,
-    C4: 0.00000605,
+    C4: 6.0508e-6,
     C5: 2,
     minimumTemperature: 116.34,
-    pressureAtMinimumTemperature: 14.3,
     maximumTemperature: 352.5,
-    pressureAtMaximumTemperature: 4700000,
+    pressureAtMinimumTemperature: 1.43e1,
+    pressureAtMaximumTemperature: 4.702e6,
   },
 } as const;
 

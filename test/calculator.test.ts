@@ -179,7 +179,7 @@ describe('calculateDIPPRThermalConductivity', () => {
     );
   });
 
-  it('should return NaN for undefined values of Tmin and Tmax', () => {
+  it('should return NaN for undefined values of Tmin and Tmax for Nitrogen trifluoride', () => {
     const vaporProps =
       DIPPRThermalConductivityDictionary['NitrogenTrifluoride'];
     expect(
@@ -194,5 +194,45 @@ describe('calculateDIPPRThermalConductivity', () => {
         vaporProps.maximumTemperature as number
       )
     ).toBe(NaN);
+  });
+
+  it('should return NaN outside the specified range of temperature for Nitrous oxide', () => {
+    const vaporProps = DIPPRThermalConductivityDictionary['NitrousOxide'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'NitrousOxide',
+        (vaporProps.minimumTemperature as number) - 1
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRThermalConductivity(
+        'NitrousOxide',
+        (vaporProps.maximumTemperature as number) + 1
+      )
+    ).toBe(NaN);
+  });
+
+  it('should return correct thermal conductivity at Tmin and Tmax for Nitrous oxide', () => {
+    const vaporProps = DIPPRThermalConductivityDictionary['NitrousOxide'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'NitrousOxide',
+        vaporProps.minimumTemperature as number
+      ).toPrecision(3)
+    ).toBe(
+      (vaporProps.thermalConductivityAtMinimumTemperature as number).toPrecision(
+        3
+      )
+    );
+    expect(
+      calculateDIPPRThermalConductivity(
+        'NitrousOxide',
+        vaporProps.maximumTemperature as number
+      ).toPrecision(3)
+    ).toBe(
+      (vaporProps.thermalConductivityAtMaximumTemperature as number).toPrecision(
+        3
+      )
+    );
   });
 });

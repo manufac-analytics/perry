@@ -3449,8 +3449,8 @@ export function calculateDIPPRThermalConductivity(
     thermalConductivityProps !== undefined &&
     typeof thermalConductivityProps.minimumTemperature === 'number' &&
     typeof thermalConductivityProps.maximumTemperature === 'number' &&
-    temperature >= (thermalConductivityProps.minimumTemperature) &&
-    temperature <= (thermalConductivityProps.maximumTemperature)
+    temperature >= thermalConductivityProps.minimumTemperature &&
+    temperature <= thermalConductivityProps.maximumTemperature
   ) {
     thermalConductivity =
       (Number.isFinite(thermalConductivityProps.C1)

@@ -238,7 +238,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   AmmoniumCarbonate: {
     CAS: '506-87-6',
     inchiString: 'InChI=1S/CH2O3.2H3N.H2O/c2-1(3)4;;;/h(H2,2,3,4);2*1H3;1H2',
-    inchiKey: 'PRKQVKDSMLBJBJ-UHFFFAOYSA-N',
+    inchiKey: 'MMVILKIFGQPOLE-UHFFFAOYSA-N',
     molecularWeight: 114.1,
   },
 
@@ -286,7 +286,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumChromate: {
-    CAS: '',
+    CAS: '7788-98-9',
     inchiString: 'InChI=1S/Cr.2H3N.4O/h;2*1H3;;;;/q;;;;;2*-1/p+2',
     inchiKey: 'MFFLHUNPSHBKRG-UHFFFAOYSA-P',
     molecularWeight: 152.07,
@@ -335,7 +335,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumHydrosulfide: {
-    CAS: '',
+    CAS: '12124-99-1',
     inchiString: 'InChI=1S/H3N.H2S/h1H3;1H2',
     inchiKey: 'HIVLDXAAFGCOFU-UHFFFAOYSA-N',
     molecularWeight: 51.11,
@@ -400,7 +400,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
   },
 
   AmmoniumOxalateAcid: {
-    CAS: '6009-70-7',
+    CAS: '5972-73-6',
     inchiString:
       'InChI=1S/C2H2O4.H3N.H2O/c3-1(4)2(5)6;;/h(H,3,4)(H,5,6);1H3;1H2',
     inchiKey: 'JRWKBXBBNURFHV-UHFFFAOYSA-N',

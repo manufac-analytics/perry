@@ -139,15 +139,15 @@ export interface DIPPRThermalConductivityProps {
   formula: string;
   CAS: string;
   molecularWeight: number;
-  C1: number;
+  C1?: number;
   C2?: number;
   C3?: number;
   C4?: number;
   C5?: number;
-  minimumTemperature: number;
-  maximumTemperature: number;
-  thermalConductivityAtMinimumTemperature: number;
-  thermalConductivityAtMaximumTemperature: number;
+  minimumTemperature?: number;
+  maximumTemperature?: number;
+  thermalConductivityAtMinimumTemperature?: number;
+  thermalConductivityAtMaximumTemperature?: number;
 }
 
 export interface DIPPRCriticalConstantAndAcentricFactorProps {

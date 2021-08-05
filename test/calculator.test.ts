@@ -235,4 +235,21 @@ describe('calculateDIPPRThermalConductivity', () => {
       )
     );
   });
+
+  it('should return NaN for undefined values of Tmin and Tmax for Silicon Tetrafluoride', () => {
+    const vaporProps =
+      DIPPRThermalConductivityDictionary['SiliconTetrafluoride'];
+    expect(
+      calculateDIPPRThermalConductivity(
+        'SiliconTetrafluoride',
+        vaporProps.minimumTemperature as number
+      )
+    ).toBe(NaN);
+    expect(
+      calculateDIPPRThermalConductivity(
+        'SiliconTetrafluoride',
+        vaporProps.maximumTemperature as number
+      )
+    ).toBe(NaN);
+  });
 });

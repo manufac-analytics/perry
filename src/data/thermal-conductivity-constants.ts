@@ -2774,7 +2774,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMinimumTemperature: 0.1689,
     thermalConductivityAtMaximumTemperature: 0.0897,
   },
-  
+
   Methylchlorosilane: {
     name: 'Methylchlorosilane',
     formula: 'CH5ClSi',
@@ -3437,7 +3437,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     thermalConductivityAtMinimumTemperature: 0.1547,
     thermalConductivityAtMaximumTemperature: 0.1053,
   },
-  
+
   Octadecane: {
     name: 'Octadecane',
     formula: 'C18H38',
@@ -3654,7 +3654,7 @@ export const DIPPRThermalConductivityDictionary: Record<
     molecularWeight: 72.14878,
     C1: 0.2537,
     C2: -0.000576,
-    C3: 0.000000344,
+    C3: 3.44e-7,
     minimumTemperature: 143.42,
     maximumTemperature: 445,
     thermalConductivityAtMinimumTemperature: 0.1782,
@@ -4071,12 +4071,6 @@ export const DIPPRThermalConductivityDictionary: Record<
     formula: 'F4Si',
     CAS: '7783-61-1',
     molecularWeight: 104.07911,
-    C1: NaN,
-    C2: NaN,
-    minimumTemperature: NaN,
-    maximumTemperature: NaN,
-    thermalConductivityAtMinimumTemperature: NaN,
-    thermalConductivityAtMaximumTemperature: NaN,
   },
 
   Styrene: {
@@ -4108,7 +4102,7 @@ export const DIPPRThermalConductivityDictionary: Record<
   SulfurDioxide: {
     name: 'Sulfur dioxide',
     formula: 'O2S',
-    CAS: '05-09-7446',
+    CAS: '7446-09-5',
     molecularWeight: 64.0638,
     C1: 0.38218,
     C2: -0.0006254,

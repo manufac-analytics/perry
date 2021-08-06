@@ -79,7 +79,7 @@ Per Palmer Group guidelines, [always use named exports.](https://github.com/palm
 
 ## Publishing to NPM
 
-We recommend using [np](https://github.com/sindresorhus/np).
+Run `yarn version`. Maintainers with publishing rights alone shall be able to publish to NPM.
 
 ## Branching Workflows
 

@@ -1,12 +1,23 @@
 {
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manufac-analytics/perry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manufac-analytics/perry/issues"
+  },
+  "homepage": "https://github.com/manufac-analytics/perry#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "engines": {
     "node": ">=14"
   },

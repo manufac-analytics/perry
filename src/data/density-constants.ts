@@ -779,8 +779,8 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     densityAtMinimumTemperature: 24.242,
     densityAtMaximumTemperature: 8.0666,
   },
-  
-    Chlorobenzene: {
+
+  Chlorobenzene: {
     name: 'Chlorobenzene',
     formula: 'C6H5Cl',
     CAS: '108-90-7',
@@ -1559,7 +1559,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     densityAtMinimumTemperature: 8.8431,
     densityAtMaximumTemperature: 2.8542,
   },
-  
+
   DimethylAcetylene: {
     name: 'Dimethyl acetylene',
     formula: 'C4H6',

@@ -1,7 +1,7 @@
 {
   "name": "@manufac-analytics/perry",
   "author": "maneetgoyal",
-  "version": "0.1.0-alpha.6",
+  "version": "0.1.0-alpha.7",
   "description": "Process Design Utilities",
   "keywords": [
     "Cheminformatics",
@@ -51,6 +51,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "preversion": "yarn build && yarn test",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push origin v$npm_package_version && git push && yarn publish --new-version $npm_package_version"
   },
   "prettier": {
@@ -61,6 +62,7 @@
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.11.0",
+    "conventional-changelog-cli": "^2.1.1",
     "husky": "^6.0.0",
     "size-limit": "^4.11.0",
     "tsdx": "^0.14.1",

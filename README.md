@@ -93,4 +93,12 @@ We recommend using [np](https://github.com/sindresorhus/np).
 
 We follow the [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) for pushing new features into the `master` branch.
 
+## Commits Format
+
+- We use the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to decide how to format our commit messages.
+- This is not strictly enforced at the moment but the developers are expected to follow this specification while commiting important changes like bringing in a new feature, making a breaking change to the API, or any change that the developer feels should be reflected in the CHANGELOG in the subsequent release.
+- Conventional commits integrate well with the [SemVer](https://semver.org/) versioning pattern and this compatibility is the main reason for its adoption.
+- Conventional commits also play well with [`yarn version`](https://classic.yarnpkg.com/en/docs/cli/version/) giving us the power to automate the releases and the corresponding CHANGELOG generation.
+- The [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension makes the formating & compliance of the commit messages a cake-walk!
+
 ---

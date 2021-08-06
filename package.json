@@ -2,6 +2,7 @@
   "name": "@manufac-analytics/perry",
   "author": "maneetgoyal",
   "version": "0.1.0-alpha.5",
+  "description": "Process Design Utilities",
   "keywords": [
     "Cheminformatics",
     "Chemical Engineering",

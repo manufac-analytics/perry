@@ -1,8 +1,21 @@
 {
+  "name": "@manufac-analytics/perry",
+  "author": "maneetgoyal",
   "version": "0.1.0-alpha.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "module": "dist/perry.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/perry.cjs.production.min.js",
+      "limit": "100 KB"
+    },
+    {
+      "path": "dist/perry.esm.js",
+      "limit": "100 KB"
+    }
+  ],
   "files": [
     "dist"
   ],
@@ -38,19 +51,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@manufac-analytics/perry",
-  "author": "maneetgoyal",
-  "module": "dist/perry.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/perry.cjs.production.min.js",
-      "limit": "100 KB"
-    },
-    {
-      "path": "dist/perry.esm.js",
-      "limit": "100 KB"
-    }
-  ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.11.0",
     "husky": "^6.0.0",

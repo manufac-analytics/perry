@@ -3979,7 +3979,7 @@ export const DIPPRVaporPressureDictionary: Record<
     pressureAtMaximumTemperature: 2.467e6,
   },
 
-  'Octanoic acid': {
+  OctanoicAcid: {
     name: 'Octanoic acid',
     formula: 'C8H16O2',
     CAS: '124-07-2',

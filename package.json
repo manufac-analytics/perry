@@ -2,6 +2,13 @@
   "name": "@manufac-analytics/perry",
   "author": "maneetgoyal",
   "version": "0.1.0-alpha.5",
+  "keywords": [
+    "Cheminformatics",
+    "Chemical Engineering",
+    "Chemistry",
+    "NodeJS",
+    "TypeScript"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

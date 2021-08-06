@@ -1,10 +1,4 @@
-import {
-  Adjectives,
-  SpecificGravityReference,
-  MeltingNature,
-  MeasureKind,
-  SolubilityNature,
-} from './enums';
+import { Adjectives, SpecificGravityReference, MeltingNature, MeasureKind, SolubilityNature } from "./enums";
 
 export interface Qualitative<T> {
   nature: T;

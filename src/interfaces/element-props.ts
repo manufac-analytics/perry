@@ -1,20 +1,20 @@
 export const enum Phases {
-  Gas = 'Gas',
-  Liquid = 'Liquid',
-  Solid = 'Solid',
+  Gas = "Gas",
+  Liquid = "Liquid",
+  Solid = "Solid"
 }
 
 export const enum Categories {
-  DiatomicNonmetal = 'diatomic nonmetal',
-  NobleGas = 'noble gas',
-  AlkaliMetal = 'alkali metal',
-  AlkalineEarthMetal = 'alkaline earth metal',
-  Metalloid = 'metalloid',
-  PolyatomicNonmetal = 'polyatomic nonmetal',
-  PostTransitionMetal = 'post-transition metal',
-  TransitionMetal = 'transition metal',
-  Lanthanide = 'lanthanide',
-  Actinide = 'actinide',
+  DiatomicNonmetal = "diatomic nonmetal",
+  NobleGas = "noble gas",
+  AlkaliMetal = "alkali metal",
+  AlkalineEarthMetal = "alkaline earth metal",
+  Metalloid = "metalloid",
+  PolyatomicNonmetal = "polyatomic nonmetal",
+  PostTransitionMetal = "post-transition metal",
+  TransitionMetal = "transition metal",
+  Lanthanide = "lanthanide",
+  Actinide = "actinide"
 }
 
 export type Category = keyof typeof Categories;

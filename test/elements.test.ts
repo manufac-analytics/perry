@@ -132,7 +132,7 @@ function checkUrl(url: string): boolean {
   return true;
 }
 
-function checkPhase(phase: Phase | string): boolean {
+function checkPhase(phase: string): boolean {
   return Object.values(Phases).includes(phase);
 }
 

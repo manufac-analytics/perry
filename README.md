@@ -98,7 +98,7 @@ We follow the [Git Feature Branch Workflow](https://www.atlassian.com/git/tutori
 - We use the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to decide how to format our commit messages.
 - This is not strictly enforced at the moment but the developers are expected to follow this specification while commiting important changes like bringing in a new feature, making a breaking change to the API, or any change that the developer feels should be reflected in the CHANGELOG in the subsequent release.
 - Conventional commits integrate well with the [SemVer](https://semver.org/) versioning pattern and this compatibility is the main reason for its adoption.
-- Conventional commits also play well with [`yarn version`](https://classic.yarnpkg.com/en/docs/cli/version/) giving us the power to automate the releases and the corresponding CHANGELOG generation.
+- [`conventional-changelog-cli`](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli) is used in the `yarn version` CLI giving us the power to automate the CHANGELOG generation.
 - The [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension makes the formating & compliance of the commit messages a cake-walk!
 
 ---

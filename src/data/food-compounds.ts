@@ -1,12 +1,12 @@
-import { FoodProps } from '../interfaces/food-props';
+import { FoodProps } from "../interfaces/food-props";
 
 export const FoodCompounds: Record<string, FoodProps> = {
   Fructose: {
-    name: 'Fructose',
-    CASNumber: '57-48-7',
-    id: '28817',
-    formula: 'C6H12O6',
-    SMILES: 'O=C(CO)C(O)C(O)C(O)CO',
+    name: "Fructose",
+    CASNumber: "57-48-7",
+    id: "28817",
+    formula: "C6H12O6",
+    SMILES: "O=C(CO)C(O)C(O)C(O)CO",
     molarWeight: 180.16,
     criticalTemperature: 1041.26,
     criticalPressure: 6430830.95,
@@ -129,18 +129,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '12' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "12" },
+      { name: "O", text: "6" }
+    ]
   },
 
   Glucose: {
-    name: 'Glucose',
-    CASNumber: '50-99-7',
-    id: '93962',
-    formula: 'C6H12O6',
-    SMILES: 'O=C(CO)C(O)C(O)C(O)CO',
+    name: "Glucose",
+    CASNumber: "50-99-7",
+    id: "93962",
+    formula: "C6H12O6",
+    SMILES: "O=C(CO)C(O)C(O)C(O)CO",
     molarWeight: 180.16,
     criticalTemperature: 1034.02,
     criticalPressure: 6431370,
@@ -263,18 +263,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '12' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "12" },
+      { name: "O", text: "6" }
+    ]
   },
 
   Limonene: {
-    name: 'Limonene',
-    CASNumber: '138-86-3',
-    id: '96414',
-    formula: 'C10H16',
-    SMILES: 'C=C(C)C1CC=C(C)CC1',
+    name: "Limonene",
+    CASNumber: "138-86-3",
+    id: "96414",
+    formula: "C10H16",
+    SMILES: "C=C(C)C1CC=C(C)CC1",
     molarWeight: 136.23,
     criticalTemperature: 657.45,
     criticalPressure: 2755561.07,
@@ -397,17 +397,17 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '10' },
-      { name: 'H', text: '16' },
-    ],
+      { name: "C", text: "10" },
+      { name: "H", text: "16" }
+    ]
   },
 
   Linalool: {
-    name: 'Linalool',
-    CASNumber: '78-70-6',
-    id: '13860',
-    formula: 'C10H18O',
-    SMILES: 'C=CC(C)(O)CCC=C(C)C',
+    name: "Linalool",
+    CASNumber: "78-70-6",
+    id: "13860",
+    formula: "C10H18O",
+    SMILES: "C=CC(C)(O)CCC=C(C)C",
     molarWeight: 154.25,
     criticalTemperature: 697.84,
     criticalPressure: 2581961.8,
@@ -530,18 +530,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '10' },
-      { name: 'H', text: '18' },
-      { name: 'O', text: '1' },
-    ],
+      { name: "C", text: "10" },
+      { name: "H", text: "18" },
+      { name: "O", text: "1" }
+    ]
   },
 
   Maltose: {
-    name: 'Maltose',
-    CASNumber: '69-79-4',
-    id: '10433',
-    formula: 'C12H22011',
-    SMILES: 'OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O',
+    name: "Maltose",
+    CASNumber: "69-79-4",
+    id: "10433",
+    formula: "C12H22011",
+    SMILES: "OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
     molarWeight: 342.3,
     criticalTemperature: 1784.1,
     criticalPressure: 4311220.08,
@@ -664,19 +664,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '12' },
-      { name: 'H', text: '22' },
-      { name: 'O', text: '11' },
-    ],
+      { name: "C", text: "12" },
+      { name: "H", text: "22" },
+      { name: "O", text: "11" }
+    ]
   },
 
   Maltotriose: {
-    name: 'Maltriose',
-    CASNumber: '83-067-6',
-    id: '13855',
-    formula: 'C29H54O16',
-    SMILES:
-      'COCC1OC(OC2C(COC)OC(OC3C(COC)OC(OC)C(OC)C3OC)C(OC)C2OC)C(OC)C(OC)C1OC',
+    name: "Maltriose",
+    CASNumber: "83-067-6",
+    id: "13855",
+    formula: "C29H54O16",
+    SMILES: "COCC1OC(OC2C(COC)OC(OC3C(COC)OC(OC)C(OC)C3OC)C(OC)C2OC)C(OC)C(OC)C1OC",
     molarWeight: 658.73,
     criticalTemperature: 1564.81,
     criticalPressure: 615423.96,
@@ -799,18 +798,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '29' },
-      { name: 'H', text: '54' },
-      { name: 'O', text: '16' },
-    ],
+      { name: "C", text: "29" },
+      { name: "H", text: "54" },
+      { name: "O", text: "16" }
+    ]
   },
 
   Lactose: {
-    name: 'Lactose',
-    CASNumber: '63-42-3',
-    id: '33204',
-    formula: 'C12H22O11',
-    SMILES: 'OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O',
+    name: "Lactose",
+    CASNumber: "63-42-3",
+    id: "33204",
+    formula: "C12H22O11",
+    SMILES: "OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
     molarWeight: 342.3,
     criticalTemperature: 1784.1,
     criticalPressure: 4311220.08,
@@ -933,18 +932,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '12' },
-      { name: 'H', text: '22' },
-      { name: 'O', text: '11' },
-    ],
+      { name: "C", text: "12" },
+      { name: "H", text: "22" },
+      { name: "O", text: "11" }
+    ]
   },
 
   Sorbitol: {
-    name: 'Sorbitol',
-    CASNumber: '50-70-4',
-    id: '74413',
-    formula: 'C6H1406',
-    SMILES: 'OCC(O)C(O)C(O)C(O)CO',
+    name: "Sorbitol",
+    CASNumber: "50-70-4",
+    id: "74413",
+    formula: "C6H1406",
+    SMILES: "OCC(O)C(O)C(O)C(O)CO",
     molarWeight: 182.17,
     criticalTemperature: 1093.15,
     criticalPressure: 6830134.55,
@@ -1067,18 +1066,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '14' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "14" },
+      { name: "O", text: "6" }
+    ]
   },
 
   dMannose: {
-    name: 'd-Mannose',
-    CASNumber: '3458-28-4',
-    id: '32676',
-    formula: 'C6H1206',
-    SMILES: 'O=CC(O)C(O)C(O)C(O)CO',
+    name: "d-Mannose",
+    CASNumber: "3458-28-4",
+    id: "32676",
+    formula: "C6H1206",
+    SMILES: "O=CC(O)C(O)C(O)C(O)CO",
     molarWeight: 180.16,
     criticalTemperature: 1034.26,
     criticalPressure: 6631370.09,
@@ -1201,18 +1200,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '12' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "12" },
+      { name: "O", text: "6" }
+    ]
   },
 
   PalmiticAcid: {
-    name: 'Palmitic Acid',
-    CASNumber: '57-10-3',
-    id: '18645',
-    formula: 'C16H32O2',
-    SMILES: 'CCCCCCCCCCCCCCCC(=O)O',
+    name: "Palmitic Acid",
+    CASNumber: "57-10-3",
+    id: "18645",
+    formula: "C16H32O2",
+    SMILES: "CCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 256.42,
     criticalTemperature: 880.42,
     criticalPressure: 1480428.51,
@@ -1335,18 +1334,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '16' },
-      { name: 'H', text: '32' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "16" },
+      { name: "H", text: "32" },
+      { name: "O", text: "2" }
+    ]
   },
 
   OleicAcid: {
-    name: 'Oleic Acid',
-    CASNumber: '112-80-1',
-    id: '64508',
-    formula: 'C18H34O2',
-    SMILES: 'CCCCCCCCC=CCCCCCCCC(=O)O',
+    name: "Oleic Acid",
+    CASNumber: "112-80-1",
+    id: "64508",
+    formula: "C18H34O2",
+    SMILES: "CCCCCCCCC=CCCCCCCCC(=O)O",
     molarWeight: 282.46,
     criticalTemperature: 937.46,
     criticalPressure: 1332956.37,
@@ -1469,18 +1468,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '18' },
-      { name: 'H', text: '34' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "18" },
+      { name: "H", text: "34" },
+      { name: "O", text: "2" }
+    ]
   },
 
   StearicAcid: {
-    name: 'Stearic Acid',
-    CASNumber: '57-11-4',
-    id: '14485',
-    formula: 'C18H36O2',
-    SMILES: 'CCCCCCCCCCCCCCCCCC(=O)O',
+    name: "Stearic Acid",
+    CASNumber: "57-11-4",
+    id: "14485",
+    formula: "C18H36O2",
+    SMILES: "CCCCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 284.48,
     criticalTemperature: 930.69,
     criticalPressure: 1283749.62,
@@ -1603,18 +1602,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '18' },
-      { name: 'H', text: '36' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "18" },
+      { name: "H", text: "36" },
+      { name: "O", text: "2" }
+    ]
   },
 
   LinoleicAcid: {
-    name: 'Linoleic Acid',
-    CASNumber: '60-33-3',
-    id: '83259',
-    formula: 'C18H30O2',
-    SMILES: 'CCC=CCC=CCC=CCCCCCCCC(=O)O',
+    name: "Linoleic Acid",
+    CASNumber: "60-33-3",
+    id: "83259",
+    formula: "C18H30O2",
+    SMILES: "CCC=CCC=CCC=CCCCCCCCC(=O)O",
     molarWeight: 280.45,
     criticalTemperature: 944.58,
     criticalPressure: 1385047.5,
@@ -1737,18 +1736,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '18' },
-      { name: 'H', text: '32' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "18" },
+      { name: "H", text: "32" },
+      { name: "O", text: "2" }
+    ]
   },
 
   LinolenicAcid: {
-    name: 'Linolenic acid',
-    CASNumber: '463-40-1',
-    id: '6436',
-    formula: 'C18H30O2',
-    SMILES: 'CCC=CCC=CCC=CCCCCCCCC(=O)O',
+    name: "Linolenic acid",
+    CASNumber: "463-40-1",
+    id: "6436",
+    formula: "C18H30O2",
+    SMILES: "CCC=CCC=CCC=CCCCCCCCC(=O)O",
     molarWeight: 278.43,
     criticalTemperature: 924.38,
     criticalPressure: 1627222.52,
@@ -1871,18 +1870,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '18' },
-      { name: 'H', text: '30' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "18" },
+      { name: "H", text: "30" },
+      { name: "O", text: "2" }
+    ]
   },
 
   dMannitol: {
-    name: 'd-Mannitol',
-    CASNumber: '69-65-8',
-    id: '65921',
-    formula: 'C6H14O6',
-    SMILES: 'OCC(O)C(O)C(O)C(O)CO',
+    name: "d-Mannitol",
+    CASNumber: "69-65-8",
+    id: "65921",
+    formula: "C6H14O6",
+    SMILES: "OCC(O)C(O)C(O)C(O)CO",
     molarWeight: 182.17,
     criticalTemperature: 1092.9,
     criticalPressure: 6830130,
@@ -2005,18 +2004,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '14' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "14" },
+      { name: "O", text: "6" }
+    ]
   },
 
   BetaMyrcene: {
-    name: 'Beta-myrcene',
-    CASNumber: '123-35-3',
-    id: '13161',
-    formula: 'C10H16',
-    SMILES: 'C=CC(=C)CCC=C(C)C',
+    name: "Beta-myrcene",
+    CASNumber: "123-35-3",
+    id: "13161",
+    formula: "C10H16",
+    SMILES: "C=CC(=C)CCC=C(C)C",
     molarWeight: 136.23,
     criticalTemperature: 609.87,
     criticalPressure: 2421879.84,
@@ -2139,17 +2138,17 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '10' },
-      { name: 'H', text: '16' },
-    ],
+      { name: "C", text: "10" },
+      { name: "H", text: "16" }
+    ]
   },
 
   Humulene: {
-    name: 'Humulene',
-    CASNumber: '6753-98-6',
-    id: '94828',
-    formula: 'C15H24',
-    SMILES: 'CC1=CCCC(C)=CCC(C)(C)C=CC1',
+    name: "Humulene",
+    CASNumber: "6753-98-6",
+    id: "94828",
+    formula: "C15H24",
+    SMILES: "CC1=CCCC(C)=CCC(C)(C)C=CC1",
     molarWeight: 204.35,
     criticalTemperature: 828.16,
     criticalPressure: 2056756.19,
@@ -2272,17 +2271,17 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '15' },
-      { name: 'H', text: '24' },
-    ],
+      { name: "C", text: "15" },
+      { name: "H", text: "24" }
+    ]
   },
 
   Caryophyllene: {
-    name: 'Caryophyllene',
-    CASNumber: '87-44-5',
-    id: '48043',
-    formula: 'C15H24',
-    SMILES: 'C=C1CCC=C(C)CCC2C1CC2(C)C',
+    name: "Caryophyllene",
+    CASNumber: "87-44-5",
+    id: "48043",
+    formula: "C15H24",
+    SMILES: "C=C1CCC=C(C)CCC2C1CC2(C)C",
     molarWeight: 204.35,
     criticalTemperature: 802.34,
     criticalPressure: 2027229.34,
@@ -2405,17 +2404,17 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '15' },
-      { name: 'H', text: '24' },
-    ],
+      { name: "C", text: "15" },
+      { name: "H", text: "24" }
+    ]
   },
 
   Farnesene: {
-    name: 'Farnesene',
-    CASNumber: '502-61-4',
-    id: '52599',
-    formula: 'C15H24',
-    SMILES: 'C=CC(C)=CCC=C(C)CCC=C(C)C',
+    name: "Farnesene",
+    CASNumber: "502-61-4",
+    id: "52599",
+    formula: "C15H24",
+    SMILES: "C=CC(C)=CCC=C(C)CCC=C(C)C",
     molarWeight: 204.35,
     criticalTemperature: 742.25,
     criticalPressure: 1672793.27,
@@ -2538,17 +2537,17 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '15' },
-      { name: 'H', text: '24' },
-    ],
+      { name: "C", text: "15" },
+      { name: "H", text: "24" }
+    ]
   },
 
   AnhydrousCitricAcid: {
-    name: 'AnhydrousCitricAcid',
-    CASNumber: '77-92-9',
-    id: '47173',
-    formula: 'C6H8O7',
-    SMILES: 'O=C(O)CC(O)(CC(=O)O)C(=O)O',
+    name: "AnhydrousCitricAcid",
+    CASNumber: "77-92-9",
+    id: "47173",
+    formula: "C6H8O7",
+    SMILES: "O=C(O)CC(O)(CC(=O)O)C(=O)O",
     molarWeight: 192.12,
     criticalTemperature: 1058.74,
     criticalPressure: 6740706.59,
@@ -2671,18 +2670,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '8' },
-      { name: 'O', text: '7' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "8" },
+      { name: "O", text: "7" }
+    ]
   },
 
   LAscorbicAcid: {
-    name: 'L-Ascorbic acid',
-    CASNumber: '50-81-7',
-    id: '47761',
-    formula: 'C6H8O6',
-    SMILES: 'O=C1OC(C(O)CO)C(O)=C1O',
+    name: "L-Ascorbic acid",
+    CASNumber: "50-81-7",
+    id: "47761",
+    formula: "C6H8O6",
+    SMILES: "O=C1OC(C(O)CO)C(O)=C1O",
     molarWeight: 176.12,
     criticalTemperature: 1015.62,
     criticalPressure: 6875517.38,
@@ -2805,18 +2804,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '6' },
-      { name: 'H', text: '8' },
-      { name: 'O', text: '6' },
-    ],
+      { name: "C", text: "6" },
+      { name: "H", text: "8" },
+      { name: "O", text: "6" }
+    ]
   },
 
   LLacticAcid: {
-    name: 'L-Lactic acid',
-    CASNumber: '',
-    id: '60872',
-    formula: 'C3H6O3',
-    SMILES: 'C(O)C(=O)O',
+    name: "L-Lactic acid",
+    CASNumber: "",
+    id: "60872",
+    formula: "C3H6O3",
+    SMILES: "C(O)C(=O)O",
     molarWeight: 90.08,
     criticalTemperature: 678.18,
     criticalPressure: 6389772.27,
@@ -2939,18 +2938,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '3' },
-      { name: 'H', text: '6' },
-      { name: 'O', text: '3' },
-    ],
+      { name: "C", text: "3" },
+      { name: "H", text: "6" },
+      { name: "O", text: "3" }
+    ]
   },
 
   AceticAcid: {
-    name: 'Acetic acid',
-    CASNumber: '64-19-7',
-    id: '45425',
-    formula: 'C2H4O3',
-    SMILES: 'CC(=O)O',
+    name: "Acetic acid",
+    CASNumber: "64-19-7",
+    id: "45425",
+    formula: "C2H4O3",
+    SMILES: "CC(=O)O",
     molarWeight: 60.05,
     criticalTemperature: 606.58,
     criticalPressure: 6514144.49,
@@ -3073,18 +3072,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '2' },
-      { name: 'H', text: '4' },
-      { name: 'O', text: '3' },
-    ],
+      { name: "C", text: "2" },
+      { name: "H", text: "4" },
+      { name: "O", text: "3" }
+    ]
   },
 
   LMalicAcid: {
-    name: 'L-Malic acid',
-    CASNumber: '97-67-6',
-    id: '5478',
-    formula: 'C4H6O5',
-    SMILES: 'O=C(O)CC(O)C(=O)O',
+    name: "L-Malic acid",
+    CASNumber: "97-67-6",
+    id: "5478",
+    formula: "C4H6O5",
+    SMILES: "O=C(O)CC(O)C(=O)O",
     molarWeight: 134.09,
     criticalTemperature: 849.4,
     criticalPressure: 7097971.26,
@@ -3207,18 +3206,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '4' },
-      { name: 'H', text: '6' },
-      { name: 'O', text: '5' },
-    ],
+      { name: "C", text: "4" },
+      { name: "H", text: "6" },
+      { name: "O", text: "5" }
+    ]
   },
 
   Xylitol: {
-    name: 'Xylitol',
-    CASNumber: '87-99-0',
-    id: '479',
-    formula: 'C5H12O5',
-    SMILES: 'OCC(O)C(O)C(O)CO',
+    name: "Xylitol",
+    CASNumber: "87-99-0",
+    id: "479",
+    formula: "C5H12O5",
+    SMILES: "OCC(O)C(O)C(O)CO",
     molarWeight: 152.15,
     criticalTemperature: 947.8,
     criticalPressure: 6785199.58,
@@ -3341,18 +3340,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '5' },
-      { name: 'H', text: '12' },
-      { name: 'O', text: '5' },
-    ],
+      { name: "C", text: "5" },
+      { name: "H", text: "12" },
+      { name: "O", text: "5" }
+    ]
   },
 
   Acrylamide: {
-    name: 'Acrylamide',
-    CASNumber: '79-06-1',
-    id: '99836',
-    formula: 'C3H5ON',
-    SMILES: 'C=CC(N)=O',
+    name: "Acrylamide",
+    CASNumber: "79-06-1",
+    id: "99836",
+    formula: "C3H5ON",
+    SMILES: "C=CC(N)=O",
     molarWeight: 71.08,
     criticalTemperature: 592.92,
     criticalPressure: 5536068.59,
@@ -3475,19 +3474,19 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '3' },
-      { name: 'H', text: '5' },
-      { name: 'N', text: '1' },
-      { name: 'O', text: '1' },
-    ],
+      { name: "C", text: "3" },
+      { name: "H", text: "5" },
+      { name: "N", text: "1" },
+      { name: "O", text: "1" }
+    ]
   },
 
   CaprylicAcid: {
-    name: 'CaprylicAcid',
-    CASNumber: '124-07-2',
-    id: '65659',
-    formula: 'C8H16O2',
-    SMILES: 'CCCCCCCC(=O)O',
+    name: "CaprylicAcid",
+    CASNumber: "124-07-2",
+    id: "65659",
+    formula: "C8H16O2",
+    SMILES: "CCCCCCCC(=O)O",
     molarWeight: 144.21,
     criticalTemperature: 697.66,
     criticalPressure: 2982794.35,
@@ -3610,18 +3609,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '8' },
-      { name: 'H', text: '16' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "8" },
+      { name: "H", text: "16" },
+      { name: "O", text: "2" }
+    ]
   },
 
   CapricAcid: {
-    name: 'CapricAcid',
-    CASNumber: '334-48-5',
-    id: '29852',
-    formula: 'C10H20O2',
-    SMILES: 'CCCCCCCCCC(=O)O',
+    name: "CapricAcid",
+    CASNumber: "334-48-5",
+    id: "29852",
+    formula: "C10H20O2",
+    SMILES: "CCCCCCCCCC(=O)O",
     molarWeight: 172.26,
     criticalTemperature: 741.47,
     criticalPressure: 2443476.88,
@@ -3744,18 +3743,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '10' },
-      { name: 'H', text: '20' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "10" },
+      { name: "H", text: "20" },
+      { name: "O", text: "2" }
+    ]
   },
 
   LauricAcid: {
-    name: 'LauricAcid',
-    CASNumber: '143-07-7',
-    id: '78553',
-    formula: 'C12H24O2',
-    SMILES: 'CCCCCCCCCCCC(=O)O',
+    name: "LauricAcid",
+    CASNumber: "143-07-7",
+    id: "78553",
+    formula: "C12H24O2",
+    SMILES: "CCCCCCCCCCCC(=O)O",
     molarWeight: 200.32,
     criticalTemperature: 786.25,
     criticalPressure: 2038226.95,
@@ -3878,18 +3877,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '12' },
-      { name: 'H', text: '24' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "12" },
+      { name: "H", text: "24" },
+      { name: "O", text: "2" }
+    ]
   },
 
   MyristicAcid: {
-    name: 'MyristicAcid',
-    CASNumber: '544-63-8',
-    id: '85677',
-    formula: 'C14H28O2',
-    SMILES: 'CCCCCCCCCCCCCC(=O)O',
+    name: "MyristicAcid",
+    CASNumber: "544-63-8",
+    id: "85677",
+    formula: "C14H28O2",
+    SMILES: "CCCCCCCCCCCCCC(=O)O",
     molarWeight: 228.37,
     criticalTemperature: 832.43,
     criticalPressure: 1726027.93,
@@ -4012,18 +4011,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '14' },
-      { name: 'H', text: '28' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "14" },
+      { name: "H", text: "28" },
+      { name: "O", text: "2" }
+    ]
   },
 
   ArachidicAcid: {
-    name: 'ArachidicAcid',
-    CASNumber: '506-30-9',
-    id: '50335',
-    formula: 'C20H40O2',
-    SMILES: 'CCCCCCCCCCCCCCCCCCCC(=O)O',
+    name: "ArachidicAcid",
+    CASNumber: "506-30-9",
+    id: "50335",
+    formula: "C20H40O2",
+    SMILES: "CCCCCCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 312.53,
     criticalTemperature: 983.72,
     criticalPressure: 1123811.56,
@@ -4146,18 +4145,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '20' },
-      { name: 'H', text: '40' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "20" },
+      { name: "H", text: "40" },
+      { name: "O", text: "2" }
+    ]
   },
 
   BehenicAcid: {
-    name: 'BehenicAcid',
-    CASNumber: '112-85-6',
-    id: '72297',
-    formula: 'C22H44O2',
-    SMILES: 'CCCCCCCCCCCCCCCCCCCCCC(=O)O',
+    name: "BehenicAcid",
+    CASNumber: "112-85-6",
+    id: "72297",
+    formula: "C22H44O2",
+    SMILES: "CCCCCCCCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 340.58,
     criticalTemperature: 1040.03,
     criticalPressure: 992001.98,
@@ -4280,18 +4279,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '22' },
-      { name: 'H', text: '44' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "22" },
+      { name: "H", text: "44" },
+      { name: "O", text: "2" }
+    ]
   },
 
   LingonericAcid: {
-    name: 'Lingoneric acid',
-    CASNumber: '557-59-5',
-    id: '30098',
-    formula: 'C24H48O2',
-    SMILES: 'CCCCCCCCCCCCCCCCCCCCCCCC(=O)O',
+    name: "Lingoneric acid",
+    CASNumber: "557-59-5",
+    id: "30098",
+    formula: "C24H48O2",
+    SMILES: "CCCCCCCCCCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 368.64,
     criticalTemperature: 1100.22,
     criticalPressure: 882091.76,
@@ -4414,18 +4413,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '24' },
-      { name: 'H', text: '48' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "24" },
+      { name: "H", text: "48" },
+      { name: "O", text: "2" }
+    ]
   },
 
   CeroticAcid: {
-    name: 'Cerotic acid',
-    CASNumber: '506-46-7',
-    id: '99986',
-    formula: 'C26H52O2',
-    SMILES: 'CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O',
+    name: "Cerotic acid",
+    CASNumber: "506-46-7",
+    id: "99986",
+    formula: "C26H52O2",
+    SMILES: "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O",
     molarWeight: 396.69,
     criticalTemperature: 1164.98,
     criticalPressure: 789485.26,
@@ -4548,18 +4547,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '26' },
-      { name: 'H', text: '52' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "26" },
+      { name: "H", text: "52" },
+      { name: "O", text: "2" }
+    ]
   },
 
   Xylose: {
-    name: 'Xylose',
-    CASNumber: '58-86-6',
-    id: '12333',
-    formula: 'C5H10O5',
-    SMILES: 'O=CC(O)C(O)C(O)CO',
+    name: "Xylose",
+    CASNumber: "58-86-6",
+    id: "12333",
+    formula: "C5H10O5",
+    SMILES: "O=CC(O)C(O)C(O)CO",
     molarWeight: 150.13,
     criticalTemperature: 900.87,
     criticalPressure: 6588379.15,
@@ -4682,18 +4681,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '5' },
-      { name: 'H', text: '10' },
-      { name: 'O', text: '5' },
-    ],
+      { name: "C", text: "5" },
+      { name: "H", text: "10" },
+      { name: "O", text: "5" }
+    ]
   },
 
   ConiferylAlchohol: {
-    name: 'Coniferyl alcohol',
-    CASNumber: '458-35-5',
-    id: '60832',
-    formula: 'C10H12O3',
-    SMILES: 'COc1cc(C=CCO)ccc1O',
+    name: "Coniferyl alcohol",
+    CASNumber: "458-35-5",
+    id: "60832",
+    formula: "C10H12O3",
+    SMILES: "COc1cc(C=CCO)ccc1O",
     molarWeight: 180.2,
     criticalTemperature: 869.31,
     criticalPressure: 3975517.18,
@@ -4816,18 +4815,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '10' },
-      { name: 'H', text: '12' },
-      { name: 'O', text: '3' },
-    ],
+      { name: "C", text: "10" },
+      { name: "H", text: "12" },
+      { name: "O", text: "3" }
+    ]
   },
 
   Tocopherol: {
-    name: 'Tocopherol',
-    CASNumber: '10191-41-0',
-    id: '34512',
-    formula: 'C29H50O2',
-    SMILES: 'Cc1c(C)c2c(c(C)c1O)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2',
+    name: "Tocopherol",
+    CASNumber: "10191-41-0",
+    id: "34512",
+    formula: "C29H50O2",
+    SMILES: "Cc1c(C)c2c(c(C)c1O)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2",
     molarWeight: 430.71,
     criticalTemperature: 1257.67,
     criticalPressure: 882091.76,
@@ -4950,18 +4949,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '29' },
-      { name: 'H', text: '50' },
-      { name: 'O', text: '2' },
-    ],
+      { name: "C", text: "29" },
+      { name: "H", text: "50" },
+      { name: "O", text: "2" }
+    ]
   },
 
   Retinol: {
-    name: 'Retinol',
-    CASNumber: '68-26-8',
-    id: '91824',
-    formula: 'C20H30O',
-    SMILES: 'CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CCO',
+    name: "Retinol",
+    CASNumber: "68-26-8",
+    id: "91824",
+    formula: "C20H30O",
+    SMILES: "CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CCO",
     molarWeight: 286.45,
     criticalTemperature: 1002.56,
     criticalPressure: 1511673.75,
@@ -5084,18 +5083,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '20' },
-      { name: 'H', text: '30' },
-      { name: 'O', text: '1' },
-    ],
+      { name: "C", text: "20" },
+      { name: "H", text: "30" },
+      { name: "O", text: "1" }
+    ]
   },
 
   Cholecalciferol: {
-    name: 'Cholecalciferol',
-    CASNumber: '67-97-0',
-    id: '26138',
-    formula: 'C27H440',
-    SMILES: 'C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)CCCC(C)C',
+    name: "Cholecalciferol",
+    CASNumber: "67-97-0",
+    id: "26138",
+    formula: "C27H440",
+    SMILES: "C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)CCCC(C)C",
     molarWeight: 384.64,
     criticalTemperature: 1183.9,
     criticalPressure: 1058948.6,
@@ -5218,18 +5217,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '27' },
-      { name: 'H', text: '44' },
-      { name: 'O', text: '1' },
-    ],
+      { name: "C", text: "27" },
+      { name: "H", text: "44" },
+      { name: "O", text: "1" }
+    ]
   },
 
   Tokoferol: {
-    name: 'Tokoferol',
-    CASNumber: '58-95-7',
-    id: '10131',
-    formula: 'C31H52O3',
-    SMILES: 'CC(=O)Oc1c(C)c(C)c2c(c1C)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2',
+    name: "Tokoferol",
+    CASNumber: "58-95-7",
+    id: "10131",
+    formula: "C31H52O3",
+    SMILES: "CC(=O)Oc1c(C)c(C)c2c(c1C)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2",
     molarWeight: 472.74,
     criticalTemperature: 1316.79,
     criticalPressure: 739626.97,
@@ -5352,18 +5351,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '31' },
-      { name: 'H', text: '52' },
-      { name: 'O', text: '3' },
-    ],
+      { name: "C", text: "31" },
+      { name: "H", text: "52" },
+      { name: "O", text: "3" }
+    ]
   },
 
   Surcose: {
-    name: 'Surcose',
-    CASNumber: '57-50-1',
-    id: '61508',
-    formula: 'C12H22O11',
-    SMILES: 'OCC1OC(CO)(OC2OC(CO)C(O)C(O)C2O)C(O)C1O',
+    name: "Surcose",
+    CASNumber: "57-50-1",
+    id: "61508",
+    formula: "C12H22O11",
+    SMILES: "OCC1OC(CO)(OC2OC(CO)C(O)C(O)C2O)C(O)C1O",
     molarWeight: 342.3,
     criticalTemperature: 1783.02,
     criticalPressure: 4627701.42,
@@ -5486,18 +5485,18 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '12' },
-      { name: 'H', text: '22' },
-      { name: 'O', text: '11' },
-    ],
+      { name: "C", text: "12" },
+      { name: "H", text: "22" },
+      { name: "O", text: "11" }
+    ]
   },
 
   Trilaurin: {
-    name: 'Trilaurin',
-    CASNumber: '538-24-9',
-    id: '86758',
-    formula: 'C39H74O6',
-    SMILES: 'CCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCC)OC(=O)CCCCCCCCCCC',
+    name: "Trilaurin",
+    CASNumber: "538-24-9",
+    id: "86758",
+    formula: "C39H74O6",
+    SMILES: "CCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCC)OC(=O)CCCCCCCCCCC",
     molarWeight: 639,
     criticalTemperature: 1892.96,
     criticalPressure: 431148.66,
@@ -5620,9 +5619,9 @@ export const FoodCompounds: Record<string, FoodProps> = {
     densityTC: 0,
     densitygmL: 0,
     elements: [
-      { name: 'C', text: '39' },
-      { name: 'H', text: '74' },
-      { name: 'O', text: '6' },
-    ],
-  },
+      { name: "C", text: "39" },
+      { name: "H", text: "74" },
+      { name: "O", text: "6" }
+    ]
+  }
 };

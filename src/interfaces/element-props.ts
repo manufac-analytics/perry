@@ -1,25 +1,25 @@
-export const enum Phases {
-  Gas = 'Gas',
-  Liquid = 'Liquid',
-  Solid = 'Solid',
-}
+export const Phases =  {
+  Gas : 'Gas',
+  Liquid : 'Liquid',
+  Solid : 'Solid',
+} as const;
 
-export const enum Categories {
-  DiatomicNonmetal = 'diatomic nonmetal',
-  NobleGas = 'noble gas',
-  AlkaliMetal = 'alkali metal',
-  AlkalineEarthMetal = 'alkaline earth metal',
-  Metalloid = 'metalloid',
-  PolyatomicNonmetal = 'polyatomic nonmetal',
-  PostTransitionMetal = 'post-transition metal',
-  TransitionMetal = 'transition metal',
-  Lanthanide = 'lanthanide',
-  Actinide = 'actinide',
-}
+export const Categories =  {
+  DiatomicNonmetal : 'diatomic nonmetal',
+  NobleGas : 'noble gas',
+  AlkaliMetal : 'alkali metal',
+  AlkalineEarthMetal : 'alkaline earth metal',
+  Metalloid : 'metalloid',
+  PolyatomicNonmetal : 'polyatomic nonmetal',
+  PostTransitionMetal : 'post-transition metal',
+  TransitionMetal : 'transition metal',
+  Lanthanide : 'lanthanide',
+  Actinide : 'actinide',
+} as const;
 
-export type Category = keyof typeof Categories;
+export type Category = typeof Categories[keyof typeof Categories];
 
-export type Phase = keyof typeof Phases;
+export type Phase = typeof Phases[keyof typeof Phases];
 
 export interface ElementProps {
   name: string;

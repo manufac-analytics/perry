@@ -1,6 +1,8 @@
 import { ElementDictionary } from '../src/data/elements';
 import { Phases, Phase } from '../src/interfaces/element-props';
 
+const elements: string[] = Object.keys(ElementDictionary);
+/*
 const elements = [
   'Hydrogen',
   'Helium',
@@ -122,7 +124,7 @@ const elements = [
   'Oganesson',
   'Ununennium',
 ];
-
+*/
 function checkUrl(url: string): boolean {
   try {
     new URL(url);
@@ -132,15 +134,8 @@ function checkUrl(url: string): boolean {
   return true;
 }
 
-function checkPhase(phase: Phase | string): boolean {
-  if (
-    phase === Phases.Gas ||
-    phase === Phases.Liquid ||
-    phase === Phases.Solid
-  ) {
-    return true;
-  }
-  return false;
+function checkPhase(phase: Phase): boolean {
+  return Object.values(Phases).includes(phase);
 }
 
 describe('Periodic Table Elements', () => {

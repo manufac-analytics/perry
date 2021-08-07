@@ -133,10 +133,7 @@ function checkUrl(url: string): boolean {
 }
 
 function checkPhase(phase: Phase | string): boolean {
-  if (phase === Phases.Gas || phase === Phases.Liquid || phase === Phases.Solid) {
-    return true;
-  }
-  return false;
+  return Object.values(Phases).includes(phase);
 }
 
 describe("Periodic Table Elements", () => {

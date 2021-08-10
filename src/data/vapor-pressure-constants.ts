@@ -4603,8 +4603,8 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     C4: 2.6e-17,
     C5: 6,
     minimumTemperature: 142.61,
-    pressureAtMinimumTemperature: 9.73e-3,
     maximumTemperature: 517,
+    pressureAtMinimumTemperature: 9.73e-3,
     pressureAtMaximumTemperature: 4.752e6
   },
 
@@ -4623,7 +4623,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 4.627e6
   },
 
-  "12PropyleneGlycol": {
+  "1,2PropyleneGlycol": {
     name: "1,2-Propylene glycol",
     formula: "C3H8O2",
     CAS: "57-55-6",
@@ -4801,7 +4801,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 5.203e6
   },
 
-  "1234Tetrahydronaphthalene": {
+  "1,2,3,4Tetrahydronaphthalene": {
     name: "1,2,3,4-Tetrahydronaphthalene",
     formula: "C10H12",
     CAS: "119-64-2",
@@ -4831,7 +4831,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 5.117e6
   },
 
-  "2233Tetramethylbutane": {
+  "2,2,3,3Tetramethylbutane": {
     name: "2,2,3,3-Tetramethylbutane",
     formula: "C8H18",
     CAS: "594-82-1",
@@ -4876,7 +4876,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 4.08e6
   },
 
-  "112Trichloroethane": {
+  "1,1,2Trichloroethane": {
     name: "1,1,2-Trichloroethane",
     formula: "C2H3Cl3",
     CAS: "79-00-5",
@@ -4936,7 +4936,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 4.102e6
   },
 
-  "123Trimethylbenzene": {
+  "1,2,3Trimethylbenzene": {
     name: "1,2,3-Trimethylbenzene",
     formula: "C9H12",
     CAS: "526-73-8",
@@ -4951,7 +4951,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 3.447e6
   },
 
-  "124Trimethylbenzene": {
+  "1,2,4Trimethylbenzene": {
     name: "1,2,4-Trimethylbenzene",
     formula: "C9H12",
     CAS: "95-63-6",
@@ -4966,7 +4966,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 3.211e6
   },
 
-  "224Trimethylpentane": {
+  "2,2,4Trimethylpentane": {
     name: "2,2,4-Trimethylpentane",
     formula: "C8H18",
     CAS: "540-84-1",
@@ -4981,7 +4981,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 2.55e6
   },
 
-  "233Trimethylpentane": {
+  "2,3,3Trimethylpentane": {
     name: "2,3,3-Trimethylpentane",
     formula: "C8H18",
     CAS: "560-21-4",
@@ -4996,7 +4996,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 2.812e6
   },
 
-  "135Trinitrobenzene": {
+  "1,3,5Trinitrobenzene": {
     name: "1,3,5-Trinitrobenzene",
     formula: "C6H3N3O6",
     CAS: "99-35-4",
@@ -5011,7 +5011,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 3.41e6
   },
 
-  "246Trinitrotoluene": {
+  "2,4,6Trinitrotoluene": {
     name: "2,4,6-Trinitrotoluene",
     formula: "C7H5N3O6",
     CAS: "118-96-7",
@@ -5113,7 +5113,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     minimumTemperature: 178.35,
     maximumTemperature: 543.15,
     pressureAtMinimumTemperature: 3.54e-1,
-    pressureAtMaximumTemperature: 3.508e6
+    pressureAtMaximumTemperature: 3.058e6
   },
 
   Water: {
@@ -5153,7 +5153,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     C1: 90.405,
     C2: -7955.2,
     C3: -10.086,
-    C4: 0.0000059594,
+    C4: 5.9594e-6,
     C5: 2,
     minimumTemperature: 247.98,
     maximumTemperature: 630.3,

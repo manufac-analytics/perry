@@ -1,32 +1,18 @@
 {
-  "version": "0.1.0",
+  "name": "@manufac-analytics/perry",
+  "author": "maneetgoyal",
+  "version": "0.1.0-alpha.8",
+  "description": "Process Design Utilities",
+  "keywords": [
+    "Cheminformatics",
+    "Chemical Engineering",
+    "Chemistry",
+    "NodeJS",
+    "TypeScript"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "engines": {
-    "node": ">=14"
-  },
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint --fix",
-    "prepare": "tsdx build && husky install",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "name": "@manufac-analytics/perry",
-  "author": "maneetgoyal",
   "module": "dist/perry.esm.js",
   "size-limit": [
     {
@@ -38,8 +24,50 @@
       "limit": "100 KB"
     }
   ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manufac-analytics/perry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manufac-analytics/perry/issues"
+  },
+  "homepage": "https://github.com/manufac-analytics/perry#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint --fix src test",
+    "prepare": "tsdx build && husky install",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "preversion": "yarn build && yarn test",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "git push origin v$npm_package_version && git push && yarn publish --new-version $npm_package_version"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "useTabs": false
+  },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.11.0",
+    "conventional-changelog-cli": "^2.1.1",
     "husky": "^6.0.0",
     "size-limit": "^4.11.0",
     "tsdx": "^0.14.1",

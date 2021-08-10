@@ -4126,7 +4126,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 5.021e6
   },
 
-  Oxyzen: {
+  Ozone: {
     name: "Ozone",
     formula: "O3",
     CAS: "10028-15-6",

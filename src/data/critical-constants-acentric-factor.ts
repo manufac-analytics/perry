@@ -2920,7 +2920,7 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     acentricFactor: 0.32297
   },
 
-  MethylTertButylEther: {
+  MethylTertbutylEther: {
     name: "Methyl tert-butyl ether",
     formula: "C5H12O",
     CAS: "1634-04-4",
@@ -3218,5 +3218,929 @@ export const DIPPRCriticalConstantsAndAcentricFactorDictionary: Record<
     criticalVolume: 0.512,
     criticalCompressibilityFactor: 0.269,
     acentricFactor: 0.58814
+  },
+
+  "2Octanone": {
+    name: "2-Octanone",
+    formula: "C8H16O",
+    CAS: "111-13-7",
+    molecularWeight: 128.21204,
+    criticalTemperature: 632.7,
+    criticalPressure: 2.64,
+    criticalVolume: 0.497,
+    criticalCompressibilityFactor: 0.249,
+    acentricFactor: 0.454874
+  },
+
+  "3Octanone": {
+    name: "3-Octanone",
+    formula: "C8H16O",
+    CAS: "106-68-3",
+    molecularWeight: 128.21204,
+    criticalTemperature: 627.7,
+    criticalPressure: 2.704,
+    criticalVolume: 0.496953,
+    criticalCompressibilityFactor: 0.257,
+    acentricFactor: 0.440561
+  },
+
+  "1Octene": {
+    name: "1-Octene",
+    formula: "C8H16",
+    CAS: "111-66-0",
+    molecularWeight: 112.21264,
+    criticalTemperature: 566.9,
+    criticalPressure: 2.663,
+    criticalVolume: 0.464,
+    criticalCompressibilityFactor: 0.262,
+    acentricFactor: 0.392149
+  },
+
+  OctylMercaptan: {
+    name: "Octyl mercaptan",
+    formula: "C8H18S",
+    CAS: "111-88-6",
+    molecularWeight: 146.29352,
+    criticalTemperature: 667.3,
+    criticalPressure: 2.52,
+    criticalVolume: 0.518,
+    criticalCompressibilityFactor: 0.235,
+    acentricFactor: 0.449744
+  },
+
+  "1Octyne": {
+    name: "1-Octyne",
+    formula: "C8H14",
+    CAS: "629-05-0",
+    molecularWeight: 110.19676,
+    criticalTemperature: 574,
+    criticalPressure: 2.88,
+    criticalVolume: 0.442,
+    criticalCompressibilityFactor: 0.267,
+    acentricFactor: 0.42329
+  },
+
+  OxalicAcid: {
+    name: "Oxalic acid",
+    formula: "C2H2O4",
+    CAS: "144-62-7",
+    molecularWeight: 90.03488,
+    criticalTemperature: 828,
+    criticalPressure: 8.2,
+    criticalVolume: 0.227,
+    criticalCompressibilityFactor: 0.27,
+    acentricFactor: 0.286278
+  },
+
+  Oxygen: {
+    name: "Oxygen",
+    formula: "O2",
+    CAS: "7782-44-7",
+    molecularWeight: 31.9988,
+    criticalTemperature: 154.58,
+    criticalPressure: 5.043,
+    criticalVolume: 0.0734,
+    criticalCompressibilityFactor: 0.288,
+    acentricFactor: 0.0221798
+  },
+
+  Ozone: {
+    name: "Ozone",
+    formula: "O3",
+    CAS: "10028-15-6",
+    molecularWeight: 47.9982,
+    criticalTemperature: 261,
+    criticalPressure: 5.57,
+    criticalVolume: 0.089,
+    criticalCompressibilityFactor: 0.288,
+    acentricFactor: 0.211896
+  },
+
+  Pentadecane: {
+    name: "Pentadecane",
+    formula: "C15H32",
+    CAS: "629-62-9",
+    molecularWeight: 212.41458,
+    criticalTemperature: 708,
+    criticalPressure: 1.48,
+    criticalVolume: 0.969,
+    criticalCompressibilityFactor: 0.244,
+    acentricFactor: 0.68632
+  },
+
+  Pentanal: {
+    name: "Pentanal",
+    formula: "C5H10O",
+    CAS: "110-62-3",
+    molecularWeight: 86.1323,
+    criticalTemperature: 566.1,
+    criticalPressure: 3.845,
+    criticalVolume: 0.313,
+    criticalCompressibilityFactor: 0.256,
+    acentricFactor: 0.313152
+  },
+
+  Pentane: {
+    name: "Pentane",
+    formula: "C5H12",
+    CAS: "109-66-0",
+    molecularWeight: 72.14878,
+    criticalTemperature: 469.7,
+    criticalPressure: 3.37,
+    criticalVolume: 0.313,
+    criticalCompressibilityFactor: 0.27,
+    acentricFactor: 0.251506
+  },
+
+  PentanoicAcid: {
+    name: "Pentanoic acid",
+    formula: "C5H10O2",
+    CAS: "109-52-4",
+    molecularWeight: 102.132,
+    criticalTemperature: 639.16,
+    criticalPressure: 3.63,
+    criticalVolume: 0.35,
+    criticalCompressibilityFactor: 0.239,
+    acentricFactor: 0.706632
+  },
+
+  "1Pentanol": {
+    name: "1-Pentanol",
+    formula: "C5H12O",
+    CAS: "71-41-0",
+    molecularWeight: 88.1482,
+    criticalTemperature: 588.1,
+    criticalPressure: 3.897,
+    criticalVolume: 0.326,
+    criticalCompressibilityFactor: 0.258,
+    acentricFactor: 0.57483
+  },
+
+  "2Pentanol": {
+    name: "2-Pentanol",
+    formula: "C5H12O",
+    CAS: "6032-29-7",
+    molecularWeight: 88.1482,
+    criticalTemperature: 561,
+    criticalPressure: 3.7,
+    criticalVolume: 0.326,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.554979
+  },
+
+  "2Pentanone": {
+    name: "2-Pentanone",
+    formula: "C5H10O",
+    CAS: "107-87-9",
+    molecularWeight: 86.1323,
+    criticalTemperature: 561.08,
+    criticalPressure: 3.694,
+    criticalVolume: 0.301,
+    criticalCompressibilityFactor: 0.238,
+    acentricFactor: 0.343288
+  },
+
+  "3Pentanone": {
+    name: "3-Pentanone",
+    formula: "C5H10O",
+    CAS: "96-22-0",
+    molecularWeight: 86.1323,
+    criticalTemperature: 560.95,
+    criticalPressure: 3.74,
+    criticalVolume: 0.336,
+    criticalCompressibilityFactor: 0.269,
+    acentricFactor: 0.344846
+  },
+
+  "1Pentene": {
+    name: "1-Pentene",
+    formula: "C5H10",
+    CAS: "109-67-1",
+    molecularWeight: 70.1329,
+    criticalTemperature: 464.8,
+    criticalPressure: 3.56,
+    criticalVolume: 0.2934,
+    criticalCompressibilityFactor: 0.27,
+    acentricFactor: 0.237218
+  },
+
+  "2PentylMercaptan": {
+    name: "2-Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "2084-19-7",
+    molecularWeight: 104.21378,
+    criticalTemperature: 584.3,
+    criticalPressure: 3.536,
+    criticalVolume: 0.385,
+    criticalCompressibilityFactor: 0.28,
+    acentricFactor: 0.26853
+  },
+
+  PentylMercaptan: {
+    name: "Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "110-66-7",
+    molecularWeight: 104.21378,
+    criticalTemperature: 598,
+    criticalPressure: 3.47,
+    criticalVolume: 0.359,
+    criticalCompressibilityFactor: 0.251,
+    acentricFactor: 0.320705
+  },
+
+  "1Pentyne": {
+    name: "1-Pentyne",
+    formula: "C5H8",
+    CAS: "627-19-0",
+    molecularWeight: 68.11702,
+    criticalTemperature: 481.2,
+    criticalPressure: 4.17,
+    criticalVolume: 0.277,
+    criticalCompressibilityFactor: 0.289,
+    acentricFactor: 0.289925
+  },
+
+  "2Pentyne": {
+    name: "2-Pentyne",
+    formula: "C5H8",
+    CAS: "627-21-4",
+    molecularWeight: 68.11702,
+    criticalTemperature: 519,
+    criticalPressure: 4.03,
+    criticalVolume: 0.276,
+    criticalCompressibilityFactor: 0.258,
+    acentricFactor: 0.175199
+  },
+
+  Phenanthrene: {
+    name: "Phenanthrene",
+    formula: "C14H10",
+    CAS: "85-01-8",
+    molecularWeight: 178.2292,
+    criticalTemperature: 869,
+    criticalPressure: 2.9,
+    criticalVolume: 0.554,
+    criticalCompressibilityFactor: 0.222,
+    acentricFactor: 0.470716
+  },
+
+  Phenol: {
+    name: "Phenol",
+    formula: "C6H6O",
+    CAS: "108-95-2",
+    molecularWeight: 94.11124,
+    criticalTemperature: 694.25,
+    criticalPressure: 6.13,
+    criticalVolume: 0.229,
+    criticalCompressibilityFactor: 0.243,
+    acentricFactor: 0.44346
+  },
+
+  PhenylIsocyanate: {
+    name: "Phenyl isocyanate",
+    formula: "C7H5NO",
+    CAS: "103-71-9",
+    molecularWeight: 119.1207,
+    criticalTemperature: 653,
+    criticalPressure: 4.06,
+    criticalVolume: 0.37,
+    criticalCompressibilityFactor: 0.277,
+    acentricFactor: 0.412323
+  },
+
+  PhthalicAnhydride: {
+    name: "Phthalic anhydride",
+    formula: "C8H4O3",
+    CAS: "85-44-9",
+    molecularWeight: 148.11556,
+    criticalTemperature: 791,
+    criticalPressure: 4.72,
+    criticalVolume: 0.421,
+    criticalCompressibilityFactor: 0.302,
+    acentricFactor: 0.702495
+  },
+
+  Propadiene: {
+    name: "Propadiene",
+    formula: "C3H4",
+    CAS: "463-49-0",
+    molecularWeight: 40.06386,
+    criticalTemperature: 394,
+    criticalPressure: 5.25,
+    criticalVolume: 0.165,
+    criticalCompressibilityFactor: 0.264,
+    acentricFactor: 0.104121
+  },
+
+  Propane: {
+    name: "Propane",
+    formula: "C3H8",
+    CAS: "74-98-6",
+    molecularWeight: 44.09562,
+    criticalTemperature: 369.83,
+    criticalPressure: 4.248,
+    criticalVolume: 0.2,
+    criticalCompressibilityFactor: 0.276,
+    acentricFactor: 0.152291
+  },
+
+  "1Propanol": {
+    name: "1-Propanol",
+    formula: "C3H8O",
+    CAS: "71-23-8",
+    molecularWeight: 60.09502,
+    criticalTemperature: 536.8,
+    criticalPressure: 5.169,
+    criticalVolume: 0.219,
+    criticalCompressibilityFactor: 0.254,
+    acentricFactor: 0.6209
+  },
+
+  "2Propanol": {
+    name: "2-Propanol",
+    formula: "C3H8O",
+    CAS: " 67-63-0",
+    molecularWeight: 60.095,
+    criticalTemperature: 508.3,
+    criticalPressure: 4.765,
+    criticalVolume: 0.222,
+    criticalCompressibilityFactor: 0.25,
+    acentricFactor: 0.663
+  },
+
+  Propenylcyclohexene: {
+    name: "Propenylcyclohexene",
+    formula: "C9H14",
+    CAS: "13511-13-2",
+    molecularWeight: 122.20746,
+    criticalTemperature: 636,
+    criticalPressure: 3.12,
+    criticalVolume: 0.437,
+    criticalCompressibilityFactor: 0.258,
+    acentricFactor: 0.341975
+  },
+
+  Propionaldehyde: {
+    name: "Propionaldehyde",
+    formula: "C3H6O",
+    CAS: "123-38-6",
+    molecularWeight: 58.07914,
+    criticalTemperature: 503.6,
+    criticalPressure: 5.038,
+    criticalVolume: 0.204,
+    criticalCompressibilityFactor: 0.246,
+    acentricFactor: 0.281254
+  },
+
+  PropionicAcid: {
+    name: "Propionic acid",
+    formula: "C3H6O2",
+    CAS: "79-09-4",
+    molecularWeight: 74.0785,
+    criticalTemperature: 600.81,
+    criticalPressure: 4.668,
+    criticalVolume: 0.235,
+    criticalCompressibilityFactor: 0.22,
+    acentricFactor: 0.579579
+  },
+
+  Propionitrile: {
+    name: "Propionitrile",
+    formula: "C3H5N",
+    CAS: "107-12-0",
+    molecularWeight: 55.0785,
+    criticalTemperature: 561.3,
+    criticalPressure: 4.26,
+    criticalVolume: 0.242,
+    criticalCompressibilityFactor: 0.221,
+    acentricFactor: 0.350057
+  },
+
+  PropylAcetate: {
+    name: "Propyl acetate",
+    formula: "C5H10O2",
+    CAS: "109-60-4",
+    molecularWeight: 102.1317,
+    criticalTemperature: 549.73,
+    criticalPressure: 3.36,
+    criticalVolume: 0.345,
+    criticalCompressibilityFactor: 0.254,
+    acentricFactor: 0.388902
+  },
+
+  PropylAmine: {
+    name: "Propyl amine",
+    formula: "C3H9N",
+    CAS: "107-10-8",
+    molecularWeight: 59.11026,
+    criticalTemperature: 496.95,
+    criticalPressure: 4.74,
+    criticalVolume: 0.26,
+    criticalCompressibilityFactor: 0.298,
+    acentricFactor: 0.279839
+  },
+
+  Propylbenzene: {
+    name: "Propylbenzene",
+    formula: "C9H12",
+    CAS: "103-65-1",
+    molecularWeight: 120.19158,
+    criticalTemperature: 638.35,
+    criticalPressure: 3.2,
+    criticalVolume: 0.44,
+    criticalCompressibilityFactor: 0.265,
+    acentricFactor: 0.344391
+  },
+
+  Propylene: {
+    name: "Propylene",
+    formula: "C3H6",
+    CAS: "115-07-1",
+    molecularWeight: 42.07974,
+    criticalTemperature: 364.85,
+    criticalPressure: 4.6,
+    criticalVolume: 0.185,
+    criticalCompressibilityFactor: 0.281,
+    acentricFactor: 0.137588
+  },
+
+  PropylFormate: {
+    name: "Propyl formate",
+    formula: "C4H8O2",
+    CAS: "110-74-7",
+    molecularWeight: 88.10512,
+    criticalTemperature: 538,
+    criticalPressure: 4.02,
+    criticalVolume: 0.285,
+    criticalCompressibilityFactor: 0.256,
+    acentricFactor: 0.308779
+  },
+
+  "2PropylMercaptan": {
+    name: "2-Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "75-33-2",
+    molecularWeight: 76.16062,
+    criticalTemperature: 517,
+    criticalPressure: 4.75,
+    criticalVolume: 0.254,
+    criticalCompressibilityFactor: 0.281,
+    acentricFactor: 0.21381
+  },
+
+  PropylMercaptan: {
+    name: "Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "107-03-9",
+    molecularWeight: 76.16062,
+    criticalTemperature: 536.6,
+    criticalPressure: 4.63,
+    criticalVolume: 0.254,
+    criticalCompressibilityFactor: 0.264,
+    acentricFactor: 0.231789
+  },
+
+  "1,2PropyleneGlycol": {
+    name: "1,2-Propylene glycol",
+    formula: "C3H8O2",
+    CAS: "57-55-6",
+    molecularWeight: 76.09442,
+    criticalTemperature: 626,
+    criticalPressure: 6.1,
+    criticalVolume: 0.239,
+    criticalCompressibilityFactor: 0.28,
+    acentricFactor: 1.10651
+  },
+
+  Quinone: {
+    name: "Quinone",
+    formula: "C6H4O2",
+    CAS: "106-51-4",
+    molecularWeight: 108.09476,
+    criticalTemperature: 683,
+    criticalPressure: 5.96,
+    criticalVolume: 0.291,
+    criticalCompressibilityFactor: 0.305,
+    acentricFactor: 0.494515
+  },
+
+  SiliconTetrafluoride: {
+    name: "Silicon tetrafluoride",
+    formula: "F4Si",
+    CAS: "7783-61-1",
+    molecularWeight: 104.07911,
+    criticalTemperature: 259,
+    criticalPressure: 3.72,
+    criticalVolume: 0.202,
+    criticalCompressibilityFactor: 0.349,
+    acentricFactor: 0.38584
+  },
+
+  Styrene: {
+    name: "Styrene",
+    formula: "C8H8",
+    CAS: "100-42-5",
+    molecularWeight: 104.14912,
+    criticalTemperature: 636,
+    criticalPressure: 3.84,
+    criticalVolume: 0.352,
+    criticalCompressibilityFactor: 0.256,
+    acentricFactor: 0.297097
+  },
+
+  SuccinicAcid: {
+    name: "Succinic acid",
+    formula: "C4H6O4",
+    CAS: "110-15-6",
+    molecularWeight: 118.08804,
+    criticalTemperature: 838,
+    criticalPressure: 5,
+    criticalVolume: 0.33,
+    criticalCompressibilityFactor: 0.237,
+    acentricFactor: 0.743044
+  },
+
+  SulfurDioxide: {
+    name: "Sulfur dioxide",
+    formula: "O2S",
+    CAS: "7446-09-5",
+    molecularWeight: 64.0638,
+    criticalTemperature: 430.75,
+    criticalPressure: 7.8841,
+    criticalVolume: 0.122,
+    criticalCompressibilityFactor: 0.269,
+    acentricFactor: 0.245381
+  },
+
+  SulfurHexafluoride: {
+    name: "Sulfur hexafluoride",
+    formula: "F6S",
+    CAS: "2551-62-4",
+    molecularWeight: 146.0554192,
+    criticalTemperature: 318.69,
+    criticalPressure: 3.76,
+    criticalVolume: 0.19852,
+    criticalCompressibilityFactor: 0.282,
+    acentricFactor: 0.215146
+  },
+
+  SulfurTrioxide: {
+    name: "Sulfur trioxide",
+    formula: "O3S",
+    CAS: "7446-11-9",
+    molecularWeight: 80.0632,
+    criticalTemperature: 490.85,
+    criticalPressure: 8.21,
+    criticalVolume: 0.127,
+    criticalCompressibilityFactor: 0.255,
+    acentricFactor: 0.42396
+  },
+
+  TerephthalicAcid: {
+    name: "Terephthalic acid",
+    formula: "C8H6O4",
+    CAS: "100-21-0",
+    molecularWeight: 166.13084,
+    criticalTemperature: 883.6,
+    criticalPressure: 3.486,
+    criticalVolume: 0.424,
+    criticalCompressibilityFactor: 0.201,
+    acentricFactor: 0.94695
+  },
+
+  oTerphenyl: {
+    name: "o-Terphenyl",
+    formula: "C18H14",
+    CAS: "84-15-1",
+    molecularWeight: 230.30376,
+    criticalTemperature: 857,
+    criticalPressure: 2.99,
+    criticalVolume: 0.731,
+    criticalCompressibilityFactor: 0.307,
+    acentricFactor: 0.551265
+  },
+
+  Tetradecane: {
+    name: "Tetradecane",
+    formula: "C14H30",
+    CAS: "629-59-4",
+    molecularWeight: 198.388,
+    criticalTemperature: 693,
+    criticalPressure: 1.57,
+    criticalVolume: 0.897,
+    criticalCompressibilityFactor: 0.244,
+    acentricFactor: 0.643017
+  },
+
+  Tetrahydrofuran: {
+    name: "Tetrahydrofuran",
+    formula: "C4H8O",
+    CAS: "109-99-9",
+    molecularWeight: 72.10572,
+    criticalTemperature: 540.15,
+    criticalPressure: 5.19,
+    criticalVolume: 0.224,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.225354
+  },
+
+  "1,2,3,4Tetrahydronaphthalene": {
+    name: "1,2,3,4-Tetrahydronaphthalene",
+    formula: "C10H12",
+    CAS: "119-64-2",
+    molecularWeight: 132.20228,
+    criticalTemperature: 720,
+    criticalPressure: 3.65,
+    criticalVolume: 0.408,
+    criticalCompressibilityFactor: 0.249,
+    acentricFactor: 0.335255
+  },
+
+  Tetrahydrothiophene: {
+    name: "Tetrahydrothiophene",
+    formula: "C4H8S",
+    CAS: "110-01-0",
+    molecularWeight: 88.17132,
+    criticalTemperature: 631.95,
+    criticalPressure: 5.16,
+    criticalVolume: 0.249,
+    criticalCompressibilityFactor: 0.245,
+    acentricFactor: 0.199551
+  },
+
+  "2,2,3,3Tetramethylbutane": {
+    name: "2,2,3,3-Tetramethylbutane",
+    formula: "C8H18",
+    CAS: "594-82-1",
+    molecularWeight: 114.22852,
+    criticalTemperature: 568,
+    criticalPressure: 2.87,
+    criticalVolume: 0.461,
+    criticalCompressibilityFactor: 0.28,
+    acentricFactor: 0.244953
+  },
+
+  Thiophene: {
+    name: "Thiophene",
+    formula: "C4H4S",
+    CAS: "110-02-1",
+    molecularWeight: 84.13956,
+    criticalTemperature: 579.35,
+    criticalPressure: 5.69,
+    criticalVolume: 0.219,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.196972
+  },
+
+  Toluene: {
+    name: "Toluene",
+    formula: "C7H8",
+    CAS: "108-88-3",
+    molecularWeight: 92.13842,
+    criticalTemperature: 591.75,
+    criticalPressure: 4.108,
+    criticalVolume: 0.316,
+    criticalCompressibilityFactor: 0.264,
+    acentricFactor: 0.264012
+  },
+
+  "1,1,2Trichloroethane": {
+    name: "1,1,2-Trichloroethane",
+    formula: "C2H3Cl3",
+    CAS: "79-00-5",
+    molecularWeight: 133.40422,
+    criticalTemperature: 602,
+    criticalPressure: 4.48,
+    criticalVolume: 0.281,
+    criticalCompressibilityFactor: 0.252,
+    acentricFactor: 0.259135
+  },
+
+  Tridecane: {
+    name: "Tridecane",
+    formula: "C13H28",
+    CAS: "629-50-5",
+    molecularWeight: 184.36142,
+    criticalTemperature: 675,
+    criticalPressure: 1.68,
+    criticalVolume: 0.826,
+    criticalCompressibilityFactor: 0.247,
+    acentricFactor: 0.617397
+  },
+
+  TriethylAmine: {
+    name: "Triethyl amine",
+    formula: "C6H15N",
+    CAS: "121-44-8",
+    molecularWeight: 101.19,
+    criticalTemperature: 535.15,
+    criticalPressure: 3.04,
+    criticalVolume: 0.39,
+    criticalCompressibilityFactor: 0.266,
+    acentricFactor: 0.316193
+  },
+
+  TrimethylAmine: {
+    name: "Trimethyl amine",
+    formula: "C3H9N",
+    CAS: "75-50-3",
+    molecularWeight: 59.11026,
+    criticalTemperature: 433.25,
+    criticalPressure: 4.07,
+    criticalVolume: 0.254,
+    criticalCompressibilityFactor: 0.287,
+    acentricFactor: 0.206243
+  },
+
+  "1,2,3Trimethylbenzene": {
+    name: "1,2,3-Trimethylbenzene",
+    formula: "C9H12",
+    CAS: "526-73-8",
+    molecularWeight: 120.19158,
+    criticalTemperature: 664.5,
+    criticalPressure: 3.454,
+    criticalVolume: 0.414,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.366553
+  },
+
+  "1,2,4Trimethylbenzene": {
+    name: "1,2,4-Trimethylbenzene",
+    formula: "C9H12",
+    CAS: "95-63-6",
+    molecularWeight: 120.19158,
+    criticalTemperature: 649.1,
+    criticalPressure: 3.232,
+    criticalVolume: 0.43,
+    criticalCompressibilityFactor: 0.258,
+    acentricFactor: 0.37871
+  },
+
+  "2,2,4Trimethylpentane": {
+    name: "2,2,4-Trimethylpentane",
+    formula: "C8H18",
+    CAS: "540-84-1",
+    molecularWeight: 114.22852,
+    criticalTemperature: 543.8,
+    criticalPressure: 2.57,
+    criticalVolume: 0.468,
+    criticalCompressibilityFactor: 0.266,
+    acentricFactor: 0.303455
+  },
+
+  "2,3,3Trimethylpentane": {
+    name: "2,3,3-Trimethylpentane",
+    formula: "C8H18",
+    CAS: "560-21-4",
+    molecularWeight: 114.22852,
+    criticalTemperature: 573.5,
+    criticalPressure: 2.82,
+    criticalVolume: 0.455,
+    criticalCompressibilityFactor: 0.269,
+    acentricFactor: 0.2903
+  },
+
+  "1,3,5Trinitrobenzene": {
+    name: "1,3,5-Trinitrobenzene",
+    formula: "C6H3N3O6",
+    CAS: "99-35-4",
+    molecularWeight: 213.10452,
+    criticalTemperature: 846,
+    criticalPressure: 3.39,
+    criticalVolume: 0.479,
+    criticalCompressibilityFactor: 0.231,
+    acentricFactor: 0.862257
+  },
+
+  "2,4,6Trinitrotoluene": {
+    name: "2,4,6-Trinitrotoluene",
+    formula: "C7H5N3O6",
+    CAS: "118-96-7",
+    molecularWeight: 227.1311,
+    criticalTemperature: 828,
+    criticalPressure: 3.04,
+    criticalVolume: 0.572,
+    criticalCompressibilityFactor: 0.253,
+    acentricFactor: 0.897249
+  },
+
+  Undecane: {
+    name: "Undecane",
+    formula: "C11H24",
+    CAS: "1120-21-4",
+    molecularWeight: 156.30826,
+    criticalTemperature: 639,
+    criticalPressure: 1.95,
+    criticalVolume: 0.685,
+    criticalCompressibilityFactor: 0.252,
+    acentricFactor: 0.530316
+  },
+
+  "1Undecanol": {
+    name: "1-Undecanol",
+    formula: "C11H24O",
+    CAS: "112-42-5",
+    molecularWeight: 172.30766,
+    criticalTemperature: 703.9,
+    criticalPressure: 2.119,
+    criticalVolume: 0.715,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.623622
+  },
+
+  VinylAcetate: {
+    name: "Vinyl acetate",
+    formula: "C4H6O2",
+    CAS: "108-05-4",
+    molecularWeight: 86.08924,
+    criticalTemperature: 519.13,
+    criticalPressure: 3.958,
+    criticalVolume: 0.27,
+    criticalCompressibilityFactor: 0.248,
+    acentricFactor: 0.351307
+  },
+
+  VinylAcetylene: {
+    name: "Vinyl acetylene",
+    formula: "C4H4",
+    CAS: "689-97-4",
+    molecularWeight: 52.07456,
+    criticalTemperature: 454,
+    criticalPressure: 4.86,
+    criticalVolume: 0.205,
+    criticalCompressibilityFactor: 0.264,
+    acentricFactor: 0.106852
+  },
+
+  VinylChloride: {
+    name: "Vinyl chloride",
+    formula: "C2H3Cl",
+    CAS: "75-01-4",
+    molecularWeight: 62.49822,
+    criticalTemperature: 432,
+    criticalPressure: 5.67,
+    criticalVolume: 0.179,
+    criticalCompressibilityFactor: 0.283,
+    acentricFactor: 0.100107
+  },
+
+  VinylTrichlorosilane: {
+    name: "Vinyl trichlorosilane",
+    formula: "C2H3Cl3Si",
+    CAS: "75-94-5",
+    molecularWeight: 161.48972,
+    criticalTemperature: 543.15,
+    criticalPressure: 3.06,
+    criticalVolume: 0.408,
+    criticalCompressibilityFactor: 0.276,
+    acentricFactor: 0.281543
+  },
+
+  Water: {
+    name: "Water",
+    formula: "H2O",
+    CAS: "7732-18-5",
+    molecularWeight: 18.01528,
+    criticalTemperature: 647.096,
+    criticalPressure: 22.064,
+    criticalVolume: 0.0559472,
+    criticalCompressibilityFactor: 0.229,
+    acentricFactor: 0.344861
+  },
+
+  mXylene: {
+    name: "m-Xylene",
+    formula: "C8H10",
+    CAS: "108-38-3",
+    molecularWeight: 106.165,
+    criticalTemperature: 617,
+    criticalPressure: 3.541,
+    criticalVolume: 0.375,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.326485
+  },
+
+  oXylene: {
+    name: "o-Xylene",
+    formula: "C8H10",
+    CAS: "95-47-6",
+    molecularWeight: 106.165,
+    criticalTemperature: 630.3,
+    criticalPressure: 3.732,
+    criticalVolume: 0.37,
+    criticalCompressibilityFactor: 0.264,
+    acentricFactor: 0.31013
+  },
+
+  pXylene: {
+    name: "p-Xylene",
+    formula: "C8H10",
+    CAS: "106-42-3",
+    molecularWeight: 106.165,
+    criticalTemperature: 616.2,
+    criticalPressure: 3.511,
+    criticalVolume: 0.378,
+    criticalCompressibilityFactor: 0.259,
+    acentricFactor: 0.321839
   }
 };

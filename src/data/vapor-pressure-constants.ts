@@ -5189,7 +5189,8 @@ export function calculateDIPPRVaporPressure(compound: string, temperature: numbe
       vaporPressureProps.C1 +
         vaporPressureProps.C2 / temperature +
         vaporPressureProps.C3 * Math.log(temperature) +
-        vaporPressureProps.C4 * Math.pow(temperature, vaporPressureProps.C5)
+        (Number.isFinite(vaporPressureProps.C4) ? (vaporPressureProps.C4 as number) : 0) *
+          Math.pow(temperature, Number.isFinite(vaporPressureProps.C5) ? (vaporPressureProps.C5 as number) : 0)
     );
   }
   return vaporPressure;

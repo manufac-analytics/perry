@@ -4126,7 +4126,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     pressureAtMaximumTemperature: 5.021e6
   },
 
-  Oxyzen: {
+  Ozone: {
     name: "Ozone",
     formula: "O3",
     CAS: "10028-15-6",
@@ -4303,7 +4303,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     minimumTemperature: 197.45,
     maximumTemperature: 598,
     pressureAtMinimumTemperature: 0.201,
-    pressureAtMaximumTemperature: 3473000
+    pressureAtMaximumTemperature: 3.473e6
   },
 
   "1Pentyne": {
@@ -4386,8 +4386,8 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     formula: "C8H4O3",
     CAS: "85-44-9",
     C1: 126.5,
-    C2: 12551,
-    C3: 15.002,
+    C2: -12551,
+    C3: -15.002,
     C4: 7.7521e-6,
     C5: 2,
     minimumTemperature: 404.15,
@@ -4497,7 +4497,7 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     C5: 6,
     minimumTemperature: 252.45,
     maximumTemperature: 600.81,
-    pressureAtMinimumTemperature: 13.1e1,
+    pressureAtMinimumTemperature: 1.31e1,
     pressureAtMaximumTemperature: 4.608e6
   },
 

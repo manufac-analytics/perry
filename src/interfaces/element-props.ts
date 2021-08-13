@@ -4,6 +4,8 @@ export const Phases = {
   Solid: "Solid"
 } as const;
 
+export type Phase = typeof Phases[keyof typeof Phases];
+
 export const Categories = {
   DiatomicNonmetal: "diatomic nonmetal",
   NobleGas: "noble gas",
@@ -18,8 +20,6 @@ export const Categories = {
 } as const;
 
 export type Category = typeof Categories[keyof typeof Categories];
-
-export type Phase = typeof Phases[keyof typeof Phases];
 
 export interface ElementProps {
   name: string;

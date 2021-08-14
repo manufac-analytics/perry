@@ -4,6 +4,10 @@ import {
   calculateDIPPRThermalConductivity,
   DIPPRThermalConductivityDictionary
 } from "../src/data/thermal-conductivity-constants";
+import {
+  calculateDIPPRVapourThermalConductivity,
+  DIPPRVapourThermalConductivityDictionary
+} from "../src/data/vapour-thermal-conductivity";
 
 describe("calculateDIPPRVaporPressure", () => {
   it("should return NaN outside the specified range of temperature", () => {
@@ -160,5 +164,27 @@ describe("calculateDIPPRThermalConductivity", () => {
     expect(calculateDIPPRThermalConductivity("SiliconTetrafluoride", vaporProps.maximumTemperature as number)).toBe(
       NaN
     );
+  });
+});
+
+describe("calculateDIPPRVapourThermalConductivity", () => {
+  it("should return NaN outside the specified range of temperature", () => {
+    for (let compound in DIPPRVapourThermalConductivityDictionary) {
+      let vaporProps = DIPPRVapourThermalConductivityDictionary[compound];
+      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
+      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
+    }
+  });
+
+  it("should return correct thermal conductivity at Tmin and Tmax", () => {
+    for (let compound in DIPPRVapourThermalConductivityDictionary) {
+      let vaporProps = DIPPRVapourThermalConductivityDictionary[compound];
+      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.minimumTemperature).toPrecision(2)).toBe(
+        vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(2)
+      );
+      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.maximumTemperature).toPrecision(2)).toBe(
+        vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(2)
+      );
+    }
   });
 });

@@ -155,3 +155,18 @@ export interface DIPPRCriticalConstantAndAcentricFactorProps {
   criticalCompressibilityFactor: number;
   acentricFactor: number;
 }
+
+export interface DIPPRVapourThermalConductivityProps {
+  name: string;
+  formula: string;
+  CAS: string;
+  molecularWeight: number;
+  C1 : number;
+  C2 : number;
+  C3?: number;
+  C4?: number;
+  minimumTemperature: number;
+  maximumTemperature: number;
+  thermalConductivityAtMinimumTemperature: number;
+  thermalConductivityAtMaximumTemperature: number;
+}

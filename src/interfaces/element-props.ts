@@ -1,9 +1,32 @@
+export const Phases = {
+  Gas: "Gas",
+  Liquid: "Liquid",
+  Solid: "Solid"
+} as const;
+
+export type Phase = typeof Phases[keyof typeof Phases];
+
+export const Categories = {
+  DiatomicNonmetal: "diatomic nonmetal",
+  NobleGas: "noble gas",
+  AlkaliMetal: "alkali metal",
+  AlkalineEarthMetal: "alkaline earth metal",
+  Metalloid: "metalloid",
+  PolyatomicNonmetal: "polyatomic nonmetal",
+  PostTransitionMetal: "post-transition metal",
+  TransitionMetal: "transition metal",
+  Lanthanide: "lanthanide",
+  Actinide: "actinide"
+} as const;
+
+export type Category = typeof Categories[keyof typeof Categories];
+
 export interface ElementProps {
   name: string;
   appearance?: string;
   atomicMass: number;
   boil?: number;
-  category: string;
+  category: Category | string;
   color?: string;
   /**
    * Given in `g/l` for gases and `g/cm³` for solids and liquids
@@ -18,7 +41,7 @@ export interface ElementProps {
   namedBy?: string;
   number: number;
   period: number;
-  phase: string;
+  phase: Phase;
   source: string;
   spectralImage?: string;
   summary: string;

@@ -3990,10 +3990,10 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     densityAtMaximumTemperature: 1.915
   },
 
-  '1Octanol': {
-    name: '1-Octanol',
-    formula: 'C8H18O',
-    CAS: '111-87-5',
+  "1Octanol": {
+    name: "1-Octanol",
+    formula: "C8H18O",
+    CAS: "111-87-5",
     molecularWeight: 130.22792,
     C1: 0.48979,
     C2: 0.24931,
@@ -4002,13 +4002,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 257.65,
     maximumTemperature: 652.3,
     densityAtMinimumTemperature: 6.5738,
-    densityAtMaximumTemperature: 1.9646,
+    densityAtMaximumTemperature: 1.9646
   },
 
-  '2Octanol': {
-    name: '2-Octanol',
-    formula: 'C8H18O',
-    CAS: '123-96-6',
+  "2Octanol": {
+    name: "2-Octanol",
+    formula: "C8H18O",
+    CAS: "123-96-6",
     molecularWeight: 130.228,
     C1: 0.52497,
     C2: 0.26186,
@@ -4017,13 +4017,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 241.55,
     maximumTemperature: 629.8,
     densityAtMinimumTemperature: 6.5625,
-    densityAtMaximumTemperature: 2.0048,
+    densityAtMaximumTemperature: 2.0048
   },
 
-  '2Octanone': {
-    name: '2-Octanone',
-    formula: 'C8H16O',
-    CAS: '111-13-7',
+  "2Octanone": {
+    name: "2-Octanone",
+    formula: "C8H16O",
+    CAS: "111-13-7",
     molecularWeight: 128.21204,
     C1: 0.50006,
     C2: 0.24851,
@@ -4032,13 +4032,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 252.85,
     maximumTemperature: 632.7,
     densityAtMinimumTemperature: 6.6477,
-    densityAtMaximumTemperature: 2.0122,
+    densityAtMaximumTemperature: 2.0122
   },
 
-  '3Octanone': {
-    name: '3-Octanone',
-    formula: 'C8H16O',
-    CAS: '106-68-3',
+  "3Octanone": {
+    name: "3-Octanone",
+    formula: "C8H16O",
+    CAS: "106-68-3",
     molecularWeight: 128.21204,
     C1: 0.5108,
     C2: 0.25386,
@@ -4047,13 +4047,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 255.55,
     maximumTemperature: 627.7,
     densityAtMinimumTemperature: 6.6283,
-    densityAtMaximumTemperature: 2.0121,
+    densityAtMaximumTemperature: 2.0121
   },
 
-  '1Octene': {
-    name: '1-Octene',
-    formula: 'C8H16',
-    CAS: '111-66-0',
+  "1Octene": {
+    name: "1-Octene",
+    formula: "C8H16",
+    CAS: "111-66-0",
     molecularWeight: 112.21264,
     C1: 0.55449,
     C2: 0.25952,
@@ -4062,13 +4062,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 171.45,
     maximumTemperature: 566.9,
     densityAtMinimumTemperature: 7.2155,
-    densityAtMaximumTemperature: 2.1366,
+    densityAtMaximumTemperature: 2.1366
   },
 
   OctylMercaptan: {
-    name: 'Octyl mercaptan',
-    formula: 'C8H18S',
-    CAS: '111-88-6',
+    name: "Octyl mercaptan",
+    formula: "C8H18S",
+    CAS: "111-88-6",
     molecularWeight: 146.29352,
     C1: 0.52577,
     C2: 0.27234,
@@ -4077,13 +4077,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 223.95,
     maximumTemperature: 667.3,
     densityAtMinimumTemperature: 6.0987,
-    densityAtMaximumTemperature: 1.9306,
+    densityAtMaximumTemperature: 1.9306
   },
 
-  '1Octyne': {
-    name: '1-Octyne',
-    formula: 'C8H14',
-    CAS: '629-05-0',
+  "1Octyne": {
+    name: "1-Octyne",
+    formula: "C8H14",
+    CAS: "629-05-0",
     molecularWeight: 110.19676,
     C1: 0.58945,
     C2: 0.26052,
@@ -4092,13 +4092,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 193.55,
     maximumTemperature: 574,
     densityAtMinimumTemperature: 7.4832,
-    densityAtMaximumTemperature: 2.2626,
+    densityAtMaximumTemperature: 2.2626
   },
 
   OxalicAcid: {
-    name: 'Oxalic acid',
-    formula: 'C2H2O4',
-    CAS: '144-62-7',
+    name: "Oxalic acid",
+    formula: "C2H2O4",
+    CAS: "144-62-7",
     molecularWeight: 90.03488,
     C1: 1.1911,
     C2: 0.27038,
@@ -4107,13 +4107,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 462.65,
     maximumTemperature: 828,
     densityAtMinimumTemperature: 12.405,
-    densityAtMaximumTemperature: 4.4053,
+    densityAtMaximumTemperature: 4.4053
   },
 
   Oxygen: {
-    name: 'Oxygen',
-    formula: 'O2',
-    CAS: '7782-44-7',
+    name: "Oxygen",
+    formula: "O2",
+    CAS: "7782-44-7",
     molecularWeight: 31.9988,
     C1: 3.9143,
     C2: 0.28772,
@@ -4122,13 +4122,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 54.35,
     maximumTemperature: 154.58,
     densityAtMinimumTemperature: 40.77,
-    densityAtMaximumTemperature: 13.605,
+    densityAtMaximumTemperature: 13.605
   },
 
   Ozone: {
-    name: 'Ozone',
-    formula: 'O3',
-    CAS: '10028-15-6',
+    name: "Ozone",
+    formula: "O3",
+    CAS: "10028-15-6",
     molecularWeight: 47.9982,
     C1: 3.3592,
     C2: 0.29884,
@@ -4137,13 +4137,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 80.15,
     maximumTemperature: 261,
     densityAtMinimumTemperature: 33.361,
-    densityAtMaximumTemperature: 11.241,
+    densityAtMaximumTemperature: 11.241
   },
 
   Pentadecane: {
-    name: 'Pentadecane',
-    formula: 'C15H32',
-    CAS: '629-62-9',
+    name: "Pentadecane",
+    formula: "C15H32",
+    CAS: "629-62-9",
     molecularWeight: 212.41458,
     C1: 0.25142,
     C2: 0.23837,
@@ -4152,13 +4152,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 283.07,
     maximumTemperature: 708,
     densityAtMinimumTemperature: 3.6423,
-    densityAtMaximumTemperature: 1.0547,
+    densityAtMaximumTemperature: 1.0547
   },
 
   Pentanal: {
-    name: 'Pentanal',
-    formula: 'C5H10O',
-    CAS: '110-62-3',
+    name: "Pentanal",
+    formula: "C5H10O",
+    CAS: "110-62-3",
     molecularWeight: 86.1323,
     C1: 0.85658,
     C2: 0.26811,
@@ -4167,13 +4167,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 191.59,
     maximumTemperature: 566.1,
     densityAtMinimumTemperature: 10.353,
-    densityAtMaximumTemperature: 3.1949,
+    densityAtMaximumTemperature: 3.1949
   },
 
   Pentane: {
-    name: 'Pentane',
-    formula: 'C5H12',
-    CAS: '109-66-0',
+    name: "Pentane",
+    formula: "C5H12",
+    CAS: "109-66-0",
     molecularWeight: 72.14878,
     C1: 0.84947,
     C2: 0.26726,
@@ -4182,13 +4182,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 143.42,
     maximumTemperature: 469.7,
     densityAtMinimumTemperature: 10.474,
-    densityAtMaximumTemperature: 3.1784,
+    densityAtMaximumTemperature: 3.1784
   },
 
   PentanoicAcid: {
-    name: 'Pentanoic acid',
-    formula: 'C5H10O2',
-    CAS: '109-52-4',
+    name: "Pentanoic acid",
+    formula: "C5H10O2",
+    CAS: "109-52-4",
     molecularWeight: 102.132,
     C1: 0.73455,
     C2: 0.25636,
@@ -4197,13 +4197,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 239.15,
     maximumTemperature: 639.16,
     densityAtMinimumTemperature: 9.5869,
-    densityAtMaximumTemperature: 2.8653,
+    densityAtMaximumTemperature: 2.8653
   },
 
-  '1Pentanol': {
-    name: '1-Pentanol',
-    formula: 'C5H12O',
-    CAS: '71-41-0',
+  "1Pentanol": {
+    name: "1-Pentanol",
+    formula: "C5H12O",
+    CAS: "71-41-0",
     molecularWeight: 88.1482,
     C1: 0.81754,
     C2: 0.26732,
@@ -4212,13 +4212,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 195.56,
     maximumTemperature: 588.1,
     densityAtMinimumTemperature: 10.061,
-    densityAtMaximumTemperature: 3.0583,
+    densityAtMaximumTemperature: 3.0583
   },
 
-  '2Pentanol': {
-    name: '2-Pentanol',
-    formula: 'C5H12O',
-    CAS: '6032-29-7',
+  "2Pentanol": {
+    name: "2-Pentanol",
+    formula: "C5H12O",
+    CAS: "6032-29-7",
     molecularWeight: 88.1482,
     C1: 0.81577,
     C2: 0.26594,
@@ -4227,13 +4227,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 200,
     maximumTemperature: 561,
     densityAtMinimumTemperature: 10.017,
-    densityAtMaximumTemperature: 3.0675,
+    densityAtMaximumTemperature: 3.0675
   },
 
-  '2Pentanone': {
-    name: '2-Pentanone',
-    formula: 'C5H10O',
-    CAS: '107-87-9',
+  "2Pentanone": {
+    name: "2-Pentanone",
+    formula: "C5H10O",
+    CAS: "107-87-9",
     molecularWeight: 86.1323,
     C1: 0.90411,
     C2: 0.27207,
@@ -4242,13 +4242,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 196.29,
     maximumTemperature: 561.08,
     densityAtMinimumTemperature: 10.398,
-    densityAtMaximumTemperature: 3.3231,
+    densityAtMaximumTemperature: 3.3231
   },
 
-  '3Pentanone': {
-    name: '3-Pentanone',
-    formula: 'C5H10O',
-    CAS: '96-22-0',
+  "3Pentanone": {
+    name: "3-Pentanone",
+    formula: "C5H10O",
+    CAS: "96-22-0",
     molecularWeight: 86.1323,
     C1: 0.71811,
     C2: 0.24129,
@@ -4257,13 +4257,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 234.18,
     maximumTemperature: 560.95,
     densityAtMinimumTemperature: 10.102,
-    densityAtMaximumTemperature: 2.9761,
+    densityAtMaximumTemperature: 2.9761
   },
 
-  '1Pentene': {
-    name: '1-Pentene',
-    formula: 'C5H10',
-    CAS: '109-67-1',
+  "1Pentene": {
+    name: "1-Pentene",
+    formula: "C5H10",
+    CAS: "109-67-1",
     molecularWeight: 70.1329,
     C1: 0.89816,
     C2: 0.26608,
@@ -4272,13 +4272,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 108.02,
     maximumTemperature: 464.8,
     densityAtMinimumTemperature: 11.521,
-    densityAtMaximumTemperature: 3.3755,
+    densityAtMaximumTemperature: 3.3755
   },
 
-  '2PentylMercaptan': {
-    name: '2-Pentyl mercaptan',
-    formula: 'C5H12S',
-    CAS: '2084-19-7',
+  "2PentylMercaptan": {
+    name: "2-Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "2084-19-7",
     molecularWeight: 104.21378,
     C1: 0.65858,
     C2: 0.25367,
@@ -4287,13 +4287,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 160.75,
     maximumTemperature: 584.3,
     densityAtMinimumTemperature: 9.073,
-    densityAtMaximumTemperature: 2.5962,
+    densityAtMaximumTemperature: 2.5962
   },
 
   PentylMercaptan: {
-    name: 'Pentyl mercaptan',
-    formula: 'C5H12S',
-    CAS: '110-66-7',
+    name: "Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "110-66-7",
     molecularWeight: 104.21378,
     C1: 0.75345,
     C2: 0.27047,
@@ -4302,13 +4302,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 197.45,
     maximumTemperature: 598,
     densityAtMinimumTemperature: 8.8575,
-    densityAtMaximumTemperature: 2.7857,
+    densityAtMaximumTemperature: 2.7857
   },
 
-  '1Pentyne': {
-    name: '1-Pentyne',
-    formula: 'C5H8',
-    CAS: '627-19-0',
+  "1Pentyne": {
+    name: "1-Pentyne",
+    formula: "C5H8",
+    CAS: "627-19-0",
     molecularWeight: 68.11702,
     C1: 0.8491,
     C2: 0.2352,
@@ -4317,13 +4317,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 167.45,
     maximumTemperature: 481.2,
     densityAtMinimumTemperature: 12.532,
-    densityAtMaximumTemperature: 3.6101,
+    densityAtMaximumTemperature: 3.6101
   },
 
-  '2Pentyne': {
-    name: '2-Pentyne',
-    formula: 'C5H8',
-    CAS: '627-21-4',
+  "2Pentyne": {
+    name: "2-Pentyne",
+    formula: "C5H8",
+    CAS: "627-21-4",
     molecularWeight: 68.11702,
     C1: 0.92099,
     C2: 0.25419,
@@ -4332,13 +4332,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 163.83,
     maximumTemperature: 519,
     densityAtMinimumTemperature: 12.24,
-    densityAtMaximumTemperature: 3.6232,
+    densityAtMaximumTemperature: 3.6232
   },
 
   Phenanthrene: {
-    name: 'Phenanthrene',
-    formula: 'C14H10',
-    CAS: '85-01-8',
+    name: "Phenanthrene",
+    formula: "C14H10",
+    CAS: "85-01-8",
     molecularWeight: 178.2292,
     C1: 0.45554,
     C2: 0.2523,
@@ -4347,13 +4347,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 372.38,
     maximumTemperature: 869,
     densityAtMinimumTemperature: 5.9853,
-    densityAtMaximumTemperature: 1.8055,
+    densityAtMaximumTemperature: 1.8055
   },
 
   Phenol: {
-    name: 'Phenol',
-    formula: 'C6H6O',
-    CAS: '108-95-2',
+    name: "Phenol",
+    formula: "C6H6O",
+    CAS: "108-95-2",
     molecularWeight: 94.11124,
     C1: 1.3798,
     C2: 0.31598,
@@ -4362,13 +4362,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 314.06,
     maximumTemperature: 694.25,
     densityAtMinimumTemperature: 11.244,
-    densityAtMaximumTemperature: 4.3667,
+    densityAtMaximumTemperature: 4.3667
   },
 
   PhenylIsocyanate: {
-    name: 'Phenyl isocyanate',
-    formula: 'C7H5NO',
-    CAS: '103-71-9',
+    name: "Phenyl isocyanate",
+    formula: "C7H5NO",
+    CAS: "103-71-9",
     molecularWeight: 119.1207,
     C1: 0.63163,
     C2: 0.23373,
@@ -4377,13 +4377,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 243.15,
     maximumTemperature: 653,
     densityAtMinimumTemperature: 9.6466,
-    densityAtMaximumTemperature: 2.7024,
+    densityAtMaximumTemperature: 2.7024
   },
 
   PhthalicAnhydride: {
-    name: 'Phthalic anhydride',
-    formula: 'C8H4O3',
-    CAS: '85-44-9',
+    name: "Phthalic anhydride",
+    formula: "C8H4O3",
+    CAS: "85-44-9",
     molecularWeight: 148.11556,
     C1: 0.5393,
     C2: 0.22704,
@@ -4392,13 +4392,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 404.15,
     maximumTemperature: 791,
     densityAtMinimumTemperature: 8.2218,
-    densityAtMaximumTemperature: 2.3754,
+    densityAtMaximumTemperature: 2.3754
   },
 
   Propadiene: {
-    name: 'Propadiene',
-    formula: 'C3H4',
-    CAS: '463-49-0',
+    name: "Propadiene",
+    formula: "C3H4",
+    CAS: "463-49-0",
     molecularWeight: 40.06386,
     C1: 1.6087,
     C2: 0.26543,
@@ -4407,13 +4407,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 136.87,
     maximumTemperature: 394,
     densityAtMinimumTemperature: 19.479,
-    densityAtMaximumTemperature: 6.0607,
+    densityAtMaximumTemperature: 6.0607
   },
 
   Propane: {
-    name: 'Propane',
-    formula: 'C3H8',
-    CAS: '74-98-6',
+    name: "Propane",
+    formula: "C3H8",
+    CAS: "74-98-6",
     molecularWeight: 44.09562,
     C1: 1.3757,
     C2: 0.27453,
@@ -4422,13 +4422,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 85.47,
     maximumTemperature: 369.83,
     densityAtMinimumTemperature: 16.583,
-    densityAtMaximumTemperature: 5.0111,
+    densityAtMaximumTemperature: 5.0111
   },
 
-  '1Propanol': {
-    name: '1-Propanol',
-    formula: 'C3H8O',
-    CAS: '71-23-8',
+  "1Propanol": {
+    name: "1-Propanol",
+    formula: "C3H8O",
+    CAS: "71-23-8",
     molecularWeight: 60.09502,
     C1: 1.2457,
     C2: 0.27281,
@@ -4437,13 +4437,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 146.95,
     maximumTemperature: 536.8,
     densityAtMinimumTemperature: 15.206,
-    densityAtMaximumTemperature: 4.5662,
+    densityAtMaximumTemperature: 4.5662
   },
 
-  '2Propanol': {
-    name: '2-Propanol',
-    formula: 'C3H8O',
-    CAS: '67-63-0',
+  "2Propanol": {
+    name: "2-Propanol",
+    formula: "C3H8O",
+    CAS: "67-63-0",
     molecularWeight: 60.095,
     C1: 1.1799,
     C2: 0.2644,
@@ -4452,13 +4452,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 185.26,
     maximumTemperature: 508.3,
     densityAtMinimumTemperature: 14.663,
-    densityAtMaximumTemperature: 4.4626,
+    densityAtMaximumTemperature: 4.4626
   },
 
   Propenylcyclohexene: {
-    name: 'Propenylcyclohexene',
-    formula: 'C9H14',
-    CAS: '13511-13-2',
+    name: "Propenylcyclohexene",
+    formula: "C9H14",
+    CAS: "13511-13-2",
     molecularWeight: 122.20746,
     C1: 0.61255,
     C2: 0.26769,
@@ -4467,13 +4467,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 199,
     maximumTemperature: 636,
     densityAtMinimumTemperature: 7.4763,
-    densityAtMaximumTemperature: 2.2883,
+    densityAtMaximumTemperature: 2.2883
   },
 
   Propionaldehyde: {
-    name: 'Propionaldehyde',
-    formula: 'C3H6O',
-    CAS: '123-38-6',
+    name: "Propionaldehyde",
+    formula: "C3H6O",
+    CAS: "123-38-6",
     molecularWeight: 58.07914,
     C1: 1.2861,
     C2: 0.26236,
@@ -4482,13 +4482,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 165,
     maximumTemperature: 503.6,
     densityAtMinimumTemperature: 16.075,
-    densityAtMaximumTemperature: 4.902,
+    densityAtMaximumTemperature: 4.902
   },
 
   PropionicAcid: {
-    name: 'Propionic acid',
-    formula: 'C3H6O2',
-    CAS: '79-09-4',
+    name: "Propionic acid",
+    formula: "C3H6O2",
+    CAS: "79-09-4",
     molecularWeight: 74.0785,
     C1: 1.0969,
     C2: 0.25568,
@@ -4497,13 +4497,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 252.45,
     maximumTemperature: 600.81,
     densityAtMinimumTemperature: 13.935,
-    densityAtMaximumTemperature: 4.2901,
+    densityAtMaximumTemperature: 4.2901
   },
 
   Propionitrile: {
-    name: 'Propionitrile',
-    formula: 'C3H5N',
-    CAS: '107-12-0',
+    name: "Propionitrile",
+    formula: "C3H5N",
+    CAS: "107-12-0",
     molecularWeight: 55.0785,
     C1: 0.91281,
     C2: 0.22125,
@@ -4512,13 +4512,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 180.37,
     maximumTemperature: 561.3,
     densityAtMinimumTemperature: 16.067,
-    densityAtMaximumTemperature: 4.1257,
+    densityAtMaximumTemperature: 4.1257
   },
 
   PropylAcetate: {
-    name: 'Propyl acetate',
-    formula: 'C5H10O2',
-    CAS: '109-60-4',
+    name: "Propyl acetate",
+    formula: "C5H10O2",
+    CAS: "109-60-4",
     molecularWeight: 102.1317,
     C1: 0.73041,
     C2: 0.25456,
@@ -4527,13 +4527,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 178.15,
     maximumTemperature: 549.73,
     densityAtMinimumTemperature: 9.7941,
-    densityAtMaximumTemperature: 2.8693,
+    densityAtMaximumTemperature: 2.8693
   },
 
   PropylAmine: {
-    name: 'Propyl amine',
-    formula: 'C3H9N',
-    CAS: '107-10-8',
+    name: "Propyl amine",
+    formula: "C3H9N",
+    CAS: "107-10-8",
     molecularWeight: 59.11026,
     C1: 0.9195,
     C2: 0.23878,
@@ -4542,13 +4542,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 188.36,
     maximumTemperature: 496.95,
     densityAtMinimumTemperature: 13.764,
-    densityAtMaximumTemperature: 3.8508,
+    densityAtMaximumTemperature: 3.8508
   },
 
   Propylbenzene: {
-    name: 'Propylbenzene',
-    formula: 'C9H12',
-    CAS: '103-65-1',
+    name: "Propylbenzene",
+    formula: "C9H12",
+    CAS: "103-65-1",
     molecularWeight: 120.19158,
     C1: 0.57233,
     C2: 0.25171,
@@ -4557,13 +4557,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 173.55,
     maximumTemperature: 638.35,
     densityAtMinimumTemperature: 7.9821,
-    densityAtMaximumTemperature: 2.2738,
+    densityAtMaximumTemperature: 2.2738
   },
 
   Propylene: {
-    name: 'Propylene',
-    formula: 'C3H6',
-    CAS: '115-07-1',
+    name: "Propylene",
+    formula: "C3H6",
+    CAS: "115-07-1",
     molecularWeight: 42.07974,
     C1: 1.4403,
     C2: 0.26852,
@@ -4572,13 +4572,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 87.89,
     maximumTemperature: 364.85,
     densityAtMinimumTemperature: 18.07,
-    densityAtMaximumTemperature: 5.3638,
+    densityAtMaximumTemperature: 5.3638
   },
 
   PropylFormate: {
-    name: 'Propyl formate',
-    formula: 'C4H8O2',
-    CAS: '110-74-7',
+    name: "Propyl formate",
+    formula: "C4H8O2",
+    CAS: "110-74-7",
     molecularWeight: 88.10512,
     C1: 0.915,
     C2: 0.26134,
@@ -4587,13 +4587,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 180.25,
     maximumTemperature: 538,
     densityAtMinimumTemperature: 11.59,
-    densityAtMaximumTemperature: 3.5012,
+    densityAtMaximumTemperature: 3.5012
   },
 
-  '2PropylMercaptan': {
-    name: '2-Propyl mercaptan',
-    formula: 'C3H8S',
-    CAS: '75-33-2',
+  "2PropylMercaptan": {
+    name: "2-Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "75-33-2",
     molecularWeight: 76.16062,
     C1: 1.093,
     C2: 0.27762,
@@ -4602,13 +4602,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 142.61,
     maximumTemperature: 517,
     densityAtMinimumTemperature: 12.61,
-    densityAtMaximumTemperature: 3.937,
+    densityAtMaximumTemperature: 3.937
   },
 
   PropylMercaptan: {
-    name: 'Propyl mercaptan',
-    formula: 'C3H8S',
-    CAS: '107-03-9',
+    name: "Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "107-03-9",
     molecularWeight: 76.16062,
     C1: 1.0714,
     C2: 0.27214,
@@ -4617,13 +4617,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 159.95,
     maximumTemperature: 536.6,
     densityAtMinimumTemperature: 12.716,
-    densityAtMaximumTemperature: 3.9369,
+    densityAtMaximumTemperature: 3.9369
   },
 
-  '1,2PropyleneGlycol': {
-    name: '1,2-Propylene glycol',
-    formula: 'C3H8O2',
-    CAS: '57-55-6',
+  "1,2PropyleneGlycol": {
+    name: "1,2-Propylene glycol",
+    formula: "C3H8O2",
+    CAS: "57-55-6",
     molecularWeight: 76.09442,
     C1: 1.0923,
     C2: 0.26106,
@@ -4632,13 +4632,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 213.15,
     maximumTemperature: 626,
     densityAtMinimumTemperature: 14.363,
-    densityAtMaximumTemperature: 4.1841,
+    densityAtMaximumTemperature: 4.1841
   },
 
   Quinone: {
-    name: 'Quinone',
-    formula: 'C6H4O2',
-    CAS: '106-51-4',
+    name: "Quinone",
+    formula: "C6H4O2",
+    CAS: "106-51-4",
     molecularWeight: 108.09476,
     C1: 0.83228,
     C2: 0.25385,
@@ -4647,13 +4647,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 388.85,
     maximumTemperature: 683,
     densityAtMinimumTemperature: 10.082,
-    densityAtMaximumTemperature: 3.2786,
+    densityAtMaximumTemperature: 3.2786
   },
 
   SiliconTetrafluoride: {
-    name: 'Silicon tetrafluoride',
-    formula: 'F4Si',
-    CAS: '7783-61-1',
+    name: "Silicon tetrafluoride",
+    formula: "F4Si",
+    CAS: "7783-61-1",
     molecularWeight: 104.07911,
     C1: 1.1945,
     C2: 0.24128,
@@ -4662,13 +4662,13 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 186.35,
     maximumTemperature: 259,
     densityAtMinimumTemperature: 15.635,
-    densityAtMaximumTemperature: 4.9507,
+    densityAtMaximumTemperature: 4.9507
   },
 
   Styrene: {
-    name: 'Styrene',
-    formula: 'C8H8',
-    CAS: '100-42-5',
+    name: "Styrene",
+    formula: "C8H8",
+    CAS: "100-42-5",
     molecularWeight: 104.14912,
     C1: 0.7397,
     C2: 0.2603,
@@ -4677,7 +4677,7 @@ export const DIPPRDensityDictionary: Record<string, DIPPRDensityProps> = {
     minimumTemperature: 242.54,
     maximumTemperature: 636,
     densityAtMinimumTemperature: 9.1088,
-    densityAtMaximumTemperature: 2.8417,
+    densityAtMaximumTemperature: 2.8417
   },
 
   oTerphenyl: {

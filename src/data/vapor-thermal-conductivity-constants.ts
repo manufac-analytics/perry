@@ -716,7 +716,10 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
   }
 };
 
-function calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature: number, props?: DIPPRVaporThermalConductivityProps): number {
+function calculateDIPPRVaporThermalConductivityForGeneralCompound(
+  temperature: number,
+  props?: DIPPRVaporThermalConductivityProps
+): number {
   let thermalConductivity = NaN;
   if (
     props !== undefined &&
@@ -728,17 +731,16 @@ function calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature: n
     thermalConductivity =
       (props.C1 * Math.pow(temperature, props.C2)) /
       (1 +
-        (Number.isFinite(props.C3)
-          ? (props.C3 as number) / temperature
-          : 0) +
-        (Number.isFinite(props.C4)
-          ? (props.C4 as number) / Math.pow(temperature, 2)
-          : 0));
+        (Number.isFinite(props.C3) ? (props.C3 as number) / temperature : 0) +
+        (Number.isFinite(props.C4) ? (props.C4 as number) / Math.pow(temperature, 2) : 0));
   }
   return thermalConductivity;
 }
 
-function calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature: number, props?: DIPPRVaporThermalConductivityProps): number {
+function calculateDIPPRVaporThermalConductivityForSpecialCompound(
+  temperature: number,
+  props?: DIPPRVaporThermalConductivityProps
+): number {
   let thermalConductivity = NaN;
   if (
     props !== undefined &&
@@ -750,12 +752,8 @@ function calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature: n
     thermalConductivity =
       props.C1 +
       props.C2 * temperature +
-      (Number.isFinite(props.C3)
-        ? Math.pow(temperature, 2) * (props.C3 as number)
-        : 0) +
-      (Number.isFinite(props.C4)
-        ? Math.pow(temperature, 3) * (props.C4 as number)
-        : 0);
+      (Number.isFinite(props.C3) ? Math.pow(temperature, 2) * (props.C3 as number) : 0) +
+      (Number.isFinite(props.C4) ? Math.pow(temperature, 3) * (props.C4 as number) : 0);
   }
   return thermalConductivity;
 }
@@ -800,7 +798,10 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
       thermalConductivity = calculateDIPPRVaporThermalConductivityForButyricAcid(temperature);
       break;
     default:
-      thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, DIPPRVaporThermalConductivityDictionary[compound]);
+      thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(
+        temperature,
+        DIPPRVaporThermalConductivityDictionary[compound]
+      );
       break;
   }
   return thermalConductivity;

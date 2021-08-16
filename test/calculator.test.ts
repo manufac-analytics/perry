@@ -182,6 +182,5 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
     expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature).toPrecision(3)).toBe(
       vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3)
     );
-
   });
 });

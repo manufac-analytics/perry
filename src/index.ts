@@ -6,3 +6,4 @@ export * from "./data/density-constants";
 export * from "./data/thermal-conductivity-constants";
 export * from "./data/vapor-thermal-conductivity-constants";
 export * from "./data/critical-constants-acentric-factor";
+export * from "./data/elements";

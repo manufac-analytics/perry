@@ -1,4 +1,3 @@
-
 import { DIPPRVaporThermalConductivityProps } from "../interfaces/utils";
 
 export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporThermalConductivityProps> = {
@@ -41,7 +40,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 391.05,
     maximumTemperature: 458.15,
     thermalConductivityAtMinimumTemperature: 0.06749,
-    thermalConductivityAtMaximumTemperature: 0.06259,
+    thermalConductivityAtMaximumTemperature: 0.06259
   },
 
   AceticAcidExtended1: {
@@ -55,7 +54,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 458.15,
     maximumTemperature: 541.5,
     thermalConductivityAtMinimumTemperature: 0.06258,
-    thermalConductivityAtMaximumTemperature: 0.03955,
+    thermalConductivityAtMaximumTemperature: 0.03955
   },
 
   AceticAcidExtended2: {
@@ -70,7 +69,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 541.5,
     maximumTemperature: 1000,
     thermalConductivityAtMinimumTemperature: 0.03925,
-    thermalConductivityAtMaximumTemperature: 0.11105,
+    thermalConductivityAtMaximumTemperature: 0.11105
   },
 
   AceticAnhydride: {
@@ -672,7 +671,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 436.42,
     maximumTemperature: 706.95,
     thermalConductivityAtMinimumTemperature: 0.05147,
-    thermalConductivityAtMaximumTemperature: 0.05647,
+    thermalConductivityAtMaximumTemperature: 0.05647
   },
 
   ButyricAcidExtended: {
@@ -685,7 +684,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 706.95,
     maximumTemperature: 1000,
     thermalConductivityAtMinimumTemperature: 0.05647,
-    thermalConductivityAtMaximumTemperature: 0.11421,
+    thermalConductivityAtMaximumTemperature: 0.11421
   },
 
   Butyronitrile: {
@@ -721,7 +720,16 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
   const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
     DIPPRVaporThermalConductivityDictionary[compound];
   let thermalConductivity = NaN;
-  let compoundExceptionList = ["AceticAcid", "AceticAcidExtended1", "ButyricAcid", "FormicAcid", "HeptanoicAcid", "OctanoicAcid", "PentanoicAcid", "PropionicAcid"];
+  let compoundExceptionList = [
+    "AceticAcid",
+    "AceticAcidExtended1",
+    "ButyricAcid",
+    "FormicAcid",
+    "HeptanoicAcid",
+    "OctanoicAcid",
+    "PentanoicAcid",
+    "PropionicAcid"
+  ];
   if (compoundExceptionList.includes(compound)) {
     if (
       vaporThermalConductivityProps !== undefined &&
@@ -738,10 +746,9 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
           : 0) +
         (Number.isFinite(vaporThermalConductivityProps.C4)
           ? Math.pow(temperature, 3) * (vaporThermalConductivityProps.C4 as number)
-          : 0)
+          : 0);
     }
-  }
-  else {
+  } else {
     if (
       vaporThermalConductivityProps !== undefined &&
       typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
@@ -762,5 +769,3 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
   }
   return thermalConductivity;
 }
-
-

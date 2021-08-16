@@ -69,7 +69,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     minimumTemperature: 541.5,
     maximumTemperature: 1000,
     thermalConductivityAtMinimumTemperature: 0.03925,
-    thermalConductivityAtMaximumTemperature: 0.11105,
+    thermalConductivityAtMaximumTemperature: 0.11105
   },
 */
   AceticAnhydride: {

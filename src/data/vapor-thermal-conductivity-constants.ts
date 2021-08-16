@@ -57,7 +57,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.06258,
     thermalConductivityAtMaximumTemperature: 0.03955,
   },
-/*
+
   AceticAcidExtended2: {
     name: "Acetic acid",
     formula: "C2H4O2",
@@ -72,7 +72,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.03925,
     thermalConductivityAtMaximumTemperature: 0.11105,
   },
-*/
+
   AceticAnhydride: {
     name: "AceticAnhydride",
     formula: "C4H6O3",
@@ -721,8 +721,8 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
   const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
     DIPPRVaporThermalConductivityDictionary[compound];
   let thermalConductivity = NaN;
-  let compoundExceptionList = ["AceticAcid","AceticAcidExtended1", "ButyricAcid", "FormicAcid", "HeptanoicAcid", "OctanoicAcid", "PentanoicAcid", "PropionicAcid"];
-  if(compoundExceptionList.includes(compound)){
+  let compoundExceptionList = ["AceticAcid", "AceticAcidExtended1", "ButyricAcid", "FormicAcid", "HeptanoicAcid", "OctanoicAcid", "PentanoicAcid", "PropionicAcid"];
+  if (compoundExceptionList.includes(compound)) {
     if (
       vaporThermalConductivityProps !== undefined &&
       typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
@@ -741,7 +741,7 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
           : 0)
     }
   }
-  else{
+  else {
     if (
       vaporThermalConductivityProps !== undefined &&
       typeof vaporThermalConductivityProps.minimumTemperature === "number" &&

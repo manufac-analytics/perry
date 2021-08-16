@@ -189,7 +189,6 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
   it("should return correct thermal conductivity for Acetic Acid", () => {
     const vaporProps = DIPPRVaporThermalConductivityDictionary["AceticAcid"];
     const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
-    const vaporPropsExtended2 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended2"];
     expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.minimumTemperature)).toBeCloseTo(
       vaporProps.thermalConductivityAtMinimumTemperature,
       3
@@ -202,8 +201,21 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
       vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
       3
     );
-    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended2.maximumTemperature)).toBeCloseTo(
-      vaporPropsExtended2.thermalConductivityAtMaximumTemperature,
+  });
+
+  it("should return correct thermal conductivity for Butyric Acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["ButyricAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["ButyricAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
       3
     );
   });

@@ -62,7 +62,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     formula: "C2H4O2",
     CAS: "64-19-7",
     molecularWeight: 60.052,
-    C1: 3.3901e-6,
+    C1: 3.3901e-6, // All 4 contants may be wrong
     C2: 1.9588,
     C3: 36053,
     C4: 14086000,
@@ -90,7 +90,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     formula: "C3H6O",
     CAS: "67-64-1",
     molecularWeight: 58.07914,
-    C1: 26.8, //actual value is -26.8
+    C1: 26.8, // printed value is -26.8
     C2: 0.9098,
     C3: 126500000,
     minimumTemperature: 329.44,
@@ -764,10 +764,11 @@ function calculateDIPPRVaporThermalConductivityForAceticAcid(temperature: number
   if (temperature > 458.15 && temperature <= 541.5) {
     props = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
     thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
-  } else if (temperature > 541.5) {
-    props = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended2"];
-    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
   }
+  // } else if (temperature > 541.5) { // Constants in this range may be wrong
+  //   props = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended2"];
+  //   thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
+  // }
   return thermalConductivity;
 }
 

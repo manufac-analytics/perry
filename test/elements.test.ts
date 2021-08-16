@@ -1,12 +1,13 @@
 import { ElementDictionary } from "../src/data/elements";
 import { Phases, Phase } from "../src/interfaces/element-props";
 
-function checkUrl(url: string): boolean {
-  let isUrl = true;
-  try {
-    new URL(url);
-  } catch (e) {
-    isUrl = false;
+function checkUrl(url?: string): boolean {
+  let isUrl = false;
+  if (typeof url === "string") {
+    try {
+      new URL(url);
+      isUrl = true;
+    } catch (e) {}
   }
   return isUrl;
 }
@@ -24,13 +25,13 @@ describe("Periodic Table Elements", () => {
 
   it("should return true for correct URL of Spectral Image", () => {
     for (let el in ElementDictionary) {
-      if (typeof ElementDictionary[el].spectralImage === "string") {
-        expect(checkUrl(ElementDictionary[el].spectralImage as string)).toBe(true);
-      }
+      expect(checkUrl(ElementDictionary[el].spectralImage)).toBe(
+        typeof ElementDictionary[el].spectralImage === "string"
+      );
     }
   });
 
-  it("should return true if the phase is among Gas , Liquid or Solid", () => {
+  it("should return true if the phase is among Gas, Liquid or Solid", () => {
     for (let el in ElementDictionary) {
       expect(checkPhase(ElementDictionary[el].phase)).toBe(true);
     }

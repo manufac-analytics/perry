@@ -169,19 +169,41 @@ describe("calculateDIPPRThermalConductivity", () => {
 
 describe("calculateDIPPRVaporThermalConductivity", () => {
   it("should return NaN outside the specified range of temperature", () => {
-    let vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
     expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature - 1)).toBe(NaN);
     expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature + 1)).toBe(NaN);
   });
 
   it("should return correct thermal conductivity at Tmin and Tmax", () => {
-    let vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
     expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature)).toBeCloseTo(
       vaporProps.thermalConductivityAtMinimumTemperature,
       3
     );
     expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature)).toBeCloseTo(
       vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return correct thermal conductivity for Acetic Acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["AceticAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
+    const vaporPropsExtended2 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended2"];
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended2.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended2.thermalConductivityAtMaximumTemperature,
       3
     );
   });

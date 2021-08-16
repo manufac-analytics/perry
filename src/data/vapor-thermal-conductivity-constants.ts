@@ -56,7 +56,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.06258,
     thermalConductivityAtMaximumTemperature: 0.03955
   },
-  /*
+
   AceticAcidExtended2: {
     name: "Acetic acid",
     formula: "C2H4O2",
@@ -71,7 +71,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.03925,
     thermalConductivityAtMaximumTemperature: 0.11105
   },
-*/
+
   AceticAnhydride: {
     name: "AceticAnhydride",
     formula: "C4H6O3",
@@ -716,69 +716,92 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
   }
 };
 
-function calculateDIPPRVaporThermalConductivityForGeneralCompound(compound: string, temperature: number): number {
-  const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
-    DIPPRVaporThermalConductivityDictionary[compound];
+function calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature: number, props?: DIPPRVaporThermalConductivityProps): number {
   let thermalConductivity = NaN;
   if (
-    vaporThermalConductivityProps !== undefined &&
-    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vaporThermalConductivityProps.minimumTemperature &&
-    temperature <= vaporThermalConductivityProps.maximumTemperature
+    props !== undefined &&
+    typeof props.minimumTemperature === "number" &&
+    typeof props.maximumTemperature === "number" &&
+    temperature >= props.minimumTemperature &&
+    temperature <= props.maximumTemperature
   ) {
     thermalConductivity =
-      (vaporThermalConductivityProps.C1 * Math.pow(temperature, vaporThermalConductivityProps.C2)) /
+      (props.C1 * Math.pow(temperature, props.C2)) /
       (1 +
-        (Number.isFinite(vaporThermalConductivityProps.C3)
-          ? (vaporThermalConductivityProps.C3 as number) / temperature
+        (Number.isFinite(props.C3)
+          ? (props.C3 as number) / temperature
           : 0) +
-        (Number.isFinite(vaporThermalConductivityProps.C4)
-          ? (vaporThermalConductivityProps.C4 as number) / Math.pow(temperature, 2)
+        (Number.isFinite(props.C4)
+          ? (props.C4 as number) / Math.pow(temperature, 2)
           : 0));
   }
   return thermalConductivity;
 }
 
-function calculateDIPPRVaporThermalConductivityForSpecialCompound(compound: string, temperature: number): number {
-  const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
-    DIPPRVaporThermalConductivityDictionary[compound];
+function calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature: number, props?: DIPPRVaporThermalConductivityProps): number {
   let thermalConductivity = NaN;
   if (
-    vaporThermalConductivityProps !== undefined &&
-    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vaporThermalConductivityProps.minimumTemperature &&
-    temperature <= vaporThermalConductivityProps.maximumTemperature
+    props !== undefined &&
+    typeof props.minimumTemperature === "number" &&
+    typeof props.maximumTemperature === "number" &&
+    temperature >= props.minimumTemperature &&
+    temperature <= props.maximumTemperature
   ) {
     thermalConductivity =
-      vaporThermalConductivityProps.C1 +
-      vaporThermalConductivityProps.C2 * temperature +
-      (Number.isFinite(vaporThermalConductivityProps.C3)
-        ? Math.pow(temperature, 2) * (vaporThermalConductivityProps.C3 as number)
+      props.C1 +
+      props.C2 * temperature +
+      (Number.isFinite(props.C3)
+        ? Math.pow(temperature, 2) * (props.C3 as number)
         : 0) +
-      (Number.isFinite(vaporThermalConductivityProps.C4)
-        ? Math.pow(temperature, 3) * (vaporThermalConductivityProps.C4 as number)
+      (Number.isFinite(props.C4)
+        ? Math.pow(temperature, 3) * (props.C4 as number)
         : 0);
+  }
+  return thermalConductivity;
+}
+
+function calculateDIPPRVaporThermalConductivityForAceticAcid(temperature: number): number {
+  let props = DIPPRVaporThermalConductivityDictionary["AceticAcid"];
+  let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
+  if (temperature > 458.15 && temperature <= 541.5) {
+    props = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
+    thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
+  } else if (temperature > 541.5) {
+    props = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended2"];
+    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
+  }
+  return thermalConductivity;
+}
+
+function calculateDIPPRVaporThermalConductivityForButyricAcid(temperature: number): number {
+  let props = DIPPRVaporThermalConductivityDictionary["ButyricAcid"];
+  let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
+  if (temperature > 706.95) {
+    props = DIPPRVaporThermalConductivityDictionary["ButyricAcidExtended"];
+    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
   }
   return thermalConductivity;
 }
 
 export function calculateDIPPRVaporThermalConductivity(compound: string, temperature: number): number {
   let thermalConductivity = NaN;
-  const compoundExceptionList = [
-    "AceticAcid",
-    "ButyricAcid",
-    "FormicAcid",
-    "HeptanoicAcid",
-    "OctanoicAcid",
-    "PentanoicAcid",
-    "PropionicAcid"
-  ];
-  if (compoundExceptionList.includes(compound)) {
-    thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(compound, temperature);
-  } else {
-    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(compound, temperature);
+  // const compoundExceptionList = [
+  //   "FormicAcid",
+  //   "HeptanoicAcid",
+  //   "OctanoicAcid",
+  //   "PentanoicAcid",
+  //   "PropionicAcid"
+  // ];
+  switch (compound) {
+    case "AceticAcid":
+      thermalConductivity = calculateDIPPRVaporThermalConductivityForAceticAcid(temperature);
+      break;
+    case "ButyricAcid":
+      thermalConductivity = calculateDIPPRVaporThermalConductivityForButyricAcid(temperature);
+      break;
+    default:
+      thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, DIPPRVaporThermalConductivityDictionary[compound]);
+      break;
   }
   return thermalConductivity;
 }

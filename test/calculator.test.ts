@@ -169,22 +169,19 @@ describe("calculateDIPPRThermalConductivity", () => {
 
 describe("calculateDIPPRVaporThermalConductivity", () => {
   it("should return NaN outside the specified range of temperature", () => {
-    for (let compound in DIPPRVaporThermalConductivityDictionary) {
-      let vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
-      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
-      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
-    }
+    let vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature + 1)).toBe(NaN);
   });
 
   it("should return correct thermal conductivity at Tmin and Tmax", () => {
-    for (let compound in DIPPRVaporThermalConductivityDictionary) {
-      let vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
-      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature).toPrecision(2)).toBe(
-        vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(2)
-      );
-      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature).toPrecision(2)).toBe(
-        vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(2)
-      );
-    }
+    let vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature).toPrecision(3)).toBe(
+      vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(3)
+    );
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature).toPrecision(3)).toBe(
+      vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3)
+    );
+
   });
 });

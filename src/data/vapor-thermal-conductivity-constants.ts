@@ -722,7 +722,6 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
   let thermalConductivity = NaN;
   let compoundExceptionList = [
     "AceticAcid",
-    "AceticAcidExtended1",
     "ButyricAcid",
     "FormicAcid",
     "HeptanoicAcid",

@@ -21,6 +21,16 @@ describe("calculateDIPPRVaporPressure", () => {
       vaporProps.pressureAtMaximumTemperature.toPrecision(3)
     );
   });
+
+  it("should return correct vapor pressure at Tmin and Tmax for SulfurHexafluoride where C4 and C5 are missing", () => {
+    const vaporProps = DIPPRVaporPressureDictionary["SulfurHexafluoride"];
+    expect(calculateDIPPRVaporPressure("SulfurHexafluoride", vaporProps.minimumTemperature).toPrecision(3)).toBe(
+      vaporProps.pressureAtMinimumTemperature.toPrecision(3)
+    );
+    expect(calculateDIPPRVaporPressure("SulfurHexafluoride", vaporProps.maximumTemperature).toPrecision(3)).toBe(
+      vaporProps.pressureAtMaximumTemperature.toPrecision(3)
+    );
+  });
 });
 
 describe("calculateDIPPRDensity", () => {

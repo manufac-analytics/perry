@@ -3629,6 +3629,1551 @@ export const DIPPRVaporPressureDictionary: Record<string, DIPPRVaporPressureProp
     maximumTemperature: 352.5,
     pressureAtMinimumTemperature: 1.43e1,
     pressureAtMaximumTemperature: 4.702e6
+  },
+
+  alphaMethylStyrene: {
+    name: "alpha-Methyl styrene",
+    formula: "C9H10",
+    CAS: "98-83-9",
+    C1: 56.485,
+    C2: -6954.2,
+    C3: -4.7889,
+    C4: 2.78e-18,
+    C5: 6,
+    minimumTemperature: 249.95,
+    maximumTemperature: 654,
+    pressureAtMinimumTemperature: 9.23,
+    pressureAtMaximumTemperature: 3.341e6
+  },
+
+  MethylTertbutylEther: {
+    name: "Methyl tert-butyl ether",
+    formula: "C5H12O",
+    CAS: "1634-04-4",
+    C1: 57.1299,
+    C2: -5200.7,
+    C3: -5.13976,
+    C4: 1.65e-17,
+    C5: 6,
+    minimumTemperature: 164.55,
+    maximumTemperature: 497.1,
+    pressureAtMinimumTemperature: 4.94e-1,
+    pressureAtMaximumTemperature: 3.286e6
+  },
+
+  MethylVinylEther: {
+    name: "Methyl vinyl ether",
+    formula: "C3H6O",
+    CAS: "107-25-5",
+    C1: 51.085,
+    C2: -4271,
+    C3: -4.307,
+    C4: 3.05e-17,
+    C5: 6,
+    minimumTemperature: 151.15,
+    maximumTemperature: 437,
+    pressureAtMinimumTemperature: 3.37,
+    pressureAtMaximumTemperature: 4.583e6
+  },
+
+  Naphthalene: {
+    name: "Naphthalene",
+    formula: "C10H8",
+    CAS: "91-20-3",
+    C1: 62.964,
+    C2: -8137.5,
+    C3: -5.6317,
+    C4: 2.27e-18,
+    C5: 6,
+    minimumTemperature: 353.43,
+    maximumTemperature: 748.4,
+    pressureAtMinimumTemperature: 9.91e2,
+    pressureAtMaximumTemperature: 4.069e6
+  },
+
+  Neon: {
+    name: "Neon",
+    formula: "Ne",
+    CAS: "7440-01-9",
+    C1: 29.755,
+    C2: -271.06,
+    C3: -2.6081,
+    C4: 0.000527,
+    C5: 2,
+    minimumTemperature: 24.56,
+    maximumTemperature: 44.4,
+    pressureAtMinimumTemperature: 4.38e4,
+    pressureAtMaximumTemperature: 2.665e6
+  },
+
+  Nitroethane: {
+    name: "Nitroethane",
+    formula: "C2H5NO2",
+    CAS: "79-24-3",
+    C1: 75.632,
+    C2: -7202.3,
+    C3: -7.6464,
+    C4: 1.83e-17,
+    C5: 6,
+    minimumTemperature: 183.63,
+    maximumTemperature: 593,
+    pressureAtMinimumTemperature: 3.18e-2,
+    pressureAtMaximumTemperature: 5.159e6
+  },
+
+  Nitrogen: {
+    name: "Nitrogen",
+    formula: "N2",
+    CAS: "7727-37-9",
+    C1: 58.282,
+    C2: -1084.1,
+    C3: -8.3144,
+    C4: 0.044127,
+    C5: 1,
+    minimumTemperature: 63.15,
+    maximumTemperature: 126.2,
+    pressureAtMinimumTemperature: 1.25e4,
+    pressureAtMaximumTemperature: 3.391e6
+  },
+
+  NitrogenTrifluoride: {
+    name: "Nitrogen trifluoride",
+    formula: "F3N",
+    CAS: "7783-54-2",
+    C1: 68.149,
+    C2: -2257.9,
+    C3: -8.9118,
+    C4: 0.023233,
+    C5: 1,
+    minimumTemperature: 66.46,
+    maximumTemperature: 234,
+    pressureAtMinimumTemperature: 1.86e-1,
+    pressureAtMaximumTemperature: 4.5e6
+  },
+
+  Nitromethane: {
+    name: "Nitromethane",
+    formula: "CH3NO2",
+    CAS: "75-52-5",
+    C1: 57.278,
+    C2: -6089,
+    C3: -4.9821,
+    C4: 1.22e-17,
+    C5: 6,
+    minimumTemperature: 244.6,
+    maximumTemperature: 588.15,
+    pressureAtMinimumTemperature: 1.47e2,
+    pressureAtMaximumTemperature: 6.309e6
+  },
+
+  NitrousOxide: {
+    name: "Nitrous oxide",
+    formula: "N2O",
+    CAS: "10024-97-2",
+    C1: 96.512,
+    C2: -4045,
+    C3: -12.277,
+    C4: 0.00002886,
+    C5: 2,
+    minimumTemperature: 182.3,
+    maximumTemperature: 309.57,
+    pressureAtMinimumTemperature: 8.69e4,
+    pressureAtMaximumTemperature: 7.278e6
+  },
+
+  NitricOxide: {
+    name: "Nitric oxide",
+    formula: "NO",
+    CAS: "10102-43-9",
+    C1: 72.974,
+    C2: -2650,
+    C3: -8.261,
+    C4: 9.7e-15,
+    C5: 6,
+    minimumTemperature: 109.5,
+    maximumTemperature: 180.15,
+    pressureAtMinimumTemperature: 2.2e4,
+    pressureAtMaximumTemperature: 6.516e6
+  },
+
+  Nonadecane: {
+    name: "Nonadecane",
+    formula: "C19H40",
+    CAS: "629-92-5",
+    C1: 182.54,
+    C2: -17897,
+    C3: -22.498,
+    C4: 7.4008e-6,
+    C5: 2,
+    minimumTemperature: 305.04,
+    maximumTemperature: 758,
+    pressureAtMinimumTemperature: 1.59e-2,
+    pressureAtMaximumTemperature: 1.208e6
+  },
+
+  Nonanal: {
+    name: "Nonanal",
+    formula: "C9H18O",
+    CAS: "124-19-6",
+    C1: 80.3832,
+    C2: -9096.15,
+    C3: -8.03581,
+    C4: 4.71e-18,
+    C5: 6,
+    minimumTemperature: 267.3,
+    maximumTemperature: 658.5,
+    pressureAtMinimumTemperature: 4.25,
+    pressureAtMaximumTemperature: 2.68e6
+  },
+
+  Nonane: {
+    name: "Nonane",
+    formula: "C9H20",
+    CAS: "111-84-2",
+    C1: 109.35,
+    C2: -9030.4,
+    C3: -12.882,
+    C4: 7.8544e-6,
+    C5: 2,
+    minimumTemperature: 219.66,
+    maximumTemperature: 594.6,
+    pressureAtMinimumTemperature: 4.31e-1,
+    pressureAtMaximumTemperature: 2.305e6
+  },
+
+  NonanoicAcid: {
+    name: "Nonanoic acid",
+    formula: "C9H18O2",
+    CAS: "112-05-0",
+    C1: 123.374,
+    C2: -14215.3,
+    C3: -13.5607,
+    C4: 3.17e-18,
+    C5: 6,
+    minimumTemperature: 285.55,
+    maximumTemperature: 710.7,
+    pressureAtMinimumTemperature: 4.58e-2,
+    pressureAtMaximumTemperature: 2.513e6
+  },
+
+  "1Nonanol": {
+    name: "1-Nonanol",
+    formula: "C9H20O",
+    CAS: "143-08-8",
+    C1: 162.854,
+    C2: -15204.55331,
+    C3: -19.42436,
+    C4: 1.07e-17,
+    C5: 6,
+    minimumTemperature: 268.15,
+    maximumTemperature: 670.9,
+    pressureAtMinimumTemperature: 8.58e-2,
+    pressureAtMaximumTemperature: 2.528e6
+  },
+
+  "2Nonanol": {
+    name: "2-Nonanol",
+    formula: "C9H20O",
+    CAS: "628-99-9",
+    C1: 213.069,
+    C2: -16246,
+    C3: -27.6195,
+    C4: 1.31827e-5,
+    C5: 2,
+    minimumTemperature: 238.15,
+    maximumTemperature: 649.5,
+    pressureAtMinimumTemperature: 3.85e-3,
+    pressureAtMaximumTemperature: 2.54e6
+  },
+
+  "1Nonene": {
+    name: "1-Nonene",
+    formula: "C9H18",
+    CAS: "124-11-8",
+    C1: 63.313,
+    C2: -7040.4,
+    C3: -5.8055,
+    C4: 7.58e-18,
+    C5: 6,
+    minimumTemperature: 191.91,
+    maximumTemperature: 593.1,
+    pressureAtMinimumTemperature: 2.04e-2,
+    pressureAtMaximumTemperature: 2.427e6
+  },
+
+  NonylMercaptan: {
+    name: "Nonyl mercaptan",
+    formula: "C9H20S",
+    CAS: "1455-21-6",
+    C1: 106.2,
+    C2: -10982,
+    C3: -11.696,
+    C4: 8.9e-18,
+    C5: 6,
+    minimumTemperature: 253.05,
+    maximumTemperature: 681,
+    pressureAtMinimumTemperature: 1.47e-1,
+    pressureAtMaximumTemperature: 2.33e6
+  },
+
+  "1Nonyne": {
+    name: "1-Nonyne",
+    formula: "C9H16",
+    CAS: "3452-09-3",
+    C1: 114.77,
+    C2: -9430.8,
+    C3: -13.631,
+    C4: 8.1918e-6,
+    C5: 2,
+    minimumTemperature: 223.15,
+    maximumTemperature: 598.05,
+    pressureAtMinimumTemperature: 4.5e-1,
+    pressureAtMaximumTemperature: 2.619e6
+  },
+
+  Octadecane: {
+    name: "Octadecane",
+    formula: "C18H38",
+    CAS: "593-45-3",
+    C1: 157.68,
+    C2: -16093,
+    C3: -18.954,
+    C4: 5.9272e-6,
+    C5: 2,
+    minimumTemperature: 301.31,
+    maximumTemperature: 747,
+    pressureAtMinimumTemperature: 3.39e-2,
+    pressureAtMaximumTemperature: 1.255e6
+  },
+
+  Octanal: {
+    name: "Octanal",
+    formula: "C8H16O",
+    CAS: "124-13-0",
+    C1: 74.0298,
+    C2: -8302.12,
+    C3: -7.19776,
+    C4: 5.31e-18,
+    C5: 6,
+    minimumTemperature: 251.65,
+    maximumTemperature: 638.9,
+    pressureAtMinimumTemperature: 3.49,
+    pressureAtMaximumTemperature: 2.96e6
+  },
+
+  Octane: {
+    name: "Octane",
+    formula: "C8H18",
+    CAS: "111-65-9",
+    C1: 96.084,
+    C2: -7900.2,
+    C3: -11.003,
+    C4: 7.1802e-6,
+    C5: 2,
+    minimumTemperature: 216.38,
+    maximumTemperature: 568.7,
+    pressureAtMinimumTemperature: 2.11,
+    pressureAtMaximumTemperature: 2.467e6
+  },
+
+  OctanoicAcid: {
+    name: "Octanoic acid",
+    formula: "C8H16O2",
+    CAS: "124-07-2",
+    C1: 116.477,
+    C2: -13300.4,
+    C3: -12.6746,
+    C4: 3.98e-18,
+    C5: 6,
+    minimumTemperature: 289.65,
+    maximumTemperature: 694.26,
+    pressureAtMinimumTemperature: 2.76e-1,
+    pressureAtMaximumTemperature: 2.779e6
+  },
+
+  "1Octanol": {
+    name: "1-Octanol",
+    formula: "C8H18O",
+    CAS: "111-87-5",
+    C1: 144.11083,
+    C2: -13667.15667,
+    C3: -16.82611,
+    C4: 9.37e-18,
+    C5: 6,
+    minimumTemperature: 257.65,
+    maximumTemperature: 652.3,
+    pressureAtMinimumTemperature: 9.6e-2,
+    pressureAtMaximumTemperature: 2.781e6
+  },
+
+  "2Octanol": {
+    name: "2-Octanol",
+    formula: "C8H18O",
+    CAS: "123-96-6",
+    C1: 185.828,
+    C2: -14520.2,
+    C3: -23.6236,
+    C4: 1.08854e-5,
+    C5: 2,
+    minimumTemperature: 241.55,
+    maximumTemperature: 629.8,
+    pressureAtMinimumTemperature: 3.79e-2,
+    pressureAtMaximumTemperature: 2.749e6
+  },
+
+  "2Octanone": {
+    name: "2-Octanone",
+    formula: "C8H16O",
+    CAS: "111-13-7",
+    C1: 63.775,
+    C2: -7711.3,
+    C3: -5.7359,
+    C4: 3.09e-18,
+    C5: 6,
+    minimumTemperature: 252.85,
+    maximumTemperature: 632.7,
+    pressureAtMinimumTemperature: 4.68,
+    pressureAtMaximumTemperature: 2.647e6
+  },
+
+  "3Octanone": {
+    name: "3-Octanone",
+    formula: "C8H16O",
+    CAS: "106-68-3",
+    C1: 72.382,
+    C2: -8054.8,
+    C3: -7.0002,
+    C4: 5.83e-18,
+    C5: 6,
+    minimumTemperature: 255.55,
+    maximumTemperature: 627.7,
+    pressureAtMinimumTemperature: 7.84,
+    pressureAtMaximumTemperature: 2.705e6
+  },
+
+  "1Octene": {
+    name: "1-Octene",
+    formula: "C8H16",
+    CAS: "111-66-0",
+    C1: 74.936,
+    C2: -7155.9,
+    C3: -7.5843,
+    C4: 1.71e-17,
+    C5: 6,
+    minimumTemperature: 171.45,
+    maximumTemperature: 566.9,
+    pressureAtMinimumTemperature: 2.98e-3,
+    pressureAtMaximumTemperature: 2.663e6
+  },
+
+  OctylMercaptan: {
+    name: "Octyl mercaptan",
+    formula: "C8H18S",
+    CAS: "111-88-6",
+    C1: 78.368,
+    C2: -8855.4,
+    C3: -7.8202,
+    C4: 5.66e-18,
+    C5: 6,
+    minimumTemperature: 223.95,
+    maximumTemperature: 667.3,
+    pressureAtMinimumTemperature: 3.05e-2,
+    pressureAtMaximumTemperature: 2.523e6
+  },
+
+  "1Octyne": {
+    name: "1-Octyne",
+    formula: "C8H14",
+    CAS: "629-05-0",
+    C1: 64.612,
+    C2: -6802.5,
+    C3: -6.0261,
+    C4: 1.1e-17,
+    C5: 6,
+    minimumTemperature: 193.55,
+    maximumTemperature: 574,
+    pressureAtMinimumTemperature: 1.04e-1,
+    pressureAtMaximumTemperature: 2.88e6
+  },
+
+  OxalicAcid: {
+    name: "Oxalic acid",
+    formula: "C2H2O4",
+    CAS: "144-62-7",
+    C1: 107.476,
+    C2: -12833.4,
+    C3: -11.3837,
+    C4: 1.34e-18,
+    C5: 6,
+    minimumTemperature: 462.65,
+    maximumTemperature: 828,
+    pressureAtMinimumTemperature: 1.97e4,
+    pressureAtMaximumTemperature: 8.203e6
+  },
+
+  Oxygen: {
+    name: "Oxygen",
+    formula: "O2",
+    CAS: "7782-44-7",
+    C1: 51.245,
+    C2: -1200.2,
+    C3: -6.4361,
+    C4: 0.028405,
+    C5: 1,
+    minimumTemperature: 54.36,
+    maximumTemperature: 154.58,
+    pressureAtMinimumTemperature: 1.48e2,
+    pressureAtMaximumTemperature: 5.021e6
+  },
+
+  Ozone: {
+    name: "Ozone",
+    formula: "O3",
+    CAS: "10028-15-6",
+    C1: 40.067,
+    C2: -2204.8,
+    C3: -2.9351,
+    C4: 7.75e-16,
+    C5: 6,
+    minimumTemperature: 80.15,
+    maximumTemperature: 261,
+    pressureAtMinimumTemperature: 7.35e-1,
+    pressureAtMaximumTemperature: 5.566e6
+  },
+
+  Pentadecane: {
+    name: "Pentadecane",
+    formula: "C15H32",
+    CAS: "629-62-9",
+    C1: 135.57,
+    C2: -13478,
+    C3: -16.022,
+    C4: 5.6136e-6,
+    C5: 2,
+    minimumTemperature: 283.07,
+    maximumTemperature: 708,
+    pressureAtMinimumTemperature: 1.29e-1,
+    pressureAtMaximumTemperature: 1.474e6
+  },
+
+  Pentanal: {
+    name: "Pentanal",
+    formula: "C5H10O",
+    CAS: "110-62-3",
+    C1: 28.3041,
+    C2: -4657.56,
+    C3: -0.732149,
+    C4: -8.31e-18,
+    C5: 6,
+    minimumTemperature: 191.59,
+    maximumTemperature: 566.1,
+    pressureAtMinimumTemperature: 1.16,
+    pressureAtMaximumTemperature: 3.845e6
+  },
+
+  Pentane: {
+    name: "Pentane",
+    formula: "C5H12",
+    CAS: "109-66-0",
+    C1: 78.741,
+    C2: -5420.3,
+    C3: -8.8253,
+    C4: 9.6171e-6,
+    C5: 2,
+    minimumTemperature: 143.42,
+    maximumTemperature: 469.7,
+    pressureAtMinimumTemperature: 6.86e-2,
+    pressureAtMaximumTemperature: 3.364e6
+  },
+
+  PentanoicAcid: {
+    name: "Pentanoic acid",
+    formula: "C5H10O2",
+    CAS: "109-52-4",
+    C1: 93.2079,
+    C2: -10470.5,
+    C3: -9.61345,
+    C4: 5.62e-18,
+    C5: 6,
+    minimumTemperature: 239.15,
+    maximumTemperature: 639.16,
+    pressureAtMinimumTemperature: 3.97e-2,
+    pressureAtMaximumTemperature: 3.63e6
+  },
+
+  "1Pentanol": {
+    name: "1-Pentanol",
+    formula: "C5H12O",
+    CAS: "71-41-0",
+    C1: 114.74801,
+    C2: -10643.3,
+    C3: -12.85754,
+    C4: 1.25e-17,
+    C5: 6,
+    minimumTemperature: 195.56,
+    pressureAtMinimumTemperature: 5.47e-4,
+    maximumTemperature: 588.1,
+    pressureAtMaximumTemperature: 3.897e6
+  },
+
+  "2Pentanol": {
+    name: "2-Pentanol",
+    formula: "C5H12O",
+    CAS: "6032-29-7",
+    C1: 116.828,
+    C2: -10453,
+    C3: -13.1768,
+    C4: 1.07e-17,
+    C5: 6,
+    minimumTemperature: 200,
+    maximumTemperature: 561,
+    pressureAtMinimumTemperature: 5.24e-3,
+    pressureAtMaximumTemperature: 3.699e6
+  },
+
+  "2Pentanone": {
+    name: "2-Pentanone",
+    formula: "C5H10O",
+    CAS: "107-87-9",
+    C1: 84.635,
+    C2: -7078.4,
+    C3: -9.3,
+    C4: 6.2702e-6,
+    C5: 2,
+    minimumTemperature: 196.29,
+    maximumTemperature: 561.08,
+    pressureAtMinimumTemperature: 7.52e-1,
+    pressureAtMaximumTemperature: 3.706e6
+  },
+
+  "3Pentanone": {
+    name: "3-Pentanone",
+    formula: "C5H10O",
+    CAS: "96-22-0",
+    C1: 44.286,
+    C2: -5415.1,
+    C3: -3.0913,
+    C4: 1.86e-18,
+    C5: 6,
+    minimumTemperature: 234.18,
+    maximumTemperature: 560.95,
+    pressureAtMinimumTemperature: 7.34e1,
+    pressureAtMaximumTemperature: 3.699e6
+  },
+
+  "1Pentene": {
+    name: "1-Pentene",
+    formula: "C5H10",
+    CAS: "109-67-1",
+    C1: 46.994,
+    C2: -4289.5,
+    C3: -3.7345,
+    C4: 2.54e-17,
+    C5: 6,
+    minimumTemperature: 108.02,
+    maximumTemperature: 464.8,
+    pressureAtMinimumTemperature: 3.71e-5,
+    pressureAtMaximumTemperature: 3.562e6
+  },
+
+  "2PentylMercaptan": {
+    name: "2-Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "2084-19-7",
+    C1: 58.985,
+    C2: -6193.1,
+    C3: -5.2746,
+    C4: 7.4e-18,
+    C5: 6,
+    minimumTemperature: 160.75,
+    maximumTemperature: 584.3,
+    pressureAtMinimumTemperature: 1.77e-3,
+    pressureAtMaximumTemperature: 3.537e6
+  },
+
+  PentylMercaptan: {
+    name: "Pentyl mercaptan",
+    formula: "C5H12S",
+    CAS: "110-66-7",
+    C1: 67.309,
+    C2: -6880.8,
+    C3: -6.4449,
+    C4: 1.01e-17,
+    C5: 6,
+    minimumTemperature: 197.45,
+    maximumTemperature: 598,
+    pressureAtMinimumTemperature: 0.201,
+    pressureAtMaximumTemperature: 3.473e6
+  },
+
+  "1Pentyne": {
+    name: "1-Pentyne",
+    formula: "C5H8",
+    CAS: "627-19-0",
+    C1: 82.805,
+    C2: -5683.8,
+    C3: -9.4301,
+    C4: 0.000010767,
+    C5: 2,
+    minimumTemperature: 167.45,
+    maximumTemperature: 481.2,
+    pressureAtMinimumTemperature: 2.4,
+    pressureAtMaximumTemperature: 4.17e6
+  },
+
+  "2Pentyne": {
+    name: "2-Pentyne",
+    formula: "C5H8",
+    CAS: "627-21-4",
+    C1: 137.29,
+    C2: -7447.1,
+    C3: -19.01,
+    C4: 0.021415,
+    C5: 1,
+    minimumTemperature: 163.83,
+    maximumTemperature: 519,
+    pressureAtMinimumTemperature: 2.05e-1,
+    pressureAtMaximumTemperature: 4.02e6
+  },
+
+  Phenanthrene: {
+    name: "Phenanthrene",
+    formula: "C14H10",
+    CAS: "85-01-8",
+    C1: 72.958,
+    C2: -10943,
+    C3: -6.7902,
+    C4: 1.09e-18,
+    C5: 6,
+    minimumTemperature: 372.38,
+    maximumTemperature: 869,
+    pressureAtMinimumTemperature: 2.93e1,
+    pressureAtMaximumTemperature: 2.902e6
+  },
+
+  Phenol: {
+    name: "Phenol",
+    formula: "C6H6O",
+    CAS: "108-95-2",
+    C1: 95.444,
+    C2: -10113,
+    C3: -10.09,
+    C4: 6.76e-18,
+    C5: 6,
+    minimumTemperature: 314.06,
+    maximumTemperature: 694.25,
+    pressureAtMinimumTemperature: 1.88e2,
+    pressureAtMaximumTemperature: 6.058e6
+  },
+
+  PhenylIsocyanate: {
+    name: "Phenyl isocyanate",
+    formula: "C7H5NO",
+    CAS: "103-71-9",
+    C1: 86.779,
+    C2: -8101.8,
+    C3: -9.5303,
+    C4: 6.1367e-6,
+    C5: 2,
+    minimumTemperature: 243.15,
+    pressureAtMinimumTemperature: 4.33,
+    maximumTemperature: 653,
+    pressureAtMaximumTemperature: 4.063e6
+  },
+
+  PhthalicAnhydride: {
+    name: "Phthalic anhydride",
+    formula: "C8H4O3",
+    CAS: "85-44-9",
+    C1: 126.5,
+    C2: -12551,
+    C3: -15.002,
+    C4: 7.7521e-6,
+    C5: 2,
+    minimumTemperature: 404.15,
+    maximumTemperature: 791,
+    pressureAtMinimumTemperature: 7.9e2,
+    pressureAtMaximumTemperature: 4.734e6
+  },
+
+  Propadiene: {
+    name: "Propadiene",
+    formula: "C3H4",
+    CAS: "463-49-0",
+    C1: 57.069,
+    C2: -3682.7,
+    C3: -5.5662,
+    C4: 6.5133e-6,
+    C5: 2,
+    minimumTemperature: 136.87,
+    pressureAtMinimumTemperature: 1.82e1,
+    maximumTemperature: 394,
+    pressureAtMaximumTemperature: 5.218e6
+  },
+
+  Propane: {
+    name: "Propane",
+    formula: "C3H8",
+    CAS: "74-98-6",
+    C1: 59.078,
+    C2: -3492.6,
+    C3: -6.0669,
+    C4: 0.000010919,
+    C5: 2,
+    minimumTemperature: 85.47,
+    maximumTemperature: 369.83,
+    pressureAtMinimumTemperature: 1.68e-4,
+    pressureAtMaximumTemperature: 4.213e6
+  },
+
+  "1Propanol": {
+    name: "1-Propanol",
+    formula: "C3H8O",
+    CAS: "71-23-8",
+    C1: 84.66416,
+    C2: -8307.24422,
+    C3: -8.57673,
+    C4: 7.51e-18,
+    C5: 6,
+    minimumTemperature: 146.95,
+    maximumTemperature: 536.8,
+    pressureAtMinimumTemperature: 4.27e-7,
+    pressureAtMaximumTemperature: 5.169e6
+  },
+
+  "2Propanol": {
+    name: "2-Propanol",
+    formula: "C3H8O",
+    CAS: "67-63-0",
+    C1: 110.717,
+    C2: -9040,
+    C3: -12.676,
+    C4: 0.000005538,
+    C5: 2,
+    minimumTemperature: 185.26,
+    maximumTemperature: 508.3,
+    pressureAtMinimumTemperature: 1.69e-2,
+    pressureAtMaximumTemperature: 4.771e6
+  },
+
+  Propenylcyclohexene: {
+    name: "Propenylcyclohexene",
+    formula: "C9H14",
+    CAS: "13511-13-2",
+    C1: 64.268,
+    C2: -7298.9,
+    C3: -5.9109,
+    C4: 4.85e-18,
+    C5: 6,
+    minimumTemperature: 199,
+    maximumTemperature: 636,
+    pressureAtMinimumTemperature: 2.48e-2,
+    pressureAtMaximumTemperature: 3.13e6
+  },
+
+  Propionaldehyde: {
+    name: "Propionaldehyde",
+    formula: "C3H6O",
+    CAS: "123-38-6",
+    C1: 50.8769,
+    C2: -4931,
+    C3: -4.16673,
+    C4: 1.67e-17,
+    C5: 6,
+    minimumTemperature: 165,
+    maximumTemperature: 503.6,
+    pressureAtMinimumTemperature: 7.54e-1,
+    pressureAtMaximumTemperature: 5.04e6
+  },
+
+  PropionicAcid: {
+    name: "Propionic acid",
+    formula: "C3H6O2",
+    CAS: "79-09-4",
+    C1: 54.552,
+    C2: -7149.4,
+    C3: -4.2769,
+    C4: 1.18e-18,
+    C5: 6,
+    minimumTemperature: 252.45,
+    maximumTemperature: 600.81,
+    pressureAtMinimumTemperature: 1.31e1,
+    pressureAtMaximumTemperature: 4.608e6
+  },
+
+  Propionitrile: {
+    name: "Propionitrile",
+    formula: "C3H5N",
+    CAS: "107-12-0",
+    C1: 59.9958,
+    C2: -6006.16,
+    C3: -5.46004,
+    C4: 1.7e-17,
+    C5: 6,
+    minimumTemperature: 180.37,
+    maximumTemperature: 561.3,
+    pressureAtMinimumTemperature: 1.89e-1,
+    pressureAtMaximumTemperature: 4.26e6
+  },
+
+  PropylAcetate: {
+    name: "Propyl acetate",
+    formula: "C5H10O2",
+    CAS: "109-60-4",
+    C1: 115.16,
+    C2: -8433.9,
+    C3: -13.934,
+    C4: 0.000010346,
+    C5: 2,
+    minimumTemperature: 178.15,
+    maximumTemperature: 549.73,
+    pressureAtMinimumTemperature: 1.71e-2,
+    pressureAtMaximumTemperature: 3.366e6
+  },
+
+  PropylAmine: {
+    name: "Propyl amine",
+    formula: "C3H9N",
+    CAS: "107-10-8",
+    C1: 58.398,
+    C2: -5312.7,
+    C3: -5.2876,
+    C4: 1.9913e-6,
+    C5: 2,
+    minimumTemperature: 188.36,
+    maximumTemperature: 496.95,
+    pressureAtMinimumTemperature: 1.3e1,
+    pressureAtMaximumTemperature: 4.738e6
+  },
+
+  Propylbenzene: {
+    name: "Propylbenzene",
+    formula: "C9H12",
+    CAS: "103-65-1",
+    C1: 91.379,
+    C2: -8276.8,
+    C3: -10.176,
+    C4: 0.000005624,
+    C5: 2,
+    minimumTemperature: 173.55,
+    maximumTemperature: 638.35,
+    pressureAtMinimumTemperature: 1.81e-4,
+    pressureAtMaximumTemperature: 3.202e6
+  },
+
+  Propylene: {
+    name: "Propylene",
+    formula: "C3H6",
+    CAS: "115-07-01",
+    C1: 43.905,
+    C2: -3097.8,
+    C3: -3.4425,
+    C4: 1e-16,
+    C5: 6,
+    minimumTemperature: 87.89,
+    maximumTemperature: 364.85,
+    pressureAtMinimumTemperature: 1.17e-3,
+    pressureAtMaximumTemperature: 4.599e6
+  },
+
+  // batch 11 review from here
+
+  PropylFormate: {
+    name: "Propyl formate",
+    formula: "C4H8O2",
+    CAS: "110-74-7",
+    C1: 104.08,
+    C2: -7535.9,
+    C3: -12.348,
+    C4: 0.000009602,
+    C5: 2,
+    minimumTemperature: 180.25,
+    maximumTemperature: 538,
+    pressureAtMinimumTemperature: 2.11e-1,
+    pressureAtMaximumTemperature: 4.031e6
+  },
+
+  "2PropylMercaptan": {
+    name: "2-Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "75-33-2",
+    C1: 60.43,
+    C2: -5276.9,
+    C3: -5.6572,
+    C4: 2.6e-17,
+    C5: 6,
+    minimumTemperature: 142.61,
+    maximumTemperature: 517,
+    pressureAtMinimumTemperature: 9.73e-3,
+    pressureAtMaximumTemperature: 4.752e6
+  },
+
+  PropylMercaptan: {
+    name: "Propyl mercaptan",
+    formula: "C3H8S",
+    CAS: "107-03-9",
+    C1: 62.165,
+    C2: -5624,
+    C3: -5.8595,
+    C4: 2.06e-17,
+    C5: 6,
+    minimumTemperature: 159.95,
+    maximumTemperature: 536.6,
+    pressureAtMinimumTemperature: 6.51e-2,
+    pressureAtMaximumTemperature: 4.627e6
+  },
+
+  "1,2PropyleneGlycol": {
+    name: "1,2-Propylene glycol",
+    formula: "C3H8O2",
+    CAS: "57-55-6",
+    C1: 212.8,
+    C2: -15420,
+    C3: -28.109,
+    C4: 0.000021564,
+    C5: 2,
+    minimumTemperature: 213.15,
+    maximumTemperature: 626,
+    pressureAtMinimumTemperature: 9.29e-5,
+    pressureAtMaximumTemperature: 6.041e6
+  },
+
+  Quinone: {
+    name: "Quinone",
+    formula: "C6H4O2",
+    CAS: "106-51-4",
+    C1: 48.651,
+    C2: -7289.5,
+    C3: -3.4453,
+    C4: 1.01e-18,
+    C5: 6,
+    minimumTemperature: 388.85,
+    maximumTemperature: 683,
+    pressureAtMinimumTemperature: 1.17e4,
+    pressureAtMaximumTemperature: 5.925e6
+  },
+
+  SiliconTetrafluoride: {
+    name: "Silicon tetrafluoride",
+    formula: "F4Si",
+    CAS: "7783-61-1",
+    C1: 272.85,
+    C2: -9548.9,
+    C3: -40.089,
+    C4: 6.37e-15,
+    C5: 6,
+    minimumTemperature: 186.35,
+    maximumTemperature: 259,
+    pressureAtMinimumTemperature: 2.21e5,
+    pressureAtMaximumTemperature: 3.748e6
+  },
+
+  Styrene: {
+    name: "Styrene",
+    formula: "C8H8",
+    CAS: "100-42-5",
+    C1: 105.93,
+    C2: -8685.9,
+    C3: -12.42,
+    C4: 7.5583e-6,
+    C5: 2,
+    minimumTemperature: 242.54,
+    maximumTemperature: 636,
+    pressureAtMinimumTemperature: 1.06e1,
+    pressureAtMaximumTemperature: 3.823e6
+  },
+
+  SuccinicAcid: {
+    name: "Succinic acid",
+    formula: "C4H6O4",
+    CAS: "110-15-6",
+    C1: 165.977,
+    C2: -19914.4,
+    C3: -18.9344,
+    C4: 1.91e-18,
+    C5: 6,
+    minimumTemperature: 460.85,
+    maximumTemperature: 838,
+    pressureAtMinimumTemperature: 7.78e2,
+    pressureAtMaximumTemperature: 5.001e6
+  },
+
+  SulfurDioxide: {
+    name: "Sulfur dioxide",
+    formula: "O2S",
+    CAS: "7446-09-5",
+    C1: 47.365,
+    C2: -4084.5,
+    C3: -3.6469,
+    C4: 1.8e-17,
+    C5: 6,
+    minimumTemperature: 197.67,
+    maximumTemperature: 430.75,
+    pressureAtMinimumTemperature: 1.67e3,
+    pressureAtMaximumTemperature: 7.86e6
+  },
+
+  SulfurHexafluoride: {
+    name: "Sulfur hexafluoride",
+    formula: "F6S",
+    CAS: "2551-62-4",
+    C1: 29.16,
+    C2: -2383.6,
+    C3: -1.1342,
+    minimumTemperature: 223.15,
+    maximumTemperature: 318.69,
+    pressureAtMinimumTemperature: 2.3e5,
+    pressureAtMaximumTemperature: 3.771e6
+  },
+
+  SulfurTrioxide: {
+    name: "Sulfur trioxide",
+    formula: "O3S",
+    CAS: "7446-11-9",
+    C1: 180.99,
+    C2: -12060,
+    C3: -22.839,
+    C4: 7.24e-17,
+    C5: 6,
+    minimumTemperature: 289.95,
+    maximumTemperature: 490.85,
+    pressureAtMinimumTemperature: 2.09e4,
+    pressureAtMaximumTemperature: 8.192e6
+  },
+
+  TerephthalicAcid: {
+    name: "Terephthalic acid",
+    formula: "C8H6O4",
+    CAS: "100-21-0",
+    C1: 124.004,
+    C2: -17894.4,
+    C3: -13.156,
+    C4: 1.18e-18,
+    C5: 6,
+    minimumTemperature: 700.15,
+    pressureAtMinimumTemperature: 2.42e5,
+    maximumTemperature: 883.6,
+    pressureAtMaximumTemperature: 3.487e6
+  },
+
+  oTerphenyl: {
+    name: "o-Terphenyl",
+    formula: "C18H14",
+    CAS: "84-15-1",
+    C1: 110.52,
+    C2: -14045,
+    C3: -11.861,
+    C4: 2.21e-18,
+    C5: 6,
+    minimumTemperature: 329.35,
+    maximumTemperature: 857,
+    pressureAtMinimumTemperature: 4.14e-1,
+    pressureAtMaximumTemperature: 2.974e6
+  },
+
+  Tetradecane: {
+    name: "Tetradecane",
+    formula: "C14H30",
+    CAS: "629-59-4",
+    C1: 140.47,
+    C2: -13231,
+    C3: -16.859,
+    C4: 6.5877e-6,
+    C5: 2,
+    minimumTemperature: 279.01,
+    maximumTemperature: 693,
+    pressureAtMinimumTemperature: 2.53e-1,
+    pressureAtMaximumTemperature: 1.569e6
+  },
+
+  Tetrahydrofuran: {
+    name: "Tetrahydrofuran",
+    formula: "C4H8O",
+    CAS: "109-99-9",
+    C1: 54.898,
+    C2: -5305.4,
+    C3: -4.7627,
+    C4: 1.43e-17,
+    C5: 6,
+    minimumTemperature: 164.65,
+    maximumTemperature: 540.15,
+    pressureAtMinimumTemperature: 1.96e-1,
+    pressureAtMaximumTemperature: 5.203e6
+  },
+
+  "1,2,3,4Tetrahydronaphthalene": {
+    name: "1,2,3,4-Tetrahydronaphthalene",
+    formula: "C10H12",
+    CAS: "119-64-2",
+    C1: 137.23,
+    C2: -10620,
+    C3: -17.908,
+    C4: 0.014506,
+    C5: 1,
+    minimumTemperature: 237.38,
+    maximumTemperature: 720,
+    pressureAtMinimumTemperature: 1.33e-1,
+    pressureAtMaximumTemperature: 3.624e6
+  },
+
+  Tetrahydrothiophene: {
+    name: "Tetrahydrothiophene",
+    formula: "C4H8S",
+    CAS: "110-01-0",
+    C1: 75.881,
+    C2: -6910.6,
+    C3: -7.9499,
+    C4: 4.4315e-6,
+    C5: 2,
+    minimumTemperature: 176.99,
+    maximumTemperature: 631.95,
+    pressureAtMinimumTemperature: 1.54e-2,
+    pressureAtMaximumTemperature: 5.117e6
+  },
+
+  "2,2,3,3Tetramethylbutane": {
+    name: "2,2,3,3-Tetramethylbutane",
+    formula: "C8H18",
+    CAS: "594-82-1",
+    C1: 57.963,
+    C2: -5901.5,
+    C3: -5.2048,
+    C4: 9.13e-18,
+    C5: 6,
+    minimumTemperature: 373.96,
+    maximumTemperature: 568,
+    pressureAtMinimumTemperature: 8.69e4,
+    pressureAtMaximumTemperature: 2.871e6
+  },
+
+  Thiophene: {
+    name: "Thiophene",
+    formula: "C4H4S",
+    CAS: "110-02-1",
+    C1: 93.193,
+    C2: -7001.5,
+    C3: -10.738,
+    C4: 8.2308e-6,
+    C5: 2,
+    minimumTemperature: 234.94,
+    maximumTemperature: 579.35,
+    pressureAtMinimumTemperature: 1.86e2,
+    pressureAtMaximumTemperature: 5.702e6
+  },
+
+  Toluene: {
+    name: "Toluene",
+    formula: "C7H8",
+    CAS: "108-88-3",
+    C1: 76.945,
+    C2: -6729.8,
+    C3: -8.179,
+    C4: 5.3017e-6,
+    C5: 2,
+    minimumTemperature: 178.18,
+    maximumTemperature: 591.75,
+    pressureAtMinimumTemperature: 4.75e-2,
+    pressureAtMaximumTemperature: 4.08e6
+  },
+
+  "1,1,2Trichloroethane": {
+    name: "1,1,2-Trichloroethane",
+    formula: "C2H3Cl3",
+    CAS: "79-00-5",
+    C1: 54.153,
+    C2: -6041.8,
+    C3: -4.5383,
+    C4: 4.98e-18,
+    C5: 6,
+    minimumTemperature: 236.5,
+    maximumTemperature: 602,
+    pressureAtMinimumTemperature: 4.47e1,
+    pressureAtMaximumTemperature: 4.447e6
+  },
+
+  Tridecane: {
+    name: "Tridecane",
+    formula: "C13H28",
+    CAS: "629-50-5",
+    C1: 137.45,
+    C2: -12549,
+    C3: -16.543,
+    C4: 7.1275e-6,
+    C5: 2,
+    minimumTemperature: 267.76,
+    maximumTemperature: 675,
+    pressureAtMinimumTemperature: 2.51e-1,
+    pressureAtMaximumTemperature: 1.679e6
+  },
+
+  TriethylAmine: {
+    name: "Triethyl amine",
+    formula: "C6H15N",
+    CAS: "121-44-8",
+    C1: 56.55,
+    C2: -5681.9,
+    C3: -4.9815,
+    C4: 1.24e-17,
+    C5: 6,
+    minimumTemperature: 158.45,
+    maximumTemperature: 535.15,
+    pressureAtMinimumTemperature: 1.06e-2,
+    pressureAtMaximumTemperature: 3.037e6
+  },
+
+  TrimethylAmine: {
+    name: "Trimethyl amine",
+    formula: "C3H9N",
+    CAS: "75-50-3",
+    C1: 134.68,
+    C2: -6055.8,
+    C3: -19.415,
+    C4: 0.028619,
+    C5: 1,
+    minimumTemperature: 156.08,
+    maximumTemperature: 433.25,
+    pressureAtMinimumTemperature: 9.92,
+    pressureAtMaximumTemperature: 4.102e6
+  },
+
+  "1,2,3Trimethylbenzene": {
+    name: "1,2,3-Trimethylbenzene",
+    formula: "C9H12",
+    CAS: "526-73-8",
+    C1: 78.341,
+    C2: -8019.8,
+    C3: -8.1458,
+    C4: 3.8971e-6,
+    C5: 2,
+    minimumTemperature: 247.79,
+    maximumTemperature: 664.5,
+    pressureAtMinimumTemperature: 3.71,
+    pressureAtMaximumTemperature: 3.447e6
+  },
+
+  "1,2,4Trimethylbenzene": {
+    name: "1,2,4-Trimethylbenzene",
+    formula: "C9H12",
+    CAS: "95-63-6",
+    C1: 85.301,
+    C2: -8215.9,
+    C3: -9.2166,
+    C4: 4.7979e-6,
+    C5: 2,
+    minimumTemperature: 229.33,
+    maximumTemperature: 649.1,
+    pressureAtMinimumTemperature: 6.93e-1,
+    pressureAtMaximumTemperature: 3.211e6
+  },
+
+  "2,2,4Trimethylpentane": {
+    name: "2,2,4-Trimethylpentane",
+    formula: "C8H18",
+    CAS: "540-84-1",
+    C1: 84.912,
+    C2: -6722.2,
+    C3: -9.5157,
+    C4: 7.2244e-6,
+    C5: 2,
+    minimumTemperature: 165.78,
+    maximumTemperature: 543.8,
+    pressureAtMinimumTemperature: 1.71e-2,
+    pressureAtMaximumTemperature: 2.55e6
+  },
+
+  "2,3,3Trimethylpentane": {
+    name: "2,3,3-Trimethylpentane",
+    formula: "C8H18",
+    CAS: "560-21-4",
+    C1: 83.105,
+    C2: -6903.7,
+    C3: -9.1858,
+    C4: 6.4703e-6,
+    C5: 2,
+    minimumTemperature: 172.22,
+    maximumTemperature: 573.5,
+    pressureAtMinimumTemperature: 1.68e-2,
+    pressureAtMaximumTemperature: 2.812e6
+  },
+
+  "1,3,5Trinitrobenzene": {
+    name: "1,3,5-Trinitrobenzene",
+    formula: "C6H3N3O6",
+    CAS: "99-35-4",
+    C1: 506.33,
+    C2: -37483,
+    C3: -69.22,
+    C4: 0.000027381,
+    C5: 2,
+    minimumTemperature: 398.4,
+    maximumTemperature: 846,
+    pressureAtMinimumTemperature: 8.5,
+    pressureAtMaximumTemperature: 3.41e6
+  },
+
+  "2,4,6Trinitrotoluene": {
+    name: "2,4,6-Trinitrotoluene",
+    formula: "C7H5N3O6",
+    CAS: "118-96-7",
+    C1: 302,
+    C2: -24324,
+    C3: -40.13,
+    C4: 0.000017403,
+    C5: 2,
+    minimumTemperature: 354,
+    maximumTemperature: 828,
+    pressureAtMinimumTemperature: 9.36e-1,
+    pressureAtMaximumTemperature: 3.019e6
+  },
+
+  Undecane: {
+    name: "Undecane",
+    formula: "C11H24",
+    CAS: "1120-21-4",
+    C1: 131,
+    C2: -11143,
+    C3: -15.855,
+    C4: 8.1871e-6,
+    C5: 2,
+    minimumTemperature: 247.57,
+    maximumTemperature: 639,
+    pressureAtMinimumTemperature: 4.08e-1,
+    pressureAtMaximumTemperature: 1.949e6
+  },
+
+  "1Undecanol": {
+    name: "1-Undecanol",
+    formula: "C11H24O",
+    CAS: "112-42-5",
+    C1: 182.57122,
+    C2: -17112.47062,
+    C3: -22.1251,
+    C4: 1.13e-17,
+    C5: 6,
+    minimumTemperature: 288.45,
+    maximumTemperature: 703.9,
+    pressureAtMinimumTemperature: 1.25e-1,
+    pressureAtMaximumTemperature: 2.119e6
+  },
+
+  VinylAcetate: {
+    name: "Vinyl acetate",
+    formula: "C4H6O2",
+    CAS: "108-05-4",
+    C1: 57.406,
+    C2: -5702.8,
+    C3: -5.0307,
+    C4: 1.1e-17,
+    C5: 6,
+    minimumTemperature: 180.35,
+    pressureAtMinimumTemperature: 7.06e-1,
+    maximumTemperature: 519.13,
+    pressureAtMaximumTemperature: 3.93e6
+  },
+
+  VinylAcetylene: {
+    name: "Vinyl acetylene",
+    formula: "C4H4",
+    CAS: "689-97-4",
+    C1: 55.682,
+    C2: -4439.3,
+    C3: -5.0136,
+    C4: 1.97e-17,
+    C5: 6,
+    minimumTemperature: 173.15,
+    maximumTemperature: 454,
+    pressureAtMinimumTemperature: 6.69e1,
+    pressureAtMaximumTemperature: 4.887e6
+  },
+
+  VinylChloride: {
+    name: "Vinyl chloride",
+    formula: "C2H3Cl",
+    CAS: "75-01-4",
+    C1: 91.432,
+    C2: -5141.7,
+    C3: -10.981,
+    C4: 0.000014318,
+    C5: 2,
+    minimumTemperature: 119.36,
+    pressureAtMinimumTemperature: 1.92e-2,
+    maximumTemperature: 432,
+    pressureAtMaximumTemperature: 5.749e6
+  },
+
+  VinylTrichlorosilane: {
+    name: "Vinyl trichlorosilane",
+    formula: "C2H3Cl3Si",
+    CAS: "75-94-5",
+    C1: 54.571,
+    C2: -5561.5,
+    C3: -4.712,
+    C4: 1.07e-17,
+    C5: 6,
+    minimumTemperature: 178.35,
+    maximumTemperature: 543.15,
+    pressureAtMinimumTemperature: 3.54e-1,
+    pressureAtMaximumTemperature: 3.058e6
+  },
+
+  Water: {
+    name: "Water",
+    formula: "H2O",
+    CAS: "7732-18-5",
+    C1: 73.649,
+    C2: -7258.2,
+    C3: -7.3037,
+    C4: 4.1653e-6,
+    C5: 2,
+    minimumTemperature: 273.16,
+    maximumTemperature: 647.1,
+    pressureAtMinimumTemperature: 6.11e2,
+    pressureAtMaximumTemperature: 2.193e7
+  },
+
+  mXylene: {
+    name: "m-Xylene",
+    formula: "C8H10",
+    CAS: "108-38-3",
+    C1: 85.099,
+    C2: -7615.9,
+    C3: -9.3072,
+    C4: 5.5643e-6,
+    C5: 2,
+    minimumTemperature: 225.3,
+    maximumTemperature: 617,
+    pressureAtMinimumTemperature: 3.18,
+    pressureAtMaximumTemperature: 3.528e6
+  },
+
+  oXylene: {
+    name: "o-Xylene",
+    formula: "C8H10",
+    CAS: "95-47-6",
+    C1: 90.405,
+    C2: -7955.2,
+    C3: -10.086,
+    C4: 5.9594e-6,
+    C5: 2,
+    minimumTemperature: 247.98,
+    maximumTemperature: 630.3,
+    pressureAtMinimumTemperature: 2.18e1,
+    pressureAtMaximumTemperature: 3.741e6
+  },
+
+  pXylene: {
+    name: "p-Xylene",
+    formula: "C8H10",
+    CAS: "106-42-3",
+    C1: 88.72,
+    C2: -7741.2,
+    C3: -9.8693,
+    C4: 0.000006077,
+    C5: 2,
+    minimumTemperature: 286.41,
+    maximumTemperature: 616.2,
+    pressureAtMinimumTemperature: 5.76e2,
+    pressureAtMaximumTemperature: 3.501e6
   }
 } as const;
 
@@ -3644,7 +5189,8 @@ export function calculateDIPPRVaporPressure(compound: string, temperature: numbe
       vaporPressureProps.C1 +
         vaporPressureProps.C2 / temperature +
         vaporPressureProps.C3 * Math.log(temperature) +
-        vaporPressureProps.C4 * Math.pow(temperature, vaporPressureProps.C5)
+        (Number.isFinite(vaporPressureProps.C4) ? (vaporPressureProps.C4 as number) : 0) *
+          Math.pow(temperature, Number.isFinite(vaporPressureProps.C5) ? (vaporPressureProps.C5 as number) : 0)
     );
   }
   return vaporPressure;

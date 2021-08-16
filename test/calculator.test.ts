@@ -176,11 +176,11 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
 
   it("should return correct thermal conductivity at Tmin and Tmax", () => {
     let vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
-    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature).toPrecision(3)).toBe(
-      vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(3)
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature, 3
     );
-    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature).toPrecision(3)).toBe(
-      vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(3)
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature, 3
     );
   });
 });

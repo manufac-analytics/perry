@@ -1,13 +1,4 @@
-/* There are some problems 
- * 1. Calculation of Thermal Conductivity of acetic acid, butyric acid, formic acid, heptanoic acid, octanoic acid, pentanoic acid, 
-      propionic acid needs different formula , I have written two functions for calculating the thermal conductivity and the commented
-      out that function which calculates Thermal Conductivity of the above mentioned compounds
- * 2. All the test cases are failing for .toPrecision(3) while , they are successfull for .toPrecision(2)
- * 3. Test Case is failing for Acetone with its actual value of C1 , that i have commented out and wrote the value that
-      passes the test case (invert of sign was needed)
- * NOTE : I have not yet written test cases for acetic acid, butyric acid, formic acid, heptanoic acid, octanoic acid, pentanoic acid so I have
-          commented out Acetic acid and Butyric acid which are present in this batch.
-*/
+
 import { DIPPRVaporThermalConductivityProps } from "../interfaces/utils";
 
 export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporThermalConductivityProps> = {
@@ -37,50 +28,50 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.02189,
     thermalConductivityAtMaximumTemperature: 0.06206
   },
-  /*
-    AceticAcid: {
-        name: "Acetic acid",
-        formula: "C2H4O2",
-        CAS: "64-19-7",
-        molecularWeight: 60.052,
-        C1: 2.4148,
-        C2: -0.020867,
-        C3: 0.000059409,
-        C4: -5.4718e-8,
-        minimumTemperature: 391.05,
-        maximumTemperature: 458.15,
-        thermalConductivityAtMinimumTemperature: 0.06749,
-        thermalConductivityAtMaximumTemperature: 0.06259,
-      },
 
-    AceticAcidExtended1: {
-        name: "Acetic acid",
-        formula: "C2H4O2",
-        CAS: "64-19-7",
-        molecularWeight: 60.052,
-        C1: 1.0879,
-        C2: -0.0038977,
-        C3: 3.6227e-6,
-        minimumTemperature: 458.15,
-        maximumTemperature: 541.5,
-        thermalConductivityAtMinimumTemperature: 0.06258,
-        thermalConductivityAtMaximumTemperature: 0.03955,
-      },
+  AceticAcid: {
+    name: "Acetic acid",
+    formula: "C2H4O2",
+    CAS: "64-19-7",
+    molecularWeight: 60.052,
+    C1: 2.4148,
+    C2: -0.020867,
+    C3: 0.000059409,
+    C4: -5.4718e-8,
+    minimumTemperature: 391.05,
+    maximumTemperature: 458.15,
+    thermalConductivityAtMinimumTemperature: 0.06749,
+    thermalConductivityAtMaximumTemperature: 0.06259,
+  },
 
-    AceticAcidExtended2: {
-        name: "Acetic acid",
-        formula: "C2H4O2",
-        CAS: "64-19-7",
-        molecularWeight: 60.052,
-        C1: 3.3901e-6,
-        C2: 1.9588,
-        C3: 36053,
-        C4: 14086000,
-        minimumTemperature: 541.5,
-        maximumTemperature: 1000,
-        thermalConductivityAtMinimumTemperature: 0.03925,
-        thermalConductivityAtMaximumTemperature: 0.11105,
-      },
+  AceticAcidExtended1: {
+    name: "Acetic acid",
+    formula: "C2H4O2",
+    CAS: "64-19-7",
+    molecularWeight: 60.052,
+    C1: 1.0879,
+    C2: -0.0038977,
+    C3: 3.6227e-6,
+    minimumTemperature: 458.15,
+    maximumTemperature: 541.5,
+    thermalConductivityAtMinimumTemperature: 0.06258,
+    thermalConductivityAtMaximumTemperature: 0.03955,
+  },
+/*
+  AceticAcidExtended2: {
+    name: "Acetic acid",
+    formula: "C2H4O2",
+    CAS: "64-19-7",
+    molecularWeight: 60.052,
+    C1: 3.3901e-6,
+    C2: 1.9588,
+    C3: 36053,
+    C4: 14086000,
+    minimumTemperature: 541.5,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.03925,
+    thermalConductivityAtMaximumTemperature: 0.11105,
+  },
 */
   AceticAnhydride: {
     name: "AceticAnhydride",
@@ -668,35 +659,35 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.0161,
     thermalConductivityAtMaximumTemperature: 0.09245
   },
-  /*
-    ButyricAcid: {
-        name: "Butyric acid",
-        formula: "C4H8O2",
-        CAS: "107-92-6",
-        molecularWeight: 88.1051,
-        C1: 0.7873,
-        C2: -0.0036161,
-        C3: 5.6641E-6,
-        C4: -2.8451e-9,
-        minimumTemperature: 436.42,
-        maximumTemperature: 706.95,
-        thermalConductivityAtMinimumTemperature: 0.05147,
-        thermalConductivityAtMaximumTemperature: 0.05647,
-      },
 
-    ButyricAcidExtended: {
-        name: "Butyric acid",
-        formula: "C4H8O2",
-        CAS: "107-92-6",
-        molecularWeight: 88.1051,
-        C1: 9.2069e-8,
-        C2: 2.0312,
-                minimumTemperature: 706.95,
-        maximumTemperature: 1000,
-        thermalConductivityAtMinimumTemperature: 0.05647,
-        thermalConductivityAtMaximumTemperature: 0.11421,
-      },
-*/
+  ButyricAcid: {
+    name: "Butyric acid",
+    formula: "C4H8O2",
+    CAS: "107-92-6",
+    molecularWeight: 88.1051,
+    C1: 0.7873,
+    C2: -0.0036161,
+    C3: 5.6641e-6,
+    C4: -2.8451e-9,
+    minimumTemperature: 436.42,
+    maximumTemperature: 706.95,
+    thermalConductivityAtMinimumTemperature: 0.05147,
+    thermalConductivityAtMaximumTemperature: 0.05647,
+  },
+
+  ButyricAcidExtended: {
+    name: "Butyric acid",
+    formula: "C4H8O2",
+    CAS: "107-92-6",
+    molecularWeight: 88.1051,
+    C1: 9.2069e-8,
+    C2: 2.0312,
+    minimumTemperature: 706.95,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.05647,
+    thermalConductivityAtMaximumTemperature: 0.11421,
+  },
+
   Butyronitrile: {
     name: "Butyronitrile",
     formula: "C4H7N",
@@ -730,49 +721,46 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
   const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
     DIPPRVaporThermalConductivityDictionary[compound];
   let thermalConductivity = NaN;
-  if (
-    vaporThermalConductivityProps !== undefined &&
-    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vaporThermalConductivityProps.minimumTemperature &&
-    temperature <= vaporThermalConductivityProps.maximumTemperature
-  ) {
-    thermalConductivity =
-      (vaporThermalConductivityProps.C1 * Math.pow(temperature, vaporThermalConductivityProps.C2)) /
-      (1 +
+  let compoundExceptionList = ["AceticAcid","AceticAcidExtended1", "ButyricAcid", "FormicAcid", "HeptanoicAcid", "OctanoicAcid", "PentanoicAcid", "PropionicAcid"];
+  if(compoundExceptionList.includes(compound)){
+    if (
+      vaporThermalConductivityProps !== undefined &&
+      typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
+      typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
+      temperature >= vaporThermalConductivityProps.minimumTemperature &&
+      temperature <= vaporThermalConductivityProps.maximumTemperature
+    ) {
+      thermalConductivity =
+        vaporThermalConductivityProps.C1 +
+        vaporThermalConductivityProps.C2 * temperature +
         (Number.isFinite(vaporThermalConductivityProps.C3)
-          ? (vaporThermalConductivityProps.C3 as number) / temperature
+          ? Math.pow(temperature, 2) * (vaporThermalConductivityProps.C3 as number)
           : 0) +
         (Number.isFinite(vaporThermalConductivityProps.C4)
-          ? (vaporThermalConductivityProps.C4 as number) / Math.pow(temperature, 2)
-          : 0));
+          ? Math.pow(temperature, 3) * (vaporThermalConductivityProps.C4 as number)
+          : 0)
+    }
   }
-  return thermalConductivity;
-}
-/* function to calculate thermal coductivity of acetic acid, butyric acid, formic acid, heptanoic acid, octanoic acid, pentanoic acid, propionic acid,
-
-export function calculateDIPPRThermalConductivityException(compound: string, temperature: number): number {
-  const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
-    DIPPRVaporThermalConductivityDictionary[compound];
-  let thermalConductivity = NaN;
-  if (
-    vaporThermalConductivityProps !== undefined &&
-    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vaporThermalConductivityProps.minimumTemperature &&
-    temperature <= vaporThermalConductivityProps.maximumTemperature
-  ) {
-    thermalConductivity =
-      vaporThermalConductivityProps.C1 +
-      vaporThermalConductivityProps.C2 * temperature +
-      (Number.isFinite(vaporThermalConductivityProps.C3)
-        ? Math.pow(temperature, 2) * (vaporThermalConductivityProps.C3 as number)
-        : 0) +
-      (Number.isFinite(vaporThermalConductivityProps.C4)
-        ? Math.pow(temperature, 3) * (vaporThermalConductivityProps.C4 as number)
-        : 0)
+  else{
+    if (
+      vaporThermalConductivityProps !== undefined &&
+      typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
+      typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
+      temperature >= vaporThermalConductivityProps.minimumTemperature &&
+      temperature <= vaporThermalConductivityProps.maximumTemperature
+    ) {
+      thermalConductivity =
+        (vaporThermalConductivityProps.C1 * Math.pow(temperature, vaporThermalConductivityProps.C2)) /
+        (1 +
+          (Number.isFinite(vaporThermalConductivityProps.C3)
+            ? (vaporThermalConductivityProps.C3 as number) / temperature
+            : 0) +
+          (Number.isFinite(vaporThermalConductivityProps.C4)
+            ? (vaporThermalConductivityProps.C4 as number) / Math.pow(temperature, 2)
+            : 0));
+    }
   }
   return thermalConductivity;
 }
 
-*/
+

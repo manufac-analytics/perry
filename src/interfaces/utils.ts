@@ -156,7 +156,7 @@ export interface DIPPRCriticalConstantAndAcentricFactorProps {
   acentricFactor: number;
 }
 
-export interface DIPPRVapourThermalConductivityProps {
+export interface DIPPRVaporThermalConductivityProps {
   name: string;
   formula: string;
   CAS: string;

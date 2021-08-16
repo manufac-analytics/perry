@@ -5,9 +5,9 @@ import {
   DIPPRThermalConductivityDictionary
 } from "../src/data/thermal-conductivity-constants";
 import {
-  calculateDIPPRVapourThermalConductivity,
-  DIPPRVapourThermalConductivityDictionary
-} from "../src/data/vapour-thermal-conductivity";
+  calculateDIPPRVaporThermalConductivity,
+  DIPPRVaporThermalConductivityDictionary
+} from "../src/data/vapor-thermal-conductivity-constants";
 
 describe("calculateDIPPRVaporPressure", () => {
   it("should return NaN outside the specified range of temperature", () => {
@@ -167,22 +167,22 @@ describe("calculateDIPPRThermalConductivity", () => {
   });
 });
 
-describe("calculateDIPPRVapourThermalConductivity", () => {
+describe("calculateDIPPRVaporThermalConductivity", () => {
   it("should return NaN outside the specified range of temperature", () => {
-    for (let compound in DIPPRVapourThermalConductivityDictionary) {
-      let vaporProps = DIPPRVapourThermalConductivityDictionary[compound];
-      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
-      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
+    for (let compound in DIPPRVaporThermalConductivityDictionary) {
+      let vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
+      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
+      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
     }
   });
 
   it("should return correct thermal conductivity at Tmin and Tmax", () => {
-    for (let compound in DIPPRVapourThermalConductivityDictionary) {
-      let vaporProps = DIPPRVapourThermalConductivityDictionary[compound];
-      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.minimumTemperature).toPrecision(2)).toBe(
+    for (let compound in DIPPRVaporThermalConductivityDictionary) {
+      let vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
+      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature).toPrecision(2)).toBe(
         vaporProps.thermalConductivityAtMinimumTemperature.toPrecision(2)
       );
-      expect(calculateDIPPRVapourThermalConductivity(compound, vaporProps.maximumTemperature).toPrecision(2)).toBe(
+      expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature).toPrecision(2)).toBe(
         vaporProps.thermalConductivityAtMaximumTemperature.toPrecision(2)
       );
     }

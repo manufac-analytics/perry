@@ -8,9 +8,9 @@
  * NOTE : I have not yet written test cases for acetic acid, butyric acid, formic acid, heptanoic acid, octanoic acid, pentanoic acid so I have
           commented out Acetic acid and Butyric acid which are present in this batch.
 */
-import { DIPPRVapourThermalConductivityProps } from "../interfaces/utils";
+import { DIPPRVaporThermalConductivityProps } from "../interfaces/utils";
 
-export const DIPPRVapourThermalConductivityDictionary: Record<string, DIPPRVapourThermalConductivityProps> = {
+export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporThermalConductivityProps> = {
   Acetaldehyde: {
     name: "Acetaldehyde",
     formula: "C2H4O",
@@ -726,25 +726,25 @@ export const DIPPRVapourThermalConductivityDictionary: Record<string, DIPPRVapou
   }
 };
 
-export function calculateDIPPRVapourThermalConductivity(compound: string, temperature: number): number {
-  const vapourThermalConductivityProps: DIPPRVapourThermalConductivityProps | undefined =
-    DIPPRVapourThermalConductivityDictionary[compound];
+export function calculateDIPPRVaporThermalConductivity(compound: string, temperature: number): number {
+  const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
+    DIPPRVaporThermalConductivityDictionary[compound];
   let thermalConductivity = NaN;
   if (
-    vapourThermalConductivityProps !== undefined &&
-    typeof vapourThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vapourThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vapourThermalConductivityProps.minimumTemperature &&
-    temperature <= vapourThermalConductivityProps.maximumTemperature
+    vaporThermalConductivityProps !== undefined &&
+    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
+    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
+    temperature >= vaporThermalConductivityProps.minimumTemperature &&
+    temperature <= vaporThermalConductivityProps.maximumTemperature
   ) {
     thermalConductivity =
-      (vapourThermalConductivityProps.C1 * Math.pow(temperature, vapourThermalConductivityProps.C2)) /
+      (vaporThermalConductivityProps.C1 * Math.pow(temperature, vaporThermalConductivityProps.C2)) /
       (1 +
-        (Number.isFinite(vapourThermalConductivityProps.C3)
-          ? (vapourThermalConductivityProps.C3 as number) / temperature
+        (Number.isFinite(vaporThermalConductivityProps.C3)
+          ? (vaporThermalConductivityProps.C3 as number) / temperature
           : 0) +
-        (Number.isFinite(vapourThermalConductivityProps.C4)
-          ? (vapourThermalConductivityProps.C4 as number) / Math.pow(temperature, 2)
+        (Number.isFinite(vaporThermalConductivityProps.C4)
+          ? (vaporThermalConductivityProps.C4 as number) / Math.pow(temperature, 2)
           : 0));
   }
   return thermalConductivity;
@@ -752,24 +752,24 @@ export function calculateDIPPRVapourThermalConductivity(compound: string, temper
 /* function to calculate thermal coductivity of acetic acid, butyric acid, formic acid, heptanoic acid, octanoic acid, pentanoic acid, propionic acid,
 
 export function calculateDIPPRThermalConductivityException(compound: string, temperature: number): number {
-  const vapourThermalConductivityProps: DIPPRVapourThermalConductivityProps | undefined =
-    DIPPRVapourThermalConductivityDictionary[compound];
+  const vaporThermalConductivityProps: DIPPRVaporThermalConductivityProps | undefined =
+    DIPPRVaporThermalConductivityDictionary[compound];
   let thermalConductivity = NaN;
   if (
-    vapourThermalConductivityProps !== undefined &&
-    typeof vapourThermalConductivityProps.minimumTemperature === "number" &&
-    typeof vapourThermalConductivityProps.maximumTemperature === "number" &&
-    temperature >= vapourThermalConductivityProps.minimumTemperature &&
-    temperature <= vapourThermalConductivityProps.maximumTemperature
+    vaporThermalConductivityProps !== undefined &&
+    typeof vaporThermalConductivityProps.minimumTemperature === "number" &&
+    typeof vaporThermalConductivityProps.maximumTemperature === "number" &&
+    temperature >= vaporThermalConductivityProps.minimumTemperature &&
+    temperature <= vaporThermalConductivityProps.maximumTemperature
   ) {
     thermalConductivity =
-      vapourThermalConductivityProps.C1 +
-      vapourThermalConductivityProps.C2 * temperature +
-      (Number.isFinite(vapourThermalConductivityProps.C3)
-        ? Math.pow(temperature, 2) * (vapourThermalConductivityProps.C3 as number)
+      vaporThermalConductivityProps.C1 +
+      vaporThermalConductivityProps.C2 * temperature +
+      (Number.isFinite(vaporThermalConductivityProps.C3)
+        ? Math.pow(temperature, 2) * (vaporThermalConductivityProps.C3 as number)
         : 0) +
-      (Number.isFinite(vapourThermalConductivityProps.C4)
-        ? Math.pow(temperature, 3) * (vapourThermalConductivityProps.C4 as number)
+      (Number.isFinite(vaporThermalConductivityProps.C4)
+        ? Math.pow(temperature, 3) * (vaporThermalConductivityProps.C4 as number)
         : 0)
   }
   return thermalConductivity;

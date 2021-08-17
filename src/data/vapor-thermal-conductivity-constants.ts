@@ -1428,7 +1428,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     maximumTemperature: 1000,
     thermalConductivityAtMinimumTemperature: 0.01016,
     thermalConductivityAtMaximumTemperature: 0.08447
-  }
+  },
 
   "1,2Difluoroethane": {
     name: "1,2-Difluoroethane",

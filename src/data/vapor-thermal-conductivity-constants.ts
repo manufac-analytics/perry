@@ -713,6 +713,767 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     maximumTemperature: 1500,
     thermalConductivityAtMinimumTemperature: 0.00887,
     thermalConductivityAtMaximumTemperature: 0.09025
+  },
+
+  "1,2Difluoroethane": {
+    name: "1,2-Difluoroethane",
+    formula: "C2H4F2",
+    CAS: "624-72-6",
+    molecularWeight: 66.04997,
+    C1: 2.4194e-6,
+    C2: 1.4456,
+    minimumTemperature: 303.65,
+    maximumTemperature: 993.65,
+    thermalConductivityAtMinimumTemperature: 0.00938,
+    thermalConductivityAtMaximumTemperature: 0.05206
+  },
+
+  Difluoromethane: {
+    name: "Difluoromethane",
+    formula: "CH2F2",
+    CAS: "75-10-5",
+    molecularWeight: 52.02339,
+    C1: 1.3015e-5,
+    C2: 1.1897,
+    minimumTemperature: 221.5,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.00803,
+    thermalConductivityAtMaximumTemperature: 0.04826
+  },
+
+  DiisopropylAmine: {
+    name: "Diisopropyl amine",
+    formula: "C6H15N",
+    CAS: "108-18-9",
+    molecularWeight: 101.19,
+    C1: 0.00051305,
+    C2: 0.8076,
+    C3: 360.19,
+    C4: 154510,
+    minimumTemperature: 357.05,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01836,
+    thermalConductivityAtMaximumTemperature: 0.08967
+  },
+
+  DiisopropylEther: {
+    name: "Diisopropyl ether",
+    formula: "C6H14O",
+    CAS: "108-20-3",
+    molecularWeight: 102.17476,
+    C1: 0.00019879,
+    C2: 0.9423,
+    C3: 306.8,
+    C4: 106230,
+    minimumTemperature: 328.05,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01598,
+    thermalConductivityAtMaximumTemperature: 0.09444
+  },
+
+  DiisopropylKetone: {
+    name: "Diisopropyl ketone",
+    formula: "C7H14O",
+    CAS: "565-80-0",
+    molecularWeight: 114.18546,
+    C1: -8.5357,
+    C2: -0.0056423,
+    C3: 1882.1,
+    C4: -65622000,
+    minimumTemperature: 397.55,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02015,
+    thermalConductivityAtMaximumTemperature: 0.13085
+  },
+
+  "1,1Dimethoxyethane": {
+    name: "1,1-Dimethoxyethane",
+    formula: "C4H10O2",
+    CAS: "534-15-6",
+    molecularWeight: 90.121,
+    C1: 0.00046265,
+    C2: 0.81968,
+    C3: 539.34,
+    C4: 104530,
+    minimumTemperature: 337.45,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01554,
+    thermalConductivityAtMaximumTemperature: 0.08099
+  },
+
+  "1,2Dimethoxypropane": {
+    name: "1,2-Dimethoxypropane",
+    formula: "C5H12O2",
+    CAS: "7778-85-0",
+    molecularWeight: 104.14758,
+    C1: 3.7962e-6,
+    C2: 1.4462,
+    minimumTemperature: 366.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01936,
+    thermalConductivityAtMaximumTemperature: 0.08279
+  },
+
+  DimethylAcetylene: {
+    name: "Dimethyl acetylene",
+    formula: "C4H6",
+    CAS: "503-17-3",
+    molecularWeight: 54.09044,
+    C1: 0.00021761,
+    C2: 0.9187,
+    C3: 217,
+    C4: 132070,
+    minimumTemperature: 300.13,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01288,
+    thermalConductivityAtMaximumTemperature: 0.09199
+  },
+
+  DimethylAmine: {
+    name: "Dimethyl amine",
+    formula: "C2H7N",
+    CAS: "124-40-3",
+    molecularWeight: 45.08368,
+    C1: 1.6085,
+    C2: -0.1103,
+    C3: 2160.3,
+    C4: 2989300,
+    minimumTemperature: 280.03,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01845,
+    thermalConductivityAtMaximumTemperature: 0.12209
+  },
+
+  "2,3Dimethylbutane": {
+    name: "2,3-Dimethylbutane",
+    formula: "C6H14",
+    CAS: "79-29-8",
+    molecularWeight: 86.17536,
+    C1: 3.4741e-5,
+    C2: 1.1646,
+    C3: -99.956,
+    C4: 130820,
+    minimumTemperature: 331.13,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01581,
+    thermalConductivityAtMaximumTemperature: 0.10506
+  },
+
+  "1,1Dimethylcyclohexane": {
+    name: "1,1-Dimethylcyclohexane",
+    formula: "C8H16",
+    CAS: "590-66-9",
+    molecularWeight: 112.21264,
+    C1: 0.008856,
+    C2: 0.4215,
+    C3: -50.645,
+    C4: 764580,
+    minimumTemperature: 392.7,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01884,
+    thermalConductivityAtMaximumTemperature: 0.095
+  },
+
+  "cis1,2Dimethylcyclohexane": {
+    name: "cis-1,2-Dimethylcyclohexane",
+    formula: "C8H16",
+    CAS: "04-01-2207",
+    molecularWeight: 112.21264,
+    C1: 0.013298,
+    C2: 0.3692,
+    C3: 0.1027,
+    C4: 852540,
+    minimumTemperature: 402.94,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01948,
+    thermalConductivityAtMaximumTemperature: 0.09196
+  },
+
+  "trans1,2Dimethylcyclohexane": {
+    name: "trans-1,2-Dimethylcyclohexane",
+    formula: "C8H16",
+    CAS: "6876-23-9",
+    molecularWeight: 112.21264,
+    C1: 0.012144,
+    C2: 0.3854,
+    C3: 52.191,
+    C4: 803590,
+    minimumTemperature: 396.58,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01952,
+    thermalConductivityAtMaximumTemperature: 0.09376
+  },
+
+  DimethylDisulfide: {
+    name: "Dimethyl disulfide",
+    formula: "C2H6S2",
+    CAS: "624-92-0",
+    molecularWeight: 94.19904,
+    C1: 0.00022578,
+    C2: 0.892,
+    C3: 697,
+    minimumTemperature: 382.9,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01613,
+    thermalConductivityAtMaximumTemperature: 0.0631
+  },
+
+  DimethylEther: {
+    name: "Dimethyl ether",
+    formula: "C2H6O",
+    CAS: "115-10-6",
+    molecularWeight: 46.06844,
+    C1: 0.059975,
+    C2: 0.2667,
+    C3: 1018.6,
+    C4: 1098800,
+    minimumTemperature: 248.31,
+    maximumTemperature: 1500,
+    thermalConductivityAtMinimumTemperature: 0.01139,
+    thermalConductivityAtMaximumTemperature: 0.19458
+  },
+
+  NNDimethylFormamide: {
+    name: "N,N-Dimethyl formamide",
+    formula: "C3H7NO",
+    CAS: "68-12-2",
+    molecularWeight: 73.09378,
+    C1: 0.014449,
+    C2: 0.3612,
+    C3: 595.22,
+    C4: 728130,
+    minimumTemperature: 425.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02001,
+    thermalConductivityAtMaximumTemperature: 0.07539
+  },
+
+  "2,3Dimethylpentane": {
+    name: "2,3-Dimethylpentane",
+    formula: "C7H16",
+    CAS: "565-59-3",
+    molecularWeight: 100.20194,
+    C1: 2.2421e-5,
+    C2: 1.2137,
+    C3: -146.91,
+    C4: 131830,
+    minimumTemperature: 362.93,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01797,
+    thermalConductivityAtMaximumTemperature: 0.09962
+  },
+
+  DimethylPhthalate: {
+    name: "Dimethyl phthalate",
+    formula: "C10H10O4",
+    CAS: "131-11-3",
+    molecularWeight: 194.184,
+    C1: 0.00012822,
+    C2: 0.9324,
+    C3: 752.5,
+    minimumTemperature: 556.85,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01981,
+    thermalConductivityAtMaximumTemperature: 0.04587
+  },
+
+  Dimethylsilane: {
+    name: "Dimethylsilane",
+    formula: "C2H8Si",
+    CAS: "1111-74-6",
+    molecularWeight: 60.17042,
+    C1: 0.0011808,
+    C2: 0.742,
+    C3: 1131,
+    C4: 6400,
+    minimumTemperature: 253.55,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01291,
+    thermalConductivityAtMaximumTemperature: 0.09296
+  },
+
+  DimethylSulfide: {
+    name: "Dimethyl sulfide",
+    formula: "C2H6S",
+    CAS: "75-18-3",
+    molecularWeight: 62.134,
+    C1: 0.00023614,
+    C2: 0.9204,
+    C3: 638,
+    minimumTemperature: 310.48,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.0152,
+    thermalConductivityAtMaximumTemperature: 0.08319
+  },
+
+  DimethylSulfoxide: {
+    name: "Dimethyl sulfoxide",
+    formula: "C2H6OS",
+    CAS: "67-68-5",
+    molecularWeight: 78.13344,
+    C1: 0.00064761,
+    C2: 0.7716,
+    C3: 1013.3,
+    C4: 82563,
+    minimumTemperature: 462.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02059,
+    thermalConductivityAtMaximumTemperature: 0.06379
+  },
+
+  DimethylTerephthalate: {
+    name: "Dimethyl terephthalate",
+    formula: "C10H10O4",
+    CAS: "120-61-6",
+    molecularWeight: 194.184,
+    C1: 0.00402358,
+    C2: 0.57548,
+    C3: 3598.32,
+    minimumTemperature: 559.2,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02063,
+    thermalConductivityAtMaximumTemperature: 0.04661
+  },
+
+  "1,4Dioxane": {
+    name: "1,4-Dioxane",
+    formula: "C4H8O2",
+    CAS: "123-91-1",
+    molecularWeight: 88.10512,
+    C1: 6.4032e-7,
+    C2: 1.7194,
+    minimumTemperature: 337.85,
+    maximumTemperature: 768.01,
+    thermalConductivityAtMinimumTemperature: 0.01427,
+    thermalConductivityAtMaximumTemperature: 0.05855
+  },
+
+  DiphenylEther: {
+    name: "Diphenyl ether",
+    formula: "C12H10O",
+    CAS: "101-84-8",
+    molecularWeight: 170.2072,
+    C1: 0.00014629,
+    C2: 0.9377,
+    C3: 745.89,
+    minimumTemperature: 531.46,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02188,
+    thermalConductivityAtMaximumTemperature: 0.05449
+  },
+
+  DipropylAmine: {
+    name: "Dipropyl amine",
+    formula: "C6H15N",
+    CAS: "142-84-7",
+    molecularWeight: 101.19,
+    C1: 0.0001123,
+    C2: 0.9958,
+    C3: 183.2,
+    C4: 98000,
+    minimumTemperature: 279.65,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01055,
+    thermalConductivityAtMaximumTemperature: 0.08515
+  },
+
+  Dodecane: {
+    name: "Dodecane",
+    formula: "C12H26",
+    CAS: "112-40-3",
+    molecularWeight: 170.33484,
+    C1: 5.719e-6,
+    C2: 1.4699,
+    C3: 579.4,
+    minimumTemperature: 489.47,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02354,
+    thermalConductivityAtMaximumTemperature: 0.09301
+  },
+
+  Eicosane: {
+    name: "Eicosane",
+    formula: "C20H42",
+    CAS: "112-95-8",
+    molecularWeight: 282.54748,
+    C1: -375.32,
+    C2: 1.0708,
+    C3: -8783600000,
+    minimumTemperature: 616.93,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02563,
+    thermalConductivityAtMaximumTemperature: 0.06968
+  },
+
+  Ethane: {
+    name: "Ethane",
+    formula: "C2H6",
+    CAS: "74-84-0",
+    molecularWeight: 30.069,
+    C1: 7.3869e-5,
+    C2: 1.1689,
+    C3: 500.73,
+    minimumTemperature: 184.55,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.00886,
+    thermalConductivityAtMaximumTemperature: 0.15807
+  },
+
+  Ethanol: {
+    name: "Ethanol",
+    formula: "C2H6O",
+    CAS: "64-17-5",
+    molecularWeight: 46.06844,
+    C1: -0.010109,
+    C2: 0.6475,
+    C3: -7332,
+    C4: -268000,
+    minimumTemperature: 293.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01475,
+    thermalConductivityAtMaximumTemperature: 0.13417
+  },
+
+  EthylAcetate: {
+    name: "Ethyl acetate",
+    formula: "C4H8O2",
+    CAS: "141-78-6",
+    molecularWeight: 88.10512,
+    C1: 1.3575e-7,
+    C2: 1.9681,
+    minimumTemperature: 273.15,
+    maximumTemperature: 990.21,
+    thermalConductivityAtMinimumTemperature: 0.00847,
+    thermalConductivityAtMaximumTemperature: 0.10681
+  },
+
+  EthylAmine: {
+    name: "Ethyl amine",
+    formula: "C2H7N",
+    CAS: "75-04-7",
+    molecularWeight: 45.08368,
+    C1: 0.3935,
+    C2: 0.0131,
+    C3: 1380,
+    C4: 1710000,
+    minimumTemperature: 289.73,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01622,
+    thermalConductivityAtMaximumTemperature: 0.10532
+  },
+
+  Ethylbenzene: {
+    name: "Ethylbenzene",
+    formula: "C8H10",
+    CAS: "100-41-4",
+    molecularWeight: 106.165,
+    C1: 1.7537e-5,
+    C2: 1.3144,
+    C3: 560.65,
+    minimumTemperature: 409.35,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02007,
+    thermalConductivityAtMaximumTemperature: 0.09859
+  },
+
+  EthylBenzoate: {
+    name: "Ethyl benzoate",
+    formula: "C9H10O2",
+    CAS: "93-89-0",
+    molecularWeight: 150.1745,
+    C1: 2.012e-5,
+    C2: 1.1513,
+    C3: -89.583,
+    C4: 125410,
+    minimumTemperature: 486.55,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01855,
+    thermalConductivityAtMaximumTemperature: 0.05524
+  },
+
+  "2EthylButanoicAcid": {
+    name: "2-Ethyl butanoic acid",
+    formula: "C6H12O2",
+    CAS: "88-09-5",
+    molecularWeight: 116.15828,
+    C1: 0.00017727,
+    C2: 0.9428,
+    C3: 712.4,
+    minimumTemperature: 466.95,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02306,
+    thermalConductivityAtMaximumTemperature: 0.06973
+  },
+
+  EthylButyrate: {
+    name: "Ethyl butyrate",
+    formula: "C6H12O2",
+    CAS: "105-54-4",
+    molecularWeight: 116.15828,
+    C1: 829.29,
+    C2: 1.0156,
+    C3: 8955300000,
+    minimumTemperature: 394.65,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01583,
+    thermalConductivityAtMaximumTemperature: 0.10314
+  },
+
+  Ethylcyclohexane: {
+    name: "Ethylcyclohexane",
+    formula: "C8H16",
+    CAS: "1678-91-7",
+    molecularWeight: 112.21264,
+    C1: 7.48e-5,
+    C2: 1.1103,
+    C3: 686,
+    minimumTemperature: 404.95,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.0218,
+    thermalConductivityAtMaximumTemperature: 0.09505
+  },
+
+  Ethylcyclopentane: {
+    name: "Ethylcyclopentane",
+    formula: "C7H14",
+    CAS: "1640-89-7",
+    molecularWeight: 98.18606,
+    C1: 0.0043244,
+    C2: 0.5429,
+    C3: 333.67,
+    C4: 570470,
+    minimumTemperature: 376.62,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01832,
+    thermalConductivityAtMaximumTemperature: 0.09659
+  },
+
+  Ethylene: {
+    name: "Ethylene",
+    formula: "C2H4",
+    CAS: "74-85-1",
+    molecularWeight: 28.05316,
+    C1: 8.6806e-6,
+    C2: 1.4559,
+    C3: 299.72,
+    C4: -29403,
+    minimumTemperature: 170,
+    maximumTemperature: 590.92,
+    thermalConductivityAtMinimumTemperature: 0.00879,
+    thermalConductivityAtMaximumTemperature: 0.06613
+  },
+
+  Ethylenediamine: {
+    name: "Ethylenediamine",
+    formula: "C2H8N2",
+    CAS: "107-15-3",
+    molecularWeight: 60.09832,
+    C1: 0.1655,
+    C2: 0.1798,
+    C3: 3827.9,
+    C4: 1600000,
+    minimumTemperature: 390.41,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02272,
+    thermalConductivityAtMaximumTemperature: 0.08915
+  },
+
+  EthyleneGlycol: {
+    name: "Ethylene glycol",
+    formula: "C2H6O2",
+    CAS: "107-21-1",
+    molecularWeight: 62.06784,
+    C1: -8145800,
+    C2: -0.30502,
+    C3: 1832500000,
+    C4: -1.1842e13,
+    minimumTemperature: 470.45,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02513,
+    thermalConductivityAtMaximumTemperature: 0.09896
+  },
+
+  Ethyleneimine: {
+    name: "Ethyleneimine",
+    formula: "C2H5N",
+    CAS: "151-56-4",
+    molecularWeight: 43.0678,
+    C1: 0.00077079,
+    C2: 0.7713,
+    C3: 446.16,
+    C4: 197930,
+    minimumTemperature: 329,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.0161,
+    thermalConductivityAtMaximumTemperature: 0.09659
+  },
+
+  EthyleneOxide: {
+    name: "Ethylene oxide",
+    formula: "C2H4O",
+    CAS: "75-21-8",
+    molecularWeight: 44.05256,
+    C1: -0.0003788,
+    C2: 1.115,
+    C3: -5641,
+    minimumTemperature: 273.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01004,
+    thermalConductivityAtMaximumTemperature: 0.18063
+  },
+
+  EthylFormate: {
+    name: "Ethyl formate",
+    formula: "C3H6O2",
+    CAS: "109-94-4",
+    molecularWeight: 74.07854,
+    C1: 508,
+    C2: 0.9023,
+    C3: 2170000000,
+    minimumTemperature: 327.46,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01426,
+    thermalConductivityAtMaximumTemperature: 0.11921
+  },
+
+  "2EthylHexanoicAcid": {
+    name: "2-EthylHexanoicAcid",
+    formula: "C8H16O2",
+    CAS: "149-57-5",
+    molecularWeight: 144.211,
+    C1: 2.5804e-6,
+    C2: 1.4669,
+    minimumTemperature: 500.66,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.02353,
+    thermalConductivityAtMaximumTemperature: 0.06492
+  },
+
+  EthylhexylEther: {
+    name: "Ethylhexyl ether",
+    formula: "C8H18O",
+    CAS: "5756-43-4",
+    molecularWeight: 130.22792,
+    C1: 0.0052833,
+    C2: 0.52982,
+    C3: 1415.7,
+    C4: 378180,
+    minimumTemperature: 417.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01967,
+    thermalConductivityAtMaximumTemperature: 0.07348
+  },
+
+  EthylisopropylEther: {
+    name: "Ethylisopropyl ether",
+    formula: "C5H12O",
+    CAS: "625-54-7",
+    molecularWeight: 88.14818,
+    C1: 0.00021652,
+    C2: 0.94192,
+    C3: 632.16,
+    minimumTemperature: 326.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01717,
+    thermalConductivityAtMaximumTemperature: 0.08882
+  },
+
+  EthylisopropylKetone: {
+    name: "Ethylisopropyl ketone",
+    formula: "C6H12O",
+    CAS: "565-69-5",
+    molecularWeight: 100.15888,
+    C1: -152400,
+    C2: -0.049106,
+    C3: 80955000,
+    C4: -9.3122e11,
+    minimumTemperature: 386.55,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01889,
+    thermalConductivityAtMaximumTemperature: 0.12768
+  },
+
+  EthylMercaptan: {
+    name: "Ethyl mercaptan",
+    formula: "C2H6S",
+    CAS: "75-08-1",
+    molecularWeight: 62.13404,
+    C1: 0.0015251,
+    C2: 0.70243,
+    C3: 1347.5,
+    C4: 35085,
+    minimumTemperature: 308.15,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01487,
+    thermalConductivityAtMaximumTemperature: 0.08195
+  },
+
+  EthylPropionate: {
+    name: "Ethyl propionate",
+    formula: "C5H10O2",
+    CAS: "105-37-3",
+    molecularWeight: 102.1317,
+    C1: 1.0507e-7,
+    C2: 1.9854,
+    minimumTemperature: 400,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.0154,
+    thermalConductivityAtMaximumTemperature: 0.09499
+  },
+
+  EthylpropylEther: {
+    name: "Ethylpropyl ether",
+    formula: "C5H12O",
+    CAS: "628-32-0",
+    molecularWeight: 88.14818,
+    C1: 5.8174e-8,
+    C2: 2.0116,
+    C3: -372.68,
+    C4: 57690,
+    minimumTemperature: 273.15,
+    maximumTemperature: 550,
+    thermalConductivityAtMinimumTemperature: 0.01133,
+    thermalConductivityAtMaximumTemperature: 0.0369
+  },
+
+  Ethyltrichlorosilane: {
+    name: "Ethyltrichlorosilane",
+    formula: "C2H5Cl3Si",
+    CAS: "115-21-9",
+    molecularWeight: 163.506,
+    C1: 2.7142e-6,
+    C2: 1.4281,
+    minimumTemperature: 371.05,
+    maximumTemperature: 1000,
+    thermalConductivityAtMinimumTemperature: 0.01268,
+    thermalConductivityAtMaximumTemperature: 0.05223
+  },
+
+  Fluorine: {
+    name: "Fluorine",
+    formula: "F2",
+    CAS: "7782-41-4",
+    molecularWeight: 37.9968064,
+    C1: 0.00012144,
+    C2: 0.93831,
+    minimumTemperature: 70,
+    maximumTemperature: 700,
+    thermalConductivityAtMinimumTemperature: 0.00654,
+    thermalConductivityAtMaximumTemperature: 0.05675
+  },
+
+  Fluorobenzene: {
+    name: "Fluorobenzene",
+    formula: "C6H5F",
+    CAS: "462-06-6",
+    molecularWeight: 96.1023032,
+    C1: 5.3432e-5,
+    C2: 1.1576,
+    C3: 760.75,
+    minimumTemperature: 357.88,
+    maximumTemperature: 600,
+    thermalConductivityAtMinimumTemperature: 0.01546,
+    thermalConductivityAtMaximumTemperature: 0.03874
   }
 };
 

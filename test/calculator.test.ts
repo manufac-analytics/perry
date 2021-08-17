@@ -4,6 +4,10 @@ import {
   calculateDIPPRThermalConductivity,
   DIPPRThermalConductivityDictionary
 } from "../src/data/thermal-conductivity-constants";
+import {
+  calculateDIPPRVaporThermalConductivity,
+  DIPPRVaporThermalConductivityDictionary
+} from "../src/data/vapor-thermal-conductivity-constants";
 
 describe("calculateDIPPRVaporPressure", () => {
   it("should return NaN outside the specified range of temperature", () => {
@@ -160,5 +164,114 @@ describe("calculateDIPPRThermalConductivity", () => {
     expect(calculateDIPPRThermalConductivity("SiliconTetrafluoride", vaporProps.maximumTemperature as number)).toBe(
       NaN
     );
+  });
+});
+
+describe("calculateDIPPRVaporThermalConductivity", () => {
+  const specialCompoundList = [
+    "AceticAcid",
+    "AceticAcidExtended1",
+    "AceticAcidExtended2",
+    "ButyricAcid",
+    "ButyricAcidExtended"
+  ];
+  it("should return NaN outside the specified range of temperature", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature + 1)).toBe(NaN);
+  });
+
+  it("should return correct thermal conductivity at Tmin and Tmax", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("Acetaldehyde", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Acetic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["AceticAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended1.maximumTemperature + 1)).toBe(NaN);
+  });
+
+  it("should return correct thermal conductivity for Acetic Acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["AceticAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["AceticAcidExtended1"];
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended1.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("AceticAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Butyric Acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["ButyricAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["ButyricAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporPropsExtended1.maximumTemperature + 1)).toBe(NaN);
+  });
+
+  it("should return correct thermal conductivity for Butyric Acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["ButyricAcid"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["ButyricAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporPropsExtended1.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature", () => {
+    for (let compound in DIPPRVaporThermalConductivityDictionary) {
+      if (specialCompoundList.includes(compound) === false) {
+        const vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
+        expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
+        expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
+      }
+    }
+  });
+
+  it("should return correct thermal conductivity at Tmin and Tmax", () => {
+    for (let compound in DIPPRVaporThermalConductivityDictionary) {
+      if (specialCompoundList.includes(compound) === false) {
+        const vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
+        expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature)).toBeCloseTo(
+          vaporProps.thermalConductivityAtMinimumTemperature,
+          3
+        );
+        expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature)).toBeCloseTo(
+          vaporProps.thermalConductivityAtMaximumTemperature,
+          3
+        );
+      }
+    }
   });
 });

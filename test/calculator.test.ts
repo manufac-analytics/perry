@@ -251,7 +251,7 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
 
   it("should return NaN outside the specified range of temperature", () => {
     for (let compound in DIPPRVaporThermalConductivityDictionary) {
-      if (!specialCompoundList.includes(compound)) {
+      if (specialCompoundList.includes(compound) === false) {
         const vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
         expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature - 1)).toBe(NaN);
         expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.maximumTemperature + 1)).toBe(NaN);
@@ -261,7 +261,7 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
 
   it("should return correct thermal conductivity at Tmin and Tmax", () => {
     for (let compound in DIPPRVaporThermalConductivityDictionary) {
-      if (!specialCompoundList.includes(compound)) {
+      if (specialCompoundList.includes(compound) === false) {
         const vaporProps = DIPPRVaporThermalConductivityDictionary[compound];
         expect(calculateDIPPRVaporThermalConductivity(compound, vaporProps.minimumTemperature)).toBeCloseTo(
           vaporProps.thermalConductivityAtMinimumTemperature,

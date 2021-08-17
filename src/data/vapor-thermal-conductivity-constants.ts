@@ -721,13 +721,7 @@ function calculateDIPPRVaporThermalConductivityForGeneralCompound(
   props?: DIPPRVaporThermalConductivityProps
 ): number {
   let thermalConductivity = NaN;
-  if (
-    props !== undefined &&
-    typeof props.minimumTemperature === "number" &&
-    typeof props.maximumTemperature === "number" &&
-    temperature >= props.minimumTemperature &&
-    temperature <= props.maximumTemperature
-  ) {
+  if (props !== undefined && temperature >= props.minimumTemperature && temperature <= props.maximumTemperature) {
     thermalConductivity =
       (props.C1 * Math.pow(temperature, props.C2)) /
       (1 +
@@ -742,13 +736,7 @@ function calculateDIPPRVaporThermalConductivityForSpecialCompound(
   props?: DIPPRVaporThermalConductivityProps
 ): number {
   let thermalConductivity = NaN;
-  if (
-    props !== undefined &&
-    typeof props.minimumTemperature === "number" &&
-    typeof props.maximumTemperature === "number" &&
-    temperature >= props.minimumTemperature &&
-    temperature <= props.maximumTemperature
-  ) {
+  if (props !== undefined && temperature >= props.minimumTemperature && temperature <= props.maximumTemperature) {
     thermalConductivity =
       props.C1 +
       props.C2 * temperature +
@@ -775,7 +763,7 @@ function calculateDIPPRVaporThermalConductivityForAceticAcid(temperature: number
 function calculateDIPPRVaporThermalConductivityForButyricAcid(temperature: number): number {
   let props = DIPPRVaporThermalConductivityDictionary["ButyricAcid"];
   let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
-  if (temperature > 706.95) {
+  if (temperature > 706.95 && temperature <= 1000) {
     props = DIPPRVaporThermalConductivityDictionary["ButyricAcidExtended"];
     thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
   }

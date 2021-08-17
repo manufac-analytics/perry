@@ -714,7 +714,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.00887,
     thermalConductivityAtMaximumTemperature: 0.09025
   },
-  
+
   CarbonDisulfide: {
     name: "Carbon disulfide",
     formula: "CS2",
@@ -1592,7 +1592,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
   "cis1,2Dimethylcyclohexane": {
     name: "cis-1,2-Dimethylcyclohexane",
     formula: "C8H16",
-    CAS: "04-01-2207",
+    CAS: "2207-01-4",
     molecularWeight: 112.21264,
     C1: 0.013298,
     C2: 0.3692,
@@ -2052,7 +2052,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
   },
 
   "2EthylHexanoicAcid": {
-    name: "2-EthylHexanoicAcid",
+    name: "2-Ethyl hexanoic acid",
     formula: "C8H16O2",
     CAS: "149-57-5",
     molecularWeight: 144.211,

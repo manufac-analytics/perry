@@ -173,7 +173,18 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
     "AceticAcidExtended1",
     "AceticAcidExtended2",
     "ButyricAcid",
-    "ButyricAcidExtended"
+    "ButyricAcidExtended",
+    "FormicAcid",
+    "FormicAcidExtended1",
+    "FormicAcidExtended2",
+    "HeptanoicAcid",
+    "HeptanoicAcidExtended",
+    "OctanoicAcid",
+    "OctanoicAcidExtended",
+    "PentanoicAcid",
+    "PentanoicAcidExtended",
+    "PropionicAcid",
+    "PropionicAcidExtended"
   ];
   it("should return NaN outside the specified range of temperature", () => {
     const vaporProps = DIPPRVaporThermalConductivityDictionary["Acetaldehyde"];
@@ -245,6 +256,161 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
     );
     expect(calculateDIPPRVaporThermalConductivity("ButyricAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
       vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Formic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["FormicAcid"];
+    const vaporPropsExtended2 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended2"];
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended2.maximumTemperature + 1)).toBe(NaN);
+  });
+
+  it("should return correct thermal conductivity for Formic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["FormicAcid"];
+    // const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended1"];
+    const vaporPropsExtended2 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended2"];
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    ); /*
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended1.minimumTemperature+0.5)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended1.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended1.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended2.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended2.thermalConductivityAtMinimumTemperature,
+      3
+    );*/
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended2.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended2.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Heptanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["HeptanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["HeptanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporPropsExtended.maximumTemperature + 1)).toBe(
+      NaN
+    );
+  });
+
+  it("should return correct thermal conductivity for Heptanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["HeptanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["HeptanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporPropsExtended.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("HeptanoicAcid", vaporPropsExtended.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Octanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["OctanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["OctanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporPropsExtended.maximumTemperature + 1)).toBe(NaN);
+  });
+
+  it("should return correct thermal conductivity for Octanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["OctanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["OctanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporPropsExtended.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("OctanoicAcid", vaporPropsExtended.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Pentanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["PentanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["PentanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporPropsExtended.maximumTemperature + 1)).toBe(
+      NaN
+    );
+  });
+
+  it("should return correct thermal conductivity for Pentanoic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["PentanoicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["PentanoicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporPropsExtended.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PentanoicAcid", vaporPropsExtended.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMaximumTemperature,
+      3
+    );
+  });
+
+  it("should return NaN outside the specified range of temperature for Propionic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["PropionicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["PropionicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporProps.minimumTemperature - 1)).toBe(NaN);
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporPropsExtended.maximumTemperature + 1)).toBe(
+      NaN
+    );
+  });
+
+  it("should return correct thermal conductivity for Propionic acid", () => {
+    const vaporProps = DIPPRVaporThermalConductivityDictionary["PropionicAcid"];
+    const vaporPropsExtended = DIPPRVaporThermalConductivityDictionary["PropionicAcidExtended"];
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
+      vaporProps.thermalConductivityAtMaximumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporPropsExtended.minimumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMinimumTemperature,
+      3
+    );
+    expect(calculateDIPPRVaporThermalConductivity("PropionicAcid", vaporPropsExtended.maximumTemperature)).toBeCloseTo(
+      vaporPropsExtended.thermalConductivityAtMaximumTemperature,
       3
     );
   });

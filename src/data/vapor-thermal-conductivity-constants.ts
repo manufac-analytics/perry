@@ -2442,7 +2442,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     C1: -0.20973,
     C2: 0.0012201,
     C3: -2.1843e-6,
-    C4: 1.3942e9,
+    C4: 1.3942e-9,
     minimumTemperature: 512.85,
     maximumTemperature: 637.35,
     thermalConductivityAtMinimumTemperature: 0.02955,
@@ -2861,7 +2861,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     formula: "C3H4",
     CAS: "463-49-0",
     molecularWeight: 40.06386,
-    C1: 6.1629e5,
+    C1: 6.1629e-5,
     C2: 1.0731,
     C3: 1.8579,
     C4: 70128,
@@ -3692,16 +3692,6 @@ function calculateDIPPRVaporThermalConductivityForHeptanoicAcid(temperature: num
   return thermalConductivity;
 }
 
-function calculateDIPPRVaporThermalConductivityForHexanoicAcid(temperature: number): number {
-  let props = DIPPRVaporThermalConductivityDictionary["HexanoicAcid"];
-  let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
-  if (temperature > 641.42 && temperature <= 1000) {
-    props = DIPPRVaporThermalConductivityDictionary["HexanoicAcidExtended"];
-    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
-  }
-  return thermalConductivity;
-}
-
 function calculateDIPPRVaporThermalConductivityForOctanoicAcid(temperature: number): number {
   let props = DIPPRVaporThermalConductivityDictionary["OctanoicAcid"];
   let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
@@ -3746,9 +3736,6 @@ export function calculateDIPPRVaporThermalConductivity(compound: string, tempera
       break;
     case "HeptanoicAcid":
       thermalConductivity = calculateDIPPRVaporThermalConductivityForHeptanoicAcid(temperature);
-      break;
-    case "HexanoicAcid":
-      thermalConductivity = calculateDIPPRVaporThermalConductivityForHexanoicAcid(temperature);
       break;
     case "OctanoicAcid":
       thermalConductivity = calculateDIPPRVaporThermalConductivityForOctanoicAcid(temperature);

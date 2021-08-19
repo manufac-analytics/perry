@@ -714,8 +714,8 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     thermalConductivityAtMinimumTemperature: 0.00887,
     thermalConductivityAtMaximumTemperature: 0.09025
   },
-  
-   CarbonDisulfide: {
+
+  CarbonDisulfide: {
     name: "Carbon disulfide",
     formula: "CS2",
     CAS: "75-15-0",
@@ -2189,7 +2189,7 @@ export const DIPPRVaporThermalConductivityDictionary: Record<string, DIPPRVaporT
     maximumTemperature: 600,
     thermalConductivityAtMinimumTemperature: 0.01546,
     thermalConductivityAtMaximumTemperature: 0.03874
-  },  
+  },
 
   Fluoroethane: {
     name: "Fluoroethane",
@@ -5150,7 +5150,7 @@ function calculateDIPPRVaporThermalConductivityForFormicAcid(temperature: number
   let thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
   if (temperature > 470 && temperature <= 537.9) {
     props = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended1"];
-    thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);
+    thermalConductivity = calculateDIPPRVaporThermalConductivityForSpecialCompound(temperature, props);
   } else if (temperature > 537.9 && temperature <= 1000) {
     props = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended2"];
     thermalConductivity = calculateDIPPRVaporThermalConductivityForGeneralCompound(temperature, props);

@@ -269,7 +269,7 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
 
   it("should return correct thermal conductivity for Formic acid", () => {
     const vaporProps = DIPPRVaporThermalConductivityDictionary["FormicAcid"];
-    // const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended1"];
+    const vaporPropsExtended1 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended1"];
     const vaporPropsExtended2 = DIPPRVaporThermalConductivityDictionary["FormicAcidExtended2"];
     expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporProps.minimumTemperature)).toBeCloseTo(
       vaporProps.thermalConductivityAtMinimumTemperature,
@@ -278,8 +278,8 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
     expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporProps.maximumTemperature)).toBeCloseTo(
       vaporProps.thermalConductivityAtMaximumTemperature,
       3
-    ); /*
-    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended1.minimumTemperature+0.5)).toBeCloseTo(
+    );
+    expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended1.minimumTemperature)).toBeCloseTo(
       vaporPropsExtended1.thermalConductivityAtMinimumTemperature,
       3
     );
@@ -290,7 +290,7 @@ describe("calculateDIPPRVaporThermalConductivity", () => {
     expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended2.minimumTemperature)).toBeCloseTo(
       vaporPropsExtended2.thermalConductivityAtMinimumTemperature,
       3
-    );*/
+    );
     expect(calculateDIPPRVaporThermalConductivity("FormicAcid", vaporPropsExtended2.maximumTemperature)).toBeCloseTo(
       vaporPropsExtended2.thermalConductivityAtMaximumTemperature,
       3

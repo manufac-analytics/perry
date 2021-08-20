@@ -15,9 +15,12 @@ export interface MeasureRange {
 }
 
 export interface INCHIProps {
+  name: string;
+  formula: string;
+  CAS: string;
+  molecularWeight: number;
   inchiString: string;
   inchiKey: string;
-  molecularWeight: number;
 }
 
 export interface TemperaturePressureCombo {

@@ -1662,7 +1662,7 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "ClH",
     CAS: "7647-01-0",
     molecularWeight: 36.46094,
-    inchiString: "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+    inchiString: "InChI=1S/ClH/h1H",
     inchiKey: "VEXZGXHMUGYJMC-UHFFFAOYSA-N"
   },
 

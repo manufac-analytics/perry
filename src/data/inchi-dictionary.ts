@@ -1671,8 +1671,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CHN",
     CAS: "74-90-8",
     molecularWeight: 27.02534,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CHN/c1-2/h1H",
+    inchiKey: "LELOWRISYMNNSU-UHFFFAOYSA-N"
   },
 
   "7664-39-3": {
@@ -1680,8 +1680,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "FH",
     CAS: "7664-39-3",
     molecularWeight: 20.0063432,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/FH/h1H",
+    inchiKey: "KRHYYFGTRYWZRS-UHFFFAOYSA-N"
   },
 
   "7783-06-4": {
@@ -1689,8 +1689,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "H2S",
     CAS: "7783-06-4",
     molecularWeight: 34.08088,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/H2S/h1H2",
+    inchiKey: "RWSOTUBLDIXVET-UHFFFAOYSA-N"
   },
 
   "79-31-2": {
@@ -1698,8 +1698,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C4H8O2",
     CAS: "79-31-2",
     molecularWeight: 88.10512,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)",
+    inchiKey: "KQNPFQTWMSNSAP-UHFFFAOYSA-N"
   },
 
   "75-31-0": {
@@ -1707,8 +1707,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C3H9N",
     CAS: "75-31-0",
     molecularWeight: 59.11026,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C3H9N/c1-3(2)4/h3H,4H2,1-2H3",
+    inchiKey: "JJWLVOIRVHMVIS-UHFFFAOYSA-N"
   },
 
   "141-82-2": {
@@ -1716,8 +1716,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C3H4O4",
     CAS: "141-82-2",
     molecularWeight: 104.06146,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C3H4O4/c4-2(5)1-3(6)7/h1H2,(H,4,5)(H,6,7)",
+    inchiKey: "OFOBLEOULBTSOW-UHFFFAOYSA-N"
   },
 
   "79-41-4": {
@@ -1725,8 +1725,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C4H6O2",
     CAS: "79-41-4",
     molecularWeight: 86.08924,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C4H6O2/c1-3(2)4(5)6/h1H2,2H3,(H,5,6)",
+    inchiKey: "CERQOIWHTDAKMF-UHFFFAOYSA-N"
   },
 
   "74-82-8": {
@@ -1734,8 +1734,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CH4",
     CAS: "74-82-8",
     molecularWeight: 16.0425,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CH4/h1H4",
+    inchiKey: "VNWKTOKETHGBQD-UHFFFAOYSA-N"
   },
 
   "67-56-1": {
@@ -1743,8 +1743,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CH4O",
     CAS: "67-56-1",
     molecularWeight: 32.04186,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CH4O/c1-2/h2H,1H3",
+    inchiKey: "OKKJLVBELUTLKV-UHFFFAOYSA-N"
   },
 
   "79-16-3": {
@@ -1752,8 +1752,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C3H7NO",
     CAS: "79-16-3",
     molecularWeight: 73.09378,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C3H7NO/c1-3(5)4-2/h1-2H3,(H,4,5)",
+    inchiKey: "OHLUUHNLEMFGTQ-UHFFFAOYSA-N"
   },
 
   "79-20-9": {
@@ -1761,8 +1761,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C3H6O2",
     CAS: "79-20-9",
     molecularWeight: 74.07854,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C3H6O2/c1-3(4)5-2/h1-2H3",
+    inchiKey: "KXKVLQRXCPHEJC-UHFFFAOYSA-N"
   },
 
   "74-99-7": {
@@ -1770,8 +1770,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C3H4",
     CAS: "74-99-7",
     molecularWeight: 40.06386,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C3H4/c1-3-2/h1H,2H3",
+    inchiKey: "MWWATHDPGQKSAR-UHFFFAOYSA-N"
   },
 
   "96-33-3": {
@@ -1779,8 +1779,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C4H6O2",
     CAS: "96-33-3",
     molecularWeight: 86.08924,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C4H6O2/c1-3-4(5)6-2/h3H,1H2,2H3",
+    inchiKey: "BAPJBEWLBFYGME-UHFFFAOYSA-N"
   },
 
   "74-89-5": {
@@ -1788,8 +1788,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CH5N",
     CAS: "74-89-5",
     molecularWeight: 31.0571,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CH5N/c1-2/h2H2,1H3",
+    inchiKey: "BAVYZALUXZFZLV-UHFFFAOYSA-N"
   },
 
   "93-58-3": {
@@ -1797,8 +1797,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C8H8O2",
     CAS: "93-58-3",
     molecularWeight: 136.14792,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C8H8O2/c1-10-8(9)7-5-3-2-4-6-7/h2-6H,1H3",
+    inchiKey: "QPJVMBTYPHYUOC-UHFFFAOYSA-N"
   },
 
   "598-25-4": {
@@ -1806,8 +1806,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H8",
     CAS: "598-25-4",
     molecularWeight: 68.11702,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H8/c1-4-5(2)3/h1H2,2-3H3",
+    inchiKey: "PAKGDPSCXSUALC-UHFFFAOYSA-N"
   },
 
   "78-78-4": {
@@ -1815,8 +1815,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H12",
     CAS: "78-78-4",
     molecularWeight: 72.14878,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H12/c1-4-5(2)3/h5H,4H2,1-3H3",
+    inchiKey: "QWTDNUCVQCZILF-UHFFFAOYSA-N"
   },
 
   "116-53-0": {
@@ -1824,8 +1824,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H10O2",
     CAS: "116-53-0",
     molecularWeight: 102.1317,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H10O2/c1-3-4(2)5(6)7/h4H,3H2,1-2H3,(H,6,7)",
+    inchiKey: "WLAMNBDJUVNPJU-UHFFFAOYSA-N"
   },
 
   "123-51-3": {
@@ -1833,8 +1833,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H12O",
     CAS: "123-51-3",
     molecularWeight: 88.1482,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H12O/c1-5(2)3-4-6/h5-6H,3-4H2,1-2H3",
+    inchiKey: "PHTQWCKDNZKARW-UHFFFAOYSA-N"
   },
 
   "563-46-2": {
@@ -1842,8 +1842,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H10",
     CAS: "563-46-2",
     molecularWeight: 70.1329,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H10/c1-4-5(2)3/h2,4H2,1,3H3",
+    inchiKey: "MHNNAWXXUZQSNM-UHFFFAOYSA-N"
   },
 
   "513-35-9": {
@@ -1851,8 +1851,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H10",
     CAS: "513-35-9",
     molecularWeight: 70.1329,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H10/c1-4-5(2)3/h4H,1-3H3",
+    inchiKey: "BKOOMYPCSUNDGP-UHFFFAOYSA-N"
   },
 
   "78-80-8": {
@@ -1860,8 +1860,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H6",
     CAS: "78-80-8",
     molecularWeight: 66.10114,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H6/c1-4-5(2)3/h1H,2H2,3H3",
+    inchiKey: "BOFLDKIFLIFLJA-UHFFFAOYSA-N"
   },
 
   "628-28-4": {
@@ -1869,8 +1869,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H12O",
     CAS: "628-28-4",
     molecularWeight: 88.14818,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H12O/c1-3-4-5-6-2/h3-5H2,1-2H3",
+    inchiKey: "CXBDYQVECUFKRK-UHFFFAOYSA-N"
   },
 
   "628-29-5": {
@@ -1878,8 +1878,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H12S",
     CAS: "628-29-5",
     molecularWeight: 104.214,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H12S/c1-3-4-5-6-2/h3-5H2,1-2H3",
+    inchiKey: "WCXXISMIJBRDQK-UHFFFAOYSA-N"
   },
 
   "598-23-2": {
@@ -1887,8 +1887,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H8",
     CAS: "598-23-2",
     molecularWeight: 68.11702,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H8/c1-4-5(2)3/h1,5H,2-3H3",
+    inchiKey: "USCSRAJGJYMJFZ-UHFFFAOYSA-N"
   },
 
   "623-42-7": {
@@ -1896,8 +1896,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C5H10O2",
     CAS: "623-42-7",
     molecularWeight: 102.1317,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C5H10O2/c1-3-4-5(6)7-2/h3-4H2,1-2H3",
+    inchiKey: "UUIQMZJEGPQKFD-UHFFFAOYSA-N"
   },
 
   "993-00-0": {
@@ -1905,8 +1905,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CH5ClSi",
     CAS: "993-00-0",
     molecularWeight: 80.5889,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CH5ClSi/c1-3-2/h3H2,1H3",
+    inchiKey: "YGZSVWMBUCGDCV-UHFFFAOYSA-N"
   },
 
   "108-87-2": {
@@ -1914,8 +1914,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C7H14",
     CAS: "108-87-2",
     molecularWeight: 98.18606,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C7H14/c1-7-5-3-2-4-6-7/h7H,2-6H2,1H3",
+    inchiKey: "UAEPNZWRGJTJPN-UHFFFAOYSA-N"
   },
 
   "590-67-0": {
@@ -1923,8 +1923,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C7H14O",
     CAS: "590-67-0",
     molecularWeight: 114.18546,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C7H14O/c1-7(8)5-3-2-4-6-7/h8H,2-6H2,1H3",
+    inchiKey: "VTBOTOBFGSVRMA-UHFFFAOYSA-N"
   },
 
   "7443-70-1": {
@@ -1932,8 +1932,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C7H14O",
     CAS: "7443-70-1",
     molecularWeight: 114.18546,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C7H14O/c1-6-4-2-3-5-7(6)8/h6-8H,2-5H2,1H3/t6-,7+/m1/s1",
+    inchiKey: "NDVWOBYBJYUSMF-RQJHMYQMSA-N"
   },
 
   "7443-52-9": {
@@ -1941,8 +1941,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C7H14O",
     CAS: "7443-52-9",
     molecularWeight: 114.18546,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C7H14O/c1-6-4-2-3-5-7(6)8/h6-8H,2-5H2,1H3/t6-,7-/m1/s1",
+    inchiKey: "NDVWOBYBJYUSMF-RNFRBKRXSA-N"
   },
 
   "96-37-7": {
@@ -1950,8 +1950,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C6H12",
     CAS: "96-37-7",
     molecularWeight: 84.15948,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C6H12/c1-6-4-2-3-5-6/h6H,2-5H2,1H3",
+    inchiKey: "GDOPTJXRTPNYNR-UHFFFAOYSA-N"
   },
 
   "693-89-0": {
@@ -1959,8 +1959,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C6H10",
     CAS: "693-89-0",
     molecularWeight: 82.1436,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C6H10/c1-6-4-2-3-5-6/h4H,2-3,5H2,1H3",
+    inchiKey: "ATQUFXWBVZUTKO-UHFFFAOYSA-N"
   },
 
   "1120-62-3": {
@@ -1968,8 +1968,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "C6H10",
     CAS: "1120-62-3",
     molecularWeight: 82.1436,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/C6H10/c1-6-4-2-3-5-6/h2,4,6H,3,5H2,1H3",
+    inchiKey: "CXOZQHPXKPDQGT-UHFFFAOYSA-N"
   },
 
   "75-54-7": {
@@ -1977,8 +1977,8 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     formula: "CH4Cl2Si",
     CAS: "75-54-7",
     molecularWeight: 115.03396,
-    inchiString: "",
-    inchiKey: ""
+    inchiString: "InChI=1S/CH4Cl2Si/c2-1(3)4/h1H,4H3",
+    inchiKey: "UWGIJJRGSGDBFJ-UHFFFAOYSA-N"
   },
 
   "540-67-0": {

@@ -3104,5 +3104,125 @@ export const INCHIDictionary: Record<string, INCHIProps> = {
     molecularWeight: 106.165,
     inchiString: "InChI=1S/C8H10/c1-7-3-5-8(2)6-4-7/h3-6H,1-2H3",
     inchiKey: "URLKBWYHVLBVBO-UHFFFAOYSA-N"
+  },
+
+  "143-07-7": {
+    name: "Lauric acid",
+    formula: "C12H24O2",
+    CAS: "143-07-7",
+    molecularWeight: 200.32,
+    inchiString: "InChI=1S/C12H24O2/c1-2-3-4-5-6-7-8-9-10-11-12(13)14/h2-11H2,1H3,(H,13,14)",
+    inchiKey: "POULHZVOKOAJMA-UHFFFAOYSA-N"
+  },
+
+  "544-63-8": {
+    name: "Myristic acid",
+    formula: "C14H28O2",
+    CAS: "544-63-8",
+    molecularWeight: 228.37,
+    inchiString: "InChI=1S/C14H28O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h2-13H2,1H3,(H,15,16)",
+    inchiKey: "TUNFSRHWOTWDNC-UHFFFAOYSA-N"
+  },
+
+  "57-10-3": {
+    name: "Palmitic acid",
+    formula: "C16H32O2",
+    CAS: "57-10-3",
+    molecularWeight: 256.42,
+    inchiString: "InChI=1S/C16H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h2-15H2,1H3,(H,17,18)",
+    inchiKey: "IPCSVZSSVZVIGE-UHFFFAOYSA-N"
+  },
+
+  "57-11-4": {
+    name: "Stearic acid",
+    formula: "C18H36O2",
+    CAS: "57-11-4",
+    molecularWeight: 284.48,
+    inchiString: "InChI=1S/C18H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H,19,20)",
+    inchiKey: "QIQXTHQIDYTFRH-UHFFFAOYSA-N"
+  },
+
+  "112-80-1": {
+    name: "Oleic acid",
+    formula: "C18H34O2",
+    CAS: "112-80-1",
+    molecularWeight: 282.46,
+    inchiString:
+      "InChI=1S/C18H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h9-10H,2-8,11-17H2,1H3,(H,19,20)/b10-9-",
+    inchiKey: "ZQPPMHVWECSIRJ-KTKRTIGZSA-N"
+  },
+
+  "112-86-7": {
+    name: "Erucic acid",
+    formula: "C22H42O2",
+    CAS: "112-86-7",
+    molecularWeight: 338.6,
+    inchiString:
+      "InChI=1S/C22H42O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h9-10H,2-8,11-21H2,1H3,(H,23,24)/b10-9",
+    inchiKey: "DPUOLQHDNGRHBS-KTKRTIGZSA-N"
+  },
+
+  "60-33-3": {
+    name: "Linoleic acid",
+    formula: "C18H30O2",
+    CAS: "60-33-3",
+    molecularWeight: 280.45,
+    inchiString:
+      "InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/b7-6-,10-9-",
+    inchiKey: "OYHQOLUKZRVURQ-HZJYTTRNSA-N"
+  },
+
+  "463-40-1": {
+    name: "alpha-Linoleic acid",
+    formula: "C18H30O2",
+    CAS: "463-40-1",
+    molecularWeight: 278.43,
+    inchiString:
+      "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/b4-3-,7-6-,10-9-",
+    inchiKey: "DTOSIQBPPRVQHS-PDBXOOCHSA-N"
+  },
+
+  "506-26-3": {
+    name: "gamma-Linoleic acid",
+    formula: "C18H30O2",
+    CAS: "506-26-3",
+    molecularWeight: 278.4,
+    inchiString:
+      "InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10,12-13H,2-5,8,11,14-17H2,1H3,(H,19,20)/b7-6-,10-9-,13-12-",
+    inchiKey: "VZCCETWTMQHEPK-QNEBEIHSSA-N"
+  },
+
+  "506-30-9": {
+    name: "Arachidic acid",
+    formula: "C20H40O2",
+    CAS: "506-30-9",
+    molecularWeight: 312.53,
+    inchiString: "InChI=1S/C20H40O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h2-19H2,1H3,(H,21,22)",
+    inchiKey: "VKOBVWXKNCXXDE-UHFFFAOYSA-N"
+  },
+
+  /**
+   * I have used this .
+   * 5,8,11,14,17-Eicosapentaenoic acid => https://pubchem.ncbi.nlm.nih.gov/compound/Eicosa-5_8_11_14_17-pentaenoic-acid
+   */
+
+  "1553-41-9": {
+    name: "5,8,11,14,17-Eicosapentaenoic acid",
+    formula: "C20H30O2",
+    CAS: "1553-41-9",
+    molecularWeight: 302.5,
+    inchiString:
+      "InChI=1S/C20H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h3-4,6-7,9-10,12-13,15-16H,2,5,8,11,14,17-19H2,1H3,(H,21,22)",
+    inchiKey: "JAZBEHYOTPTENJ-UHFFFAOYSA-N"
+  },
+
+  "6217-54-5": {
+    name: "4,7,10,13,16,19-Docosahexaenoic acid",
+    formula: "C22H32O2",
+    CAS: "6217-54-5",
+    molecularWeight: 328.5,
+    inchiString:
+      "InChI=1S/C22H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22(23)24/h3-4,6-7,9-10,12-13,15-16,18-19H,2,5,8,11,14,17,20-21H2,1H3,(H,23,24)/b4-3-,7-6-,10-9-,13-12-,16-15-,19-18-",
+    inchiKey: "MBMBGCFOFBJSGT-KUBAVDMBSA-N"
   }
 };

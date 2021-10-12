@@ -53,7 +53,8 @@
     "preversion": "yarn build && yarn test",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push origin v$npm_package_version && git push && yarn publish --new-version $npm_package_version",
-    "doc": "typedoc src/index.ts"
+    "predocs": "rm -rf docs",
+    "docs": "typedoc src/index.ts"
   },
   "prettier": {
     "arrowParens": "always",

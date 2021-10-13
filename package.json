@@ -46,7 +46,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint --fix src test",
+    "lint": "tsdx lint --fix src test --ignore-pattern docs",
     "prepare": "tsdx build && husky install",
     "size": "size-limit",
     "analyze": "size-limit --why",

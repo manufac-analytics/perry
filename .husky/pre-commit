@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx tsdx lint --fix
+npx tsdx lint --fix --ignore-pattern docs

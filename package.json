@@ -79,6 +79,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
+    "kombi": "^1.0.0",
     "ml-random-forest": "^2.0.2",
     "ml-regression-multivariate-linear": "^2.0.3",
     "ml-regression-robust-polynomial": "^3.0.0"

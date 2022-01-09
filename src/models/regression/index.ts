@@ -6,5 +6,5 @@ import { kombi } from "kombi";
 
 export const dataSet = fs.readFileSync("WineQualityDataSetRed.csv")
 console.log(dataSet);
-console.log(RandomForestRegression, MultivariateLinearRegression, RobustPolynomialRegression);
+console.log(RandomForestRegression, MultivariateLinearRegression, RobustPolynomialRegression, kombi);
 

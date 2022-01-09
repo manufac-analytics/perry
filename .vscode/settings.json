@@ -2,5 +2,8 @@
   "conventionalCommits.gitmoji": false,
   "conventionalCommits.promptFooter": false,
   "conventionalCommits.promptScopes": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "command-runner.commands": {
+    "deleteBranches": "git branch --merged | grep -v \\* | xargs git branch -D"
+  },
 }

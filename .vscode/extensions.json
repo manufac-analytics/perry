@@ -1,6 +1,7 @@
 {
-    "recommendations": [
-        "vivaxy.vscode-conventional-commits",
-        "natqe.reload"
-    ]
+  "recommendations": [
+    "vivaxy.vscode-conventional-commits",
+    "natqe.reload",
+    "edonet.vscode-command-runner",
+  ]
 }

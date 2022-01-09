@@ -17,11 +17,11 @@
   "size-limit": [
     {
       "path": "dist/perry.cjs.production.min.js",
-      "limit": "200 KB"
+      "limit": "400 KB"
     },
     {
       "path": "dist/perry.esm.js",
-      "limit": "200 KB"
+      "limit": "400 KB"
     }
   ],
   "files": [

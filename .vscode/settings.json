@@ -6,4 +6,5 @@
   "command-runner.commands": {
     "deleteBranches": "git branch --merged | grep -v \\* | xargs git branch -D"
   },
+  "editor.tabSize": 2,
 }

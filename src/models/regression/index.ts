@@ -1,5 +1,6 @@
 import { RandomForestRegression } from "ml-random-forest";
 import MultivariateLinearRegression from "ml-regression-multivariate-linear";
+import { kombi } from "kombi";
 import data from "./WineQualityDataSetRed.json";
 
 const rootMeanSquareError = (predicted: number[], observed: number[]) => {
@@ -60,3 +61,17 @@ console.log("RandomForestRegressions")
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
 console.log("Root Mean Square Error:" + rootMeanSquareError(RFRPredictions, predictY));
 console.log("Success Percentage:" + calculateSuccessPercentage(RFRPredictions, predictY));
+
+// hyperperameter combinations for random forest regression
+const availableOptions = {
+  maxFeatures: [7, 8, 9, 10, 11],
+  replacement: [true, false],
+  nEstimators: [300, 400, 500],
+  seed: [42],
+  useSampleBagging: [true, false],
+  noOOB: [true, false],
+  isClassifier: [false],
+  selectionMethod: ["mean", "median"],
+}
+const hyperPerameterCombinations = kombi(availableOptions);
+console.log(hyperPerameterCombinations);

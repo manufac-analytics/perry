@@ -34,7 +34,7 @@ const predictY = outputs.slice(TRAINING_LENGTH);
 const arrayTrainY = trainY.map((el) => [el]); // needed because MultivariateLinearRegression contains multiple dependent and independent variables
 let startTime = Date.now();
 const MVLRModel = new MultivariateLinearRegression(trainX, arrayTrainY);
-const MVLRPredictions = MVLRModel.predict(predictX).map(([el]) => Math.floor(el));
+const MVLRPredictions = MVLRModel.predict(predictX).map(([el]) => Math.round(el));
 let endTime = Date.now();
 console.log("MultivariateLinearRegression");
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
@@ -54,7 +54,7 @@ const options = {
 const RFRModel = new RandomForestRegression(options);
 startTime = Date.now();
 RFRModel.train(trainX, trainY);
-const RFRPredictions = RFRModel.predict(predictX).map((el) => Math.floor(el));
+const RFRPredictions = RFRModel.predict(predictX).map((el) => Math.round(el));
 endTime = Date.now();
 console.log("RandomForestRegressions")
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);

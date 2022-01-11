@@ -37,7 +37,7 @@ const predictY = outputs.slice(TRAINING_LENGTH);
 const arrayTrainY = trainY.map((el) => [el]); // needed because MultivariateLinearRegression contains multiple dependent and independent variables
 let startTime = Date.now();
 const MVLRModel = new MultivariateLinearRegression(trainX, arrayTrainY);
-const MVLRPredictions = MVLRModel.predict(predictX).map((el) => el[0].toPrecision(1));
+const MVLRPredictions = MVLRModel.predict(predictX).map(([el]) => Math.floor(el));
 let endTime = Date.now();
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
 console.log(rootMeanSquareError(MVLRPredictions, predictY));

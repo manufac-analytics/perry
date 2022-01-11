@@ -1,28 +1,25 @@
 import { RandomForestRegression } from "ml-random-forest";
 import MultivariateLinearRegression from "ml-regression-multivariate-linear";
-// import { kombi } from "kombi";
 import data from "./WineQualityDataSetRed.json";
 
 const rootMeanSquareError = (predicted: number[], observed: number[]) => {
-  const predictedMatrix = predicted.map((el) => Number.parseInt(el, 10));
   let sum = 0;
-  for (let i = 0; i < predictedMatrix.length; i++) {
-    const squareError = Math.pow(predictedMatrix[i] - observed[i], 2);
+  for (let i = 0; i < predicted.length; i++) {
+    const squareError = Math.pow(predicted[i] - observed[i], 2);
     sum += squareError;
   }
-  return Math.sqrt(sum / predictedMatrix.length);
+  return Math.sqrt(sum / predicted.length);
 }
 
-const calculateSuccessPercentage = (predicted: string[], observed: number[]) => {
-  const predictedMatrix = predicted.map((el) => Number.parseInt(el, 10));
+const calculateSuccessPercentage = (predicted: number[], observed: number[]) => {
   let successCount = 0;
-  for (let i = 0; i < predictedMatrix.length; i++) {
-    const squareError = predictedMatrix[i] - observed[i];
+  for (let i = 0; i < predicted.length; i++) {
+    const squareError = predicted[i] - observed[i];
     if ( squareError === 0){
       successCount++;
     }
   }
-  return (successCount / predictedMatrix.length) * 100;
+  return (successCount / predicted.length) * 100;
 }
 
 const inputs = data.map((el) => Object.values(el).slice(0,-1));
@@ -39,8 +36,9 @@ let startTime = Date.now();
 const MVLRModel = new MultivariateLinearRegression(trainX, arrayTrainY);
 const MVLRPredictions = MVLRModel.predict(predictX).map(([el]) => Math.floor(el));
 let endTime = Date.now();
+console.log("MultivariateLinearRegression");
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
-console.log(rootMeanSquareError(MVLRPredictions, predictY));
+console.log("Root Mean Square Error:" + rootMeanSquareError(MVLRPredictions, predictY));
 console.log("Success Percentage:" + calculateSuccessPercentage(MVLRPredictions, predictY));
 
 
@@ -56,8 +54,9 @@ const options = {
 const RFRModel = new RandomForestRegression(options);
 startTime = Date.now();
 RFRModel.train(trainX, trainY);
-const RFRPredictions = RFRModel.predict(predictX).map(([el]) => Math.floor(el));
+const RFRPredictions = RFRModel.predict(predictX).map((el) => Math.floor(el));
 endTime = Date.now();
+console.log("RandomForestRegressions")
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
-console.log(rootMeanSquareError(RFRPredictions, predictY));
+console.log("Root Mean Square Error:" + rootMeanSquareError(RFRPredictions, predictY));
 console.log("Success Percentage:" + calculateSuccessPercentage(RFRPredictions, predictY));

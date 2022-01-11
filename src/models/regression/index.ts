@@ -56,7 +56,7 @@ const options = {
 const RFRModel = new RandomForestRegression(options);
 startTime = Date.now();
 RFRModel.train(trainX, trainY);
-const RFRPredictions = RFRModel.predict(predictX).map((el) => el.toPrecision(1));
+const RFRPredictions = RFRModel.predict(predictX).map(([el]) => Math.floor(el));
 endTime = Date.now();
 console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
 console.log(rootMeanSquareError(RFRPredictions, predictY));

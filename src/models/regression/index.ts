@@ -3,7 +3,7 @@ import MultivariateLinearRegression from "ml-regression-multivariate-linear";
 // import { kombi } from "kombi";
 import data from "./WineQualityDataSetRed.json";
 
-const rootMeanSquareError = (predicted: string[], observed: number[]) => {
+const rootMeanSquareError = (predicted: number[], observed: number[]) => {
   const predictedMatrix = predicted.map((el) => Number.parseInt(el, 10));
   let sum = 0;
   for (let i = 0; i < predictedMatrix.length; i++) {

@@ -1,4 +1,5 @@
 import { RandomForestRegression } from "ml-random-forest";
+import type { RandomForestBaseOptions } from "ml-random-forest";
 import MultivariateLinearRegression from "ml-regression-multivariate-linear";
 import { kombi } from "kombi";
 import data from "./WineQualityDataSetRed.json";
@@ -46,7 +47,7 @@ console.log("-----");
 // RandomForestRegressions
 
 // hyperperameter combinations for random forest regression
-const availableOptions = {
+const availableOptions: Record<keyof RandomForestBaseOptions, RandomForestBaseOptions[keyof RandomForestBaseOptions][]> = {
   maxFeatures: [9, 10, 11],
   replacement: [true, false],
   nEstimators: [500, 600, 700],
@@ -57,12 +58,11 @@ const availableOptions = {
   selectionMethod: ["mean", "median"],
   treeOptions: [{ maxDepth: 100 }, { maxDepth: 200 }]
 }
-const hyperPerameterCombinations = kombi(availableOptions);
+const hyperPerameterCombinations = kombi(availableOptions) as RandomForestBaseOptions[];
 for (let i = 0; i < hyperPerameterCombinations.length; i += 1) {
   console.log(`Iteration ${i} of ${hyperPerameterCombinations.length}`);
   const currentOptions = hyperPerameterCombinations[i];
   console.log(JSON.stringify(currentOptions, undefined, 2));
-  // @ts-expect-error diiiu
   const currentRFRModel = new RandomForestRegression(currentOptions);
   const startTime = Date.now();
   currentRFRModel.train(trainX, trainY);

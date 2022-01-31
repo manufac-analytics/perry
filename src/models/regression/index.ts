@@ -1,4 +1,5 @@
 import { RandomForestRegression } from "ml-random-forest";
+import { RandomForestClassifier } from "ml-random-forest";
 import type { RandomForestBaseOptions } from "ml-random-forest";
 import MultivariateLinearRegression from "ml-regression-multivariate-linear";
 import { kombi } from "kombi";
@@ -44,8 +45,6 @@ console.log("Root Mean Square Error:" + rootMeanSquareError(MVLRPredictions, pre
 console.log("Success Percentage:" + calculateSuccessPercentage(MVLRPredictions, predictY));
 console.log("-----");
 
-// RandomForestRegressions
-
 // hyperperameter combinations for random forest regression
 const availableOptions: Record<keyof RandomForestBaseOptions, RandomForestBaseOptions[keyof RandomForestBaseOptions][]> = {
   maxFeatures: [9, 10, 11],
@@ -73,3 +72,26 @@ for (let i = 0; i < hyperPerameterCombinations.length; i += 1) {
   console.log(`Training Time:  ${((endTime - startTime) / (60 * 1000)).toString()} minutes`);
   console.log("-----");
 }
+
+// RandomForestClassifier
+const optionsUsed : RandomForestBaseOptions = {
+  maxFeatures: 10,
+  replacement: true,
+  nEstimators: 300,
+  useSampleBagging: false,
+  isClassifier: true,
+  seed: 42,
+  noOOB: true,
+  treeOptions: {
+    maxDepth: 10,
+  }
+};
+const RFCModel = new RandomForestClassifier(optionsUsed);
+startTime = Date.now();
+RFCModel.train(trainX, trainY);
+const RFCPredictions = RFCModel.predict(predictX).map((el) => Math.round(el));
+endTime = Date.now();
+console.log("RandomForestClassifier")
+console.log(`Execution Time:  ${(endTime - startTime).toString()} ms`);
+console.log("Root Mean Square Error:" + rootMeanSquareError(RFCPredictions, predictY));
+console.log("Success Percentage:" + calculateSuccessPercentage(RFCPredictions, predictY));

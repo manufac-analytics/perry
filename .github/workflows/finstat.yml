@@ -15,7 +15,8 @@ on:
   jobs:
   build:
     runs-on: ubuntu-latest
-    - name: SSH into server and deploy
+    steps:
+      - name: SSH into server and deploy
         env:
           SSH_HOST: 167.172.48.12
           SSH_USER: maneet-new

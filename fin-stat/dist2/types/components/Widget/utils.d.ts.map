@@ -1,0 +1,1 @@
+{"version":3,"file":"utils.d.ts","sourceRoot":"","sources":["../../../../src/components/Widget/utils.tsx"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,cAAc,CAAC;AAEnD,eAAO,MAAM,eAAe;;;GA4B3B,CAAC;AACF,eAAO,MAAM,kBAAkB,UAA4C,CAAC;AAC5E,eAAO,MAAM,eAAe,UAAwC,CAAC;AAErE,wBAAgB,kBAAkB,CAChC,MAAM,EAAE,MAAM,EACd,iBAAiB,EAAE,cAAc,EAAE,GAAG,SAAS,oBAgChD"}

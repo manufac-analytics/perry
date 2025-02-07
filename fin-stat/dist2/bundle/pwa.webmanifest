@@ -1,0 +1,28 @@
+{
+  "short_name": "PWA",
+  "name": "PWA",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#EBFF00",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#EBFF00",
+  "description": "PWA"
+}

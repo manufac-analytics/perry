@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"/><title>PWA</title><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/><link rel="manifest" href="/pwa.webmanifest"/><script>// Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js").catch(console.log);
+        });
+      }</script><script defer="defer" src="bundle.js"></script></head><body><div class="finstat-widget"></div><div class="finstat-map"></div><div class="finstat-widget"></div><div class="finstat-map"></div></body></html>

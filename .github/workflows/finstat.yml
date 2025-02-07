@@ -13,19 +13,19 @@ on:
           - production
 
   jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: SSH into server and deploy
-        env:
-          SSH_HOST: 167.172.48.12
-          SSH_USER: maneet-new
-          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}  # Store the password in GitHub Secrets
-          ASSETS_DIR: wp-content/themes/mh-magazine-lite/assets
-        run: |
-          sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "
-            cd $ASSETS_DIR &&
-            rm -rf backupDist &&
-            mv dist backupDist
-          "
-          sshpass -p "$SSH_PASSWORD" scp -r -o StrictHostKeyChecking=no ./fin-stat/dist2 $SSH_USER@$SSH_HOST:~/public_html/$ASSETS_DIR
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: SSH into server and deploy
+          env:
+            SSH_HOST: 167.172.48.12
+            SSH_USER: maneet-new
+            SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}  # Store the password in GitHub Secrets
+            ASSETS_DIR: wp-content/themes/mh-magazine-lite/assets
+          run: |
+            sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "
+              cd $ASSETS_DIR &&
+              rm -rf backupDist &&
+              mv dist backupDist
+            "
+            sshpass -p "$SSH_PASSWORD" scp -r -o StrictHostKeyChecking=no ./fin-stat/dist2 $SSH_USER@$SSH_HOST:~/public_html/$ASSETS_DIR
